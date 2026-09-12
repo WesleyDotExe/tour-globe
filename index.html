@@ -97,9 +97,9 @@
   .day .d{font-size:12.5px;color:var(--ink-2);line-height:1.4}
   .day .more{display:none;margin-top:6px;font-size:12.5px;color:var(--ink);line-height:1.45}
   .day.open .more{display:block}
-  .day .facts{margin-top:6px;display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--ink-2)}
+  .day .facts{margin-top:6px;display:flex;flex-direction:column;gap:3px;font-size:10.5px;color:var(--ink-2)}
   .day .facts b{color:var(--ink);font-weight:600}
-  .day .facts i{font-style:normal;display:inline-block;width:52px;color:var(--ink-2)}
+  .day .facts i{font-style:normal;display:inline-block;width:46px;color:var(--ink-2)}
   .day .tog{font-size:11.5px;color:var(--coral-deep);font-weight:600;margin-top:4px}
   .day .ph{grid-column:2;margin-top:0;border-radius:6px;overflow:hidden;background:#EFE7D6;max-height:0;transition:max-height .25s,margin .25s}
   .day .ph img{width:100%;height:100%;object-fit:cover;display:block}
@@ -6273,6 +6273,7 @@ function arrowImage(){ const c=document.createElement("canvas"),s=32; c.width=c.
 
 const routes=routeFC(); const flights=flightFC();
 const DEST_ZOOM=2.6; // below: country dots + destination list; above: city dots + tours in view
+const CNAME_ZOOM=2.0; // country name labels stay hidden on the zoomed-out world view, fade in only as the user zooms toward the regions
 function destCityFC(tours){ // headline cities, one dot per city, sized by tour count
   const m=new Map();
   tours.forEach(t=>(t.destinations||[]).forEach(d=>{ if(!m.has(d.name)) m.set(d.name,{name:d.name,lng:d.lng,lat:d.lat,n:0,sale:0}); const c=m.get(d.name); c.n++; if(t.special) c.sale++; }));
@@ -6307,8 +6308,8 @@ const map=new maplibregl.Map({
       {id:"route-cruise",type:"line",source:"routes",filter:["in",["get","mode"],["literal",["cruise","river"]]],layout:{"line-cap":"round","line-join":"round"},paint:{"line-color":"#2F7DE1","line-width":["interpolate",["linear"],["zoom"],1,2.4,6,4.6],"line-opacity":0.85,"line-dasharray":[0.1,2]}},
       {id:"route-flight",type:"line",source:"routes",filter:["==",["get","mode"],"flight"],layout:{"line-cap":"butt","line-join":"round"},paint:{"line-color":"#FF6B3D","line-width":["interpolate",["linear"],["zoom"],1,1.6,6,3],"line-opacity":0.85,"line-dasharray":[4,3]}},
       {id:"stop",type:"circle",source:"stops",paint:{"circle-radius":["interpolate",["linear"],["zoom"],2,3.5,6,6],"circle-color":"#fff","circle-stroke-color":"#D9451B","circle-stroke-width":1.5}},
-      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["+",0.68,["*",0.1,["get","n"]]],6,["+",1.0,["*",0.14,["get","n"]]]]}},
-      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["+",1.0,["*",0.12,["get","n"]]]}}
+      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["+",0.61,["*",0.09,["get","n"]]],6,["+",0.9,["*",0.126,["get","n"]]]]}},
+      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["+",0.9,["*",0.108,["get","n"]]]}}
     ]},
   center:[120,10],zoom:1.4,minZoom:1,maxZoom:7.5,attributionControl:false
 });
@@ -6573,7 +6574,7 @@ function renderCountryLabels(vis){
   countryStats(vis).forEach(x=>{ const el=document.createElement("div"); el.className="cnlabel"; el.innerHTML=`${x.name} <small>· ${x.n}</small>`;
     countryMarkers.push(new maplibregl.Marker({element:el,anchor:"top",offset:[0,10+2.2*x.n]}).setLngLat(COUNTRY_PTS[x.name]).addTo(map)); });
 }
-const updateLabelVis=()=>{ const z=map.getZoom(); document.body.classList.toggle("labels",current!=null&&z>=3); document.body.classList.toggle("countries",current==null&&z<DEST_ZOOM); };
+const updateLabelVis=()=>{ const z=map.getZoom(); document.body.classList.toggle("labels",current!=null&&z>=3); document.body.classList.toggle("countries",current==null&&z>=CNAME_ZOOM&&z<DEST_ZOOM); };
 map.on("zoom",updateLabelVis);
 if(location.protocol.startsWith("http")) fetch("tours.json").then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.length) return; TOURS.splice(0,TOURS.length,...d); map.getSource("routes").setData(routeFC()); map.getSource("flights").setData(flightFC()); map.getSource("arrows").setData(arrowFC()); apply(); }).catch(()=>{});
 if(location.protocol.startsWith("http")) fetch("countries_pts.json").then(r=>r.ok?r.json():null).then(d=>{ if(d) Object.assign(COUNTRY_PTS,d); }).catch(()=>{});
