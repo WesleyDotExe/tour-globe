@@ -47,7 +47,9 @@
   .card{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:12px 12px;border-radius:var(--radius);cursor:pointer;border:1px solid transparent}
   .card:hover,.card.hot{background:#fff;border-color:var(--line);box-shadow:0 4px 14px rgba(8,25,40,.08)}
   .card.hot{border-color:var(--coral)}
-  .card .swatch{grid-column:1/-1;height:4px;border-radius:2px;margin-bottom:6px;background:var(--coral)}
+  .card .swatch{grid-column:1/-1;height:4px;border-radius:4px;margin-bottom:6px;background:var(--coral);overflow:hidden}
+  .card .swatch.has-img{height:56px;background:#1A3E5C}
+  .card .swatch img{width:100%;height:100%;object-fit:cover;display:block}
   .card .name{font-weight:700;font-size:14px;line-height:1.25}
   .card .price{font-weight:700;font-size:15px;text-align:right}
   .card .meta{grid-column:1;color:var(--ink-2);font-size:12.5px}
@@ -155,7 +157,6 @@
   </div>
   <div id="detail">
     <button class="back">‹ All tours</button>
-    <img id="hero" alt="" style="display:none;width:100%;height:170px;object-fit:cover;flex:none">
     <div class="head"><h3></h3><div class="sub" style="font-size:13px;color:var(--ink-2)"></div><div class="facts"></div></div>
     <div id="gallery" hidden><div class="slides"></div><div class="cap"></div><button class="nav prev" aria-label="Previous photo">‹</button><button class="nav next" aria-label="Next photo">›</button><div class="dots"></div></div>
     <div id="itnote" style="display:none;margin:8px 18px 0;padding:8px 10px;border-radius:8px;background:#FFF3EC;color:var(--coral-deep);font-size:12px;line-height:1.4">Route drawn from the deal's headline cities. Run the scraper to replace it with the exact day-by-day itinerary.</div><div id="days"></div>
@@ -6306,9 +6307,8 @@ const map=new maplibregl.Map({
       {id:"route-cruise",type:"line",source:"routes",filter:["in",["get","mode"],["literal",["cruise","river"]]],layout:{"line-cap":"round","line-join":"round"},paint:{"line-color":"#2F7DE1","line-width":["interpolate",["linear"],["zoom"],1,2.4,6,4.6],"line-opacity":0.85,"line-dasharray":[0.1,2]}},
       {id:"route-flight",type:"line",source:"routes",filter:["==",["get","mode"],"flight"],layout:{"line-cap":"butt","line-join":"round"},paint:{"line-color":"#FF6B3D","line-width":["interpolate",["linear"],["zoom"],1,1.6,6,3],"line-opacity":0.85,"line-dasharray":[4,3]}},
       {id:"stop",type:"circle",source:"stops",paint:{"circle-radius":["interpolate",["linear"],["zoom"],2,3.5,6,6],"circle-color":"#fff","circle-stroke-color":"#D9451B","circle-stroke-width":1.5}},
-      {id:"country-glow",type:"circle",source:"countries",maxzoom:DEST_ZOOM,paint:{"circle-radius":["+",14,["*",4,["get","n"]]],"circle-color":"#FF6B3D","circle-opacity":0.18,"circle-blur":0.6}},
-      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["+",0.34,["*",0.05,["get","n"]]],6,["+",0.5,["*",0.07,["get","n"]]]]}},
-      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["+",0.5,["*",0.06,["get","n"]]]}}
+      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["+",0.68,["*",0.1,["get","n"]]],6,["+",1.0,["*",0.14,["get","n"]]]]}},
+      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["+",1.0,["*",0.12,["get","n"]]]}}
     ]},
   center:[120,10],zoom:1.4,minZoom:1,maxZoom:7.5,attributionControl:false
 });
@@ -6407,7 +6407,7 @@ function renderList(vis){
   if(!rows.length){ list.innerHTML=`<div class="empty">${areaMode?"No tours feature this area. Pan or zoom out to find some.":"No tours match those filters. Try widening the month or price range."}</div>`; return; }
   rows.forEach(t=>{
     const el=document.createElement("div"); el.className="card"; el.dataset.id=t.id;
-    el.innerHTML=`<div class="swatch"></div><div class="name">${t.name}</div><div class="price">${priceHtml(t)}</div>
+    el.innerHTML=`<div class="swatch">${t.images&&t.images.length?`<img loading="lazy" alt="" src="${t.images[0].src}" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">`:""}</div><div class="name">${t.name}</div><div class="price">${priceHtml(t)}</div>
       <div class="meta">${t.days} days · ${t.type}${t.save?` · save ${t.save}`:""}</div><div class="ends">${endsText(t)}</div>
       <div class="route">${(t.destinations||[]).map(d=>d.name).join(" · ")}</div>`;
     el.onmouseenter=()=>highlight(t.id); el.onmouseleave=()=>highlight(null); el.onclick=()=>openTour(t);
@@ -6457,8 +6457,6 @@ function openTour(t){
   stopFly(); current=t; spinning=false;
   $("#listwrap").style.display="none"; $("#detail").style.display="flex";
   $("#detail h3").textContent=t.name;
-  const hero=$("#hero"); hero.style.display="none";
-  if(t.images&&t.images.length){ hero.alt=t.name; hero.onerror=()=>hero.style.display="none"; hero.onload=()=>hero.style.display="block"; hero.src=t.images[0].src; }
   $("#detail .sub").textContent=`${t.type} · from ${HOME} · ${t.dates}`;
   $("#detail .facts").innerHTML=`<div><b>${t.days}</b> days</div><div><b style="${t.special?"color:#D9451B":""}">${fmt(t.price)}</b> ${t.per==="for2"?"for 2":"pp"}${t.was?` <s style="color:var(--ink-2);font-weight:400">${fmt(t.was)}</s>`:""}${t.special&&t.save?`<small style="display:block;color:#D9451B;font-weight:700;font-size:11px;letter-spacing:.03em">SAVE ${t.save[0]==="$"?t.save:t.save}</small>`:""}</div>${t.special?`<div style="color:var(--coral-deep)"><b>${t.ends}</b> days left</div>`:""}`;
   $("#itnote").style.display=t.itinerary==="exact"?"none":"block";
