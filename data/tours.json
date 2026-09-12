@@ -1,0 +1,5986 @@
+[
+ {
+  "id": 5836,
+  "name": "Japan Discovery",
+  "url": "https://www.tripadeal.com.au/deals/5836-japan-discovery",
+  "days": 13,
+  "price": 3999,
+  "was": null,
+  "save": "37%",
+  "per": "pp",
+  "dates": "27 Nov 2026 – 22 Nov 2027",
+  "region": "Asia",
+  "type": "Guided",
+  "from_city": "Melbourne",
+  "months": [
+   "Nov",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Rail"
+  ],
+  "stops": [
+   [
+    "Melbourne",
+    144.96,
+    -37.81,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Tokyo",
+    139.69,
+    35.69,
+    3,
+    "Tsukiji Outer Market, Meiji Shrine, free day",
+    "coach"
+   ],
+   [
+    "Mt Fuji",
+    138.73,
+    35.36,
+    0,
+    "5th Station, 2300m",
+    "coach"
+   ],
+   [
+    "Nagano",
+    138.08,
+    36.04,
+    1,
+    "Overnight in the Nagano region",
+    "coach"
+   ],
+   [
+    "Takayama",
+    137.25,
+    36.14,
+    1,
+    "Wasabi farm, Narai-juku, old town",
+    "coach"
+   ],
+   [
+    "Kyoto",
+    135.77,
+    35.01,
+    2,
+    "Fushimi Inari, Golden Pavilion, free day",
+    "coach"
+   ],
+   [
+    "Okayama",
+    133.92,
+    34.66,
+    0,
+    "Kurashiki canals and Korakuen garden",
+    "coach"
+   ],
+   [
+    "Hiroshima",
+    132.46,
+    34.39,
+    2,
+    "Miyajima Island, Peace Memorial Park",
+    "coach"
+   ],
+   [
+    "Osaka",
+    135.5,
+    34.69,
+    2,
+    "Bullet train in, free day, fly home",
+    "rail"
+   ]
+  ],
+  "featured": 7,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5836_Japan_Discovery_WEB_HERO_1.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5836_Japan_Discovery_WEB_HERO_2.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5836_Japan_Discovery_WEB_HERO_3.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5836_Japan_Discovery_WEB_HERO_4.jpg",
+    "caption": "",
+    "guessed": true
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Tokyo",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "name": "Mt Fuji",
+    "lng": 138.73,
+    "lat": 35.36
+   },
+   {
+    "name": "Kyoto",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "name": "Hiroshima",
+    "lng": 132.46,
+    "lat": 34.39
+   },
+   {
+    "name": "Osaka",
+    "lng": 135.5,
+    "lat": 34.69
+   }
+  ],
+  "countries": [
+   "Japan"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Tokyo",
+    "city": "Tokyo",
+    "text": "Fly to Tokyo, transfer to hotel.",
+    "detail": "Depart Australia on the overnight flight to Tokyo. On arrival you're met and transferred to the hotel; the rest of the day is free to settle in.",
+    "meals": "",
+    "hotel": "Tokyo hotel",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 2,
+    "title": "Tokyo sightseeing, free afternoon",
+    "city": "Tokyo",
+    "text": "Morning at Tsukiji Outer Market and Meiji Shrine; afternoon free.",
+    "detail": "A morning of the classic Tokyo pairing: the food stalls and knife shops of the Tsukiji Outer Market, then the forested calm of Meiji Shrine. The afternoon is yours.",
+    "meals": "Breakfast",
+    "hotel": "Tokyo hotel",
+    "optional": "Tokyo Tower and city tour",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 3,
+    "title": "Tokyo free day",
+    "city": "Tokyo",
+    "text": "Free day, or an optional Hakone day trip.",
+    "detail": "A full free day. Good choices are Asakusa and Senso-ji, teamLab, or a Shinjuku evening.",
+    "meals": "Breakfast",
+    "hotel": "Tokyo hotel",
+    "optional": "Hakone day trip: Lake Ashi cruise, Owakudani volcanic valley and the Open-Air Museum",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 4,
+    "title": "Tokyo – Mt Fuji – Nagano",
+    "city": "Nagano",
+    "text": "Drive to Mt Fuji's 5th Station and the Five Lakes, then on to the Nagano region.",
+    "detail": "Leave Tokyo for Mt Fuji, climbing by coach to the 5th Station at about 2,300 m (weather permitting) with views across the Fuji Five Lakes. Continue north to the Nagano region for the night.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Nagano region hotel",
+    "optional": "",
+    "lng": 138.08,
+    "lat": 36.04
+   },
+   {
+    "d": 5,
+    "title": "Nagano – Narai-juku – Takayama",
+    "city": "Takayama",
+    "text": "Wasabi farm, the Edo-era post town of Narai-juku, then Takayama's old town.",
+    "detail": "Start at a working wasabi farm, then walk the wooden main street of Narai-juku, one of the best-preserved post towns on the old Nakasendo trail. Arrive in Takayama with time to wander the merchant district of Sanmachi Suji.",
+    "meals": "Breakfast",
+    "hotel": "Takayama hotel",
+    "optional": "",
+    "lng": 137.25,
+    "lat": 36.14
+   },
+   {
+    "d": 6,
+    "title": "Takayama – Kyoto",
+    "city": "Kyoto",
+    "text": "Drive to Kyoto for Fushimi Inari and the Golden Pavilion.",
+    "detail": "Head south-west to Kyoto. Walk part of the vermilion tunnel of torii at Fushimi Inari, then visit the Golden Pavilion (Kinkaku-ji) before checking in.",
+    "meals": "Breakfast",
+    "hotel": "Kyoto hotel",
+    "optional": "Evening Maiko dinner show",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "d": 7,
+    "title": "Kyoto free day",
+    "city": "Kyoto",
+    "text": "Free day, or an optional trip to the Kyoto coast.",
+    "detail": "A free day in Kyoto. Arashiyama's bamboo grove, Nijo Castle, Gion at dusk or a Nara day trip are all easy on your own.",
+    "meals": "Breakfast",
+    "hotel": "Kyoto hotel",
+    "optional": "'Kyoto by the Sea': Amanohashidate sandbar and the boathouses of Ine",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "d": 8,
+    "title": "Kyoto – Okayama – Hiroshima",
+    "city": "Hiroshima",
+    "text": "Kurashiki's canal quarter and Korakuen garden en route to Hiroshima.",
+    "detail": "Travel west via Okayama. Stroll Kurashiki's willow-lined canal and white-walled storehouses, then Korakuen, one of Japan's three great landscape gardens, before continuing to Hiroshima.",
+    "meals": "Breakfast",
+    "hotel": "Hiroshima hotel",
+    "optional": "",
+    "lng": 132.46,
+    "lat": 34.39
+   },
+   {
+    "d": 9,
+    "title": "Hiroshima & Miyajima",
+    "city": "Hiroshima",
+    "text": "Boat to Miyajima's floating torii, then the Peace Memorial Park.",
+    "detail": "Ferry to Miyajima to see Itsukushima Shrine and its torii standing in the water (tide permitting). Back in the city, visit the Peace Memorial Park and Museum and the A-Bomb Dome.",
+    "meals": "Breakfast",
+    "hotel": "Hiroshima hotel",
+    "optional": "",
+    "lng": 132.46,
+    "lat": 34.39
+   },
+   {
+    "d": 10,
+    "title": "Hiroshima – Osaka by bullet train",
+    "city": "Osaka",
+    "text": "Shinkansen from Himeji to Shin-Kobe, then on to Osaka.",
+    "detail": "Coach to Himeji station, then board the Shinkansen for a short bullet-train ride to Shin-Kobe before continuing to Osaka.",
+    "meals": "Breakfast",
+    "hotel": "Osaka hotel",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 11,
+    "title": "Osaka free day",
+    "city": "Osaka",
+    "text": "Free day in Osaka.",
+    "detail": "Free day. Dotonbori's neon and street food, Osaka Castle, or a day trip to Nara are the usual picks.",
+    "meals": "Breakfast",
+    "hotel": "Osaka hotel",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 12,
+    "title": "Depart Osaka",
+    "city": "Osaka",
+    "text": "Transfer to the airport for the flight home.",
+    "detail": "Transfer to Kansai Airport for the flight back to Australia.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 13,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6363,
+  "name": "Warriors of China",
+  "url": "https://www.tripadeal.com.au/deals/6363-warriors-of-china",
+  "days": 15,
+  "price": 1899,
+  "was": null,
+  "save": "52%",
+  "per": "pp",
+  "dates": "24 Nov 2026 – 20 Nov 2027",
+  "region": "Asia",
+  "type": "Guided",
+  "from_city": "Sydney",
+  "months": [
+   "Nov",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Aug",
+   "Sep",
+   "Oct"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Adults only"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Beijing",
+    116.4,
+    39.9,
+    3,
+    "Tiananmen Square, Forbidden City, Great Wall at Juyong Pass",
+    "coach"
+   ],
+   [
+    "Xi'an",
+    108.94,
+    34.34,
+    2,
+    "Terracotta Warriors, Small Wild Goose Pagoda",
+    "rail"
+   ],
+   [
+    "Luoyang",
+    112.45,
+    34.62,
+    1,
+    "High-speed train in, group dinner",
+    "rail"
+   ],
+   [
+    "Zhengzhou",
+    113.63,
+    34.75,
+    2,
+    "Longmen Grottoes, day at leisure",
+    "coach"
+   ],
+   [
+    "Wuxi",
+    120.31,
+    31.49,
+    1,
+    "Lake Tai",
+    "rail"
+   ],
+   [
+    "Suzhou",
+    120.59,
+    31.3,
+    1,
+    "Lihu Park, pearl factory",
+    "coach"
+   ],
+   [
+    "Hangzhou",
+    120.15,
+    30.27,
+    1,
+    "Lingering Garden, Tangxi Ancient Town",
+    "coach"
+   ],
+   [
+    "Shanghai",
+    121.47,
+    31.23,
+    2,
+    "Meijiawu tea village, West Lake, The Bund",
+    "coach"
+   ]
+  ],
+  "featured": 4,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6363_Warriors_of_China_WEB_HERO_1.jpg",
+    "caption": "Stand in awe of the Terracotta Warriors in Xi'an"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6363_Warriors_of_China_WEB_HERO_2.jpg",
+    "caption": "Admire the Great Wall of China"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6363_Warriors_of_China_WEB_HERO_3.jpg",
+    "caption": "Visit Luoyang to explore the famed Longmen Grottoes"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6363_Warriors_of_China_WEB_HERO_4.jpg",
+    "caption": "The iconic skyline of Shanghai"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/ASIA+-+EAST+%26+SOUTHEAST/CHINA/G-China-Beijing-TiananmenSquareGarden-AS.jpeg",
+    "caption": "Wander through Tiananmen Square in Beijing"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Beijing",
+    "lng": 116.4,
+    "lat": 39.9
+   },
+   {
+    "name": "Great Wall",
+    "lng": 116.02,
+    "lat": 40.36
+   },
+   {
+    "name": "Xi'an",
+    "lng": 108.94,
+    "lat": 34.34
+   },
+   {
+    "name": "Shanghai",
+    "lng": 121.47,
+    "lat": 31.23
+   }
+  ],
+  "countries": [
+   "China"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Beijing",
+    "city": "Beijing",
+    "text": "Fly to Beijing and transfer to the hotel.",
+    "detail": "Depart Australia for Beijing. Meet your guide on arrival and transfer to the hotel.",
+    "meals": "",
+    "hotel": "Beijing hotel",
+    "optional": "",
+    "lng": 116.4,
+    "lat": 39.9
+   },
+   {
+    "d": 2,
+    "title": "Tiananmen Square & Forbidden City",
+    "city": "Beijing",
+    "text": "Tiananmen Square and the Forbidden City (or Temple of Heaven).",
+    "detail": "Walk Tiananmen Square and into the Forbidden City's succession of courtyards and halls (the Temple of Heaven substitutes on days the palace is closed).",
+    "meals": "Breakfast, lunch",
+    "hotel": "Beijing hotel",
+    "optional": "Summer Palace and a panda visit",
+    "lng": 116.4,
+    "lat": 39.9
+   },
+   {
+    "d": 3,
+    "title": "Great Wall of China",
+    "city": "Beijing",
+    "text": "Great Wall at Juyong Pass.",
+    "detail": "Visit a jade museum, have a picnic lunch, then climb a section of the Great Wall at Juyong Pass, one of the wall's great fortified gateways.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Beijing hotel",
+    "optional": "Hutong pedicab tour with a local family visit",
+    "lng": 116.4,
+    "lat": 39.9
+   },
+   {
+    "d": 4,
+    "title": "Beijing – Xi'an",
+    "city": "Xi'an",
+    "text": "High-speed train or flight to Xi'an.",
+    "detail": "A morning visit to a traditional Chinese medicine centre, then travel to Xi'an by high-speed rail (about four and a half hours) or flight depending on departure.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Xi'an hotel",
+    "optional": "",
+    "lng": 108.94,
+    "lat": 34.34
+   },
+   {
+    "d": 5,
+    "title": "Terracotta Warriors",
+    "city": "Xi'an",
+    "text": "The Terracotta Warriors and Horses Museum.",
+    "detail": "The day belongs to the Terracotta Army: the three excavation pits and the bronze chariots, with time in the museum halls.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Xi'an hotel",
+    "optional": "Tang Dynasty music and dance show with dumpling dinner",
+    "lng": 108.94,
+    "lat": 34.34
+   },
+   {
+    "d": 6,
+    "title": "Xi'an – Luoyang",
+    "city": "Luoyang",
+    "text": "Small Wild Goose Pagoda, then train to Luoyang.",
+    "detail": "See the Small Wild Goose Pagoda before boarding the high-speed train to Luoyang, the ancient capital on the Luo River. Group dinner tonight.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Luoyang hotel",
+    "optional": "",
+    "lng": 112.45,
+    "lat": 34.62
+   },
+   {
+    "d": 7,
+    "title": "Longmen Grottoes – Zhengzhou",
+    "city": "Zhengzhou",
+    "text": "Longmen Grottoes, then on to Zhengzhou.",
+    "detail": "Spend the morning at the Longmen Grottoes, where some 100,000 Buddhist figures are carved into the limestone cliffs above the river. Continue to Zhengzhou.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Zhengzhou hotel",
+    "optional": "",
+    "lng": 113.63,
+    "lat": 34.75
+   },
+   {
+    "d": 8,
+    "title": "Zhengzhou at leisure",
+    "city": "Zhengzhou",
+    "text": "Free day, or the Shaolin Temple.",
+    "detail": "A day to rest, or take the optional trip to the Shaolin Temple, birthplace of kung fu, with a martial-arts performance.",
+    "meals": "Breakfast",
+    "hotel": "Zhengzhou hotel",
+    "optional": "Shaolin Temple and kung fu show",
+    "lng": 113.63,
+    "lat": 34.75
+   },
+   {
+    "d": 9,
+    "title": "Zhengzhou – Wuxi",
+    "city": "Wuxi",
+    "text": "Zhengzhou Museum, then high-speed train to Wuxi.",
+    "detail": "Visit the Zhengzhou Museum in the morning, then a long high-speed rail leg south-east to Wuxi on the shores of Lake Tai.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Wuxi hotel",
+    "optional": "",
+    "lng": 120.31,
+    "lat": 31.49
+   },
+   {
+    "d": 10,
+    "title": "Wuxi – Suzhou",
+    "city": "Suzhou",
+    "text": "Lihu Park and a pearl factory, then Suzhou.",
+    "detail": "Walk Lihu Park on the lakeside and visit a freshwater pearl workshop, then a short drive to Suzhou.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Suzhou hotel",
+    "optional": "",
+    "lng": 120.59,
+    "lat": 31.3
+   },
+   {
+    "d": 11,
+    "title": "Suzhou – Hangzhou",
+    "city": "Hangzhou",
+    "text": "Lingering Garden and a silk factory; Tangxi Ancient Town.",
+    "detail": "Suzhou's Lingering Garden and a silk factory in the morning, then Tangxi Ancient Town's canals on the way to Hangzhou.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Hangzhou hotel",
+    "optional": "",
+    "lng": 120.15,
+    "lat": 30.27
+   },
+   {
+    "d": 12,
+    "title": "Hangzhou – Shanghai",
+    "city": "Shanghai",
+    "text": "Tea village, West Lake boat ride, then Shanghai's Bund.",
+    "detail": "Visit Meijiawu tea village in the Longjing hills and cruise West Lake, then travel to Shanghai for an evening on the Bund.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Shanghai hotel",
+    "optional": "",
+    "lng": 121.47,
+    "lat": 31.23
+   },
+   {
+    "d": 13,
+    "title": "Shanghai History Museum",
+    "city": "Shanghai",
+    "text": "Museum morning; afternoon free.",
+    "detail": "Shanghai History Museum in the morning; the afternoon is free.",
+    "meals": "Breakfast",
+    "hotel": "Shanghai hotel",
+    "optional": "Half-day city tour, or a Huangpu River night cruise",
+    "lng": 121.47,
+    "lat": 31.23
+   },
+   {
+    "d": 14,
+    "title": "Shanghai – Australia",
+    "city": "Shanghai",
+    "text": "Transfer to the airport for the flight home.",
+    "detail": "Transfer to Pudong Airport for the flight back to Australia.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 121.47,
+    "lat": 31.23
+   },
+   {
+    "d": 15,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6380,
+  "name": "Unbelievable Japan",
+  "url": "https://www.tripadeal.com.au/deals/6380-unbelievable-japan",
+  "days": 9,
+  "price": 2499,
+  "was": null,
+  "save": "30%",
+  "per": "pp",
+  "dates": "2 Mar – 26 May 2027",
+  "region": "Asia",
+  "type": "Guided",
+  "from_city": "Sydney",
+  "months": [
+   "Mar",
+   "Apr",
+   "May"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Osaka",
+    135.5,
+    34.69,
+    2,
+    "Arrive; free day or Hiroshima option",
+    "flight"
+   ],
+   [
+    "Kyoto",
+    135.77,
+    35.01,
+    0,
+    "Kiyomizu-dera, free time",
+    "coach"
+   ],
+   [
+    "Nagoya",
+    136.91,
+    35.18,
+    2,
+    "Free day or Shirakawa-go option",
+    "coach"
+   ],
+   [
+    "Tokyo",
+    139.69,
+    35.69,
+    2,
+    "Toyota museum en route; Tsukiji and Meiji Shrine",
+    "coach"
+   ],
+   [
+    "Mt Fuji",
+    138.73,
+    35.36,
+    0,
+    "5th Station and Five Lakes",
+    "coach"
+   ],
+   [
+    "Komaki",
+    136.91,
+    35.29,
+    1,
+    "Overnight in Aichi Prefecture",
+    "coach"
+   ],
+   [
+    "Osaka",
+    135.5,
+    34.69,
+    0,
+    "Fly home",
+    "coach"
+   ]
+  ],
+  "featured": 2,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6380_Unbelievable_Japan_WEB_HERO_1.jpg",
+    "caption": "Mount Fuji, Japan's tallest and most iconic peak"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6380_Unbelievable_Japan_WEB_HERO_2-Kyoto_Higashiyama.jpg",
+    "caption": "Kyoto, Japan's ancient capital"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6380_Unbelievable_Japan_WEB_HERO_3_Osaka.jpg",
+    "caption": "Osaka Castle"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6380_Unbelievable_Japan_WEB_HERO_4-Tokyo_Akihabara.jpg",
+    "caption": "Akihabara, Tokyo's technology and anime district"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/ASIA+-+EAST+%26+SOUTHEAST/JAPAN/G-Japan-Osaka-Takoyaki-AS.jpg",
+    "caption": "Street food in Osaka"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Osaka",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "name": "Kyoto",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "name": "Nagoya",
+    "lng": 136.91,
+    "lat": 35.18
+   },
+   {
+    "name": "Tokyo",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "name": "Mt Fuji",
+    "lng": 138.73,
+    "lat": 35.36
+   }
+  ],
+  "countries": [
+   "Japan"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Osaka",
+    "city": "Osaka",
+    "text": "Fly to Osaka and transfer to the hotel.",
+    "detail": "Fly to Osaka (usually via China; some departures leave a day early). Transfer to the hotel on arrival.",
+    "meals": "",
+    "hotel": "Hotel Sobial Osaka Dome or similar",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 2,
+    "title": "Osaka free day",
+    "city": "Osaka",
+    "text": "Free day, or the optional Hiroshima trip.",
+    "detail": "A free day in Osaka. The optional Hiroshima trip goes by bullet train, ferries to Miyajima for Itsukushima Shrine, then visits the Peace Memorial Park and A-Bomb Dome before returning.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Sobial Osaka Dome or similar",
+    "optional": "Hiroshima & Miyajima full-day trip by bullet train",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 3,
+    "title": "Osaka – Kyoto – Nagoya",
+    "city": "Nagoya",
+    "text": "Kiyomizu-dera, free time in Kyoto, then on to Nagoya.",
+    "detail": "Drive to Kyoto for Kiyomizu-dera and its wooden stage above the hillside, then free time in the old capital (or an optional half-day tour) before continuing to Nagoya in the evening. About 200 km.",
+    "meals": "Breakfast",
+    "hotel": "Travelodge Nagoya Sakae or similar",
+    "optional": "Kyoto half-day: Fushimi Inari, Golden Pavilion, Arashiyama bamboo grove",
+    "lng": 136.91,
+    "lat": 35.18
+   },
+   {
+    "d": 4,
+    "title": "Nagoya free day",
+    "city": "Nagoya",
+    "text": "Free day, or Shirakawa-go and Takayama.",
+    "detail": "Free day, or the optional 380 km round trip to the thatched farmhouses of Shirakawa-go, Takayama's old town and a Japanese knife museum.",
+    "meals": "Breakfast",
+    "hotel": "Travelodge Nagoya Sakae or similar",
+    "optional": "Shirakawa-go, Takayama & Japanese Knife Museum",
+    "lng": 136.91,
+    "lat": 35.18
+   },
+   {
+    "d": 5,
+    "title": "Nagoya – Tokyo",
+    "city": "Tokyo",
+    "text": "Toyota Commemorative Museum, then drive to Tokyo.",
+    "detail": "Visit the Toyota Commemorative Museum of Industry and Technology in the original 1911 factory buildings, then drive about 360 km to Tokyo.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Mystays Tachikawa or similar",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 6,
+    "title": "Tokyo sightseeing",
+    "city": "Tokyo",
+    "text": "Tsukiji Outer Market and Meiji Shrine; afternoon free.",
+    "detail": "Morning tour of the Tsukiji Outer Market and Meiji Shrine's gardens. Afternoon free, or the optional tour taking in Tokyo Tower, Shinjuku and Shibuya Crossing.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Mystays Tachikawa or similar",
+    "optional": "Tokyo afternoon tour with Tokyo Tower",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 7,
+    "title": "Tokyo – Mt Fuji – Aichi",
+    "city": "Komaki",
+    "text": "Mt Fuji's 5th Station and the Five Lakes, then Aichi Prefecture.",
+    "detail": "Drive to Mt Fuji's 5th Station at 2,300 m for views over the Fuji Five Lakes, then continue to Aichi Prefecture for the night. About 420 km.",
+    "meals": "Breakfast",
+    "hotel": "Route-Inn Grantia Komaki or similar",
+    "optional": "",
+    "lng": 136.91,
+    "lat": 35.29
+   },
+   {
+    "d": 8,
+    "title": "Aichi – Osaka – Australia",
+    "city": "Osaka",
+    "text": "Early drive to Osaka for the flight home.",
+    "detail": "Early departure for the 250 km drive to Osaka and the afternoon flight home.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 9,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6098,
+  "name": "Best of Japan",
+  "url": "https://www.tripadeal.com.au/deals/6098-best-of-japan",
+  "days": 16,
+  "price": 5199,
+  "was": null,
+  "save": "35%",
+  "per": "pp",
+  "dates": "26 Feb – 23 Nov 2027",
+  "region": "Asia",
+  "type": "Guided",
+  "from_city": "Sydney",
+  "months": [
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Rail",
+   "Cruise"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Tokyo",
+    139.69,
+    35.69,
+    3,
+    "Sightseeing tour; free day",
+    "flight"
+   ],
+   [
+    "Mt Fuji",
+    138.73,
+    35.36,
+    0,
+    "5th Station and Five Lakes",
+    "coach"
+   ],
+   [
+    "Nagano",
+    138.08,
+    36.04,
+    1,
+    "Japanese Alps",
+    "coach"
+   ],
+   [
+    "Takayama",
+    137.25,
+    36.14,
+    1,
+    "Wasabi farm, Narai-juku, old town",
+    "coach"
+   ],
+   [
+    "Kyoto",
+    135.77,
+    35.01,
+    2,
+    "Fushimi Inari, Golden Pavilion; free day",
+    "coach"
+   ],
+   [
+    "Osaka",
+    135.5,
+    34.69,
+    1,
+    "Nara deer park, Dotonbori",
+    "coach"
+   ],
+   [
+    "Himeji",
+    134.69,
+    34.82,
+    0,
+    "Sake brewery, White Heron Castle",
+    "coach"
+   ],
+   [
+    "Hiroshima",
+    132.46,
+    34.39,
+    2,
+    "Bullet train Himeji–Okayama, then coach; Miyajima",
+    "rail"
+   ],
+   [
+    "Beppu",
+    131.49,
+    33.28,
+    1,
+    "Kintaikyo Bridge, Hells of Beppu",
+    "coach"
+   ],
+   [
+    "Kumamoto",
+    130.74,
+    32.8,
+    1,
+    "Yufuin, Mt Aso, Kusasenri",
+    "coach"
+   ],
+   [
+    "Fukuoka",
+    130.4,
+    33.59,
+    2,
+    "Kumamoto Castle, Yanagawa canals, Dazaifu; free day",
+    "coach"
+   ]
+  ],
+  "featured": 9,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6098_Best_of_Japan_WEB_HERO_1_Himeji.jpg",
+    "caption": "Himeji Castle"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6098_Best_of_Japan_WEB_HERO_2_Kyoto.jpg",
+    "caption": "Yasaka Pagoda from Sannen-zaka, Kyoto"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6098_Best_of_Japan_WEB_HERO_3.jpg",
+    "caption": "Mt Fuji from the Five Lakes area"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6098_Best_of_Japan_WEB_HERO_4_Beppu_Sea-Hell.jpg",
+    "caption": "Umi Jigoku, one of the Hells of Beppu"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/ASIA+-+EAST+%26+SOUTHEAST/JAPAN/G-Japan-Nara-manydeerinshrine2-AS.jpeg.jpg",
+    "caption": "The deer of Nara Park"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Tokyo",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "name": "Mt Fuji",
+    "lng": 138.73,
+    "lat": 35.36
+   },
+   {
+    "name": "Takayama",
+    "lng": 137.25,
+    "lat": 36.14
+   },
+   {
+    "name": "Kyoto",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "name": "Osaka",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "name": "Hiroshima",
+    "lng": 132.46,
+    "lat": 34.39
+   },
+   {
+    "name": "Beppu",
+    "lng": 131.49,
+    "lat": 33.28
+   },
+   {
+    "name": "Fukuoka",
+    "lng": 130.4,
+    "lat": 33.59
+   }
+  ],
+  "countries": [
+   "Japan"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Tokyo",
+    "city": "Tokyo",
+    "text": "Fly to Tokyo and transfer to the hotel.",
+    "detail": "Fly to Tokyo (direct not guaranteed) and transfer to the hotel.",
+    "meals": "",
+    "hotel": "Hotel Mystays Tachikawa or similar",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 2,
+    "title": "Tokyo sightseeing",
+    "city": "Tokyo",
+    "text": "Tsukiji Outer Market and Meiji Shrine; afternoon free.",
+    "detail": "A morning at the Tsukiji Outer Market and Meiji Shrine's gardens, then a free afternoon or the optional tour with Tokyo Tower, Shinjuku and Shibuya Crossing.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Mystays Tachikawa or similar",
+    "optional": "Tokyo afternoon tour with Tokyo Tower (¥8,000)",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 3,
+    "title": "Tokyo free day",
+    "city": "Tokyo",
+    "text": "Free day, or Hakone.",
+    "detail": "A free day, or the optional Hakone trip: Lake Ashi cruise, cable car to the Owakudani sulphur vents, and the Open-Air Museum.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Mystays Tachikawa or similar",
+    "optional": "Hakone day tour (¥15,000)",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 4,
+    "title": "Tokyo – Mt Fuji – Nagano",
+    "city": "Nagano",
+    "text": "Mt Fuji's 5th Station and the Five Lakes, then the Japanese Alps.",
+    "detail": "About 370 km: up to Mt Fuji's 5th Station at 2,300 m, the Five Lakes, then inland to the Nagano region.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Route Inn Suwa Inter or similar, Nagano region",
+    "optional": "",
+    "lng": 138.08,
+    "lat": 36.04
+   },
+   {
+    "d": 5,
+    "title": "Nagano – Narai-juku – Takayama",
+    "city": "Takayama",
+    "text": "Wasabi farm, an Edo post town, then Takayama.",
+    "detail": "A wasabi farm fed by Alpine spring water, the preserved Edo-period post town of Narai-juku, then Takayama's old town (a Gifu hotel may substitute).",
+    "meals": "Breakfast",
+    "hotel": "Hotel Hana or similar, Takayama",
+    "optional": "",
+    "lng": 137.25,
+    "lat": 36.14
+   },
+   {
+    "d": 6,
+    "title": "Takayama – Kyoto",
+    "city": "Kyoto",
+    "text": "Fushimi Inari and the Golden Pavilion.",
+    "detail": "Drive 270 km to Kyoto for a half-day tour: the torii tunnels of Fushimi Inari and the gold-leaf Kinkaku-ji. Evening free.",
+    "meals": "Breakfast",
+    "hotel": "Kyoto Ubell Hotel or similar",
+    "optional": "Maiko dinner show in Gion (¥35,000)",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "d": 7,
+    "title": "Kyoto free day",
+    "city": "Kyoto",
+    "text": "Free day, or 'Kyoto by the Sea'.",
+    "detail": "Free day, or the optional 250 km trip to the Amanohashidate sandbar, the boathouses of Ine and the thatched village of Miyama.",
+    "meals": "Breakfast",
+    "hotel": "Kyoto Ubell Hotel or similar",
+    "optional": "Kyoto by the Sea day tour (¥15,000)",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "d": 8,
+    "title": "Kyoto – Nara – Osaka",
+    "city": "Osaka",
+    "text": "Nara's bowing deer, then Dotonbori.",
+    "detail": "Nara Park and its thousand sacred deer, then Osaka's Shinsaibashi and Dotonbori districts at leisure. About 90 km.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Sobial Osaka Dome or similar",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 9,
+    "title": "Osaka – Himeji – bullet train – Hiroshima",
+    "city": "Hiroshima",
+    "text": "Sake brewery, Himeji Castle, Shinkansen to Okayama, coach to Hiroshima.",
+    "detail": "The Hakutsuru sake museum, then the White Heron castle at Himeji. Board the Shinkansen for a 20-minute run to Okayama, then coach 160 km to Hiroshima.",
+    "meals": "Breakfast",
+    "hotel": "Vessel Hotel Hiroshima or similar",
+    "optional": "",
+    "lng": 132.46,
+    "lat": 34.39
+   },
+   {
+    "d": 10,
+    "title": "Hiroshima & Miyajima",
+    "city": "Hiroshima",
+    "text": "Miyajima's floating shrine, then the Peace Park.",
+    "detail": "Ferry to Miyajima for Itsukushima Shrine, then the Peace Memorial Park, museum and A-Bomb Dome.",
+    "meals": "Breakfast",
+    "hotel": "Vessel Hotel Hiroshima or similar",
+    "optional": "",
+    "lng": 132.46,
+    "lat": 34.39
+   },
+   {
+    "d": 11,
+    "title": "Hiroshima – Kintaikyo – Beppu",
+    "city": "Beppu",
+    "text": "The Kintaikyo Bridge, then the Hells of Beppu on Kyushu.",
+    "detail": "Stop at the five-arched Kintaikyo Bridge, cross to Kyushu and tour the seven 'Hells of Beppu': Sea Hell, Blood Pond Hell, the mud pools and the Tornado geyser. About 330 km.",
+    "meals": "Breakfast",
+    "hotel": "Amanek Hotel or similar, Beppu/Oita",
+    "optional": "",
+    "lng": 131.49,
+    "lat": 33.28
+   },
+   {
+    "d": 12,
+    "title": "Beppu – Yufuin – Mt Aso – Kumamoto",
+    "city": "Kumamoto",
+    "text": "Onsen town, an active volcano, then Kumamoto.",
+    "detail": "Free time in the onsen town of Yufuin, then Mt Aso's vast caldera and the Kusasenri grassland with views of Nakadake, before Kumamoto. About 160 km.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Route Inn or similar, Kumamoto",
+    "optional": "",
+    "lng": 130.74,
+    "lat": 32.8
+   },
+   {
+    "d": 13,
+    "title": "Kumamoto – Yanagawa – Fukuoka",
+    "city": "Fukuoka",
+    "text": "Kumamoto Castle, Yanagawa's canals, Dazaifu shrine.",
+    "detail": "Kumamoto Castle, the 930 km of canals in Yanagawa ('the Venice of Kyushu'), and Dazaifu Tenmangu Shrine before arriving in Fukuoka. About 150 km.",
+    "meals": "Breakfast",
+    "hotel": "U-BELL Hotel or similar, Fukuoka",
+    "optional": "",
+    "lng": 130.4,
+    "lat": 33.59
+   },
+   {
+    "d": 14,
+    "title": "Fukuoka free day",
+    "city": "Fukuoka",
+    "text": "A free day in Kyushu's biggest city.",
+    "detail": "A free day: Fukuoka Castle, Hakata ramen, the Daibutsu.",
+    "meals": "Breakfast",
+    "hotel": "U-BELL Hotel or similar, Fukuoka",
+    "optional": "",
+    "lng": 130.4,
+    "lat": 33.59
+   },
+   {
+    "d": 15,
+    "title": "Fukuoka – Australia",
+    "city": "Fukuoka",
+    "text": "Transfer to the airport for the flight home.",
+    "detail": "Transfer to the airport for the flight home.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 130.4,
+    "lat": 33.59
+   },
+   {
+    "d": 16,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 5684,
+  "name": "Vietnam & Cambodia Discovery",
+  "url": "https://www.tripadeal.com.au/deals/5684-vietnam-cambodia-discovery",
+  "days": 15,
+  "price": 2699,
+  "was": null,
+  "save": "35%",
+  "per": "pp",
+  "dates": "1 Dec 2026 – 20 Dec 2027",
+  "region": "Asia",
+  "type": "Small group",
+  "from_city": "Sydney",
+  "months": [
+   "Dec",
+   "Jan",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Small group"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Hanoi",
+    105.85,
+    21.03,
+    1,
+    "Arrive",
+    "flight"
+   ],
+   [
+    "Ha Long Bay",
+    107.08,
+    20.91,
+    1,
+    "Overnight junk-boat cruise on the bay",
+    "coach"
+   ],
+   [
+    "Hanoi",
+    105.85,
+    21.03,
+    1,
+    "Sung Sot Cave, cooking class, back to Hanoi",
+    "coach"
+   ],
+   [
+    "Hoi An",
+    108.34,
+    15.88,
+    3,
+    "Fly Hanoi–Da Nang; walking tour; free day",
+    "flight"
+   ],
+   [
+    "Ho Chi Minh City",
+    106.63,
+    10.82,
+    3,
+    "Fly Da Nang–HCMC; Cu Chi Tunnels; free day",
+    "flight"
+   ],
+   [
+    "Phnom Penh",
+    104.92,
+    11.56,
+    2,
+    "Shared bus via Moc Bai border; free day",
+    "coach"
+   ],
+   [
+    "Siem Reap",
+    103.86,
+    13.36,
+    2,
+    "Shared bus; full-day Angkor tour; fly home",
+    "coach"
+   ]
+  ],
+  "featured": 5,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5684_15D_Vietnam_Cambodia_WEB_HERO_1_Ankor_Wat.jpg",
+    "caption": "Angkor Wat, near Siem Reap"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5684_15D_Vietnam_Cambodia_WEB_HERO_2_HalongBay.jpg",
+    "caption": "The emerald waters of Ha Long Bay"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5684_15D_Vietnam_Cambodia_WEB_HERO_3_HOIAN.jpg",
+    "caption": "The ancient town of Hoi An"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5684_15D_Vietnam_Cambodia_WEB_HERO_4_VIETNAM.jpg",
+    "caption": "Vietnamese cuisine in Hanoi"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5684+-+Ha+Long+Bay+2.jpeg",
+    "caption": "Floating fishing villages in Ha Long Bay"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Ha Long Bay",
+    "lng": 107.08,
+    "lat": 20.91
+   },
+   {
+    "name": "Hanoi",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "name": "Hoi An",
+    "lng": 108.34,
+    "lat": 15.88
+   },
+   {
+    "name": "Ho Chi Minh City",
+    "lng": 106.63,
+    "lat": 10.82
+   },
+   {
+    "name": "Phnom Penh",
+    "lng": 104.92,
+    "lat": 11.56
+   },
+   {
+    "name": "Siem Reap",
+    "lng": 103.86,
+    "lat": 13.36
+   }
+  ],
+  "countries": [
+   "Vietnam",
+   "Cambodia"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Hanoi",
+    "city": "Hanoi",
+    "text": "Fly to Hanoi and transfer to the hotel.",
+    "detail": "Fly to Hanoi; met on arrival and transferred to the hotel.",
+    "meals": "",
+    "hotel": "Flower Garden Hotel or similar, Hanoi",
+    "optional": "",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 2,
+    "title": "Hanoi – Ha Long Bay overnight cruise",
+    "city": "Ha Long Bay",
+    "text": "Drive to Ha Long Bay and board a traditional junk for the night.",
+    "detail": "About 180 km through rice country to Ha Long Bay. Board a junk-style boat for an overnight cruise among the limestone islands: seafood lunch, swimming or kayaking, a pearl farm, a cooking demonstration and dinner on board.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Le Journey Cruise or similar (on board)",
+    "optional": "",
+    "lng": 107.08,
+    "lat": 20.91
+   },
+   {
+    "d": 3,
+    "title": "Ha Long Bay – Hanoi",
+    "city": "Hanoi",
+    "text": "Tai chi on deck, Sung Sot Cave, cooking class, return to Hanoi.",
+    "detail": "Optional sunrise tai chi, then a tender to Sung Sot ('Surprise') Cave, a spring-roll cooking class and light lunch before sailing back to port and driving to Hanoi.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Flower Garden Hotel or similar, Hanoi",
+    "optional": "Water puppet show & Vietnamese dinner ($60)",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 4,
+    "title": "Hanoi – Hoi An",
+    "city": "Hoi An",
+    "text": "Hanoi walking tour, then fly to Da Nang.",
+    "detail": "Morning walk through a local market, around West Lake, into Quan Thanh Taoist temple and the Cua Bach church. Afternoon flight to Da Nang and transfer to Hoi An.",
+    "meals": "Breakfast",
+    "hotel": "Le Pavillon Luxury Resort or similar, Hoi An",
+    "optional": "",
+    "lng": 108.34,
+    "lat": 15.88
+   },
+   {
+    "d": 5,
+    "title": "Hoi An walking tour",
+    "city": "Hoi An",
+    "text": "Old-town walking tour; free afternoon.",
+    "detail": "Museum of History and Culture, the 1590s Japanese Covered Bridge, the central market, Phuc Kien Assembly Hall and the 200-year-old Tan Ky house. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "Le Pavillon Luxury Resort or similar, Hoi An",
+    "optional": "Market tour & cooking class at Tra Que village ($60)",
+    "lng": 108.34,
+    "lat": 15.88
+   },
+   {
+    "d": 6,
+    "title": "Hoi An free day",
+    "city": "Hoi An",
+    "text": "A free day in Hoi An.",
+    "detail": "A free day, or the optional trip to Ba Na Hills by cable car for the Golden Bridge, the French wine cellar and gardens, with lunch.",
+    "meals": "Breakfast",
+    "hotel": "Le Pavillon Luxury Resort or similar, Hoi An",
+    "optional": "Ba Na Hills & Golden Bridge full day ($170)",
+    "lng": 108.34,
+    "lat": 15.88
+   },
+   {
+    "d": 7,
+    "title": "Hoi An – Ho Chi Minh City",
+    "city": "Ho Chi Minh City",
+    "text": "Fly from Da Nang to Ho Chi Minh City.",
+    "detail": "Transfer to Da Nang airport for the flight south to Ho Chi Minh City. Rest of the day free.",
+    "meals": "Breakfast",
+    "hotel": "Muong Thanh Saigon Centre or similar",
+    "optional": "",
+    "lng": 106.63,
+    "lat": 10.82
+   },
+   {
+    "d": 8,
+    "title": "Cu Chi Tunnels",
+    "city": "Ho Chi Minh City",
+    "text": "The Cu Chi Tunnels, 60 km from the city.",
+    "detail": "Drive to the Cu Chi Tunnels and walk a section of the network that once held hospitals, kitchens and command posts. Drop-off at the hotel or the War Remnants Museum.",
+    "meals": "Breakfast",
+    "hotel": "Muong Thanh Saigon Centre or similar",
+    "optional": "",
+    "lng": 106.63,
+    "lat": 10.82
+   },
+   {
+    "d": 9,
+    "title": "Ho Chi Minh City free day",
+    "city": "Ho Chi Minh City",
+    "text": "A free day, or the Mekong Delta.",
+    "detail": "Free day, or the optional Mekong Delta trip: motor boat from My Tho, canoes through the small canals, fruit and music at a village home, lunch on an islet.",
+    "meals": "Breakfast",
+    "hotel": "Muong Thanh Saigon Centre or similar",
+    "optional": "Mekong Delta day tour ($80)",
+    "lng": 106.63,
+    "lat": 10.82
+   },
+   {
+    "d": 10,
+    "title": "Ho Chi Minh City – Phnom Penh",
+    "city": "Phnom Penh",
+    "text": "Shared bus across the Moc Bai border to Phnom Penh.",
+    "detail": "Early pick-up for the 230 km shared tourist bus to Cambodia, with visa processing at the Moc Bai / Bavet border; six to eight hours. A flight upgrade is available. Free afternoon.",
+    "meals": "Breakfast",
+    "hotel": "The Onra Hotel or similar, Phnom Penh",
+    "optional": "Flight upgrade instead of the bus ($280)",
+    "lng": 104.92,
+    "lat": 11.56
+   },
+   {
+    "d": 11,
+    "title": "Phnom Penh free day",
+    "city": "Phnom Penh",
+    "text": "A free day in the capital.",
+    "detail": "Free day, or the optional city tour: Central Market, Independence Monument, Wat Ounalom, the Tuol Sleng museum and Choeung Ek killing fields, then the Royal Palace and Silver Pagoda.",
+    "meals": "Breakfast",
+    "hotel": "The Onra Hotel or similar, Phnom Penh",
+    "optional": "Choeung Ek & Phnom Penh city tour ($120)",
+    "lng": 104.92,
+    "lat": 11.56
+   },
+   {
+    "d": 12,
+    "title": "Phnom Penh – Siem Reap",
+    "city": "Siem Reap",
+    "text": "Shared bus 320 km to Siem Reap.",
+    "detail": "An early start for the shared bus north through Kandal, Kampong Cham and Kampong Thom provinces to Siem Reap. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "Tara Angkor Hotel or similar, Siem Reap",
+    "optional": "",
+    "lng": 103.86,
+    "lat": 13.36
+   },
+   {
+    "d": 13,
+    "title": "Temples of Angkor",
+    "city": "Siem Reap",
+    "text": "A full day at Angkor Wat, Angkor Thom and Ta Prohm.",
+    "detail": "The south gate of Angkor Thom, the Terrace of Elephants and Terrace of the Leper King, lunch, then jungle-wrapped Ta Prohm and finally Angkor Wat itself.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Tara Angkor Hotel or similar, Siem Reap",
+    "optional": "",
+    "lng": 103.86,
+    "lat": 13.36
+   },
+   {
+    "d": 14,
+    "title": "Siem Reap – Australia",
+    "city": "Siem Reap",
+    "text": "Transfer to the airport for the flight home.",
+    "detail": "Transfer to Siem Reap airport for the flight home; packed breakfast for early departures.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 103.86,
+    "lat": 13.36
+   },
+   {
+    "d": 15,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 5863,
+  "name": "Vietnam for 2",
+  "url": "https://www.tripadeal.com.au/deals/5863-vietnam-for-2",
+  "days": 12,
+  "price": 4399,
+  "was": null,
+  "save": null,
+  "per": "for2",
+  "dates": "30 Nov 2026 – 21 Dec 2027",
+  "region": "Asia",
+  "type": "Small group",
+  "from_city": "Sydney",
+  "months": [
+   "Nov",
+   "Dec",
+   "Jan",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Deal for 2",
+   "Small group"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Hanoi",
+    105.85,
+    21.03,
+    2,
+    "Arrive; walking tour",
+    "flight"
+   ],
+   [
+    "Ha Long Bay",
+    107.08,
+    20.91,
+    1,
+    "Overnight junk cruise on the bay",
+    "coach"
+   ],
+   [
+    "Hanoi",
+    105.85,
+    21.03,
+    1,
+    "Sung Sot Cave, cooking class, back to Hanoi",
+    "coach"
+   ],
+   [
+    "Ninh Binh",
+    105.97,
+    20.25,
+    2,
+    "Hoa Lu, Tam Coc boat ride; Trang An, Bich Dong",
+    "coach"
+   ],
+   [
+    "Pu Luong",
+    105.23,
+    20.47,
+    3,
+    "Nature reserve: villages, waterfall",
+    "coach"
+   ],
+   [
+    "Hanoi",
+    105.85,
+    21.03,
+    1,
+    "Return to Hanoi; fly home",
+    "coach"
+   ]
+  ],
+  "featured": 10,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/4713_North_Vietnam_Discovery_WEB_HERO_1_Halong+bay.jpg",
+    "caption": "Ha Long Bay"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/4713_North_Vietnam_Discovery_WEB_HERO_3_Hotel.jpg",
+    "caption": "Your resort in the Pu Luong reserve"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5670_2_for_1_Vietnam_WEB_HERO_4_NinhBinh.jpg",
+    "caption": "Ninh Binh province"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Hanoi",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "name": "Ha Long Bay",
+    "lng": 107.08,
+    "lat": 20.91
+   },
+   {
+    "name": "Ninh Binh",
+    "lng": 105.97,
+    "lat": 20.25
+   },
+   {
+    "name": "Pu Luong",
+    "lng": 105.23,
+    "lat": 20.47
+   }
+  ],
+  "countries": [
+   "Vietnam"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Hanoi",
+    "city": "Hanoi",
+    "text": "Fly to Hanoi and transfer to the hotel.",
+    "detail": "Fly to Hanoi; met and transferred to the hotel.",
+    "meals": "",
+    "hotel": "Flower Garden Hotel or similar, Hanoi",
+    "optional": "",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 2,
+    "title": "Hanoi walking tour",
+    "city": "Hanoi",
+    "text": "A local market, West Lake, Quan Thanh temple.",
+    "detail": "A morning walk through a local market and around West Lake, into the Taoist temple of Quan Thanh and the French-built Cua Bach church. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "Flower Garden Hotel or similar, Hanoi",
+    "optional": "",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 3,
+    "title": "Hanoi – Ha Long Bay overnight cruise",
+    "city": "Ha Long Bay",
+    "text": "Board a traditional junk for a night among the karsts.",
+    "detail": "About 180 km to Ha Long Bay and aboard a junk-style boat: seafood lunch, swimming or kayaking, a pearl farm, a cooking demonstration and dinner at anchor among the limestone islands.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Le Journey Cruise or similar (on board)",
+    "optional": "",
+    "lng": 107.08,
+    "lat": 20.91
+   },
+   {
+    "d": 4,
+    "title": "Ha Long Bay – Hanoi",
+    "city": "Hanoi",
+    "text": "Sung Sot Cave, cooking class, back to Hanoi.",
+    "detail": "Tender to Sung Sot ('Surprise') Cave, a spring-roll cooking class and light lunch, then back to port and 180 km to Hanoi.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Flower Garden Hotel or similar, Hanoi",
+    "optional": "Water puppet show & Vietnamese dinner ($60)",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 5,
+    "title": "Hanoi – Hoa Lu – Tam Coc",
+    "city": "Ninh Binh",
+    "text": "The ancient capital, then a bamboo boat through Tam Coc.",
+    "detail": "Drive to Ninh Binh province for the 10th-century temples of Hoa Lu, lunch, then a two-hour bamboo boat ride on the Hoang Long River through the three caves of Tam Coc.",
+    "meals": "Breakfast, lunch",
+    "hotel": "The Reed Hotel or similar, Ninh Binh",
+    "optional": "",
+    "lng": 105.97,
+    "lat": 20.25
+   },
+   {
+    "d": 6,
+    "title": "Trang An & Bich Dong Pagoda",
+    "city": "Ninh Binh",
+    "text": "'Ha Long Bay on land' by boat, then a cliffside pagoda.",
+    "detail": "Another two-hour boat trip through the UNESCO-listed Trang An grottoes, lunch, then the tiered Bich Dong Pagoda built into the Truong Yen cliffs.",
+    "meals": "Breakfast, lunch",
+    "hotel": "The Reed Hotel or similar, Ninh Binh",
+    "optional": "",
+    "lng": 105.97,
+    "lat": 20.25
+   },
+   {
+    "d": 7,
+    "title": "Ninh Binh – Pu Luong",
+    "city": "Pu Luong",
+    "text": "Phat Diem church, then into the nature reserve.",
+    "detail": "Stop at the stone cathedral of Phat Diem, then drive into Pu Luong Nature Reserve: terraced rice, limestone peaks and Thai villages. Hillside resorts mean stairs to your room.",
+    "meals": "Breakfast",
+    "hotel": "Pu Luong Eco Garden or similar",
+    "optional": "",
+    "lng": 105.23,
+    "lat": 20.47
+   },
+   {
+    "d": 8,
+    "title": "Kho Muong & Ban Don villages",
+    "city": "Pu Luong",
+    "text": "Thai villages and a mountain hike.",
+    "detail": "A short drive to the traditional Thai villages of Kho Muong and Ban Don above the terraces, then a leisurely hike in the reserve looking for caves and waterfalls. Some steep sections; a pool day is the alternative.",
+    "meals": "Breakfast",
+    "hotel": "Pu Luong Eco Garden or similar",
+    "optional": "",
+    "lng": 105.23,
+    "lat": 20.47
+   },
+   {
+    "d": 9,
+    "title": "Hieu Waterfall",
+    "city": "Pu Luong",
+    "text": "An easy trek through rice terraces to Hieu Waterfall.",
+    "detail": "Trek from Hieu village along the terraces and through jungle to Hieu Waterfall for a swim, then back to the retreat.",
+    "meals": "Breakfast",
+    "hotel": "Pu Luong Eco Garden or similar",
+    "optional": "",
+    "lng": 105.23,
+    "lat": 20.47
+   },
+   {
+    "d": 10,
+    "title": "Pu Luong – Hanoi",
+    "city": "Hanoi",
+    "text": "A slow morning, then back to Hanoi.",
+    "detail": "A relaxed morning at the resort before the drive back to Hanoi. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "Flower Garden Hotel or similar, Hanoi",
+    "optional": "",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 11,
+    "title": "Hanoi – Australia",
+    "city": "Hanoi",
+    "text": "Morning free, then the flight home.",
+    "detail": "Morning at leisure, then transfer to the airport.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 105.85,
+    "lat": 21.03
+   },
+   {
+    "d": 12,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6370,
+  "name": "Singapore, Malaysia & Thailand Getaway",
+  "url": "https://www.tripadeal.com.au/deals/6370-singapore-malaysia-thailand-getaway-cruise",
+  "days": 9,
+  "price": 2399,
+  "was": null,
+  "save": null,
+  "per": "pp",
+  "dates": "25 Jan – 19 Nov 2027",
+  "region": "Asia",
+  "type": "Ocean cruise",
+  "from_city": "Sydney",
+  "months": [
+   "Jan",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Royal Caribbean"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Singapore",
+    103.82,
+    1.35,
+    3,
+    "Three nights at leisure; embark Royal Caribbean",
+    "flight"
+   ],
+   [
+    "Penang",
+    100.33,
+    5.41,
+    1,
+    "George Town, 2:30pm to 9pm",
+    "cruise"
+   ],
+   [
+    "Phuket",
+    98.39,
+    7.88,
+    2,
+    "Port day, then day at sea",
+    "cruise"
+   ],
+   [
+    "Singapore",
+    103.82,
+    1.35,
+    0,
+    "Disembark 7am, own way to the airport",
+    "cruise"
+   ]
+  ],
+  "featured": 16,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6370_Singapore_Malaysia_and_Thailand_Getaway_Cruise_WEB_HERO_1_Singapore.jpg",
+    "caption": "Gardens by the Bay, Singapore"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6370_Singapore_Malaysia_and_Thailand_Getaway_Cruise_WEB_HERO_2_Phuket_Kata-Noi.jpg",
+    "caption": "Kata Noi beach, Phuket"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6370_Singapore_Malaysia_and_Thailand_Getaway_Cruise_WEB_HERO_3.jpg",
+    "caption": "Your Royal Caribbean ship"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6370_Singapore_Malaysia_and_Thailand_Getaway_Cruise_WEB_HERO_4_Penang.jpg",
+    "caption": "Penang, Malaysia"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/ASIA+-+EAST+%26+SOUTHEAST/SINGAPORE/G-Singapore-DayCityView-AS-.jpg",
+    "caption": "Singapore skyline"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Singapore",
+    "lng": 103.82,
+    "lat": 1.35
+   },
+   {
+    "name": "Penang",
+    "lng": 100.33,
+    "lat": 5.41
+   },
+   {
+    "name": "Phuket",
+    "lng": 98.39,
+    "lat": 7.88
+   }
+  ],
+  "countries": [
+   "Singapore",
+   "Malaysia",
+   "Thailand"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Singapore",
+    "city": "Singapore",
+    "text": "Fly to Singapore and make your own way to the hotel.",
+    "detail": "Fly to Singapore; make your own way (or take the optional private transfer) to the hotel.",
+    "meals": "",
+    "hotel": "Copthorne King's Hotel or similar, Singapore",
+    "optional": "Private airport transfer ($70 pp)",
+    "lng": 103.82,
+    "lat": 1.35
+   },
+   {
+    "d": 2,
+    "title": "Singapore free day",
+    "city": "Singapore",
+    "text": "Gardens by the Bay, Chinatown, Little India, Orchard Road.",
+    "detail": "A free day: the Merlion, Gardens by the Bay's Cloud Forest, Chinatown and Little India, Orchard Road, and a hawker centre for chicken rice or laksa.",
+    "meals": "",
+    "hotel": "Copthorne King's Hotel or similar, Singapore",
+    "optional": "",
+    "lng": 103.82,
+    "lat": 1.35
+   },
+   {
+    "d": 3,
+    "title": "Singapore free day",
+    "city": "Singapore",
+    "text": "A second free day.",
+    "detail": "Another free day in Singapore.",
+    "meals": "",
+    "hotel": "Copthorne King's Hotel or similar, Singapore",
+    "optional": "",
+    "lng": 103.82,
+    "lat": 1.35
+   },
+   {
+    "d": 4,
+    "title": "Embark",
+    "city": "Singapore",
+    "text": "Board your Royal Caribbean ship; sail at 4pm.",
+    "detail": "Make your own way to the cruise terminal to board Navigator of the Seas (Jan–Mar) or Quantum of the Seas (from Oct), sailing at 4pm.",
+    "meals": "Dinner",
+    "hotel": "Royal Caribbean ship",
+    "optional": "",
+    "lng": 103.82,
+    "lat": 1.35
+   },
+   {
+    "d": 5,
+    "title": "Penang, Malaysia",
+    "city": "Penang",
+    "text": "George Town's UNESCO zone, 2:30pm to 9pm.",
+    "detail": "Walk from the port into George Town's heritage zone: Fort Cornwallis, the Goddess of Mercy temple, or the funicular up Penang Hill and Batu Ferringhi beach.",
+    "meals": "All meals on board",
+    "hotel": "Royal Caribbean ship",
+    "optional": "",
+    "lng": 100.33,
+    "lat": 5.41
+   },
+   {
+    "d": 6,
+    "title": "Phuket, Thailand",
+    "city": "Phuket",
+    "text": "Beaches, elephants and James Bond Island, 8am to 8pm.",
+    "detail": "A tender day in Phuket: Kata Noi beach, the elephant sanctuary, Monkey Hill or a boat to James Bond Island in Phang Nga Bay.",
+    "meals": "All meals on board",
+    "hotel": "Royal Caribbean ship",
+    "optional": "",
+    "lng": 98.39,
+    "lat": 7.88
+   },
+   {
+    "d": 7,
+    "title": "At sea",
+    "city": "Phuket",
+    "text": "A day at sea in the Strait of Malacca.",
+    "detail": "A day at sea: the FlowRider, waterslides, North Star or RipCord depending on the ship.",
+    "meals": "All meals on board",
+    "hotel": "Royal Caribbean ship",
+    "optional": "",
+    "lng": 98.39,
+    "lat": 7.88
+   },
+   {
+    "d": 8,
+    "title": "Disembark – Australia",
+    "city": "Singapore",
+    "text": "Disembark 7am and make your own way to the airport.",
+    "detail": "Disembark in Singapore after breakfast and make your own way to the airport.",
+    "meals": "Breakfast on board",
+    "hotel": "",
+    "optional": "Private transfer port to airport ($70 pp)",
+    "lng": 103.82,
+    "lat": 1.35
+   },
+   {
+    "d": 9,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Welcome home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6181,
+  "name": "Japan Explorer Cruise",
+  "url": "https://www.tripadeal.com.au/deals/6181-japan-explorer-cruise",
+  "days": 15,
+  "price": 3599,
+  "was": null,
+  "save": null,
+  "per": "pp",
+  "dates": "15 May – 17 Oct 2027",
+  "region": "Asia",
+  "type": "Ocean cruise",
+  "from_city": "Sydney",
+  "months": [
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Princess Cruises"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Tokyo",
+    139.69,
+    35.69,
+    3,
+    "Three nights at leisure",
+    "flight"
+   ],
+   [
+    "Yokohama",
+    139.64,
+    35.44,
+    0,
+    "Own way to the port; embark Diamond Princess",
+    "coach"
+   ],
+   [
+    "Hakodate",
+    140.73,
+    41.77,
+    2,
+    "Day at sea, then Hakodate",
+    "cruise"
+   ],
+   [
+    "Niigata",
+    139.02,
+    37.92,
+    1,
+    "Sake country",
+    "cruise"
+   ],
+   [
+    "Busan",
+    129.08,
+    35.18,
+    2,
+    "Day at sea, then Busan",
+    "cruise"
+   ],
+   [
+    "Nagasaki",
+    129.87,
+    32.75,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Kagoshima",
+    130.56,
+    31.6,
+    1,
+    "Sakurajima volcano",
+    "cruise"
+   ],
+   [
+    "Kochi",
+    133.53,
+    33.56,
+    1,
+    "Castle town on Shikoku",
+    "cruise"
+   ],
+   [
+    "Shimizu",
+    138.49,
+    35.02,
+    1,
+    "Port for Mt Fuji",
+    "cruise"
+   ],
+   [
+    "Yokohama",
+    139.64,
+    35.44,
+    0,
+    "Disembark 6:30am; own way to the airport",
+    "cruise"
+   ]
+  ],
+  "featured": 14,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6181_Japan_Explorer_Cruise_WEB_HERO_1_Park_Tokyo_Autumn_Generic.jpg",
+    "caption": "Tokyo at leisure"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6181_Japan_Explorer_Cruise_WEB_HERO_2_Busan_Haedong_Yonggungsa_Temple.jpg",
+    "caption": "Haedong Yonggungsa Temple, Busan"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6181_Japan_Explorer_Cruise_WEB_HERO_3.jpg",
+    "caption": "Princess Cruises' Diamond Princess"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6181_Japan_Explorer_Cruise_WEB_HERO_4_Tokyo_SensojiTemple.jpg",
+    "caption": "Senso-ji, Tokyo"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/ASIA+-+EAST+%26+SOUTHEAST/JAPAN/G-Japan-Cuisine-TraditionalFoodMarket-AS.jpg",
+    "caption": "A traditional food market"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Tokyo",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "name": "Hakodate",
+    "lng": 140.73,
+    "lat": 41.77
+   },
+   {
+    "name": "Niigata",
+    "lng": 139.02,
+    "lat": 37.92
+   },
+   {
+    "name": "Busan",
+    "lng": 129.08,
+    "lat": 35.18
+   },
+   {
+    "name": "Nagasaki",
+    "lng": 129.87,
+    "lat": 32.75
+   },
+   {
+    "name": "Kagoshima",
+    "lng": 130.56,
+    "lat": 31.6
+   },
+   {
+    "name": "Kochi",
+    "lng": 133.53,
+    "lat": 33.56
+   },
+   {
+    "name": "Shimizu",
+    "lng": 138.49,
+    "lat": 35.02
+   }
+  ],
+  "countries": [
+   "Japan",
+   "South Korea"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Tokyo",
+    "city": "Tokyo",
+    "text": "Fly to Tokyo and make your own way to the hotel.",
+    "detail": "Fly to Tokyo; own way (or optional private transfer) to the Shinagawa Prince Hotel for three nights.",
+    "meals": "",
+    "hotel": "Shinagawa Prince Hotel or similar, Tokyo",
+    "optional": "Private airport transfer ($159 pp)",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 2,
+    "title": "Tokyo free day",
+    "city": "Tokyo",
+    "text": "A free day in Tokyo.",
+    "detail": "A free day: Shibuya, Senso-ji, Tsukiji, the Imperial Palace gardens.",
+    "meals": "",
+    "hotel": "Shinagawa Prince Hotel or similar, Tokyo",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 3,
+    "title": "Tokyo free day",
+    "city": "Tokyo",
+    "text": "A second free day.",
+    "detail": "Another free day; Ginza and the Imperial Palace are close by.",
+    "meals": "",
+    "hotel": "Shinagawa Prince Hotel or similar, Tokyo",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 4,
+    "title": "Embark at Yokohama",
+    "city": "Yokohama",
+    "text": "Make your own way to the port; sail at 3pm.",
+    "detail": "Free morning, then make your own way to the Yokohama cruise terminal to board Diamond Princess, sailing at 3pm.",
+    "meals": "Dinner",
+    "hotel": "Diamond Princess",
+    "optional": "Private transfer hotel to port ($149 pp)",
+    "lng": 139.64,
+    "lat": 35.44
+   },
+   {
+    "d": 5,
+    "title": "At sea",
+    "city": "Hakodate",
+    "text": "A day at sea heading north.",
+    "detail": "A day at sea; the Izumi Japanese bath is the largest of its kind afloat.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 140.73,
+    "lat": 41.77
+   },
+   {
+    "d": 6,
+    "title": "Hakodate",
+    "city": "Hakodate",
+    "text": "Hokkaido's historic port, 7am to 4pm.",
+    "detail": "Hakodate's Motomachi district of Western-style houses, the star-shaped Goryokaku fort and the Morning Market's sea urchin and crab.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 140.73,
+    "lat": 41.77
+   },
+   {
+    "d": 7,
+    "title": "Niigata",
+    "city": "Niigata",
+    "text": "Rice, sake and craftsmanship, 9am to 6pm.",
+    "detail": "Niigata, Japan's sake heartland on the Sea of Japan; the Suwada open factory and Yahiko Shrine are nearby.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 139.02,
+    "lat": 37.92
+   },
+   {
+    "d": 8,
+    "title": "At sea",
+    "city": "Busan",
+    "text": "A day at sea across the Sea of Japan.",
+    "detail": "A day at sea towards Korea.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 129.08,
+    "lat": 35.18
+   },
+   {
+    "d": 9,
+    "title": "Busan, South Korea",
+    "city": "Busan",
+    "text": "Korea's second city, 7am to 4pm.",
+    "detail": "Busan: Yongdusan Park, the Haedong Yonggungsa seaside temple, Gamcheon Culture Village and the UN Memorial Cemetery.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 129.08,
+    "lat": 35.18
+   },
+   {
+    "d": 10,
+    "title": "Nagasaki",
+    "city": "Nagasaki",
+    "text": "The 'San Francisco of Japan', 7am to 4pm.",
+    "detail": "Nagasaki's Peace Park and Atomic Bomb Museum, and the hillside city that was Japan's only window on the world for two centuries.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 129.87,
+    "lat": 32.75
+   },
+   {
+    "d": 11,
+    "title": "Kagoshima",
+    "city": "Kagoshima",
+    "text": "Samurai history and the Sakurajima volcano, 7am to 4pm.",
+    "detail": "Kagoshima, stronghold of the Shimazu clan, facing the smoking cone of Sakurajima across the bay; hot springs all around.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 130.56,
+    "lat": 31.6
+   },
+   {
+    "d": 12,
+    "title": "Kochi",
+    "city": "Kochi",
+    "text": "Shikoku's castle town, 9am to 5pm.",
+    "detail": "Kochi and its 1611 castle, Sakamoto Ryoma's home town, with a subtropical coast beyond.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 133.53,
+    "lat": 33.56
+   },
+   {
+    "d": 13,
+    "title": "Shimizu (for Mt Fuji)",
+    "city": "Shimizu",
+    "text": "Port for Mt Fuji, 1pm to 7pm.",
+    "detail": "Shimizu Port, about 13 km from Shizuoka and 75 km from the Mt Fuji viewing stations; shore excursions available.",
+    "meals": "All meals on board",
+    "hotel": "Diamond Princess",
+    "optional": "",
+    "lng": 138.49,
+    "lat": 35.02
+   },
+   {
+    "d": 14,
+    "title": "Yokohama – Australia",
+    "city": "Yokohama",
+    "text": "Disembark 6:30am and make your own way to the airport.",
+    "detail": "Disembark at Yokohama after breakfast and make your own way to the airport.",
+    "meals": "Breakfast on board",
+    "hotel": "",
+    "optional": "Shuttle to airport ($135 pp)",
+    "lng": 139.64,
+    "lat": 35.44
+   },
+   {
+    "d": 15,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Welcome home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6369,
+  "name": "Japan to Taiwan & Hong Kong Cruise",
+  "url": "https://www.tripadeal.com.au/deals/6369-japan-to-taiwan-and-hong-kong-cruise",
+  "days": 15,
+  "price": 5099,
+  "was": null,
+  "save": null,
+  "per": "pp",
+  "dates": "8 Jan 2027",
+  "region": "Asia",
+  "type": "Ocean cruise",
+  "from_city": "Sydney",
+  "months": [
+   "Jan"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Royal Caribbean"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Tokyo",
+    139.69,
+    35.69,
+    3,
+    "Three nights at leisure; embark Spectrum of the Seas",
+    "flight"
+   ],
+   [
+    "Osaka",
+    135.5,
+    34.69,
+    2,
+    "Overnight in port; gateway to Kyoto",
+    "cruise"
+   ],
+   [
+    "Miyazaki",
+    131.42,
+    31.91,
+    1,
+    "Aoshima, Udo shrine, Obi",
+    "cruise"
+   ],
+   [
+    "Kagoshima",
+    130.56,
+    31.6,
+    1,
+    "Sengan-en, Shiroyama lookout",
+    "cruise"
+   ],
+   [
+    "Keelung",
+    121.74,
+    25.13,
+    2,
+    "Day at sea, then Keelung for Taipei and Jiufen",
+    "cruise"
+   ],
+   [
+    "Hong Kong",
+    114.17,
+    22.32,
+    3,
+    "Day at sea, disembark; two nights at leisure",
+    "cruise"
+   ]
+  ],
+  "featured": 17,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6369_Japan_to_Taiwan_and_Hong_Kong_Cruise_WEB_HERO_1_HK.jpg",
+    "caption": "Hong Kong at leisure"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6369_Japan_to_Taiwan_and_Hong_Kong_Cruise_WEB_HERO_2_Tokyo_Akihabara.jpg",
+    "caption": "Akihabara, Tokyo"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6369_Japan_to_Taiwan_and_Hong_Kong_Cruise_WEB_HERO_3_Spectrum.jpg",
+    "caption": "Royal Caribbean's Spectrum of the Seas"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6369_Japan_to_Taiwan_and_Hong_Kong_Cruise_WEB_HERO_4_Teipei_Jiufen.jpg",
+    "caption": "Teahouses of Jiufen, near Taipei"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/ASIA+-+EAST+%26+SOUTHEAST/JAPAN/5600-all-inclusive-japan-south-korea-cruise-ADOBS-tokyo5.jpg",
+    "caption": "Traditional Japanese food"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Tokyo",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "name": "Osaka",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "name": "Kyoto",
+    "lng": 135.77,
+    "lat": 35.01
+   },
+   {
+    "name": "Miyazaki",
+    "lng": 131.42,
+    "lat": 31.91
+   },
+   {
+    "name": "Kagoshima",
+    "lng": 130.56,
+    "lat": 31.6
+   },
+   {
+    "name": "Taipei",
+    "lng": 121.56,
+    "lat": 25.03
+   },
+   {
+    "name": "Hong Kong",
+    "lng": 114.17,
+    "lat": 22.32
+   }
+  ],
+  "countries": [
+   "Japan",
+   "Taiwan",
+   "Hong Kong"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Tokyo",
+    "city": "Tokyo",
+    "text": "Fly to Tokyo and make your own way to the hotel.",
+    "detail": "Fly to Tokyo; own way (or optional private transfer) to the Shinagawa Prince Hotel for three nights.",
+    "meals": "",
+    "hotel": "Shinagawa Prince Hotel or similar, Tokyo",
+    "optional": "Private airport transfer",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 2,
+    "title": "Tokyo free day",
+    "city": "Tokyo",
+    "text": "A free day in Tokyo.",
+    "detail": "A free day: neon districts, temples, the Imperial Palace gardens.",
+    "meals": "",
+    "hotel": "Shinagawa Prince Hotel or similar, Tokyo",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 3,
+    "title": "Tokyo free day",
+    "city": "Tokyo",
+    "text": "A second free day.",
+    "detail": "Another free day; Ginza and the Imperial Palace are close.",
+    "meals": "",
+    "hotel": "Shinagawa Prince Hotel or similar, Tokyo",
+    "optional": "",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 4,
+    "title": "Embark in Tokyo",
+    "city": "Tokyo",
+    "text": "Board Spectrum of the Seas; sail at 5pm.",
+    "detail": "Make your own way to the cruise terminal and board Royal Caribbean's Spectrum of the Seas, sailing at 5pm.",
+    "meals": "Dinner",
+    "hotel": "Spectrum of the Seas",
+    "optional": "Private transfer hotel to port",
+    "lng": 139.69,
+    "lat": 35.69
+   },
+   {
+    "d": 5,
+    "title": "Osaka (for Kyoto), overnight in port",
+    "city": "Osaka",
+    "text": "Arrive 3pm; the ship stays overnight.",
+    "detail": "Dock in Osaka mid-afternoon with the ship overnight in port, so Kyoto's Fushimi Inari, Nishiki Market and Kyoto Tower are 30 minutes away by train.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 6,
+    "title": "Osaka",
+    "city": "Osaka",
+    "text": "A second day; sail at 3pm.",
+    "detail": "A morning in Osaka's Shinsaibashi and Dotonbori districts before sailing at 3pm.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 135.5,
+    "lat": 34.69
+   },
+   {
+    "d": 7,
+    "title": "Miyazaki (Aburatsu)",
+    "city": "Miyazaki",
+    "text": "Beaches, a seaside shrine and a samurai town, 9am to 7pm.",
+    "detail": "Aoshima Beach, the cliffside Udo Shrine, the samurai town of Obi and Miyazaki wagyu.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 131.42,
+    "lat": 31.91
+   },
+   {
+    "d": 8,
+    "title": "Kagoshima",
+    "city": "Kagoshima",
+    "text": "Samurai gardens and the volcano, 8am to 7pm.",
+    "detail": "The Sengan-en samurai garden overlooking the bay, kurobuta pork, and the view of Sakurajima from Shiroyama Lookout.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 130.56,
+    "lat": 31.6
+   },
+   {
+    "d": 9,
+    "title": "At sea",
+    "city": "Keelung",
+    "text": "A day at sea.",
+    "detail": "A day at sea heading south-west to Taiwan.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 121.74,
+    "lat": 25.13
+   },
+   {
+    "d": 10,
+    "title": "Keelung (for Taipei), Taiwan",
+    "city": "Keelung",
+    "text": "Taipei's Longshan Temple and the lanes of Jiufen, 7am to 7pm.",
+    "detail": "Into Taipei for the 1600s Longshan Temple, then the hillside teahouses and lanes of Jiufen above the bay.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 121.74,
+    "lat": 25.13
+   },
+   {
+    "d": 11,
+    "title": "At sea",
+    "city": "Hong Kong",
+    "text": "A day at sea.",
+    "detail": "A day at sea towards Hong Kong.",
+    "meals": "All meals on board",
+    "hotel": "Spectrum of the Seas",
+    "optional": "",
+    "lng": 114.17,
+    "lat": 22.32
+   },
+   {
+    "d": 12,
+    "title": "Disembark in Hong Kong",
+    "city": "Hong Kong",
+    "text": "Arrive 6:30am; make your own way to the hotel.",
+    "detail": "Disembark in Hong Kong after breakfast and make your own way to the hotel in Kowloon. Rest of the day free.",
+    "meals": "Breakfast on board",
+    "hotel": "New World Millennium or similar, Hong Kong",
+    "optional": "",
+    "lng": 114.17,
+    "lat": 22.32
+   },
+   {
+    "d": 13,
+    "title": "Hong Kong free day",
+    "city": "Hong Kong",
+    "text": "A free day in Hong Kong.",
+    "detail": "A free day: the Peak, the Star Ferry, Wong Tai Sin Temple, Nan Lian Garden and 60-plus Michelin-starred restaurants.",
+    "meals": "",
+    "hotel": "New World Millennium or similar, Hong Kong",
+    "optional": "",
+    "lng": 114.17,
+    "lat": 22.32
+   },
+   {
+    "d": 14,
+    "title": "Hong Kong – Australia",
+    "city": "Hong Kong",
+    "text": "Make your own way to the airport.",
+    "detail": "Make your own way to the airport for the flight home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "Private transfer hotel to airport",
+    "lng": 114.17,
+    "lat": 22.32
+   },
+   {
+    "d": 15,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Welcome home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6154,
+  "name": "Rockies Rail & Cruise",
+  "url": "https://www.tripadeal.com.au/deals/6154-rockies-rail-and-cruise",
+  "days": 15,
+  "price": 7499,
+  "was": 7699,
+  "save": "$200",
+  "per": "pp",
+  "dates": "19 Apr – 30 Aug 2027",
+  "region": "Americas",
+  "type": "Rail",
+  "from_city": "Sydney",
+  "months": [
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug"
+  ],
+  "special": true,
+  "special_label": "Canada Sale",
+  "ends": 3,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Rocky Mountaineer",
+   "Cruise"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Calgary",
+    -114.07,
+    51.05,
+    1,
+    "Arrive, own transfer to hotel",
+    "coach"
+   ],
+   [
+    "Lake Louise",
+    -116.18,
+    51.42,
+    0,
+    "Canada's 'Diamond in the Wilderness'",
+    "coach"
+   ],
+   [
+    "Banff",
+    -115.57,
+    51.18,
+    0,
+    "National park sightseeing",
+    "coach"
+   ],
+   [
+    "Canmore",
+    -115.36,
+    51.09,
+    2,
+    "Free day or Icefields Parkway option",
+    "coach"
+   ],
+   [
+    "Kamloops",
+    -120.33,
+    50.68,
+    1,
+    "Rocky Mountaineer day 1",
+    "rail"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    1,
+    "Rocky Mountaineer day 2, then embark",
+    "rail"
+   ],
+   [
+    "Juneau",
+    -134.42,
+    58.3,
+    2,
+    "Day at sea, then Juneau",
+    "cruise"
+   ],
+   [
+    "Skagway",
+    -135.31,
+    59.46,
+    1,
+    "Gold-rush town",
+    "cruise"
+   ],
+   [
+    "Glacier Bay",
+    -136.9,
+    58.66,
+    1,
+    "Scenic cruising",
+    "cruise"
+   ],
+   [
+    "Ketchikan",
+    -131.65,
+    55.34,
+    2,
+    "Port day, then day at sea",
+    "cruise"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    0,
+    "Disembark, fly home",
+    "cruise"
+   ]
+  ],
+  "featured": 1,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6154_Rockies_Rail_Cruise_WEB_HERO_1.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6154_Rockies_Rail_Cruise_WEB_HERO_2.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6154_Rockies_Rail_Cruise_WEB_HERO_3.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6154_Rockies_Rail_Cruise_WEB_HERO_4.jpg",
+    "caption": "",
+    "guessed": true
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Vancouver",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "name": "Banff",
+    "lng": -115.57,
+    "lat": 51.18
+   },
+   {
+    "name": "Juneau",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "name": "Ketchikan",
+    "lng": -131.65,
+    "lat": 55.34
+   }
+  ],
+  "countries": [
+   "Canada",
+   "Alaska"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Calgary",
+    "city": "Calgary",
+    "text": "Fly to Calgary and make your own way to the hotel.",
+    "detail": "Fly to Calgary. Transfers aren't included on arrival, so make your own way to the airport hotel.",
+    "meals": "",
+    "hotel": "Country Inn & Suites Calgary Airport or similar",
+    "optional": "",
+    "lng": -114.07,
+    "lat": 51.05
+   },
+   {
+    "d": 2,
+    "title": "Calgary – Lake Louise – Banff – Canmore",
+    "city": "Canmore",
+    "text": "Lake Louise, Banff National Park sightseeing, overnight in Canmore.",
+    "detail": "An early start west into the Rockies. See Lake Louise, then a sightseeing tour of Banff National Park before settling into Canmore, the quieter town just outside the park gate.",
+    "meals": "Breakfast",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 3,
+    "title": "Canmore free day",
+    "city": "Canmore",
+    "text": "Free day, or the Icefields Parkway.",
+    "detail": "A free day in Canmore. The optional Icefields Parkway trip takes you north past Bow Lake and Peyto Lake to the Athabasca Glacier for a ride onto the ice in an Ice Explorer.",
+    "meals": "Breakfast",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "Icefields Parkway with the Columbia Icefield Ice Explorer",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 4,
+    "title": "Banff – Kamloops on the Rocky Mountaineer",
+    "city": "Kamloops",
+    "text": "Rocky Mountaineer day one: Continental Divide, Spiral Tunnels, Kicking Horse Canyon.",
+    "detail": "Board the Rocky Mountaineer at Banff. The route crosses the Continental Divide, loops through the Spiral Tunnels and follows the Kicking Horse River before descending into the dry interior at Kamloops.",
+    "meals": "Breakfast, lunch on board",
+    "hotel": "DoubleTree by Hilton Kamloops or similar",
+    "optional": "",
+    "lng": -120.33,
+    "lat": 50.68
+   },
+   {
+    "d": 5,
+    "title": "Kamloops – Vancouver",
+    "city": "Vancouver",
+    "text": "Rocky Mountaineer day two through the Fraser Canyon.",
+    "detail": "Second rail day: the Thompson River, Hell's Gate and the Fraser Canyon, then into the Fraser Valley and Vancouver.",
+    "meals": "Breakfast, lunch on board",
+    "hotel": "Sandman Suites or similar, Vancouver",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 6,
+    "title": "Embark Inside Passage cruise",
+    "city": "Vancouver",
+    "text": "Board Holland America's Koningsdam at Canada Place.",
+    "detail": "Free morning in Vancouver, then board the Koningsdam at Canada Place. The ship sails in the late afternoon under the Lions Gate Bridge.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 7,
+    "title": "Cruising the Inside Passage",
+    "city": "Juneau",
+    "text": "A day at sea through the fjords.",
+    "detail": "At sea threading the sheltered channels of the Inside Passage. Whales, eagles and the occasional bear on shore are all possible from the deck.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 8,
+    "title": "Juneau",
+    "city": "Juneau",
+    "text": "Alaska's capital: glaciers, whales and floatplanes.",
+    "detail": "A day in Juneau, reachable only by sea or air. Mendenhall Glacier, whale-watching boats and floatplane flights over the icefield are the usual shore excursions.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "Shore excursions: Mendenhall Glacier, whale watching, helicopter or floatplane",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 9,
+    "title": "Skagway",
+    "city": "Skagway",
+    "text": "Klondike gold-rush town and the White Pass railway.",
+    "detail": "Skagway's boardwalks and false-front storefronts date from the 1898 gold rush. The White Pass & Yukon Route railway climbs the same pass the prospectors walked.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "White Pass & Yukon Route railway",
+    "lng": -135.31,
+    "lat": 59.46
+   },
+   {
+    "d": 10,
+    "title": "Glacier Bay National Park",
+    "city": "Glacier Bay",
+    "text": "Scenic cruising among tidewater glaciers.",
+    "detail": "Scenic cruising in Glacier Bay with park rangers on board (Endicott Arm and Dawes Glacier on some sailings). Expect calving ice and seals on the floes.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -136.9,
+    "lat": 58.66
+   },
+   {
+    "d": 11,
+    "title": "Ketchikan",
+    "city": "Ketchikan",
+    "text": "Alaska's 'First City': totems, Tlingit culture, salmon.",
+    "detail": "Ketchikan is built on stilts over the water. Totem poles, Creek Street and Tlingit heritage sites are within walking distance of the dock.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "Misty Fjords flightseeing, salmon fishing",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 12,
+    "title": "Cruising the Inside Passage",
+    "city": "Ketchikan",
+    "text": "Second day at sea heading south.",
+    "detail": "A final sea day heading south through the Inside Passage towards Vancouver.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 13,
+    "title": "Vancouver – Australia",
+    "city": "Vancouver",
+    "text": "Disembark and make your own way to the airport.",
+    "detail": "Disembark in Vancouver and make your own way to the airport for the flight home.",
+    "meals": "Breakfast on board",
+    "hotel": "",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 14,
+    "title": "In transit",
+    "city": null,
+    "text": "",
+    "detail": "In transit.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 15,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6141,
+  "name": "Alaska & Canada Discovery",
+  "url": "https://www.tripadeal.com.au/deals/6141-alaska-canada-discovery",
+  "days": 16,
+  "price": 5299,
+  "was": 5499,
+  "save": "$200",
+  "per": "pp",
+  "dates": "18 Apr – 12 Sep 2027",
+  "region": "Americas",
+  "type": "Ocean cruise",
+  "from_city": "Sydney",
+  "months": [
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep"
+  ],
+  "special": true,
+  "special_label": "Canada Sale",
+  "ends": 3,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Calgary",
+    -114.07,
+    51.05,
+    1,
+    "Arrive, own transfer",
+    "flight"
+   ],
+   [
+    "Lake Louise",
+    -116.18,
+    51.42,
+    0,
+    "'Diamond in the Wilderness'",
+    "coach"
+   ],
+   [
+    "Banff",
+    -115.57,
+    51.18,
+    0,
+    "Bow River, Hoodoos, Bow Falls",
+    "coach"
+   ],
+   [
+    "Canmore",
+    -115.36,
+    51.09,
+    2,
+    "Free day or Icefields Parkway option",
+    "coach"
+   ],
+   [
+    "Kamloops",
+    -120.33,
+    50.68,
+    1,
+    "Through Yoho, Glacier and Mt Revelstoke parks",
+    "coach"
+   ],
+   [
+    "Whistler",
+    -122.96,
+    50.12,
+    2,
+    "Gold Rush route; free day",
+    "coach"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    0,
+    "City tour, embark",
+    "coach"
+   ],
+   [
+    "Juneau",
+    -134.42,
+    58.3,
+    2,
+    "Day at sea, then Juneau",
+    "cruise"
+   ],
+   [
+    "Skagway",
+    -135.31,
+    59.46,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Glacier Bay",
+    -136.9,
+    58.66,
+    1,
+    "Scenic cruising",
+    "cruise"
+   ],
+   [
+    "Ketchikan",
+    -131.65,
+    55.34,
+    2,
+    "Port day, then day at sea",
+    "cruise"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    0,
+    "Disembark, fly home",
+    "cruise"
+   ]
+  ],
+  "featured": 3,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6141_Alaska_and_Canada_Discovery_2027_WEB_HERO_1_LakeLouise.jpg",
+    "caption": "Lake Louise, Alberta"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6141_Alaska_and_Canada_Discovery_2027_WEB_HERO_2_Banff.jpg",
+    "caption": "Banff, in the Canadian Rockies"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6141_Alaska_and_Canada_Discovery_2027_WEB_HERO_3_Vancouver.jpg",
+    "caption": "Vancouver, where the cruise begins and ends"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6141_Alaska_and_Canada_Discovery_2027_WEB_HERO_4_AlaskanGlacier.jpg",
+    "caption": "Glaciers from the ship in Alaska"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/AMERICA+-+NORTH/CANADA/G-Canada-Calgary-City-AS.jpg",
+    "caption": "Calgary, where the trip begins"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Lake Louise",
+    "lng": -116.18,
+    "lat": 51.42
+   },
+   {
+    "name": "Banff",
+    "lng": -115.57,
+    "lat": 51.18
+   },
+   {
+    "name": "Whistler",
+    "lng": -122.96,
+    "lat": 50.12
+   },
+   {
+    "name": "Vancouver",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "name": "Juneau",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "name": "Ketchikan",
+    "lng": -131.65,
+    "lat": 55.34
+   }
+  ],
+  "countries": [
+   "Canada",
+   "Alaska"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Calgary",
+    "city": "Calgary",
+    "text": "Fly to Calgary and make your own way to the hotel.",
+    "detail": "Fly to Calgary; transfers aren't included, so make your own way to the airport hotel. Check-in from 3pm with luggage storage for early arrivals.",
+    "meals": "",
+    "hotel": "Country Inn & Suites Calgary Airport or similar",
+    "optional": "",
+    "lng": -114.07,
+    "lat": 51.05
+   },
+   {
+    "d": 2,
+    "title": "Calgary – Lake Louise – Banff – Canmore",
+    "city": "Canmore",
+    "text": "Lake Louise, a Banff sightseeing tour, then Canmore.",
+    "detail": "Early meet-up, then about 190 km west to Lake Louise for time on the lakeshore and a look inside the Fairmont Chateau. Continue to Banff for the Bow River, the Hoodoos and Bow Falls, finishing in Canmore.",
+    "meals": "",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 3,
+    "title": "Canmore free day",
+    "city": "Canmore",
+    "text": "Free day, or the Icefields Parkway.",
+    "detail": "A free day in Canmore, or the optional 420 km return trip along the Icefields Parkway past Crowfoot Glacier, Bow Summit and Mistaya Canyon to the Athabasca Glacier for an Ice Explorer ride.",
+    "meals": "",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "Jasper National Park & Columbia Icefield ($300 pp)",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 4,
+    "title": "Canmore – Kamloops",
+    "city": "Kamloops",
+    "text": "A big drive through three national parks to Kamloops.",
+    "detail": "About 600 km and eight hours through Yoho, Glacier and Mount Revelstoke national parks, stopping at Eagle Pass for the 'Last Spike' of the transcontinental railway. Overnight in the Kamloops / Sun Peaks area.",
+    "meals": "",
+    "hotel": "Ramada Kamloops or similar",
+    "optional": "",
+    "lng": -120.33,
+    "lat": 50.68
+   },
+   {
+    "d": 5,
+    "title": "Kamloops – Whistler",
+    "city": "Whistler",
+    "text": "The Cariboo Wagon Trail to Whistler.",
+    "detail": "Follow the old Gold Rush route along the Cariboo Wagon Trail, about 300 km, into the alpine village of Whistler beneath Blackcomb Mountain.",
+    "meals": "",
+    "hotel": "Aava Whistler Hotel or similar",
+    "optional": "",
+    "lng": -122.96,
+    "lat": 50.12
+   },
+   {
+    "d": 6,
+    "title": "Whistler free day",
+    "city": "Whistler",
+    "text": "A free day in Whistler.",
+    "detail": "A full day at leisure in Whistler: the village, the Peak 2 Peak gondola, or the lakes and trails.",
+    "meals": "",
+    "hotel": "Aava Whistler Hotel or similar",
+    "optional": "",
+    "lng": -122.96,
+    "lat": 50.12
+   },
+   {
+    "d": 7,
+    "title": "Whistler – Vancouver, embark",
+    "city": "Vancouver",
+    "text": "Vancouver city tour, then board the Koningsdam.",
+    "detail": "Drive about 120 km to Vancouver for a tour of Chinatown, Gastown and Stanley Park, then board Holland America's Koningsdam at Canada Place and sail in the afternoon.",
+    "meals": "Dinner",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 8,
+    "title": "Inside Passage, scenic cruising",
+    "city": "Juneau",
+    "text": "A day at sea through the Inside Passage.",
+    "detail": "At sea through the glacier-cut fjords and rainforest of the Inside Passage. Humpbacks, orca, bald eagles and shoreline bears are all possible.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 9,
+    "title": "Juneau",
+    "city": "Juneau",
+    "text": "Alaska's remote capital, 1:30pm to 10pm.",
+    "detail": "Docked from early afternoon until late evening. Hike Mount Roberts, take a whale-watching boat to Auke Bay, or a floatplane to see bears on Admiralty Island.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "Whale watching, Mendenhall Glacier, floatplane bear viewing",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 10,
+    "title": "Skagway",
+    "city": "Skagway",
+    "text": "Gold-rush town, 7am to 8pm.",
+    "detail": "A full day in the Klondike gateway: the historic district, the Red Onion Saloon and the White Pass & Yukon Route railway into the mountains.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "White Pass & Yukon Route railway",
+    "lng": -135.31,
+    "lat": 59.46
+   },
+   {
+    "d": 11,
+    "title": "Glacier Bay, scenic cruising",
+    "city": "Glacier Bay",
+    "text": "Tidewater glaciers from the deck, 6:15am to 3:15pm.",
+    "detail": "A morning and early afternoon among Glacier Bay's seven tidewater glaciers with park rangers aboard. Dress for rain and bring binoculars. (Endicott Arm on the 25 April sailing.)",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -136.9,
+    "lat": 58.66
+   },
+   {
+    "d": 12,
+    "title": "Ketchikan",
+    "city": "Ketchikan",
+    "text": "Alaska's First City, 11am to 7pm.",
+    "detail": "Totem poles at the Totem Heritage Center and Totem Bight, Tlingit culture at Saxman Village, and salmon everywhere.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "Misty Fjords flightseeing, sportfishing",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 13,
+    "title": "Inside Passage, scenic cruising",
+    "city": "Ketchikan",
+    "text": "Second sea day heading south.",
+    "detail": "A final day at sea through the Inside Passage back towards Vancouver.",
+    "meals": "All meals on board",
+    "hotel": "Koningsdam",
+    "optional": "",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 14,
+    "title": "Vancouver – Australia",
+    "city": "Vancouver",
+    "text": "Disembark 7am and make your own way to the airport.",
+    "detail": "Disembark after breakfast and make your own way to the airport; luggage storage is available at the port and airport.",
+    "meals": "Breakfast on board",
+    "hotel": "",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 15,
+    "title": "In transit",
+    "city": null,
+    "text": "",
+    "detail": "In transit.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 16,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6169,
+  "name": "Yellowstone, Alaska & Canada 2027",
+  "url": "https://www.tripadeal.com.au/deals/6169-yellowstone-alaska-canada-2027",
+  "days": 19,
+  "price": 6499,
+  "was": 6699,
+  "save": "$200",
+  "per": "pp",
+  "dates": "22 Apr – 9 Sep 2027",
+  "region": "Americas",
+  "type": "Guided",
+  "from_city": "Sydney",
+  "months": [
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep"
+  ],
+  "special": true,
+  "special_label": "Canada Sale",
+  "ends": 3,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Cruise"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Seattle",
+    -122.33,
+    47.61,
+    1,
+    "Arrive, own transfer",
+    "flight"
+   ],
+   [
+    "Kellogg",
+    -116.12,
+    47.54,
+    1,
+    "Through eastern Washington wine country",
+    "coach"
+   ],
+   [
+    "Gardiner",
+    -110.71,
+    45.03,
+    2,
+    "Yellowstone National Park, two days",
+    "coach"
+   ],
+   [
+    "Great Falls",
+    -111.3,
+    47.5,
+    1,
+    "North through Montana",
+    "coach"
+   ],
+   [
+    "Canmore",
+    -115.36,
+    51.09,
+    3,
+    "Cross into Canada; Lake Louise and Banff day; free day",
+    "coach"
+   ],
+   [
+    "Abbotsford",
+    -122.33,
+    49.05,
+    1,
+    "Big drive through Yoho, Glacier, Mt Revelstoke",
+    "coach"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    0,
+    "City tour, embark Princess Cruises",
+    "coach"
+   ],
+   [
+    "Juneau",
+    -134.42,
+    58.3,
+    2,
+    "Day at sea, then Juneau",
+    "cruise"
+   ],
+   [
+    "Skagway",
+    -135.31,
+    59.46,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Endicott Arm",
+    -133.5,
+    57.7,
+    1,
+    "Scenic cruising to Dawes Glacier",
+    "cruise"
+   ],
+   [
+    "Ketchikan",
+    -131.65,
+    55.34,
+    2,
+    "Port day, then day at sea",
+    "cruise"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    0,
+    "Disembark, fly home",
+    "cruise"
+   ]
+  ],
+  "featured": 6,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6169_Yellowstone_Alaska_and_Canada_2027_WEB_HERO_1_Yellowstone.jpg",
+    "caption": "Grand Prismatic Spring, Yellowstone"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6169_Yellowstone_Alaska_and_Canada_2027_WEB_HERO_2_LakeLou.jpg",
+    "caption": "Lake Louise"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6169_Yellowstone_Alaska_and_Canada_2027_WEB_HERO_3.jpg",
+    "caption": "Your Princess Cruises ship"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6169_Yellowstone_Alaska_and_Canada_2027_WEB_HERO_4_Alaska_Humpback.jpg",
+    "caption": "Humpback whales in Alaskan waters"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5259+-+Yellowstone+2.jpg",
+    "caption": "Bison in Yellowstone National Park"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Seattle",
+    "lng": -122.33,
+    "lat": 47.61
+   },
+   {
+    "name": "Yellowstone",
+    "lng": -110.59,
+    "lat": 44.43
+   },
+   {
+    "name": "Lake Louise",
+    "lng": -116.18,
+    "lat": 51.42
+   },
+   {
+    "name": "Banff",
+    "lng": -115.57,
+    "lat": 51.18
+   },
+   {
+    "name": "Vancouver",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "name": "Juneau",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "name": "Ketchikan",
+    "lng": -131.65,
+    "lat": 55.34
+   }
+  ],
+  "countries": [
+   "USA",
+   "Canada",
+   "Alaska"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Seattle",
+    "city": "Seattle",
+    "text": "Fly to Seattle and make your own way to the hotel.",
+    "detail": "Fly to Seattle; own transfer to the hotel.",
+    "meals": "",
+    "hotel": "Ramada Tukwila or similar, Seattle",
+    "optional": "",
+    "lng": -122.33,
+    "lat": 47.61
+   },
+   {
+    "d": 2,
+    "title": "Seattle – Kellogg, Idaho",
+    "city": "Kellogg",
+    "text": "Across Washington's wheat and wine country to Idaho.",
+    "detail": "About 590 km east through eastern Washington's rolling farmland and wine country, past the Columbia Gorge on the old Lewis and Clark route, to the mining town of Kellogg.",
+    "meals": "",
+    "hotel": "Silver Inn or similar, Kellogg",
+    "optional": "",
+    "lng": -116.12,
+    "lat": 47.54
+   },
+   {
+    "d": 3,
+    "title": "Kellogg – Yellowstone",
+    "city": "Gardiner",
+    "text": "Cowboy country to the world's first national park.",
+    "detail": "A 680 km drive through Montana's gold-rush rivers and ranch country into Yellowstone. First look at the geysers, mud pots and hot springs, then overnight at Gardiner or West Yellowstone.",
+    "meals": "",
+    "hotel": "Big Rock Inn or similar, Yellowstone area",
+    "optional": "",
+    "lng": -110.71,
+    "lat": 45.03
+   },
+   {
+    "d": 4,
+    "title": "Yellowstone National Park",
+    "city": "Gardiner",
+    "text": "A full day in Yellowstone.",
+    "detail": "A second day in the park; your guide chooses the route by weather and conditions. Old Faithful, Grand Prismatic Spring and the Lamar Valley wildlife are the usual targets.",
+    "meals": "",
+    "hotel": "Big Rock Inn or similar, Yellowstone area",
+    "optional": "",
+    "lng": -110.71,
+    "lat": 45.03
+   },
+   {
+    "d": 5,
+    "title": "Yellowstone – Great Falls",
+    "city": "Great Falls",
+    "text": "Early wildlife drive, then north to Great Falls.",
+    "detail": "An early start for wildlife, then leave the park and drive about 360 km north through mountains and national forest to Great Falls, Montana.",
+    "meals": "",
+    "hotel": "The Great Falls Inn or similar",
+    "optional": "",
+    "lng": -111.3,
+    "lat": 47.5
+   },
+   {
+    "d": 6,
+    "title": "Great Falls – Canmore, Canada",
+    "city": "Canmore",
+    "text": "Cross the border into the Rockies.",
+    "detail": "About 650 km north across the Canadian border into increasingly mountainous country, arriving in Canmore with the evening free.",
+    "meals": "",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 7,
+    "title": "Lake Louise & Banff",
+    "city": "Canmore",
+    "text": "Lake Louise, then a Banff sightseeing tour.",
+    "detail": "Time at Lake Louise and the Fairmont Chateau, then Banff for the Bow River, the Hoodoos and Bow Falls before returning to Canmore.",
+    "meals": "",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 8,
+    "title": "Canmore free day",
+    "city": "Canmore",
+    "text": "Free day, or the Icefields Parkway.",
+    "detail": "A free day, or the optional Icefields Parkway trip to the Columbia Icefield and an Ice Explorer ride on the Athabasca Glacier (about 460 km).",
+    "meals": "",
+    "hotel": "Canmore Inn & Suites or similar",
+    "optional": "Jasper National Park & Columbia Icefield ($300 pp)",
+    "lng": -115.36,
+    "lat": 51.09
+   },
+   {
+    "d": 9,
+    "title": "Canmore – Abbotsford",
+    "city": "Abbotsford",
+    "text": "Nine hours through three national parks to the Fraser Valley.",
+    "detail": "The long day: about 890 km through Yoho, Glacier and Mount Revelstoke national parks, the 'Last Spike' at Eagle Pass, then down to the Abbotsford / Chilliwack area.",
+    "meals": "",
+    "hotel": "Comfort Inn or similar, Abbotsford",
+    "optional": "",
+    "lng": -122.33,
+    "lat": 49.05
+   },
+   {
+    "d": 10,
+    "title": "Vancouver, embark",
+    "city": "Vancouver",
+    "text": "Vancouver city tour, then board your Princess ship.",
+    "detail": "Drive into Vancouver for Chinatown, Gastown and Stanley Park, then board at Canada Place for the seven-night Alaska cruise (Crown, Discovery or Emerald Princess by date).",
+    "meals": "Dinner",
+    "hotel": "Princess Cruises ship",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 11,
+    "title": "At sea",
+    "city": "Juneau",
+    "text": "A day at sea in Alaskan waters.",
+    "detail": "A day at sea with whales, orca and eagles possible from the deck.",
+    "meals": "All meals on board",
+    "hotel": "Princess Cruises ship",
+    "optional": "",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 12,
+    "title": "Juneau",
+    "city": "Juneau",
+    "text": "Alaska's capital: glaciers, gold-rush history, indigenous culture.",
+    "detail": "A day in Juneau, founded on an 1880 gold strike and now known for Mendenhall Glacier, whale watching and Tlingit culture.",
+    "meals": "All meals on board",
+    "hotel": "Princess Cruises ship",
+    "optional": "Shore excursions",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 13,
+    "title": "Skagway",
+    "city": "Skagway",
+    "text": "The Klondike gateway and the White Pass railway.",
+    "detail": "Skagway's restored Broadway Avenue, local Tlingit culture and the vintage White Pass & Yukon Route railway.",
+    "meals": "All meals on board",
+    "hotel": "Princess Cruises ship",
+    "optional": "White Pass & Yukon Route railway",
+    "lng": -135.31,
+    "lat": 59.46
+   },
+   {
+    "d": 14,
+    "title": "Endicott Arm & Dawes Glacier",
+    "city": "Endicott Arm",
+    "text": "Scenic cruising to a calving tidewater glacier.",
+    "detail": "Cruise 48 km into the Endicott Arm fjord to the calving face of Dawes Glacier, past waterfalls, icebergs, seals and bears. (Glacier Bay on the 9 and 16 May sailings.)",
+    "meals": "All meals on board",
+    "hotel": "Princess Cruises ship",
+    "optional": "",
+    "lng": -133.5,
+    "lat": 57.7
+   },
+   {
+    "d": 15,
+    "title": "Ketchikan",
+    "city": "Ketchikan",
+    "text": "The Salmon Capital of the World.",
+    "detail": "Ketchikan's totem poles at the Totem Heritage Center, Haida, Tlingit and Tsimshian heritage, and salmon everywhere.",
+    "meals": "All meals on board",
+    "hotel": "Princess Cruises ship",
+    "optional": "",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 16,
+    "title": "Inside Passage, scenic cruising",
+    "city": "Ketchikan",
+    "text": "A last day at sea heading south.",
+    "detail": "A final day cruising the Inside Passage back towards Vancouver.",
+    "meals": "All meals on board",
+    "hotel": "Princess Cruises ship",
+    "optional": "",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 17,
+    "title": "Vancouver – Australia",
+    "city": "Vancouver",
+    "text": "Disembark 7am and make your own way to the airport.",
+    "detail": "Disembark after breakfast and make your own way to the airport.",
+    "meals": "Breakfast on board",
+    "hotel": "",
+    "optional": "",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 18,
+    "title": "In transit",
+    "city": null,
+    "text": "",
+    "detail": "In transit.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 19,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Welcome home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 5619,
+  "name": "Ultimate South American Adventure",
+  "url": "https://www.tripadeal.com.au/deals/5619-ultimate-south-american-adventure",
+  "days": 24,
+  "price": 10499,
+  "was": null,
+  "save": "41%",
+  "per": "pp",
+  "dates": "1 Feb – 25 Nov 2027",
+  "region": "Americas",
+  "type": "Small group",
+  "from_city": "Sydney",
+  "months": [
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Trip Only option",
+   "Small group"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Lima",
+    -77.03,
+    -12.05,
+    2,
+    "Arrive; city tour",
+    "flight"
+   ],
+   [
+    "Puerto Maldonado",
+    -69.19,
+    -12.59,
+    2,
+    "Amazon lodge, two nights",
+    "flight"
+   ],
+   [
+    "Cusco",
+    -71.97,
+    -13.53,
+    3,
+    "City tour; free day",
+    "flight"
+   ],
+   [
+    "Urubamba",
+    -72.12,
+    -13.31,
+    1,
+    "Sacred Valley: Pisac and Ollantaytambo",
+    "coach"
+   ],
+   [
+    "Aguas Calientes",
+    -72.53,
+    -13.15,
+    1,
+    "Peru Expedition Train",
+    "rail"
+   ],
+   [
+    "Machu Picchu",
+    -72.54,
+    -13.16,
+    0,
+    "Sunrise guided tour",
+    "coach"
+   ],
+   [
+    "Cusco",
+    -71.97,
+    -13.53,
+    1,
+    "Train and road back to Cusco",
+    "rail"
+   ],
+   [
+    "Puno",
+    -70.02,
+    -15.84,
+    2,
+    "Andean road with stops; Lake Titicaca",
+    "coach"
+   ],
+   [
+    "Lima",
+    -77.03,
+    -12.05,
+    1,
+    "Fly from Juliaca",
+    "flight"
+   ],
+   [
+    "Buenos Aires",
+    -58.38,
+    -34.6,
+    3,
+    "City tour, tango dinner, free day",
+    "flight"
+   ],
+   [
+    "Puerto Iguazu",
+    -54.57,
+    -25.6,
+    2,
+    "Argentinian side of the falls",
+    "flight"
+   ],
+   [
+    "Rio de Janeiro",
+    -43.17,
+    -22.91,
+    3,
+    "Brazilian side, then fly to Rio; Christ the Redeemer",
+    "flight"
+   ]
+  ],
+  "featured": 8,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5619_Ultimate_South_American_Adventure_WEB_HERO_1.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5619_Ultimate_South_American_Adventure_WEB_HERO_2.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5619_Ultimate_South_American_Adventure_WEB_HERO_3.jpg",
+    "caption": "",
+    "guessed": true
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5619_Ultimate_South_American_Adventure_WEB_HERO_4.jpg",
+    "caption": "",
+    "guessed": true
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Lima",
+    "lng": -77.03,
+    "lat": -12.05
+   },
+   {
+    "name": "Puerto Maldonado",
+    "lng": -69.19,
+    "lat": -12.59
+   },
+   {
+    "name": "Cusco",
+    "lng": -71.97,
+    "lat": -13.53
+   },
+   {
+    "name": "Machu Picchu",
+    "lng": -72.54,
+    "lat": -13.16
+   },
+   {
+    "name": "Puno",
+    "lng": -70.02,
+    "lat": -15.84
+   },
+   {
+    "name": "Buenos Aires",
+    "lng": -58.38,
+    "lat": -34.6
+   },
+   {
+    "name": "Iguazu Falls",
+    "lng": -54.44,
+    "lat": -25.69
+   },
+   {
+    "name": "Rio de Janeiro",
+    "lng": -43.17,
+    "lat": -22.91
+   }
+  ],
+  "countries": [
+   "Peru",
+   "Argentina",
+   "Brazil"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Lima",
+    "city": "Lima",
+    "text": "Fly to Lima and transfer to the hotel.",
+    "detail": "Fly to Lima, the 'City of Kings'; met and transferred to the hotel. Perth departures may leave two days early.",
+    "meals": "",
+    "hotel": "Hotel Jose Antonio Executive or similar",
+    "optional": "",
+    "lng": -77.03,
+    "lat": -12.05
+   },
+   {
+    "d": 2,
+    "title": "Lima city tour",
+    "city": "Lima",
+    "text": "Huaca Pucllana, the historic centre and the San Francisco catacombs.",
+    "detail": "A morning at the pre-Inca Huaca Pucllana, then the UNESCO-listed centre: Plaza de Armas, the Government Palace and cathedral, and the Convent of San Francisco with its 25,000-volume library and bone-lined catacombs.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Jose Antonio Executive or similar",
+    "optional": "",
+    "lng": -77.03,
+    "lat": -12.05
+   },
+   {
+    "d": 3,
+    "title": "Lima – Puerto Maldonado – Amazon",
+    "city": "Puerto Maldonado",
+    "text": "Fly to the Amazon and boat to your lodge.",
+    "detail": "Fly to Puerto Maldonado, store your main bag in town and take a motor boat (30 minutes to two hours) to the lodge. Lunch, then a first walk or boat trip into the forest.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "EcoAmazonia Lodge or similar",
+    "optional": "",
+    "lng": -69.19,
+    "lat": -12.59
+   },
+   {
+    "d": 4,
+    "title": "Amazon Jungle",
+    "city": "Puerto Maldonado",
+    "text": "A full day of jungle walks and boat trips.",
+    "detail": "Walks and boat excursions around oxbow lakes and side channels with your Amazon guide: monkeys, birdlife, caimans, capybara and, with luck, giant river otters.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "EcoAmazonia Lodge or similar",
+    "optional": "",
+    "lng": -69.19,
+    "lat": -12.59
+   },
+   {
+    "d": 5,
+    "title": "Amazon – Cusco",
+    "city": "Cusco",
+    "text": "Boat back to town, fly to Cusco.",
+    "detail": "Return by river to Puerto Maldonado and fly to Cusco at 3,399 m. Rest of the day free to acclimatise.",
+    "meals": "Breakfast",
+    "hotel": "San Agustin Plaza or similar",
+    "optional": "",
+    "lng": -71.97,
+    "lat": -13.53
+   },
+   {
+    "d": 6,
+    "title": "Cusco city tour",
+    "city": "Cusco",
+    "text": "Koricancha, the cathedral, Sacsayhuaman, Qenqo and Tambomachay.",
+    "detail": "A half-day through Inca and colonial Cusco: the gold-walled Koricancha, the cathedral on the Plaza de Armas, then the fortress of Sacsayhuaman, the Qenqo labyrinth and the Inca baths at Tambomachay above the city.",
+    "meals": "Breakfast",
+    "hotel": "San Agustin Plaza or similar",
+    "optional": "",
+    "lng": -71.97,
+    "lat": -13.53
+   },
+   {
+    "d": 7,
+    "title": "Cusco free day",
+    "city": "Cusco",
+    "text": "A free day, or Maras & Moray or Rainbow Mountain.",
+    "detail": "A free day in the old Inca capital. Optional half-day to the Moray terraces and Maras salt pans, or the full-day Rainbow Mountain trek to 5,036 m (one or the other), plus a folklore dinner show in the evening.",
+    "meals": "Breakfast",
+    "hotel": "San Agustin Plaza or similar",
+    "optional": "Maras & Moray; Rainbow Mountain trek; folklore dinner & show",
+    "lng": -71.97,
+    "lat": -13.53
+   },
+   {
+    "d": 8,
+    "title": "Sacred Valley of the Incas",
+    "city": "Urubamba",
+    "text": "Pisac market and ruins, then Ollantaytambo.",
+    "detail": "Over the mountains into the Sacred Valley: Pisac's market and hilltop ruins, lunch in Urubamba, then Ollantaytambo's Temple of the Sun and living Inca town. Pack an 8 kg bag for the train tomorrow.",
+    "meals": "Breakfast",
+    "hotel": "San Agustin Monasterio de la Recoleta or similar, Urubamba",
+    "optional": "",
+    "lng": -72.12,
+    "lat": -13.31
+   },
+   {
+    "d": 9,
+    "title": "Peru Expedition Train – Aguas Calientes",
+    "city": "Aguas Calientes",
+    "text": "Train along the Urubamba to the foot of Machu Picchu.",
+    "detail": "Board the Peru Expedition Train at Ollantaytambo for the ride along the Urubamba River into cloud forest and the pedestrian town of Aguas Calientes. Hot springs and markets; early night.",
+    "meals": "Breakfast",
+    "hotel": "Hatun Inti Boutique or similar, Aguas Calientes",
+    "optional": "Express Inca Trail trek from Km 104 via Wiñay Wayna to the Sun Gate",
+    "lng": -72.53,
+    "lat": -13.15
+   },
+   {
+    "d": 10,
+    "title": "Machu Picchu",
+    "city": "Machu Picchu",
+    "text": "Sunrise at the citadel, then train and road to Cusco.",
+    "detail": "Bus up at 5:40am for a two-hour guided tour: the House of the Guardian, Intihuatana, the Temple of the Sun and the Sacred Plaza. Back down for lunch, then train to Poroy and road to Cusco, arriving about 7pm.",
+    "meals": "Breakfast",
+    "hotel": "San Agustin Plaza or similar, Cusco",
+    "optional": "",
+    "lng": -72.54,
+    "lat": -13.16
+   },
+   {
+    "d": 11,
+    "title": "Cusco – Puno",
+    "city": "Puno",
+    "text": "The Andean road to Lake Titicaca with stops.",
+    "detail": "A 7am bus south with stops at the painted chapel of Andahuaylillas, the Temple of Wiracocha at Raqchi, a buffet lunch, La Raya Pass at 4,335 m and the Pukara museum, arriving in Puno about 5pm.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Hotel Jose Antonio Puno or similar",
+    "optional": "Andean Explorer-style train upgrade (selected days)",
+    "lng": -70.02,
+    "lat": -15.84
+   },
+   {
+    "d": 12,
+    "title": "Lake Titicaca & the Uros Islands",
+    "city": "Puno",
+    "text": "The reed islands of the Uros, then Taquile Island.",
+    "detail": "Motorboat to the floating totora-reed islands of the Uros, then on to Taquile for a walk across the island, a family visit and lunch before returning to Puno.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Hotel Jose Antonio Puno or similar",
+    "optional": "",
+    "lng": -70.02,
+    "lat": -15.84
+   },
+   {
+    "d": 13,
+    "title": "Puno – Lima",
+    "city": "Lima",
+    "text": "Fly from Juliaca back to Lima.",
+    "detail": "Transfer to Juliaca airport for the flight to Lima. Rest of the day free.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Jose Antonio Lima or similar",
+    "optional": "",
+    "lng": -77.03,
+    "lat": -12.05
+   },
+   {
+    "d": 14,
+    "title": "Lima – Buenos Aires",
+    "city": "Buenos Aires",
+    "text": "Fly to Argentina.",
+    "detail": "Fly from Lima to Buenos Aires and transfer to a central hotel.",
+    "meals": "Breakfast",
+    "hotel": "Libertador Hotel or similar",
+    "optional": "",
+    "lng": -58.38,
+    "lat": -34.6
+   },
+   {
+    "d": 15,
+    "title": "Buenos Aires city tour & tango",
+    "city": "Buenos Aires",
+    "text": "Plaza de Mayo, San Telmo, La Boca, Recoleta, then a tango dinner.",
+    "detail": "A morning through Plaza de Mayo, the Casa Rosada, San Telmo's cobbles, La Boca's Caminito and Recoleta Cemetery with Evita's grave. Evening three-course dinner and tango show at Aljibe Tango in San Telmo.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Libertador Hotel or similar",
+    "optional": "",
+    "lng": -58.38,
+    "lat": -34.6
+   },
+   {
+    "d": 16,
+    "title": "Buenos Aires free day",
+    "city": "Buenos Aires",
+    "text": "A free day, or a gaucho ranch day.",
+    "detail": "Free day in the city, or the optional full day at a traditional estancia: horse riding, an asado lunch, folk music and a gaucho skills display.",
+    "meals": "Breakfast",
+    "hotel": "Libertador Hotel or similar",
+    "optional": "Gaucho full-day ranch experience",
+    "lng": -58.38,
+    "lat": -34.6
+   },
+   {
+    "d": 17,
+    "title": "Buenos Aires – Iguazu Falls",
+    "city": "Puerto Iguazu",
+    "text": "Fly to Puerto Iguazu.",
+    "detail": "Fly north to Puerto Iguazu on the Argentinian side of the falls. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "El Pueblito Theme Hotel or similar",
+    "optional": "",
+    "lng": -54.57,
+    "lat": -25.6
+   },
+   {
+    "d": 18,
+    "title": "Iguazu Falls, Argentinian side",
+    "city": "Puerto Iguazu",
+    "text": "A day on the walkways above the falls.",
+    "detail": "Guided day in Iguazu National Park on the raised jungle walkways to the Devil's Throat and the upper and lower circuits.",
+    "meals": "Breakfast",
+    "hotel": "El Pueblito Theme Hotel or similar",
+    "optional": "The Great Adventure boat tour under the falls (about US$100)",
+    "lng": -54.57,
+    "lat": -25.6
+   },
+   {
+    "d": 19,
+    "title": "Iguazu, Brazilian side – Rio de Janeiro",
+    "city": "Rio de Janeiro",
+    "text": "The Brazilian panorama, then fly to Rio.",
+    "detail": "Cross into Brazil for the half-day panoramic circuit of the canyon, Salto Rivadavia and the Devil's Throat, then fly from Foz do Iguaçu to Rio de Janeiro.",
+    "meals": "Breakfast",
+    "hotel": "Windsor Plaza Hotel or similar, Rio",
+    "optional": "",
+    "lng": -43.17,
+    "lat": -22.91
+   },
+   {
+    "d": 20,
+    "title": "Christ the Redeemer",
+    "city": "Rio de Janeiro",
+    "text": "Corcovado and the Selarón Stairs.",
+    "detail": "Up Corcovado to Christ the Redeemer (renovation scaffolding possible until July 2027, with 220 steps in place of the lifts), then Jorge Selarón's tiled staircase in Lapa.",
+    "meals": "Breakfast",
+    "hotel": "Windsor Plaza Hotel or similar, Rio",
+    "optional": "",
+    "lng": -43.17,
+    "lat": -22.91
+   },
+   {
+    "d": 21,
+    "title": "Rio free day",
+    "city": "Rio de Janeiro",
+    "text": "A free day, or Sugar Loaf.",
+    "detail": "A free day for Copacabana and Ipanema, or the optional half-day city tour with the cable car up Sugar Loaf Mountain.",
+    "meals": "Breakfast",
+    "hotel": "Windsor Plaza Hotel or similar, Rio",
+    "optional": "City tour & Sugar Loaf Mountain",
+    "lng": -43.17,
+    "lat": -22.91
+   },
+   {
+    "d": 22,
+    "title": "Rio – Australia",
+    "city": "Rio de Janeiro",
+    "text": "Transfer to the airport for the flight home.",
+    "detail": "Transfer to the airport for the flight home.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": -43.17,
+    "lat": -22.91
+   },
+   {
+    "d": 23,
+    "title": "In transit",
+    "city": null,
+    "text": "",
+    "detail": "In transit.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 24,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 5858,
+  "name": "Best of Egypt for 2",
+  "url": "https://www.tripadeal.com.au/deals/5858-best-of-egypt-for-2",
+  "days": 14,
+  "price": 9199,
+  "was": null,
+  "save": null,
+  "per": "for2",
+  "dates": "22 Jan – 17 Dec 2027",
+  "region": "Africa",
+  "type": "Guided",
+  "from_city": "Sydney",
+  "months": [
+   "Jan",
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov",
+   "Dec"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Deal for 2",
+   "River cruise"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Cairo",
+    31.24,
+    30.04,
+    3,
+    "Pyramids, Sphinx, Egyptian Museum, Old Cairo",
+    "flight"
+   ],
+   [
+    "Aswan",
+    32.9,
+    24.09,
+    1,
+    "Fly in; High Dam, Unfinished Obelisk; board cruise",
+    "flight"
+   ],
+   [
+    "Kom Ombo",
+    32.93,
+    24.45,
+    1,
+    "Twin temples of Sobek and Horus",
+    "river"
+   ],
+   [
+    "Edfu",
+    32.87,
+    24.98,
+    0,
+    "Temple of Horus",
+    "river"
+   ],
+   [
+    "Luxor",
+    32.64,
+    25.69,
+    1,
+    "Valley of the Kings, Karnak, Luxor Temple",
+    "river"
+   ],
+   [
+    "Hurghada",
+    33.81,
+    27.26,
+    3,
+    "Red Sea resort, two free days",
+    "coach"
+   ],
+   [
+    "Cairo",
+    31.24,
+    30.04,
+    1,
+    "Five-hour transfer; fly home",
+    "coach"
+   ]
+  ],
+  "featured": 11,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5858_H_Best+of+Egypt+for+2_WEB_HERO_1_Giza.jpg",
+    "caption": "Camels at Giza"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5858_H_Best+of+Egypt+for+2_WEB_HERO_2Aswan-Nile.jpg",
+    "caption": "The Nile at Aswan"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5858_H_Best+of+Egypt+for+2_WEB_HERO_3_Karnak.jpg",
+    "caption": "Karnak Temple, Luxor"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5858_H_Best+of+Egypt+for+2_WEB_HERO_4_Hurdugha.jpg",
+    "caption": "The Red Sea at Hurghada"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Cairo",
+    "lng": 31.24,
+    "lat": 30.04
+   },
+   {
+    "name": "Giza",
+    "lng": 31.13,
+    "lat": 29.98
+   },
+   {
+    "name": "Aswan",
+    "lng": 32.9,
+    "lat": 24.09
+   },
+   {
+    "name": "Luxor",
+    "lng": 32.64,
+    "lat": 25.69
+   },
+   {
+    "name": "Hurghada",
+    "lng": 33.81,
+    "lat": 27.26
+   }
+  ],
+  "countries": [
+   "Egypt"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Cairo",
+    "city": null,
+    "text": "Depart for Cairo.",
+    "detail": "Depart Australia for Cairo; some flights arrive the next day.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 2,
+    "title": "Welcome to Cairo",
+    "city": "Cairo",
+    "text": "Arrive and transfer to the hotel.",
+    "detail": "Met at the airport and transferred to the hotel near the pyramids.",
+    "meals": "",
+    "hotel": "Jaz Pyramids Resort or similar, Cairo",
+    "optional": "",
+    "lng": 31.24,
+    "lat": 30.04
+   },
+   {
+    "d": 3,
+    "title": "Pyramids & Sphinx",
+    "city": "Cairo",
+    "text": "The Pyramids of Giza, the Sphinx and the Valley Temple.",
+    "detail": "With an Egyptologist guide: the Great Pyramid of Khufu, the Valley Temple, Chephren's pyramid and the Sphinx, then the Papyrus Institute, or swap in the new Grand Egyptian Museum.",
+    "meals": "Breakfast",
+    "hotel": "Jaz Pyramids Resort or similar, Cairo",
+    "optional": "Grand Egyptian Museum with Tutankhamun's treasures ($140)",
+    "lng": 31.24,
+    "lat": 30.04
+   },
+   {
+    "d": 4,
+    "title": "Egyptian Museum & Old Cairo",
+    "city": "Cairo",
+    "text": "The Egyptian Museum, Tahrir Square and Coptic Cairo.",
+    "detail": "A guided morning in the Egyptian Museum's 5,000 years of treasures, then through Tahrir Square to Coptic Cairo: the Babylon Fortress, the Hanging Church and St Sergius. Evening free.",
+    "meals": "Breakfast",
+    "hotel": "Jaz Pyramids Resort or similar, Cairo",
+    "optional": "5-star Dahabiya sailboat upgrade for the Nile ($1,100 pp)",
+    "lng": 31.24,
+    "lat": 30.04
+   },
+   {
+    "d": 5,
+    "title": "Cairo – Aswan, board the Nile cruise",
+    "city": "Aswan",
+    "text": "Fly to Aswan, see the High Dam and Unfinished Obelisk, board.",
+    "detail": "Fly to Aswan for the High Dam and the Unfinished Obelisk in its quarry, a perfume factory, then board the MS Nile Crown 1 (or similar) for lunch, the pool and a traditional dinner.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "MS Nile Crown 1 or similar (on board)",
+    "optional": "",
+    "lng": 32.9,
+    "lat": 24.09
+   },
+   {
+    "d": 6,
+    "title": "Aswan – Kom Ombo",
+    "city": "Kom Ombo",
+    "text": "Optional Abu Simbel, then sail to Kom Ombo.",
+    "detail": "A morning on board or the optional dawn coach to Abu Simbel's colossal Ramses II temples. Sail to Kom Ombo for the twin temples of Sobek and Horus, then on to Edfu with a galabeya party on board.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "MS Nile Crown 1 or similar (on board)",
+    "optional": "Abu Simbel guided tour ($150)",
+    "lng": 32.93,
+    "lat": 24.45
+   },
+   {
+    "d": 7,
+    "title": "Edfu – Luxor",
+    "city": "Luxor",
+    "text": "Temple of Horus at Edfu, then sail to Luxor.",
+    "detail": "Morning visit to the Temple of Horus at Edfu, then sail past Esna to Luxor with lunch on board and a belly dance and Tanoura show in the evening.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "MS Nile Crown 1 or similar (on board)",
+    "optional": "",
+    "lng": 32.64,
+    "lat": 25.69
+   },
+   {
+    "d": 8,
+    "title": "Valley of the Kings, Karnak & Luxor",
+    "city": "Luxor",
+    "text": "The West Bank tombs, then Luxor and Karnak temples.",
+    "detail": "Disembark for the Valley of the Kings, the Temple of Hatshepsut and the Colossi of Memnon, then cross to the East Bank for Luxor Temple and the vast Karnak complex.",
+    "meals": "Breakfast",
+    "hotel": "Aracan Eatabe Hotel or similar, Luxor",
+    "optional": "",
+    "lng": 32.64,
+    "lat": 25.69
+   },
+   {
+    "d": 9,
+    "title": "Luxor – Hurghada",
+    "city": "Hurghada",
+    "text": "Transfer to a Red Sea beach resort.",
+    "detail": "Drive to Hurghada on the Red Sea for three nights at a beachfront resort.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Amwaj Hurghada Resort or similar",
+    "optional": "",
+    "lng": 33.81,
+    "lat": 27.26
+   },
+   {
+    "d": 10,
+    "title": "Hurghada free day",
+    "city": "Hurghada",
+    "text": "A free day on the Red Sea.",
+    "detail": "A free day for the beach, snorkelling or diving on the reefs, or the Giftun Islands.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Amwaj Hurghada Resort or similar",
+    "optional": "",
+    "lng": 33.81,
+    "lat": 27.26
+   },
+   {
+    "d": 11,
+    "title": "Hurghada free day",
+    "city": "Hurghada",
+    "text": "A second free day.",
+    "detail": "Another free day; desert safaris, submarine and boat trips can be booked at the resort.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Amwaj Hurghada Resort or similar",
+    "optional": "",
+    "lng": 33.81,
+    "lat": 27.26
+   },
+   {
+    "d": 12,
+    "title": "Hurghada – Cairo",
+    "city": "Cairo",
+    "text": "A five-hour road transfer back to Cairo.",
+    "detail": "About 465 km and five hours by road back to Cairo with rest stops. Evening free.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Tolip El Galaa or similar, Cairo",
+    "optional": "",
+    "lng": 31.24,
+    "lat": 30.04
+   },
+   {
+    "d": 13,
+    "title": "Cairo – Australia",
+    "city": "Cairo",
+    "text": "Transfer to the airport for the flight home.",
+    "detail": "Transfer to the airport; some flights leave in the early hours of Day 14.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": 31.24,
+    "lat": 30.04
+   },
+   {
+    "d": 14,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 5716,
+  "name": "Colours of Morocco",
+  "url": "https://www.tripadeal.com.au/deals/5716-colours-of-morocco",
+  "days": 17,
+  "price": 5999,
+  "was": null,
+  "save": "35%",
+  "per": "pp",
+  "dates": "23 Feb – 16 Nov 2027",
+  "region": "Africa",
+  "type": "Small group",
+  "from_city": "Sydney",
+  "months": [
+   "Feb",
+   "Mar",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov"
+  ],
+  "special": true,
+  "special_label": "Bucket List Sale",
+  "ends": 10,
+  "itinerary": "exact",
+  "tags": [
+   "Small group"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Rabat",
+    -6.85,
+    34.02,
+    1,
+    "Arrive Casablanca, drive to Rabat",
+    "flight"
+   ],
+   [
+    "Chefchaouen",
+    -5.26,
+    35.17,
+    1,
+    "Rabat tour, then the blue town",
+    "coach"
+   ],
+   [
+    "Fes",
+    -4.98,
+    34.03,
+    2,
+    "Volubilis en route; full-day Fes tour",
+    "coach"
+   ],
+   [
+    "Merzouga",
+    -4.01,
+    31.1,
+    1,
+    "Middle Atlas, Ziz Valley",
+    "coach"
+   ],
+   [
+    "Erg Chebbi",
+    -4.01,
+    31.15,
+    1,
+    "4x4, nomads, camel ride, desert camp",
+    "coach"
+   ],
+   [
+    "Boumalne Dades",
+    -5.98,
+    31.37,
+    1,
+    "Rissani market, Todgha Gorge",
+    "coach"
+   ],
+   [
+    "Ouarzazate",
+    -6.91,
+    30.92,
+    1,
+    "Valley of Roses, Berber lunch",
+    "coach"
+   ],
+   [
+    "Taroudant",
+    -8.88,
+    30.47,
+    2,
+    "Ait Benhaddou; free day",
+    "coach"
+   ],
+   [
+    "Essaouira",
+    -9.77,
+    31.51,
+    1,
+    "Via Agadir along the coast",
+    "coach"
+   ],
+   [
+    "Marrakech",
+    -7.98,
+    31.63,
+    2,
+    "City tour, Jemaa el-Fnaa",
+    "coach"
+   ],
+   [
+    "Casablanca",
+    -7.59,
+    33.57,
+    1,
+    "Hassan II Mosque; fly home",
+    "coach"
+   ]
+  ],
+  "featured": 12,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5716_Colours_of_Morocco_WEB_HERO_1_Erg_Chebbi.jpg",
+    "caption": "Camel trek on the dunes of Erg Chebbi"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5716_Colours_of_Morocco_WEB_HERO_2_Chefchaouen.jpg",
+    "caption": "The blue-washed town of Chefchaouen"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5716_Colours_of_Morocco_WEB_HERO_3_Ait_Benhaddou.jpg",
+    "caption": "Ait Benhaddou"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5716_Colours_of_Morocco_WEB_HERO_4_Essaouira.jpg",
+    "caption": "Essaouira on the Atlantic coast"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5716+-+Hassan+II+Mosque.jpg",
+    "caption": "The Hassan II Mosque, Casablanca"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Rabat",
+    "lng": -6.85,
+    "lat": 34.02
+   },
+   {
+    "name": "Chefchaouen",
+    "lng": -5.26,
+    "lat": 35.17
+   },
+   {
+    "name": "Fes",
+    "lng": -4.98,
+    "lat": 34.03
+   },
+   {
+    "name": "Erg Chebbi",
+    "lng": -4.01,
+    "lat": 31.15
+   },
+   {
+    "name": "Ouarzazate",
+    "lng": -6.91,
+    "lat": 30.92
+   },
+   {
+    "name": "Essaouira",
+    "lng": -9.77,
+    "lat": 31.51
+   },
+   {
+    "name": "Marrakech",
+    "lng": -7.98,
+    "lat": 31.63
+   },
+   {
+    "name": "Casablanca",
+    "lng": -7.59,
+    "lat": 33.57
+   }
+  ],
+  "countries": [
+   "Morocco"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Casablanca",
+    "city": null,
+    "text": "Depart for Casablanca.",
+    "detail": "Depart Australia for Casablanca.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 2,
+    "title": "Casablanca – Rabat",
+    "city": "Rabat",
+    "text": "Arrive and drive to the capital.",
+    "detail": "Met at Casablanca airport and driven about an hour and a half to Rabat.",
+    "meals": "",
+    "hotel": "ONOMO Hotel Rabat Terminus or similar",
+    "optional": "",
+    "lng": -6.85,
+    "lat": 34.02
+   },
+   {
+    "d": 3,
+    "title": "Rabat – Chefchaouen",
+    "city": "Chefchaouen",
+    "text": "Rabat's monuments, then the blue-washed town.",
+    "detail": "A guided morning in Rabat: the Kasbah des Oudaias, the Mausoleum of Mohammed V and Hassan Tower. Then about 250 km to Chefchaouen for a walking tour from the 18th-century Kasbah Museum through the blue lanes.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Dar Echchaouen Maison d'Hôte & Riad or similar",
+    "optional": "",
+    "lng": -5.26,
+    "lat": 35.17
+   },
+   {
+    "d": 4,
+    "title": "Chefchaouen – Volubilis – Fes",
+    "city": "Fes",
+    "text": "Roman Volubilis through the Rif Mountains, then Fes.",
+    "detail": "Through the Rif to the UNESCO-listed Roman city of Volubilis and its mosaics, then on to Fes, with the view over the old city from the North Borj. About 250 km.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Riad Marjana Suites & Spa or similar, Fes",
+    "optional": "",
+    "lng": -4.98,
+    "lat": 34.03
+   },
+   {
+    "d": 5,
+    "title": "Fes full-day tour",
+    "city": "Fes",
+    "text": "The world's oldest working medina.",
+    "detail": "A full day in Fes el-Bali: the 9th-century Karaouine, the carved cedar of Medersa Bou Inania, the souks and tanneries, then the Mellah, the Royal Palace gates and a viewpoint over the medina.",
+    "meals": "Breakfast",
+    "hotel": "Riad Marjana Suites & Spa or similar, Fes",
+    "optional": "",
+    "lng": -4.98,
+    "lat": 34.03
+   },
+   {
+    "d": 6,
+    "title": "Fes – Merzouga",
+    "city": "Merzouga",
+    "text": "Over the Middle Atlas to the edge of the Sahara.",
+    "detail": "A long 460 km day through the cedar forests near Ifrane and Azrou (Barbary macaques possible), over the Tizi n'Talremt pass, down the Ziz Gorge and valley past Erfoud to Merzouga at the foot of Erg Chebbi.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Riad Madu or similar, Merzouga",
+    "optional": "",
+    "lng": -4.01,
+    "lat": 31.1
+   },
+   {
+    "d": 7,
+    "title": "Erg Chebbi: 4x4, camels & desert camp",
+    "city": "Erg Chebbi",
+    "text": "Dunes by 4x4, tea with nomads, Gnawa music, sunset camel ride.",
+    "detail": "4x4 through the dunes, tea in a nomad family's tent, then Gnawa music and lunch at Khamlia village. In the afternoon ride a camel into the dunes to a Bedouin camp for sunset, dinner and music by the fire.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Madu Desert Camp (private facilities) or similar",
+    "optional": "",
+    "lng": -4.01,
+    "lat": 31.15
+   },
+   {
+    "d": 8,
+    "title": "Merzouga – Todgha Gorge – Boumalne Dades",
+    "city": "Boumalne Dades",
+    "text": "Rissani market, a Berber museum, the Todgha Gorge.",
+    "detail": "Optional sunrise on the dunes, then 4x4 back to Merzouga and 250 km via Rissani market and the Berber Oasis Museum at Khorbat to the ochre cliffs of Todgha Gorge and the Road of a Thousand Kasbahs.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Hotel Xaluca Dades or similar",
+    "optional": "",
+    "lng": -5.98,
+    "lat": 31.37
+   },
+   {
+    "d": 9,
+    "title": "Boumalne Dades – Ouarzazate",
+    "city": "Ouarzazate",
+    "text": "The Valley of Roses and lunch with a Berber family.",
+    "detail": "The Valley of Roses and the adobe village of Boutaghrar, lunch in a Berber family home, then 120 km to Ouarzazate.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Riad Dar Chamaa or similar, Ouarzazate",
+    "optional": "",
+    "lng": -6.91,
+    "lat": 30.92
+   },
+   {
+    "d": 10,
+    "title": "Ouarzazate – Ait Benhaddou – Taroudant",
+    "city": "Taroudant",
+    "text": "The film-set kasbah, then across the Anti-Atlas.",
+    "detail": "Ait Benhaddou's UNESCO-listed ksar, then 290 km through the Anti-Atlas via the carpet town of Taznakht and saffron capital Taliouine to the walled city of Taroudant.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Riad Dar Zitoune or similar, Taroudant",
+    "optional": "",
+    "lng": -8.88,
+    "lat": 30.47
+   },
+   {
+    "d": 11,
+    "title": "Taroudant free day",
+    "city": "Taroudant",
+    "text": "A free day in 'Little Marrakech'.",
+    "detail": "A free day inside Taroudant's ochre walls.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Riad Dar Zitoune or similar, Taroudant",
+    "optional": "",
+    "lng": -8.88,
+    "lat": 30.47
+   },
+   {
+    "d": 12,
+    "title": "Taroudant – Agadir – Essaouira",
+    "city": "Essaouira",
+    "text": "The Atlantic coast to Essaouira.",
+    "detail": "About 260 km to the port of Agadir, then the coast road to Essaouira (old Mogador): the Skala du Port, the Jewish quarter and the silver craft centre.",
+    "meals": "Breakfast",
+    "hotel": "Riad Mimouna or similar, Essaouira",
+    "optional": "",
+    "lng": -9.77,
+    "lat": 31.51
+   },
+   {
+    "d": 13,
+    "title": "Essaouira – Marrakech",
+    "city": "Marrakech",
+    "text": "A free morning, then to the red city.",
+    "detail": "Morning at leisure in Essaouira, then 180 km inland to Marrakech with the evening free.",
+    "meals": "Breakfast",
+    "hotel": "Riad Passali or similar, Marrakech",
+    "optional": "",
+    "lng": -7.98,
+    "lat": 31.63
+   },
+   {
+    "d": 14,
+    "title": "Marrakech city tour",
+    "city": "Marrakech",
+    "text": "Koutoubia, the Saadian Tombs, Bahia Palace, Jemaa el-Fnaa.",
+    "detail": "A guided day through the Koutoubia Mosque, the Saadian Tombs, the Bahia Palace and into Jemaa el-Fnaa as the evening entertainment begins.",
+    "meals": "Breakfast",
+    "hotel": "Riad Passali or similar, Marrakech",
+    "optional": "Carriage ride ($150); Chez Ali dinner & Fantasia show ($240); cooking class ($150)",
+    "lng": -7.98,
+    "lat": 31.63
+   },
+   {
+    "d": 15,
+    "title": "Marrakech – Casablanca",
+    "city": "Casablanca",
+    "text": "The Hassan II Mosque.",
+    "detail": "Drive 240 km to Casablanca for the Hassan II Mosque and its 210 m minaret over the sea. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Odyssee Center or similar, Casablanca",
+    "optional": "",
+    "lng": -7.59,
+    "lat": 33.57
+   },
+   {
+    "d": 16,
+    "title": "Casablanca – Australia",
+    "city": "Casablanca",
+    "text": "Transfer to the airport.",
+    "detail": "Transfer to Casablanca airport for the flight home.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "",
+    "lng": -7.59,
+    "lat": 33.57
+   },
+   {
+    "d": 17,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6371,
+  "name": "Italy, Türkiye & Greek Islands Cruise",
+  "url": "https://www.tripadeal.com.au/deals/6371-italy-turkiye-greek-islands-cruise",
+  "days": 13,
+  "price": 4599,
+  "was": null,
+  "save": null,
+  "per": "pp",
+  "dates": "12 May – 20 Oct 2027",
+  "region": "Europe",
+  "type": "Ocean cruise",
+  "from_city": "Sydney",
+  "months": [
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Royal Caribbean"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Rome",
+    12.5,
+    41.9,
+    3,
+    "Three nights at leisure",
+    "flight"
+   ],
+   [
+    "Civitavecchia",
+    11.8,
+    42.09,
+    0,
+    "Own way to the port; embark Odyssey of the Seas",
+    "coach"
+   ],
+   [
+    "Santorini",
+    25.43,
+    36.39,
+    2,
+    "Day at sea, then Santorini",
+    "cruise"
+   ],
+   [
+    "Kuşadası",
+    27.26,
+    37.86,
+    1,
+    "Gateway to Ephesus",
+    "cruise"
+   ],
+   [
+    "Mykonos",
+    25.33,
+    37.45,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Naples",
+    14.27,
+    40.85,
+    2,
+    "Day at sea, then Naples",
+    "cruise"
+   ],
+   [
+    "Civitavecchia",
+    11.8,
+    42.09,
+    0,
+    "Disembark 5am, own way to Rome airport",
+    "cruise"
+   ]
+  ],
+  "featured": 13,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6371_Italy_Turkiye_and_Greek_Islands_Cruise_WEB_HERO_1.jpg",
+    "caption": "Royal Caribbean's Odyssey of the Seas"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6371_Italy_Turkiye_and_Greek_Islands_Cruise_WEB_HERO_2_Santorini.jpg",
+    "caption": "Santorini"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6371_Italy_Turkiye_and_Greek_Islands_Cruise_WEB_HERO_3_Rome.jpg",
+    "caption": "Rome at leisure"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6371_Italy_Turkiye_and_Greek_Islands_Cruise_WEB_HERO_4_Ephasus.jpg",
+    "caption": "The ruins of Ephesus near Kuşadası"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/EUROPE+-+SOUTHERN/ITALY/G-Italy-Rome-Food-Drink-AS.jpg",
+    "caption": "Italian food in Rome"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Rome",
+    "lng": 12.5,
+    "lat": 41.9
+   },
+   {
+    "name": "Santorini",
+    "lng": 25.43,
+    "lat": 36.39
+   },
+   {
+    "name": "Kuşadası",
+    "lng": 27.26,
+    "lat": 37.86
+   },
+   {
+    "name": "Mykonos",
+    "lng": 25.33,
+    "lat": 37.45
+   },
+   {
+    "name": "Naples",
+    "lng": 14.27,
+    "lat": 40.85
+   }
+  ],
+  "countries": [
+   "Italy",
+   "Greece",
+   "Türkiye"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Rome",
+    "city": null,
+    "text": "Fly to Rome.",
+    "detail": "Fly to Rome; some departures arrive the next day.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 2,
+    "title": "Arrive in Rome",
+    "city": "Rome",
+    "text": "Make your own way to a central hotel.",
+    "detail": "Arrive and make your own way (or take the optional private transfer) to a centrally located hotel.",
+    "meals": "",
+    "hotel": "Hotel Diana Roof Garden or similar, Rome",
+    "optional": "Private airport transfer ($95 pp)",
+    "lng": 12.5,
+    "lat": 41.9
+   },
+   {
+    "d": 3,
+    "title": "Rome free day",
+    "city": "Rome",
+    "text": "A free day: Trevi Fountain, Colosseum, Spanish Steps.",
+    "detail": "A free day in the Eternal City; the Trevi Fountain, Colosseum and Spanish Steps are all walkable.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Diana Roof Garden or similar, Rome",
+    "optional": "",
+    "lng": 12.5,
+    "lat": 41.9
+   },
+   {
+    "d": 4,
+    "title": "Rome free day",
+    "city": "Rome",
+    "text": "A second free day: the Vatican and the Pantheon.",
+    "detail": "Another free day; St Peter's, the Sistine Chapel and the Pantheon are the obvious picks.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Diana Roof Garden or similar, Rome",
+    "optional": "",
+    "lng": 12.5,
+    "lat": 41.9
+   },
+   {
+    "d": 5,
+    "title": "Embark at Civitavecchia",
+    "city": "Civitavecchia",
+    "text": "Make your own way to the port; sail at 3pm.",
+    "detail": "Free morning, then make your own way 75 km to Civitavecchia to board Royal Caribbean's Odyssey of the Seas, departing 3pm.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Odyssey of the Seas",
+    "optional": "Private transfer hotel to port ($245 pp)",
+    "lng": 11.8,
+    "lat": 42.09
+   },
+   {
+    "d": 6,
+    "title": "At sea",
+    "city": "Santorini",
+    "text": "A day at sea.",
+    "detail": "A day at sea on a Quantum Ultra-class ship: pools, the North Star capsule, FlowRider and 15-plus dining venues.",
+    "meals": "All meals on board",
+    "hotel": "Odyssey of the Seas",
+    "optional": "",
+    "lng": 25.43,
+    "lat": 36.39
+   },
+   {
+    "d": 7,
+    "title": "Santorini",
+    "city": "Santorini",
+    "text": "Whitewashed villages above the caldera, 9am to 11pm.",
+    "detail": "A long tender day on Santorini: cable car to Fira, Oia's blue domes, black-sand beaches or the Akrotiri excavations.",
+    "meals": "All meals on board",
+    "hotel": "Odyssey of the Seas",
+    "optional": "Royal Beach Club Santorini",
+    "lng": 25.43,
+    "lat": 36.39
+   },
+   {
+    "d": 8,
+    "title": "Kuşadası (Ephesus)",
+    "city": "Kuşadası",
+    "text": "Türkiye's coast and the ruins of Ephesus, 9am to 7pm.",
+    "detail": "Docked in Kuşadası; the ruins of Ephesus with its Great Theatre and Library of Celsus are a short excursion away.",
+    "meals": "All meals on board",
+    "hotel": "Odyssey of the Seas",
+    "optional": "Ephesus shore excursion",
+    "lng": 27.26,
+    "lat": 37.86
+   },
+   {
+    "d": 9,
+    "title": "Mykonos",
+    "city": "Mykonos",
+    "text": "The Island of the Winds, 7am to 5pm.",
+    "detail": "A tender day on Mykonos: Chora's white lanes, the windmills and Little Venice.",
+    "meals": "All meals on board",
+    "hotel": "Odyssey of the Seas",
+    "optional": "",
+    "lng": 25.33,
+    "lat": 37.45
+   },
+   {
+    "d": 10,
+    "title": "At sea",
+    "city": "Naples",
+    "text": "A day at sea.",
+    "detail": "A day at sea heading west.",
+    "meals": "All meals on board",
+    "hotel": "Odyssey of the Seas",
+    "optional": "",
+    "lng": 14.27,
+    "lat": 40.85
+   },
+   {
+    "d": 11,
+    "title": "Naples",
+    "city": "Naples",
+    "text": "Pizza, palaces and Vesuvius, 7am to 6pm.",
+    "detail": "A day in Naples: the Royal Palace, the Sanità district, or excursions to Pompeii and the Amalfi Coast.",
+    "meals": "All meals on board",
+    "hotel": "Odyssey of the Seas",
+    "optional": "",
+    "lng": 14.27,
+    "lat": 40.85
+   },
+   {
+    "d": 12,
+    "title": "Disembark – Rome – Australia",
+    "city": "Civitavecchia",
+    "text": "Disembark 5am and make your own way to the airport.",
+    "detail": "Disembark at Civitavecchia after breakfast and make your own way about 65 km to Rome Fiumicino for the flight home.",
+    "meals": "Breakfast on board",
+    "hotel": "",
+    "optional": "Private transfer port to airport ($215 pp)",
+    "lng": 11.8,
+    "lat": 42.09
+   },
+   {
+    "d": 13,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Welcome home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ },
+ {
+  "id": 6112,
+  "name": "Iconic Northern Lights Rail & Sail",
+  "url": "https://www.tripadeal.com.au/deals/6112-iconic-northern-lights-rail-sail",
+  "days": 16,
+  "price": 10599,
+  "was": null,
+  "save": null,
+  "per": "pp",
+  "dates": "21 Sep 2027 – 23 Mar 2028",
+  "region": "Europe",
+  "type": "Rail",
+  "from_city": "Sydney",
+  "months": [
+   "Sep",
+   "Oct",
+   "Nov",
+   "Dec",
+   "Jan",
+   "Feb",
+   "Mar"
+  ],
+  "special": false,
+  "special_label": "",
+  "ends": 0,
+  "itinerary": "exact",
+  "tags": [
+   "Hurtigruten",
+   "Cruise"
+  ],
+  "stops": [
+   [
+    "Sydney",
+    151.21,
+    -33.87,
+    0,
+    "Depart Australia",
+    "coach"
+   ],
+   [
+    "Helsinki",
+    24.94,
+    60.17,
+    1,
+    "Arrive; welcome dinner",
+    "flight"
+   ],
+   [
+    "Rovaniemi",
+    25.72,
+    66.5,
+    2,
+    "Train north across the Arctic Circle; husky day",
+    "rail"
+   ],
+   [
+    "Saariselkä",
+    27.42,
+    68.42,
+    1,
+    "Santa Claus Village; glass igloo",
+    "coach"
+   ],
+   [
+    "Inari",
+    27.03,
+    68.91,
+    0,
+    "SIIDA Sami museum",
+    "coach"
+   ],
+   [
+    "Kirkenes",
+    30.05,
+    69.73,
+    1,
+    "Snow Resort, king crab; Gamme cabin",
+    "coach"
+   ],
+   [
+    "Berlevåg",
+    29.09,
+    70.86,
+    1,
+    "Embark Hurtigruten; Vardø, Båtsfjord",
+    "cruise"
+   ],
+   [
+    "Tromsø",
+    18.96,
+    69.65,
+    1,
+    "Honningsvåg, Hammerfest; Arctic Cathedral",
+    "cruise"
+   ],
+   [
+    "Svolvær",
+    14.57,
+    68.23,
+    1,
+    "Lofoten and Vesterålen, Trollfjord",
+    "cruise"
+   ],
+   [
+    "Brønnøysund",
+    12.21,
+    65.47,
+    1,
+    "Cross the Arctic Circle; Torghatten",
+    "cruise"
+   ],
+   [
+    "Trondheim",
+    10.4,
+    63.43,
+    1,
+    "Nidaros Cathedral",
+    "cruise"
+   ],
+   [
+    "Bergen",
+    5.32,
+    60.39,
+    1,
+    "Disembark; city tour, Fløibanen",
+    "cruise"
+   ],
+   [
+    "Flåm",
+    7.11,
+    60.86,
+    1,
+    "Train to Voss, coach, Nærøyfjord ferry",
+    "rail"
+   ],
+   [
+    "Oslo",
+    10.75,
+    59.91,
+    1,
+    "Flåm Railway to Myrdal, train to Oslo; farewell dinner",
+    "rail"
+   ]
+  ],
+  "featured": 15,
+  "images": [
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6112_Iconic_Northern_Lights_Rail_and_Sail_26-27_WEB_HERO_1.jpg",
+    "caption": "A Hurtigruten Coastal Express voyage"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6112_Iconic_Northern_Lights_Rail_and_Sail_26-27_WEB_HERO_2_Igloos.jpg",
+    "caption": "A night in a glass igloo"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6112_Iconic_Northern_Lights_Rail_and_Sail_26-27_WEB_HERO_3_Rovaniemi.jpg",
+    "caption": "Husky safari in Lapland"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6112_Iconic_Northern_Lights_Rail_and_Sail_26-27_WEB_HERO_4_Hamnoy.jpg",
+    "caption": "The Lofoten Islands"
+   },
+   {
+    "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/PUBS+LIBRARY/1+-+Destinations/EUROPE+-+NORTHERN+%26+WESTERN/FINLAND/G-Finland-Helsinki-WaterfrontHelsinkiCathedral-AS.jpeg.jpg",
+    "caption": "Helsinki's waterfront"
+   }
+  ],
+  "destinations": [
+   {
+    "name": "Helsinki",
+    "lng": 24.94,
+    "lat": 60.17
+   },
+   {
+    "name": "Rovaniemi",
+    "lng": 25.72,
+    "lat": 66.5
+   },
+   {
+    "name": "Saariselkä",
+    "lng": 27.42,
+    "lat": 68.42
+   },
+   {
+    "name": "Kirkenes",
+    "lng": 30.05,
+    "lat": 69.73
+   },
+   {
+    "name": "Tromsø",
+    "lng": 18.96,
+    "lat": 69.65
+   },
+   {
+    "name": "Lofoten",
+    "lng": 14.5,
+    "lat": 68.2
+   },
+   {
+    "name": "Bergen",
+    "lng": 5.32,
+    "lat": 60.39
+   },
+   {
+    "name": "Flåm",
+    "lng": 7.11,
+    "lat": 60.86
+   },
+   {
+    "name": "Oslo",
+    "lng": 10.75,
+    "lat": 59.91
+   }
+  ],
+  "countries": [
+   "Finland",
+   "Norway"
+  ],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia – Helsinki",
+    "city": null,
+    "text": "Fly to Helsinki.",
+    "detail": "Fly to Helsinki; make your own way to the airport.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 2,
+    "title": "Arrive in Helsinki",
+    "city": "Helsinki",
+    "text": "Make your own way to the hotel; welcome dinner.",
+    "detail": "Arrive in Helsinki, make your own way to the hotel (luggage storage for early arrivals), free afternoon and a welcome dinner with the group.",
+    "meals": "Dinner",
+    "hotel": "Radisson Blu Plaza or similar, Helsinki",
+    "optional": "Private airport transfer",
+    "lng": 24.94,
+    "lat": 60.17
+   },
+   {
+    "d": 3,
+    "title": "Train to Rovaniemi",
+    "city": "Rovaniemi",
+    "text": "Rail north into Finnish Lapland.",
+    "detail": "A short walk to the station and the train north through snowy forests to Rovaniemi, capital of Finnish Lapland, above the Arctic Circle. Afternoon free.",
+    "meals": "Breakfast",
+    "hotel": "Original Sokos Vaakuna or similar, Rovaniemi",
+    "optional": "",
+    "lng": 25.72,
+    "lat": 66.5
+   },
+   {
+    "d": 4,
+    "title": "Husky experience",
+    "city": "Rovaniemi",
+    "text": "A husky kennel and a sled or cart ride.",
+    "detail": "Meet the dogs at a husky kennel, light lunch, then a husky-drawn sled (or cart) ride through the wilderness. Evening free.",
+    "meals": "Breakfast, lunch",
+    "hotel": "Original Sokos Vaakuna or similar, Rovaniemi",
+    "optional": "",
+    "lng": 25.72,
+    "lat": 66.5
+   },
+   {
+    "d": 5,
+    "title": "Santa Claus Village – Saariselkä",
+    "city": "Saariselkä",
+    "text": "Santa's village, then a glass igloo night.",
+    "detail": "A morning at Santa Claus Village, then north via Sodankylä's old church to Saariselkä. Meet a reindeer herder, dinner, and a night in an Aurora Cabin with a glass roof, far from any light pollution.",
+    "meals": "Breakfast, dinner",
+    "hotel": "Northern Lights Village Aurora Cabin, Saariselkä",
+    "optional": "",
+    "lng": 27.42,
+    "lat": 68.42
+   },
+   {
+    "d": 6,
+    "title": "Inari – Kirkenes, Norway",
+    "city": "Kirkenes",
+    "text": "The Sami museum, then a king crab lunch at the Snow Resort.",
+    "detail": "Stop at Inari's SIIDA Sami museum, cross into Norway to the Snow Resort Kirkenes: reindeer, huskies, a king crab presentation on the pier and a crab lunch, then a night in a Gamme cabin.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Snow Resort Kirkenes, Gamme cabin",
+    "optional": "",
+    "lng": 30.05,
+    "lat": 69.73
+   },
+   {
+    "d": 7,
+    "title": "Embark Hurtigruten – Vardø – Berlevåg",
+    "city": "Berlevåg",
+    "text": "Board the Coastal Express in the Arctic.",
+    "detail": "Board the Hurtigruten Coastal Express at Kirkenes. Vardø's star fort, then Båtsfjord and Berlevåg on the Barents Sea; an overnight stop at Mehamn with an optional snowmobile ride.",
+    "meals": "All meals on board",
+    "hotel": "Hurtigruten Coastal Express",
+    "optional": "Snowmobile in the polar night (15 Dec–30 Apr)",
+    "lng": 29.09,
+    "lat": 70.86
+   },
+   {
+    "d": 8,
+    "title": "Honningsvåg – Hammerfest – Tromsø",
+    "city": "Tromsø",
+    "text": "Along the top of Norway to Tromsø.",
+    "detail": "Honningsvåg, gateway to the North Cape, then Hammerfest's Meridian Column, arriving in Tromsø late in the evening.",
+    "meals": "All meals on board",
+    "hotel": "Hurtigruten Coastal Express",
+    "optional": "Midnight concert in Tromsø's Arctic Cathedral",
+    "lng": 18.96,
+    "lat": 69.65
+   },
+   {
+    "d": 9,
+    "title": "Lofoten & Vesterålen",
+    "city": "Svolvær",
+    "text": "The Lofoten Wall and the Trollfjord.",
+    "detail": "Harstad, the Risøyrenna channel, Stokmarknes where Hurtigruten began, then the narrow Raftsund and (conditions permitting) the Trollfjord between thousand-metre cliffs.",
+    "meals": "All meals on board",
+    "hotel": "Hurtigruten Coastal Express",
+    "optional": "A Taste of Vesterålen",
+    "lng": 14.57,
+    "lat": 68.23
+   },
+   {
+    "d": 10,
+    "title": "Brønnøysund",
+    "city": "Brønnøysund",
+    "text": "Cross the Arctic Circle heading south.",
+    "detail": "Cross the Arctic Circle (cod liver oil optional), then the Helgeland coast: Torghatten with its hole and the Seven Sisters range.",
+    "meals": "All meals on board",
+    "hotel": "Hurtigruten Coastal Express",
+    "optional": "",
+    "lng": 12.21,
+    "lat": 65.47
+   },
+   {
+    "d": 11,
+    "title": "Trondheim",
+    "city": "Trondheim",
+    "text": "Norway's first capital.",
+    "detail": "Time in Trondheim for Nidaros Cathedral, the cafés of Bakklandet and Kristiansten Fort; overnight calls at Kristiansund, Ålesund and Måløy.",
+    "meals": "All meals on board",
+    "hotel": "Hurtigruten Coastal Express",
+    "optional": "",
+    "lng": 10.4,
+    "lat": 63.43
+   },
+   {
+    "d": 12,
+    "title": "Bergen, disembark",
+    "city": "Bergen",
+    "text": "Nordfjord and Sognefjord, then a Bergen city tour.",
+    "detail": "Past the Jostedal Glacier and across the mouth of the Sognefjord to Bergen. Disembark for a tour of the UNESCO-listed Bryggen, St Mary's Church and Håkon's Hall, and the Fløibanen funicular up Mount Fløyen.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Clarion Admiral Hotel or similar, Bergen",
+    "optional": "",
+    "lng": 5.32,
+    "lat": 60.39
+   },
+   {
+    "d": 13,
+    "title": "Bergen – Nærøyfjord – Flåm",
+    "city": "Flåm",
+    "text": "Train, coach and fjord ferry to Flåm.",
+    "detail": "The 'Norway in a Nutshell' route: train to Voss, coach past waterfalls to Gudvangen, ferry along the narrow UNESCO-listed Nærøyfjord to the village of Flåm.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Fretheim Hotel or similar, Flåm",
+    "optional": "",
+    "lng": 7.11,
+    "lat": 60.86
+   },
+   {
+    "d": 14,
+    "title": "Flåm Railway – Oslo",
+    "city": "Oslo",
+    "text": "One of the world's great rail journeys, then Oslo.",
+    "detail": "The Flåm Railway climbs 900 m to Myrdal, then the main line east to Oslo. Farewell dinner at the hotel.",
+    "meals": "Breakfast, lunch, dinner",
+    "hotel": "Thon Hotel Opera or similar, Oslo",
+    "optional": "",
+    "lng": 10.75,
+    "lat": 59.91
+   },
+   {
+    "d": 15,
+    "title": "Oslo – Australia",
+    "city": "Oslo",
+    "text": "Make your own way to the airport.",
+    "detail": "Make your own way to Oslo airport for the flight home.",
+    "meals": "Breakfast",
+    "hotel": "",
+    "optional": "Private airport transfer",
+    "lng": 10.75,
+    "lat": 59.91
+   },
+   {
+    "d": 16,
+    "title": "Arrive Australia",
+    "city": null,
+    "text": "",
+    "detail": "Arrive home.",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "lng": null,
+    "lat": null
+   }
+  ]
+ }
+]
