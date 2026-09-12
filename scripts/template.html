@@ -155,6 +155,7 @@
   </div>
   <div id="detail">
     <button class="back">‹ All tours</button>
+    <img id="hero" alt="" style="display:none;width:100%;height:170px;object-fit:cover;flex:none">
     <div class="head"><h3></h3><div class="sub" style="font-size:13px;color:var(--ink-2)"></div><div class="facts"></div></div>
     <div id="gallery" hidden><div class="slides"></div><div class="cap"></div><button class="nav prev" aria-label="Previous photo">‹</button><button class="nav next" aria-label="Next photo">›</button><div class="dots"></div></div>
     <div id="itnote" style="display:none;margin:8px 18px 0;padding:8px 10px;border-radius:8px;background:#FFF3EC;color:var(--coral-deep);font-size:12px;line-height:1.4">Route drawn from the deal's headline cities. Run the scraper to replace it with the exact day-by-day itinerary.</div><div id="days"></div>
@@ -267,6 +268,18 @@ function modeImage(kind){ const s=40,c=document.createElement("canvas"); c.width
     x.beginPath(); x.moveTo(0,-13); x.lineTo(3,-8); x.lineTo(3,-2); x.lineTo(12,4); x.lineTo(12,7); x.lineTo(3,4); x.lineTo(3,9); x.lineTo(6,11); x.lineTo(6,13); x.lineTo(0,11.5); x.lineTo(-6,13); x.lineTo(-6,11); x.lineTo(-3,9); x.lineTo(-3,4); x.lineTo(-12,7); x.lineTo(-12,4); x.lineTo(-3,-2); x.lineTo(-3,-8); x.closePath(); x.fill(); x.restore(); }
   return x.getImageData(0,0,s,s); }
 function rr(x,X,Y,w,h,r){ x.beginPath(); x.moveTo(X+r,Y); x.arcTo(X+w,Y,X+w,Y+h,r); x.arcTo(X+w,Y+h,X,Y+h,r); x.arcTo(X,Y+h,X,Y,r); x.arcTo(X,Y,X+w,Y,r); x.closePath(); }
+function pinImage(){ // orange geolocation pin (teardrop + hole), tip anchored at bottom-centre
+  const s=64,c=document.createElement("canvas"); c.width=c.height=s; const x=c.getContext("2d");
+  const cx=s/2, cy=s*0.36, r=s*0.28, tipY=s*0.94;
+  x.beginPath();
+  x.arc(cx,cy,r,Math.PI*0.86,Math.PI*0.14,false); // rounded head
+  x.quadraticCurveTo(cx+r*0.72,cy+r*1.2, cx,tipY);  // right shoulder down to tip
+  x.quadraticCurveTo(cx-r*0.72,cy+r*1.2, cx-r*0.98,cy+r*0.22); // left shoulder back up
+  x.closePath();
+  x.fillStyle="#FF6B3D"; x.fill();
+  x.lineWidth=s*0.045; x.strokeStyle="#fff"; x.stroke();
+  x.beginPath(); x.arc(cx,cy,r*0.42,0,7); x.fillStyle="#fff"; x.fill(); // inner hole
+  return x.getImageData(0,0,s,s); }
 function arrowImage(){ const c=document.createElement("canvas"),s=32; c.width=c.height=s; const x=c.getContext("2d");
   x.beginPath(); x.moveTo(s/2,3); x.lineTo(s-4,s-5); x.lineTo(s/2,s-11); x.lineTo(4,s-5); x.closePath();
   x.fillStyle="#FF6B3D"; x.fill(); x.lineWidth=2.5; x.strokeStyle="#fff"; x.lineJoin="round"; x.stroke();
@@ -308,9 +321,9 @@ const map=new maplibregl.Map({
       {id:"route-cruise",type:"line",source:"routes",filter:["in",["get","mode"],["literal",["cruise","river"]]],layout:{"line-cap":"round","line-join":"round"},paint:{"line-color":"#2F7DE1","line-width":["interpolate",["linear"],["zoom"],1,2.4,6,4.6],"line-opacity":0.85,"line-dasharray":[0.1,2]}},
       {id:"route-flight",type:"line",source:"routes",filter:["==",["get","mode"],"flight"],layout:{"line-cap":"butt","line-join":"round"},paint:{"line-color":"#FF6B3D","line-width":["interpolate",["linear"],["zoom"],1,1.6,6,3],"line-opacity":0.85,"line-dasharray":[4,3]}},
       {id:"stop",type:"circle",source:"stops",paint:{"circle-radius":["interpolate",["linear"],["zoom"],2,3.5,6,6],"circle-color":"#fff","circle-stroke-color":"#D9451B","circle-stroke-width":1.5}},
-      {id:"city",type:"circle",source:"cities",minzoom:DEST_ZOOM,paint:{"circle-radius":["interpolate",["linear"],["zoom"],2.6,["+",4,["*",1.6,["get","n"]]],6,["+",6,["*",2,["get","n"]]]],"circle-color":"#FF6B3D","circle-opacity":0.9,"circle-stroke-color":"#fff","circle-stroke-width":1.5}},
       {id:"country-glow",type:"circle",source:"countries",maxzoom:DEST_ZOOM,paint:{"circle-radius":["+",14,["*",4,["get","n"]]],"circle-color":"#FF6B3D","circle-opacity":0.18,"circle-blur":0.6}},
-      {id:"country",type:"circle",source:"countries",maxzoom:DEST_ZOOM,paint:{"circle-radius":["+",7,["*",2.2,["get","n"]]],"circle-color":"#FF6B3D","circle-stroke-color":"#fff","circle-stroke-width":2}}
+      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["+",0.34,["*",0.05,["get","n"]]],6,["+",0.5,["*",0.07,["get","n"]]]]}},
+      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["+",0.5,["*",0.06,["get","n"]]]}}
     ]},
   center:[120,10],zoom:1.4,minZoom:1,maxZoom:7.5,attributionControl:false
 });
@@ -377,7 +390,7 @@ $("#clear").onclick=()=>{ resetFilters(); apply(); };
 
 /* ---------- sidebar list ---------- */
 const fmt=n=>"$"+n.toLocaleString("en-AU");
-const priceHtml=t=>`${fmt(t.price)}${t.per==="for2"?`<small style="display:block;font-weight:500;font-size:11px;color:var(--ink-2)">for 2 people</small>`:""}`;
+const priceHtml=t=>`<span style="${t.special?"color:#D9451B":""}">${fmt(t.price)}</span>${t.per==="for2"?`<small style="display:block;font-weight:500;font-size:11px;color:var(--ink-2)">for 2 people</small>`:""}${t.special&&t.save?`<small style="display:block;color:#D9451B;font-weight:700;font-size:10.5px">SAVE ${t.save}</small>`:""}`;
 const endsText=t=>t.special?(t.ends<=0?"Ends today":t.ends===1?"Ends tomorrow":`${t.special_label||"Sale"} ends in ${t.ends} days`):"";
 function renderDestinations(vis){
   const list=$("#list"); list.innerHTML="";
@@ -459,8 +472,10 @@ function openTour(t){
   stopFly(); current=t; spinning=false;
   $("#listwrap").style.display="none"; $("#detail").style.display="flex";
   $("#detail h3").textContent=t.name;
+  const hero=$("#hero"); hero.style.display="none";
+  if(t.images&&t.images.length){ hero.alt=t.name; hero.onerror=()=>hero.style.display="none"; hero.onload=()=>hero.style.display="block"; hero.src=t.images[0].src; }
   $("#detail .sub").textContent=`${t.type} · from ${HOME} · ${t.dates}`;
-  $("#detail .facts").innerHTML=`<div><b>${t.days}</b> days</div><div><b>${fmt(t.price)}</b> ${t.per==="for2"?"for 2":"pp"}${t.was?` <s style="color:var(--ink-2);font-weight:400">${fmt(t.was)}</s>`:""}</div>${t.special?`<div style="color:var(--coral-deep)"><b>${t.ends}</b> days left</div>`:""}`;
+  $("#detail .facts").innerHTML=`<div><b>${t.days}</b> days</div><div><b style="${t.special?"color:#D9451B":""}">${fmt(t.price)}</b> ${t.per==="for2"?"for 2":"pp"}${t.was?` <s style="color:var(--ink-2);font-weight:400">${fmt(t.was)}</s>`:""}${t.special&&t.save?`<small style="display:block;color:#D9451B;font-weight:700;font-size:11px;letter-spacing:.03em">SAVE ${t.save[0]==="$"?t.save:t.save}</small>`:""}</div>${t.special?`<div style="color:var(--coral-deep)"><b>${t.ends}</b> days left</div>`:""}`;
   $("#itnote").style.display=t.itinerary==="exact"?"none":"block";
   buildGallery(t);
   const days=$("#days"); days.innerHTML=""; t._usedPhotos=new Set();
@@ -542,6 +557,7 @@ $("#fly").onclick=()=>{ if(!current) return; if(flyTimer){ stopFly(); return; }
 
 map.on("load",()=>{
   map.addImage("arrow",arrowImage(),{pixelRatio:2});
+  map.addImage("pin",pinImage(),{pixelRatio:2});
   ["rail","cruise","flight"].forEach(k=>map.addImage(k,modeImage(k),{pixelRatio:2}));
   ["arrow","rail","cruise","flight"].forEach(k=>{ if(!map.hasImage(k)) console.warn("icon missing:",k); });
   map.addSource("arrows",{type:"geojson",data:arrowFC()});
