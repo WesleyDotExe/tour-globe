@@ -586,7 +586,7 @@ let countryMarkers=[], countryEls=[];
 function renderCountryLabels(vis){
   countryMarkers.forEach(m=>m.remove()); countryMarkers=[]; countryEls=[];
   if(current) return;
-  countryStats(vis).forEach(x=>{ const el=document.createElement("div"); el.className="cnlabel"; el.innerHTML=`${x.name} <small>· ${x.n}</small>`;
+  countryStats(vis).forEach(x=>{ const el=document.createElement("div"); el.className="cnlabel"; el.style.opacity="0"; el.innerHTML=`${x.name} <small>· ${x.n}</small>`;
     countryEls.push(el);
     countryMarkers.push(new maplibregl.Marker({element:el,anchor:"top",offset:[0,10+2.2*x.n]}).setLngLat(COUNTRY_PTS[x.name]).addTo(map)); });
   updateLabelVis();
