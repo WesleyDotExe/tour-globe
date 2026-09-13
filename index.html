@@ -6273,7 +6273,7 @@ function arrowImage(){ const c=document.createElement("canvas"),s=32; c.width=c.
 
 const routes=routeFC(); const flights=flightFC();
 const DEST_ZOOM=2.6; // below: country dots + destination list; above: city dots + tours in view
-const CNAME_ZOOM=2.3; // country name labels stay hidden on the zoomed-out world view (starts ~1.4), fade in only once the user zooms toward the regions
+const CNAME_ZOOM=3.3; // country names appear only when genuinely zoomed into a continental/regional view, not the world view (start ~1.4)
 function destCityFC(tours){ // headline cities, one dot per city, sized by tour count
   const m=new Map();
   tours.forEach(t=>(t.destinations||[]).forEach(d=>{ if(!m.has(d.name)) m.set(d.name,{name:d.name,lng:d.lng,lat:d.lat,n:0,sale:0}); const c=m.get(d.name); c.n++; if(t.special) c.sale++; }));
@@ -6567,14 +6567,21 @@ function renderLabels(){
     const el=document.createElement("div"); el.className="clabel"; el.innerHTML=(t&&dayOf[s[0]]?`<small>Day ${dayOf[s[0]]}</small>`:"")+s[0];
     labelMarkers.push(new maplibregl.Marker({element:el,anchor:"top",offset:[0,9]}).setLngLat([s[1],s[2]]).addTo(map)); });
 }
-let countryMarkers=[];
+let countryMarkers=[], countryEls=[];
 function renderCountryLabels(vis){
-  countryMarkers.forEach(m=>m.remove()); countryMarkers=[];
+  countryMarkers.forEach(m=>m.remove()); countryMarkers=[]; countryEls=[];
   if(current) return;
   countryStats(vis).forEach(x=>{ const el=document.createElement("div"); el.className="cnlabel"; el.innerHTML=`${x.name} <small>· ${x.n}</small>`;
+    countryEls.push(el);
     countryMarkers.push(new maplibregl.Marker({element:el,anchor:"top",offset:[0,10+2.2*x.n]}).setLngLat(COUNTRY_PTS[x.name]).addTo(map)); });
+  updateLabelVis();
 }
-const updateLabelVis=()=>{ const z=map.getZoom(); document.body.classList.toggle("labels",current!=null&&z>=3); document.body.classList.toggle("countries",current==null&&z>=CNAME_ZOOM&&z<DEST_ZOOM); };
+const updateLabelVis=()=>{ const z=map.getZoom();
+  document.body.classList.toggle("labels",current!=null&&z>=3);
+  const showCountries=current==null&&z>=CNAME_ZOOM;
+  document.body.classList.toggle("countries",showCountries);
+  countryEls.forEach(el=>{ if(el) el.style.opacity=showCountries?"1":"0"; });
+};
 map.on("zoom",updateLabelVis);
 if(location.protocol.startsWith("http")) fetch("tours.json").then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.length) return; TOURS.splice(0,TOURS.length,...d); map.getSource("routes").setData(routeFC()); map.getSource("flights").setData(flightFC()); map.getSource("arrows").setData(arrowFC()); apply(); }).catch(()=>{});
 if(location.protocol.startsWith("http")) fetch("countries_pts.json").then(r=>r.ok?r.json():null).then(d=>{ if(d) Object.assign(COUNTRY_PTS,d); }).catch(()=>{});
