@@ -288,7 +288,7 @@ function arrowImage(){ const c=document.createElement("canvas"),s=32; c.width=c.
 
 const routes=routeFC(); const flights=flightFC();
 const DEST_ZOOM=2.6; // below: country dots + destination list; above: city dots + tours in view
-const CNAME_ZOOM=3.3; // country names appear only when genuinely zoomed into a continental/regional view, not the world view (start ~1.4)
+const CNAME_ZOOM=3.6; // country names appear only when genuinely zoomed into a continental/regional view, not the world view (start ~1.4)
 function destCityFC(tours){ // headline cities, one dot per city, sized by tour count
   const m=new Map();
   tours.forEach(t=>(t.destinations||[]).forEach(d=>{ if(!m.has(d.name)) m.set(d.name,{name:d.name,lng:d.lng,lat:d.lat,n:0,sale:0}); const c=m.get(d.name); c.n++; if(t.special) c.sale++; }));
