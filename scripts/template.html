@@ -586,7 +586,7 @@ let countryMarkers=[], countryEls=[];
 function renderCountryLabels(vis){
   countryMarkers.forEach(m=>m.remove()); countryMarkers=[]; countryEls=[];
   if(current) return;
-  countryStats(vis).forEach(x=>{ const el=document.createElement("div"); el.className="cnlabel"; el.style.opacity="0"; el.innerHTML=`${x.name} <small>· ${x.n}</small>`;
+  countryStats(vis).forEach(x=>{ const el=document.createElement("div"); el.className="cnlabel hide"; el.innerHTML=`${x.name} <small>· ${x.n}</small>`;
     countryEls.push(el);
     countryMarkers.push(new maplibregl.Marker({element:el,anchor:"top",offset:[0,10+2.2*x.n]}).setLngLat(COUNTRY_PTS[x.name]).addTo(map)); });
   updateLabelVis();
@@ -595,7 +595,7 @@ const updateLabelVis=()=>{ const z=map.getZoom();
   document.body.classList.toggle("labels",current!=null&&z>=3);
   const showCountries=current==null&&z>=CNAME_ZOOM;
   document.body.classList.toggle("countries",showCountries);
-  countryEls.forEach(el=>{ if(el) el.style.opacity=showCountries?"1":"0"; });
+  countryEls.forEach(el=>{ if(el){ el.classList.toggle("show",showCountries); el.classList.toggle("hide",!showCountries); } });
 };
 map.on("zoom",updateLabelVis);
 if(location.protocol.startsWith("http")) fetch("tours.json").then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.length) return; TOURS.splice(0,TOURS.length,...d); map.getSource("routes").setData(routeFC()); map.getSource("flights").setData(flightFC()); map.getSource("arrows").setData(arrowFC()); apply(); }).catch(()=>{});
