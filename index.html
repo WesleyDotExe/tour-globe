@@ -56,9 +56,12 @@
   .card .ends{grid-column:2;text-align:right;font-size:11.5px;color:var(--coral-deep);font-weight:600;white-space:nowrap}
   .card .route{grid-column:1/-1;font-size:12px;color:var(--ink-2);margin-top:4px;line-height:1.35}
   .tabs{display:flex;gap:4px;background:var(--line);padding:3px;border-radius:999px;margin-bottom:10px}
-  .tab{flex:1;border:none;background:none;font:inherit;font-size:13px;font-weight:600;color:var(--ink-2);padding:6px 10px;border-radius:999px;cursor:pointer}
+  .tab{flex:1;border:none;background:none;font:inherit;font-size:12.5px;font-weight:600;color:var(--ink-2);padding:6px 6px;border-radius:999px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .tab.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
   .tabs[hidden]{display:none}
+  .card .when{grid-column:1/-1;font-size:11.5px;color:var(--ink-2);margin-top:2px}
+  .listfoot{padding:10px 12px 14px;text-align:center}
+  .listfoot button{background:none;border:none;font:inherit;font-size:12.5px;color:var(--ink-2);text-decoration:underline;cursor:pointer}
   .dest{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:var(--radius);cursor:pointer;border:1px solid transparent}
   .dest:hover{background:#fff;border-color:var(--line)}
   .dest .n{width:34px;height:34px;border-radius:50%;background:var(--coral);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;flex:none}
@@ -152,7 +155,7 @@
 
 <aside id="side">
   <div id="listwrap" style="display:flex;flex-direction:column;flex:1;min-height:0">
-    <header><div class="tabs" id="tabs"><button class="tab on" data-tab="featured">Featured</button><button class="tab" data-tab="destinations">By destination</button></div><h2 id="side-title">Featured on TripADeal</h2><p id="side-sub">Hover a tour to see its route · click for details</p></header>
+    <header><div class="tabs" id="tabs"><button class="tab on" data-tab="featured">Featured</button><button class="tab" data-tab="destinations">Destinations</button><button class="tab" data-tab="recent">Recent</button></div><h2 id="side-title">Featured on TripADeal</h2><p id="side-sub">Hover a tour to see its route · click for details</p></header>
     <div id="list"></div>
   </div>
   <div id="detail">
@@ -6368,7 +6371,7 @@ function apply(){
     rows=vis.filter(inView); areaMode=true; }
   $("#n").textContent=vis.length;
   const worldLevel=!current&&!areaMode&&!cityFilter; $("#tabs").hidden=!worldLevel;
-  if(worldLevel&&tab==="destinations") renderDestinations(vis); else renderList(rows);
+  if(worldLevel&&tab==="destinations") renderDestinations(vis); else if(worldLevel&&tab==="recent") renderRecent(vis); else renderList(rows);
   renderLabels(); renderCountryLabels(vis); updateLabelVis();
 }
 Object.values(F).forEach(s=>s.addEventListener("change",apply));
@@ -6378,6 +6381,23 @@ $("#clear").onclick=()=>{ resetFilters(); apply(); };
 const fmt=n=>"$"+n.toLocaleString("en-AU");
 const priceHtml=t=>`<span style="${t.special?"color:#D9451B":""}">${fmt(t.price)}</span>${t.per==="for2"?`<small style="display:block;font-weight:500;font-size:11px;color:var(--ink-2)">for 2 people</small>`:""}${t.special&&t.save?`<small style="display:block;color:#D9451B;font-weight:700;font-size:10.5px">SAVE ${t.save}</small>`:""}`;
 const endsText=t=>t.special?(t.ends<=0?"Ends today":t.ends===1?"Ends tomorrow":`${t.special_label||"Sale"} ends in ${t.ends} days`):"";
+/* ---------- recently viewed: stored in this browser only ---------- */
+const RECENT_KEY="tourglobe.recent", RECENT_MAX=30;
+function readRecent(){ try{ return JSON.parse(localStorage.getItem(RECENT_KEY)||"[]"); }catch(e){ return []; } }
+function recordView(id){ try{ const r=readRecent().filter(x=>x.id!==id); r.unshift({id,ts:Date.now()}); localStorage.setItem(RECENT_KEY,JSON.stringify(r.slice(0,RECENT_MAX))); }catch(e){} }
+function clearRecent(){ try{ localStorage.removeItem(RECENT_KEY); }catch(e){} }
+function ago(ts){ const s=(Date.now()-ts)/1000; if(s<60) return "just now"; if(s<3600) return `${Math.floor(s/60)} min ago`; if(s<86400) return `${Math.floor(s/3600)} h ago`; const d=Math.floor(s/86400); return d===1?"yesterday":`${d} days ago`; }
+function renderRecent(vis){
+  const list=$("#list"); list.innerHTML="";
+  const seen=new Map(readRecent().map(x=>[x.id,x.ts]));
+  const rows=vis.filter(t=>seen.has(t.id)).sort((a,b)=>seen.get(b.id)-seen.get(a.id));
+  $("#side-title").textContent=rows.length?`${rows.length} recently viewed`:"Recently viewed";
+  $("#side-sub").textContent="Tours you've opened on this device · hover to see the route";
+  if(!rows.length){ list.innerHTML=`<div class="empty">${readRecent().length?"None of the tours you've viewed match the current filters.":"Nothing yet. Open a tour and it will show up here next time."}</div>`; return; }
+  rows.forEach(t=>{ const el=cardEl(t); el.insertAdjacentHTML("beforeend",`<div class="when">Viewed ${ago(seen.get(t.id))}</div>`); list.appendChild(el); });
+  list.insertAdjacentHTML("beforeend",`<div class="listfoot"><button id="clear-recent">Clear history</button></div>`);
+  $("#clear-recent").onclick=()=>{ clearRecent(); apply(); };
+}
 function renderDestinations(vis){
   const list=$("#list"); list.innerHTML="";
   const filtered=anyFilter(); const stats=countryStats(vis);
@@ -6406,14 +6426,16 @@ function renderList(vis){
   $("#side-title").textContent=cityFilter?`${rows.length} tour${rows.length===1?"":"s"} · ${cityFilter}`:areaMode?`${rows.length} tour${rows.length===1?"":"s"} in this area`:filtered?`${rows.length} featured tour${rows.length===1?"":"s"} match`:"Featured on TripADeal";
   $("#side-sub").textContent=cityFilter?"Clear filters to see all destinations · hover to see the route":areaMode?"Zoom out for all destinations · on-sale first · hover to see the route":"As shown on tripadeal.com.au today · hover to see the route";
   if(!rows.length){ list.innerHTML=`<div class="empty">${areaMode?"No tours feature this area. Pan or zoom out to find some.":"No tours match those filters. Try widening the month or price range."}</div>`; return; }
-  rows.forEach(t=>{
+  rows.forEach(t=>list.appendChild(cardEl(t)));
+}
+function cardEl(t){
     const el=document.createElement("div"); el.className="card"; el.dataset.id=t.id;
-    el.innerHTML=`<div class="swatch">${t.images&&t.images.length?`<img loading="lazy" alt="" src="${t.images[0].src}" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">`:""}</div><div class="name">${t.name}</div><div class="price">${priceHtml(t)}</div>
+    el.innerHTML=`<div class="swatch">${t.images&&t.images.length?`<img alt="">`:""}</div><div class="name">${t.name}</div><div class="price">${priceHtml(t)}</div>
       <div class="meta">${t.days} days · ${t.type}${t.save?` · save ${t.save}`:""}</div><div class="ends">${endsText(t)}</div>
       <div class="route">${(t.destinations||[]).map(d=>d.name).join(" · ")}</div>`;
     el.onmouseenter=()=>highlight(t.id); el.onmouseleave=()=>highlight(null); el.onclick=()=>openTour(t);
-    list.appendChild(el);
-  });
+    const im=el.querySelector(".swatch img"); if(im) loadImg(im,t.images[0].src,()=>im.parentNode.classList.add("has-img"),()=>im.remove());
+    return el;
 }
 
 /* ---------- highlight / hover ---------- */
@@ -6455,7 +6477,7 @@ map.on("click",e=>{
 /* ---------- detail ---------- */
 let marker=null, current=null;
 function openTour(t){
-  stopFly(); current=t; spinning=false;
+  stopFly(); current=t; spinning=false; recordView(t.id);
   $("#listwrap").style.display="none"; $("#detail").style.display="flex";
   $("#detail h3").textContent=t.name;
   $("#detail .sub").textContent=`${t.type} · from ${HOME} · ${t.dates}`;
@@ -6475,14 +6497,25 @@ function openTour(t){
       ${hasMore?`<div class="tog">More ›</div><div class="more">${r.detail&&r.detail!==r.text?`<div>${r.detail}</div>`:""}
         <div class="facts">${r.meals?`<div><i>Meals</i><b>${r.meals}</b></div>`:""}${r.hotel?`<div><i>Stay</i><b>${r.hotel}</b></div>`:""}${r.optional?`<div><i>Optional</i><b>${r.optional}</b></div>`:""}</div></div>`:""}</div>
       ${photo?`<div class="ph"><img alt="${photo.caption||""}" title="${photo.caption||""}"></div>`:""}`;
-    if(photo){ const im=el.querySelector(".ph img"); im.onload=()=>el.classList.add("hasph"); im.onerror=()=>el.querySelector(".ph").remove(); im.src=photo.src; }
+    if(photo){ const im=el.querySelector(".ph img"); loadImg(im,photo.src,()=>el.classList.add("hasph"),()=>el.querySelector(".ph").remove()); }
     el.onmouseenter=()=>{ stopFly(); setDay(i); };
     el.onclick=ev=>{ if(!hasMore) return; el.classList.toggle("open"); };
     days.appendChild(el);
   });
   focusId=t.id; focusZoom=null; hot=null; apply();
-  const b=bounds(t); map.fitBounds(b,{padding:{top:90,bottom:40,left:60,right:380},maxZoom:5.5,duration:1200});
-  map.once("moveend",()=>{ if(focusId===t.id) focusZoom=map.getZoom(); });
+  const b=bounds(t), fit={padding:{top:90,bottom:40,left:60,right:380},maxZoom:5.5};
+  try{ const cam=map.cameraForBounds(b,fit); focusZoom=cam?cam.zoom:Math.max(map.getZoom(),3); }catch(e){ focusZoom=Math.max(map.getZoom(),3); }
+  map.fitBounds(b,{...fit,duration:1200});
+}
+/* ---------- image loading with fallback: Cloudflare-resized URL → raw S3 object → give up ---------- */
+const S3_PREFIX="https://cstad.s3.ap-southeast-2.amazonaws.com/";
+function rawUrl(src){ const i=src.indexOf(S3_PREFIX); return i>0?src.slice(i):null; }
+function loadImg(el,src,onOk,onFail){
+  el.referrerPolicy="no-referrer";
+  let tried=false;
+  el.onload=()=>onOk&&onOk(el);
+  el.onerror=()=>{ const raw=!tried&&rawUrl(src); tried=true; if(raw&&raw!==src){ el.src=raw; } else { onFail&&onFail(el); } };
+  el.src=src;
 }
 /* ---------- photo slideshow ---------- */
 let gal={imgs:[],i:0};
@@ -6490,10 +6523,10 @@ function buildGallery(t){
   const g=$("#gallery"), slides=g.querySelector(".slides"), dots=g.querySelector(".dots");
   slides.innerHTML=""; dots.innerHTML=""; gal={imgs:[],i:0}; g.hidden=true;
   (t.images||[]).forEach(im=>{
-    const el=document.createElement("img"); el.alt=im.caption||t.name; el.loading="lazy"; el.dataset.cap=im.caption||"";
-    el.onload=()=>{ if(!gal.imgs.includes(el)){ gal.imgs.push(el); const d=document.createElement("i"); d.dataset.n=gal.imgs.length-1; dots.appendChild(d); if(gal.imgs.length===1){ g.hidden=false; showSlide(0); } else renderDots(); } };
-    el.onerror=()=>el.remove(); // guessed hero URLs that don't exist simply drop out
-    el.src=im.src; slides.appendChild(el);
+    const el=document.createElement("img"); el.alt=im.caption||t.name; el.dataset.cap=im.caption||"";
+    slides.appendChild(el);
+    loadImg(el,im.src,()=>{ if(!gal.imgs.includes(el)){ gal.imgs.push(el); const d=document.createElement("i"); d.dataset.n=gal.imgs.length-1; dots.appendChild(d); if(gal.imgs.length===1){ g.hidden=false; showSlide(0); } else renderDots(); } },
+      ()=>el.remove());
   });
 }
 function renderDots(){ $("#gallery .dots").querySelectorAll("i").forEach((d,k)=>d.classList.toggle("on",k===gal.i)); }
@@ -6509,7 +6542,7 @@ function dropMarker(ll){
 function closeTour(){ stopFly(); focusId=null; focusZoom=null; $("#detail").style.display="none"; $("#listwrap").style.display="flex"; if(marker){marker.remove();marker=null;} highlight(null); current=null; apply(); }
 $("#detail .back").onclick=closeTour;
 function resetFilters(){ Object.values(F).forEach(s=>s.value=""); cityFilter=null; }
-map.on("zoomend",()=>{ if(focusId!=null&&focusZoom!=null&&!flyTimer&&map.getZoom()<focusZoom-1.2){ resetFilters(); closeTour(); } });
+map.on("zoomend",()=>{ if(focusId!=null&&focusZoom!=null&&!flyTimer&&!map.isMoving()&&map.getZoom()<focusZoom-1.0){ resetFilters(); closeTour(); } });
 let lastArea=null; map.on("moveend",()=>{ if(current) return; const key=map.getZoom()>=DEST_ZOOM?map.getBounds().toArray().join():"world"; if(key!==lastArea){ lastArea=key; apply(); } });
 $("#detail .cta").onclick=()=>{ if(current) window.open(current.url,"_blank","noopener"); };
 /* pick the gallery photo whose caption best matches this day's city or title; each photo used at most once per tour */
