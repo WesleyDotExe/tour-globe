@@ -291,7 +291,7 @@ def price_run(full=False, limit=None):
     global NO_CACHE; NO_CACHE = True
     old = load_tours(); old_by = {t["id"]: t for t in old}
     live = listing(limit)
-    if old and len(live) < 0.5 * len(old):
+    if old and not limit and len(live) < 0.5 * len(old):
         print(f"SAFETY GUARD: listing returned {len(live)} deals vs {len(old)} yesterday; not writing.", file=sys.stderr); sys.exit(2)
     new_ids = [i for i in live if i not in old_by]
     to_parse = list(live) if full else new_ids
