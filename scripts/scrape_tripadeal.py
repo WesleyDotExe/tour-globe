@@ -49,7 +49,7 @@ try:
     from build_data import G as GAZ
 except Exception:
     GAZ = {}
-ALIAS = {"Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City"}
+ALIAS = {"Halong Bay":"Ha Long Bay","Ha Long":"Ha Long Bay","Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City"}
 
 def get(url, fresh=False):
     key = CACHE / (re.sub(r"[^a-z0-9]+","_",url.lower()) + ".html")
@@ -108,7 +108,8 @@ HOME = re.compile(r"^(australia|new zealand|australia \(or new zealand\)|home)\b
 
 def clean_place(p):
     p = re.sub(r"\s*\(.*?\)", "", p).strip(" .*")
-    p = re.sub(r"\s+(Region|Area|National Park|Free Day|Free Morning|Sightseeing)$", "", p, flags=re.I).strip()
+    p = re.sub(r"\s+(Region|Area|National Park|Free Day|Free Morning|Sightseeing|Overnight Cruise|Overnight|Cruise|Day Trip|City Tour|Tour|Stay)$", "", p, flags=re.I).strip()
+    p = re.sub(r"\s+(Region|Area|National Park|Overnight Cruise|Overnight|Cruise)$", "", p, flags=re.I).strip()
     return p
 
 def place_from_header(header):
