@@ -2,9 +2,11 @@ name: Build index.html
 on:
   push:
     paths: ["scripts/**", "data/**"]
+    branches: [main]
   workflow_dispatch:
 jobs:
   build:
+    if: github.actor != 'tour-globe-bot'
     runs-on: ubuntu-latest
     permissions: { contents: write }
     steps:

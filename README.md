@@ -36,6 +36,12 @@ python3 scripts/build.py
 
 The scraper rate-limits itself to one request a second and caches pages in `.cache/`. Check TripADeal's terms before running it at scale; the affiliate feed is the proper long-term source. The `detail` text it captures is TripADeal's own copy and should be rewritten before publishing.
 
+## Nightly refresh
+
+`.github/workflows/scrape.yml` refreshes the data every night between 1:30 and 3:00am Sydney time, at a random minute. It reads only the listing pages (a handful of requests), updates price, dates and sale status, fully parses any deal that is new, and on Sundays re-parses every deal page. Requests are 2–5 s apart with a normal browser user-agent. If the listing comes back with fewer than half of yesterday's deals the run stops without writing anything. Every run appends to `data/changelog.json` (new, removed, price up/down, sale started/ended). You can also start it by hand from the Actions tab (*Run workflow*).
+
+Locally: `python3 scripts/scrape_tripadeal.py --prices` (add `--full` to re-parse everything).
+
 ## Test
 
 ```bash

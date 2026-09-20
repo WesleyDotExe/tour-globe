@@ -3,9 +3,15 @@ scrape_tripadeal.py — turn TripADeal deal pages into tours.json for the globe.
 
 Usage:
     pip install requests beautifulsoup4
-    python scrape_tripadeal.py 5836 6363 6380            # specific deal IDs
-    python scrape_tripadeal.py --listing                 # every tour on the search results page
+    python scrape_tripadeal.py 5836 6363 6380            # specific deal IDs (full parse)
+    python scrape_tripadeal.py --listing                 # every tour on the listing, full parse
     python scrape_tripadeal.py --listing --limit 30
+    python scrape_tripadeal.py --prices                  # nightly: listing pages only, update price/dates/sale,
+                                                         #          full-parse only deals that are new; write changelog
+    python scrape_tripadeal.py --prices --full           # weekly: same, but re-parse every deal page
+
+Output: data/tours.json (merged with existing), data/changelog.json (last 60 runs).
+Exit codes: 0 ok · 2 safety guard tripped (listing shrank by >50%), nothing written · 3 network failure.
 
 Each deal page has:
   * og:title            "13 Days Japan Discovery | Tour Package"
@@ -20,17 +26,21 @@ previous port. Consecutive days in one city collapse into a stop with a night co
 Each stop carries the transport mode used to reach it (coach/rail/cruise/flight), detected
 from keywords in that day's text.
 
-Be a good citizen: one request per second, cache pages, identify yourself in the UA.
+Be a good citizen: random 2–5 s gaps between requests, retries with backoff, a plain UA.
 Check TripADeal's terms before running this at scale; the affiliate feed is the
 proper long-term source.
 """
-import re, sys, json, time, pathlib, argparse
+import re, sys, json, time, pathlib, argparse, random, datetime
 import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://www.tripadeal.com.au"
 CACHE = pathlib.Path(".cache"); CACHE.mkdir(exist_ok=True)
-UA = {"User-Agent": "tour-globe-prototype/0.1 (personal project; contact: you@example.com)"}
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "Accept-Language": "en-AU,en;q=0.9"}
+DATA = pathlib.Path(__file__).resolve().parent.parent/"data"
+MIN_GAP, MAX_GAP = 2.0, 5.0     # seconds between requests
+NO_CACHE = False                 # --prices sets this so listing pages are always fresh
 DEP = {"Sydney","Melbourne","Brisbane","Perth","Adelaide","Auckland","Australia","New Zealand","Australia (or New Zealand)"}
 
 # --- gazetteer: extend freely; anything missing falls back to Nominatim ---------------
@@ -41,12 +51,20 @@ except Exception:
     GAZ = {}
 ALIAS = {"Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City"}
 
-def get(url):
+def get(url, fresh=False):
     key = CACHE / (re.sub(r"[^a-z0-9]+","_",url.lower()) + ".html")
-    if key.exists(): return key.read_text()
-    r = requests.get(url, headers=UA, timeout=30); r.raise_for_status()
-    key.write_text(r.text); time.sleep(1.0)
-    return r.text
+    if key.exists() and not fresh and not NO_CACHE: return key.read_text()
+    last = None
+    for attempt in range(3):
+        try:
+            r = requests.get(url, headers=UA, timeout=30)
+            if r.status_code in (429, 503): raise requests.HTTPError(f"{r.status_code} for {url}")
+            r.raise_for_status()
+            key.write_text(r.text); time.sleep(random.uniform(MIN_GAP, MAX_GAP))
+            return r.text
+        except Exception as e:
+            last = e; time.sleep(15 * (attempt + 1))
+    raise last
 
 _geo_cache_path = CACHE / "geocode.json"
 _geo = json.loads(_geo_cache_path.read_text()) if _geo_cache_path.exists() else {}
@@ -182,14 +200,110 @@ def month_range(dates):
     a, b = MONTHS.index(m1) + 12*int(y1), MONTHS.index(m2) + 12*int(y2)
     return [MONTHS[i % 12] for i in range(a, min(b, a+11) + 1)]
 
+def listing(limit=None, max_pages=25):
+    """Walk the tour listing page by page. Returns an ordered dict id -> summary parsed from the card
+    (name, slug, price, was, save, dates, per). Stops when a page adds no new deals."""
+    found, page = {}, 1
+    while page <= max_pages:
+        url = f"{BASE}/searchresults?categories=Tours" + (f"&page={page}" if page > 1 else "")
+        html = get(url, fresh=True)
+        before = len(found)
+        for card in re.split(r'(?=<a[^>]+href="/deals/\d+-)', html):
+            m = re.search(r'href="/deals/(\d+)-([a-z0-9-]+)"', card)
+            if not m: continue
+            did, slug = int(m.group(1)), m.group(2)
+            if did in found: continue
+            txt = re.sub(r"<[^>]+>", " ", card); txt = re.sub(r"\s+", " ", txt)
+            save = re.search(r"SAVE\s+(\$[\d,]+|\d+%)", txt, re.I)
+            was = re.search(r"(?:WAS|Valued (?:up )?to)\s*~*\$?([\d,]+)", txt, re.I)
+            # the sale price is the lowest dollar figure on the card once SAVE/WAS/Valued amounts are removed
+            clean = re.sub(r"(SAVE|WAS|Valued (?:up )?to)\s*~*\$?[\d,]+", " ", txt, flags=re.I)
+            amounts = [int(a.replace(",","")) for a in re.findall(r"\$\s?([\d,]{3,7})", clean)]
+            amounts = [a for a in amounts if a >= 100]
+            price = min(amounts) if amounts else None
+            dates = re.search(r"(\d{1,2} \w{3}(?: \d{4})?\s*[-–]\s*\d{1,2} \w{3} \d{4}|\d{1,2} \w{3} \d{4})", txt)
+            days = re.search(r"(\d+)\s*Days?", txt)
+            found[did] = dict(id=did, slug=slug, price=price,
+                              was=int(was.group(1).replace(",","")) if was else None, save=save.group(1) if save else "",
+                              dates=dates.group(1) if dates else "", days=int(days.group(1)) if days else None,
+                              per="for2" if re.search(r"for 2\b|per couple|2 people", txt, re.I) else "pp")
+        if len(found) == before or (limit and len(found) >= limit): break
+        page += 1
+    if limit: found = dict(list(found.items())[:limit])
+    return found
+
 def listing_ids(limit=None):
-    html = get(f"{BASE}/searchresults?categories=Tours")
-    ids = list(dict.fromkeys(re.findall(r"/deals/(\d+)-", html)))
-    return ids[:limit] if limit else ids
+    return [str(i) for i in listing(limit)]
+
+# ---------------------------------------------------------------- nightly price mode ----
+def load_tours():
+    p = DATA/"tours.json"
+    return json.load(open(p)) if p.exists() else []
+
+def diff_tours(old, new):
+    o = {t["id"]: t for t in old}; n = {t["id"]: t for t in new}
+    ev = []
+    for i in n.keys() - o.keys(): ev.append(dict(type="new", id=i, name=n[i]["name"], price=n[i]["price"]))
+    for i in o.keys() - n.keys(): ev.append(dict(type="removed", id=i, name=o[i]["name"]))
+    for i in n.keys() & o.keys():
+        a, b = o[i], n[i]
+        if a.get("price") != b.get("price") and b.get("price"):
+            ev.append(dict(type="price_down" if b["price"] < (a.get("price") or 0) else "price_up", id=i, name=b["name"], **{"from": a.get("price"), "to": b["price"]}))
+        if bool(a.get("special")) != bool(b.get("special")):
+            ev.append(dict(type="sale_started" if b.get("special") else "sale_ended", id=i, name=b["name"]))
+        if (a.get("dates") or "") != (b.get("dates") or "") and b.get("dates"):
+            ev.append(dict(type="dates_changed", id=i, name=b["name"], **{"from": a.get("dates"), "to": b["dates"]}))
+    return ev
+
+def write_changelog(events, mode, counts):
+    p = DATA/"changelog.json"
+    log = json.load(open(p)) if p.exists() else []
+    log.append(dict(run=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"), mode=mode, **counts, events=events))
+    json.dump(log[-60:], open(p,"w"), ensure_ascii=False, indent=1)
+
+def price_run(full=False, limit=None):
+    """Nightly: listing only. Update price/was/save/dates/per on known tours, full-parse new ones
+    (and everything, if full=True), drop tours no longer listed, write changelog. Guard against a collapsed listing."""
+    global NO_CACHE; NO_CACHE = True
+    old = load_tours(); old_by = {t["id"]: t for t in old}
+    live = listing(limit)
+    if old and len(live) < 0.5 * len(old):
+        print(f"SAFETY GUARD: listing returned {len(live)} deals vs {len(old)} yesterday; not writing.", file=sys.stderr); sys.exit(2)
+    new_ids = [i for i in live if i not in old_by]
+    to_parse = list(live) if full else new_ids
+    print(f"listing: {len(live)} deals · new: {len(new_ids)} · full-parsing: {len(to_parse)}")
+    tours = []
+    for i, card in live.items():
+        if i in to_parse:
+            try: t = parse_deal(i)
+            except Exception as e:
+                print(f"  ! parse failed for {i}: {e}", file=sys.stderr)
+                if i in old_by: t = dict(old_by[i])
+                else: continue
+        else:
+            t = dict(old_by[i])
+        # listing card is the freshest source for the commercial fields
+        for k in ("price", "was", "save", "dates", "per", "days"):
+            if card.get(k) not in (None, ""): t[k] = card[k]
+        t["special"] = bool(t.get("save")); t["special_label"] = t.get("special_label") or ("Sale" if t["special"] else "")
+        t["featured"] = list(live).index(i) + 1 if list(live).index(i) < 20 else 0  # first page ≈ what the site features
+        t["last_seen"] = datetime.date.today().isoformat()
+        tours.append(t)
+    events = diff_tours(old, tours)
+    json.dump(tours, open(DATA/"tours.json","w"), ensure_ascii=False, indent=1)
+    write_changelog(events, "full" if full else "prices", dict(listed=len(live), new=len(new_ids), parsed=len(to_parse)))
+    print(f"wrote {len(tours)} tours; {len(events)} change events")
+    for e in events[:30]: print("  ", e)
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("ids", nargs="*"); ap.add_argument("--listing", action="store_true"); ap.add_argument("--limit", type=int)
+    ap.add_argument("--prices", action="store_true", help="nightly mode: listing pages only, full-parse new deals"); ap.add_argument("--full", action="store_true", help="with --prices: re-parse every deal")
     a = ap.parse_args()
+    if a.prices:
+        try: price_run(full=a.full, limit=a.limit)
+        except requests.RequestException as e:
+            print(f"network failure: {e}", file=sys.stderr); sys.exit(3)
+        sys.exit(0)
     ids = listing_ids(a.limit) if a.listing else a.ids
     tours = []
     for i in ids:
