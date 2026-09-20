@@ -72,9 +72,15 @@ def geocode(city, country_hint=""):
     city = ALIAS.get(city, city)
     if city in GAZ: return GAZ[city]
     if city in _geo: return tuple(_geo[city])
-    q = f"{city}, {country_hint}" if country_hint else city
-    r = requests.get("https://nominatim.openstreetmap.org/search", params={"q":q,"format":"json","limit":1}, headers=UA, timeout=30).json()
-    time.sleep(1.1)  # Nominatim usage policy
+    GEO_UA = {"User-Agent": "tour-globe/1.0 (github.com/WesleyDotExe/tour-globe; nightly geocoder)"}
+    r = []
+    for q in ([f"{city}, {country_hint}"] if country_hint else []) + [city]:
+        try:
+            resp = requests.get("https://nominatim.openstreetmap.org/search", params={"q":q,"format":"json","limit":1}, headers=GEO_UA, timeout=30)
+            r = resp.json() if resp.ok else []
+        except Exception: r = []
+        time.sleep(1.1)  # Nominatim usage policy: max 1 req/s
+        if r: break
     if not r: return None
     ll = (round(float(r[0]["lon"]),2), round(float(r[0]["lat"]),2))
     _geo[city] = ll; _geo_cache_path.write_text(json.dumps(_geo, indent=1))
@@ -87,6 +93,7 @@ def text_of(soup):  # itinerary is plain text with bold overnight lines; flatten
 
 
 GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&)", re.I)
+HOTELISH = re.compile(r"(hotel|resort|inn\b|lodge|suites?|plaza|boutique|spa\b|retreat|camp\b|villa|ryokan|guesthouse|apartments?|palace hotel|or similar|by wyndham|by hilton|by marriott|hilton|marriott|sheraton|novotel|ibis|ramada|mercure|hyatt|radisson|holiday inn|best western|crowne|doubletree|courtyard|wyndham)", re.I)
 SHIP = re.compile(r"(cruises?'|'s |princess|koningsdam|seas|celebrity|msc|carnival|hurtigruten|ship|onboard|aboard)", re.I)
 MODE_RE = [("rail", re.compile(r"(bullet train|high-speed train|rocky mountaineer|rail journey|by train|train to|train ride|railway|shinkansen)", re.I)),
            ("river", re.compile(r"(nile|river cruise|danube|rhine|mekong|yangtze|felucca|riverboat)", re.I)),
@@ -124,15 +131,16 @@ def parse_days(it, country=""):
         if over:
             o = over.group(1).strip(" *")
             if not SHIP.search(o):
-                city = clean_place(o.split(",")[-1])
+                last = clean_place(o.split(",")[-1])
+                if last and not HOTELISH.search(last) and len(last) <= 30: city = last
         if not city:
             city = place_from_header(header)
         if not city and over and SHIP.search(over.group(1)):
             city = last_city                        # day at sea: keep the previous port
-        body_txt = re.split(r"\n\s*(?:Please note|\*\*Overnight|\*\*Meals|Overnight:|Meals included)", rest.strip(), 1)[0]
+        body_txt = re.split(r"\n\s*(?:Please note|\*\*Overnight|\*\*Meals|Overnight:|Meals included)", rest.strip(), maxsplit=1)[0]
         body_txt = re.sub(r"\s+", " ", body_txt).strip()
         # first sentence as the one-liner; the full day copy as `detail` (your own site should rewrite this before publishing)
-        text = re.split(r"(?<=[.!?])\s", body_txt, 1)[0][:220]
+        text = re.split(r"(?<=[.!?])\s", body_txt, maxsplit=1)[0][:220]
         detail = body_txt[:1200]
         meals = (re.search(r"Meals included:\s*([^\n*]+)", rest) or [None, ""])[1].strip()
         hotel = (over.group(1).strip(" *") if over else "")
@@ -171,9 +179,18 @@ def parse_deal(deal_id):
     if re.search(r"\bSmall Group\b", body): kind = "Small group"
 
     # itinerary: only the first itinerary block (extensions / alternative ships come as "Itinerary 2")
-    it = re.split(r"\n\s*Itinerary 2\b", re.split(r"\n\s*## Itinerary\s*\n", body, 1)[-1], 1)[0]
-    it = re.split(r"\n\s*## Important Info", it, 1)[0]
-    days_detail, stops = parse_days(it, country := (crumbs[-1] if crumbs else ""))
+    it = re.split(r"\n\s*Itinerary 2\b", re.split(r"\n\s*## Itinerary\s*\n", body, maxsplit=1)[-1], maxsplit=1)[0]
+    it = re.split(r"\n\s*## Important Info", it, maxsplit=1)[0]
+    country = crumbs[-1] if crumbs else ""
+    # photo gallery: hero images (eager) + lazy-loaded ones (data-src); alt text is the caption
+    images, seen = [], set()
+    for img in soup.find_all("img"):
+        src = img.get("data-src") or img.get("data-lazy") or img.get("src") or ""
+        if "cstad.s3" not in src and "PUBS" not in src: continue
+        if "MAP" in src or src in seen: continue
+        seen.add(src); images.append(dict(src=src, caption=(img.get("alt") or img.get("title") or "").strip().rstrip(".")))
+        if len(images) >= 12: break
+    days_detail, stops = parse_days(it, country)
     out = []
     for c in stops:
         ll = geocode(c[0], country)
@@ -288,7 +305,7 @@ def featured_ids():
 def price_run(full=False, limit=None):
     """Nightly: listing only. Update price/was/save/dates/per on known tours, full-parse new ones
     (and everything, if full=True), drop tours no longer listed, write changelog. Guard against a collapsed listing."""
-    global NO_CACHE; NO_CACHE = True
+    global NO_CACHE; NO_CACHE = bool(full)   # --full refetches every deal page; otherwise cached pages are reused
     old = load_tours(); old_by = {t["id"]: t for t in old}
     live = listing(limit)
     if old and not limit and len(live) < 0.5 * len(old):
