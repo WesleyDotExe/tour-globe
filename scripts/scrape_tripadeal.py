@@ -200,35 +200,54 @@ def month_range(dates):
     a, b = MONTHS.index(m1) + 12*int(y1), MONTHS.index(m2) + 12*int(y2)
     return [MONTHS[i % 12] for i in range(a, min(b, a+11) + 1)]
 
-def listing(limit=None, max_pages=25):
-    """Walk the tour listing page by page. Returns an ordered dict id -> summary parsed from the card
-    (name, slug, price, was, save, dates, per). Stops when a page adds no new deals."""
-    found, page = {}, 1
-    while page <= max_pages:
-        url = f"{BASE}/searchresults?categories=Tours" + (f"&page={page}" if page > 1 else "")
-        html = get(url, fresh=True)
+def parse_cards(html):
+    """Deal cards on a server-rendered TripADeal page (home, /destination/<x>). Returns {id: summary}."""
+    soup = BeautifulSoup(html, "html.parser"); out = {}
+    for a in soup.select('a[href*="/deals/"]'):
+        m = re.search(r"/deals/(\d+)-([a-z0-9-]+)", a.get("href",""))
+        if not m: continue
+        did, slug = int(m.group(1)), m.group(2)
+        txt = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+        if len(txt) < 40: continue                      # nav/footer links, not a card
+        if did in out: continue
+        tags = set(re.findall(r"\b(Tour|Cruise|Flights|Rail|Hotel)\b", txt))
+        kind = "tour" if "Tour" in tags else ("cruise" if "Cruise" in tags else "other")
+        save = re.search(r"SAVE\s+(\$[\d,]+|\d+%)", txt, re.I)
+        was = re.search(r"(?:WAS|Valued (?:up )?to)\s*~*\$?\s?([\d,]{3,7})", txt, re.I)
+        clean = re.sub(r"(SAVE|WAS|Valued (?:up )?to)\s*~*\$?\s?[\d,]+", " ", txt, flags=re.I)
+        clean = re.sub(r"[\d,]+\s*PTS", " ", clean)                     # Qantas points figures
+        amounts = [int(x.replace(",","")) for x in re.findall(r"\$\s?([\d,]{3,7})", clean)]
+        amounts = [x for x in amounts if x >= 100]
+        dates = re.search(r"Dates?:\s*(\d{1,2} \w{3}(?: \d{4})?\s*[-–]\s*\d{1,2} \w{3} \d{4}|\d{1,2} \w{3} \d{4})", txt)
+        days = re.search(r"(\d+)(?:, \d+)*(?: or \d+)? days", txt, re.I)
+        out[did] = dict(id=did, slug=slug, kind=kind, price=min(amounts) if amounts else None,
+                        was=int(was.group(1).replace(",","")) if was else None, save=save.group(1) if save else "",
+                        dates=dates.group(1) if dates else "", days=int(days.group(1)) if days else None,
+                        per="for2" if re.search(r"(?<!booking )for 2 (?:people|persons)|\bfor 2\b(?! people)(?<!booking for 2)|per couple|Deals? for 2", re.sub(r"when booking for 2", "", txt, flags=re.I), re.I) else "pp",
+                        trip_only=bool(re.search(r"Trip Only option", txt, re.I)))
+    return out
+
+def listing(limit=None, max_pages=40):
+    """Walk the destination pages (server-rendered, unlike /searchresults). Biggest destinations first;
+    stop when four pages in a row add nothing. Returns an ordered dict id -> card summary (tours & cruises only)."""
+    index = get(f"{BASE}/destination", fresh=True)
+    dests = []
+    for m in re.finditer(r'href="(?:https://www\.tripadeal\.com\.au)?/destination/([a-z0-9-]+)"[^>]*>(.*?)</a>', index, re.S):
+        slug, inner = m.group(1), re.sub(r"<[^>]+>", " ", m.group(2))
+        n = re.search(r"(\d+)\s*DEALS?", inner, re.I)
+        if n: dests.append((int(n.group(1)), slug))
+    dests = sorted(dict((s, n) for n, s in dests).items(), key=lambda x: -x[1])   # slug -> count, biggest first
+    if not dests: dests = [("asia",0),("europe",0),("north-america",0),("south-america",0),("africa",0),("oceania",0),("middle-east",0)]
+    found, dry = {}, 0
+    for slug, n in dests[:max_pages]:
         before = len(found)
-        for card in re.split(r'(?=<a[^>]+href="/deals/\d+-)', html):
-            m = re.search(r'href="/deals/(\d+)-([a-z0-9-]+)"', card)
-            if not m: continue
-            did, slug = int(m.group(1)), m.group(2)
-            if did in found: continue
-            txt = re.sub(r"<[^>]+>", " ", card); txt = re.sub(r"\s+", " ", txt)
-            save = re.search(r"SAVE\s+(\$[\d,]+|\d+%)", txt, re.I)
-            was = re.search(r"(?:WAS|Valued (?:up )?to)\s*~*\$?([\d,]+)", txt, re.I)
-            # the sale price is the lowest dollar figure on the card once SAVE/WAS/Valued amounts are removed
-            clean = re.sub(r"(SAVE|WAS|Valued (?:up )?to)\s*~*\$?[\d,]+", " ", txt, flags=re.I)
-            amounts = [int(a.replace(",","")) for a in re.findall(r"\$\s?([\d,]{3,7})", clean)]
-            amounts = [a for a in amounts if a >= 100]
-            price = min(amounts) if amounts else None
-            dates = re.search(r"(\d{1,2} \w{3}(?: \d{4})?\s*[-–]\s*\d{1,2} \w{3} \d{4}|\d{1,2} \w{3} \d{4})", txt)
-            days = re.search(r"(\d+)\s*Days?", txt)
-            found[did] = dict(id=did, slug=slug, price=price,
-                              was=int(was.group(1).replace(",","")) if was else None, save=save.group(1) if save else "",
-                              dates=dates.group(1) if dates else "", days=int(days.group(1)) if days else None,
-                              per="for2" if re.search(r"for 2\b|per couple|2 people", txt, re.I) else "pp")
-        if len(found) == before or (limit and len(found) >= limit): break
-        page += 1
+        try: cards = parse_cards(get(f"{BASE}/destination/{slug}", fresh=True))
+        except Exception as e: print(f"  ! {slug}: {e}", file=sys.stderr); continue
+        for did, c in cards.items():
+            if c["kind"] != "other" and did not in found: found[did] = c
+        added = len(found) - before; print(f"  /destination/{slug}: {len(cards)} cards, {added} new (total {len(found)})")
+        dry = dry + 1 if added == 0 else 0
+        if dry >= 4 or (limit and len(found) >= limit): break
     if limit: found = dict(list(found.items())[:limit])
     return found
 
@@ -261,6 +280,11 @@ def write_changelog(events, mode, counts):
     log.append(dict(run=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"), mode=mode, **counts, events=events))
     json.dump(log[-60:], open(p,"w"), ensure_ascii=False, indent=1)
 
+def featured_ids():
+    """Deal IDs in homepage order — what TripADeal is featuring today."""
+    try: return list(parse_cards(get(f"{BASE}/", fresh=True)))
+    except Exception as e: print(f"  ! homepage: {e}", file=sys.stderr); return []
+
 def price_run(full=False, limit=None):
     """Nightly: listing only. Update price/was/save/dates/per on known tours, full-parse new ones
     (and everything, if full=True), drop tours no longer listed, write changelog. Guard against a collapsed listing."""
@@ -271,7 +295,7 @@ def price_run(full=False, limit=None):
         print(f"SAFETY GUARD: listing returned {len(live)} deals vs {len(old)} yesterday; not writing.", file=sys.stderr); sys.exit(2)
     new_ids = [i for i in live if i not in old_by]
     to_parse = list(live) if full else new_ids
-    print(f"listing: {len(live)} deals · new: {len(new_ids)} · full-parsing: {len(to_parse)}")
+    print(f"listing: {len(live)} tours & cruise packages · new: {len(new_ids)} · full-parsing: {len(to_parse)}")
     tours = []
     for i, card in live.items():
         if i in to_parse:
@@ -286,9 +310,11 @@ def price_run(full=False, limit=None):
         for k in ("price", "was", "save", "dates", "per", "days"):
             if card.get(k) not in (None, ""): t[k] = card[k]
         t["special"] = bool(t.get("save")); t["special_label"] = t.get("special_label") or ("Sale" if t["special"] else "")
-        t["featured"] = list(live).index(i) + 1 if list(live).index(i) < 20 else 0  # first page ≈ what the site features
+        t["featured"] = t.get("featured", 0)  # homepage order is set by --featured below
         t["last_seen"] = datetime.date.today().isoformat()
         tours.append(t)
+    feat = featured_ids()
+    for t in tours: t["featured"] = feat.index(t["id"]) + 1 if t["id"] in feat else 0
     events = diff_tours(old, tours)
     json.dump(tours, open(DATA/"tours.json","w"), ensure_ascii=False, indent=1)
     write_changelog(events, "full" if full else "prices", dict(listed=len(live), new=len(new_ids), parsed=len(to_parse)))
