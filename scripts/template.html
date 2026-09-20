@@ -446,7 +446,7 @@ function renderList(vis){
 function cardEl(t){
     const el=document.createElement("div"); el.className="card"; el.dataset.id=t.id;
     el.innerHTML=`<div class="swatch">${t.images&&t.images.length?`<img alt="">`:""}</div><div class="name">${t.name}</div><div class="price">${priceHtml(t)}</div>
-      <div class="meta">${t.days} days · ${t.type}${t.save?` · save ${t.save}`:""}</div><div class="ends">${endsText(t)}</div>
+      <div class="meta">${t.days} days · ${t.type}</div><div class="ends">${endsText(t)}</div>
       <div class="route">${(t.destinations||[]).map(d=>d.name).join(" · ")}</div>`;
     el.onmouseenter=()=>highlight(t.id); el.onmouseleave=()=>highlight(null); el.onclick=()=>openTour(t);
     const im=el.querySelector(".swatch img"); if(im) loadImg(im,t.images[0].src,()=>im.parentNode.classList.add("has-img"),()=>im.remove());
