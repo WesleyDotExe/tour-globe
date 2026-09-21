@@ -74654,7 +74654,7 @@ function seaRoute(a,b){ // pick the gentlest bend whose samples avoid land; try 
     if(land<bestLand){ bestLand=land; best=pts; if(land===0) break; } }
   return best; }
 function legs(t){ // one densified great-circle per travel leg (home flight excluded), tagged with transport mode
-  const s=t.stops.slice(1), out=[];
+  const s=(t.stops||[]).slice(1), out=[];
   for(let i=1;i<s.length;i++){ if(s[i-1][1]===s[i][1]&&s[i-1][2]===s[i][2]) continue;
     const mode=s[i][5]||"coach", a=[s[i-1][1],s[i-1][2]], b=[s[i][1],s[i][2]];
     out.push({coords:mode==="cruise"?seaRoute(a,b):greatCircle(a,b,24),mode}); }
@@ -74671,10 +74671,10 @@ function splitAt180(coords){ // [[lng,lat],...] possibly unwrapped beyond ±180 
     cur.push(norm(c)); }
   if(cur.length>1) parts.push(cur); return parts; }
 function routeFC(){ const f=[];
-  TOURS.forEach(t=>legs(t).forEach((l,i)=>f.push({type:"Feature",properties:{id:t.id,name:t.name,days:t.days,price:t.price,special:t.special,mode:l.mode,leg:i},geometry:{type:"MultiLineString",coordinates:splitAt180(l.coords)}})));
+  TOURS.forEach(t=>(t.stops||[]).length>1&&legs(t).forEach((l,i)=>f.push({type:"Feature",properties:{id:t.id,name:t.name,days:t.days,price:t.price,special:t.special,mode:l.mode,leg:i},geometry:{type:"MultiLineString",coordinates:splitAt180(l.coords)}})));
   return {type:"FeatureCollection",features:f}; }
 function flightFC(){ const h=DEPARTURES[HOME];
-  return {type:"FeatureCollection",features:TOURS.map(t=>{ const b=t.stops[1], back=t.stops[t.stops.length-1];
+  return {type:"FeatureCollection",features:TOURS.filter(t=>(t.stops||[]).length>1).map(t=>{ const b=t.stops[1], back=t.stops[t.stops.length-1];
     const out=greatCircle(h,[b[1],b[2]],64), ret=(back[1]===b[1]&&back[2]===b[2])?[]:greatCircle([back[1],back[2]],h,64);
     return {type:"Feature",properties:{id:t.id},geometry:{type:"MultiLineString",coordinates:[...splitAt180(out),...(ret.length?splitAt180(ret):[])]}}; })}; }
 function bearing(a,b){ const p1=toRad(a[1]),p2=toRad(b[1]),dl=toRad(b[0]-a[0]);
@@ -74682,7 +74682,7 @@ function bearing(a,b){ const p1=toRad(a[1]),p2=toRad(b[1]),dl=toRad(b[0]-a[0]);
 const wrapPt=c=>[((c[0]+540)%360)-180,c[1]];
 function arrowFC(){
   const f=[];
-  TOURS.forEach(t=>legs(t).forEach(l=>{ const seg=l.coords, m=Math.floor(seg.length*(l.mode==="coach"?0.5:0.35));
+  TOURS.forEach(t=>(t.stops||[]).length>1&&legs(t).forEach(l=>{ const seg=l.coords, m=Math.floor(seg.length*(l.mode==="coach"?0.5:0.35));
     f.push({type:"Feature",properties:{id:t.id,kind:"arrow",bearing:bearing(seg[m-1],seg[m+1])},geometry:{type:"Point",coordinates:wrapPt(seg[m])}});
     if(l.mode!=="coach"){ const k=Math.floor(seg.length*0.62); f.push({type:"Feature",properties:{id:t.id,kind:l.mode==="river"?"cruise":l.mode,bearing:0},geometry:{type:"Point",coordinates:wrapPt(seg[k])}}); } }));
   return {type:"FeatureCollection",features:f};
@@ -74738,7 +74738,7 @@ function countryFC(tours){
 }
 function stopsFC(t){ // every overnight stop of ONE tour, shown only while it is selected
   if(!t) return {type:"FeatureCollection",features:[]};
-  const seen=new Set(); return {type:"FeatureCollection",features:t.stops.slice(1).filter(s=>!seen.has(s[0])&&seen.add(s[0])).map(s=>({type:"Feature",properties:{name:s[0]},geometry:{type:"Point",coordinates:[s[1],s[2]]}}))};
+  const seen=new Set(); return {type:"FeatureCollection",features:(t.stops||[]).slice(1).filter(s=>!seen.has(s[0])&&seen.add(s[0])).map(s=>({type:"Feature",properties:{name:s[0]},geometry:{type:"Point",coordinates:[s[1],s[2]]}}))};
 }
 
 /* ---------- map ---------- */
@@ -74824,7 +74824,7 @@ Object.values(F).forEach(s=>s.addEventListener("change",apply));
 $("#clear").onclick=()=>{ resetFilters(); apply(); };
 
 /* ---------- sidebar list ---------- */
-const fmt=n=>"$"+n.toLocaleString("en-AU");
+const fmt=n=>n==null?"—":"$"+Number(n).toLocaleString("en-AU");
 const priceHtml=t=>`<span style="${t.special?"color:#D9451B":""}">${fmt(t.price)}</span>${t.per==="for2"?`<small style="display:block;font-weight:500;font-size:11px;color:var(--ink-2)">for 2 people</small>`:""}${t.special&&t.save?`<small style="display:block;color:#D9451B;font-weight:700;font-size:10.5px">SAVE ${t.save}</small>`:""}`;
 const endsText=t=>t.special?(t.ends<=0?"Ends today":t.ends===1?"Ends tomorrow":`${t.special_label||"Sale"} ends in ${t.ends} days`):"";
 /* ---------- recently viewed: stored in this browser only ---------- */
@@ -74933,7 +74933,7 @@ function openTour(t){
   const days=$("#days"); days.innerHTML=""; t._usedPhotos=new Set();
   const rows = t.days_detail
     ? t.days_detail.map(x=>({d:x.d,title:x.title,text:x.text,detail:x.detail,meals:x.meals,hotel:x.hotel,optional:x.optional,ll:x.lng!=null?[x.lng,x.lat]:null}))
-    : (()=>{ let d=1; return t.stops.slice(1).map(s=>{ const r={d,title:`${s[0]}${s[3]?` · ${s[3]} night${s[3]>1?"s":""}`:""}`,text:s[4],ll:[s[1],s[2]]}; d+=Math.max(1,s[3]); return r; }); })();
+    : (()=>{ let d=1; return (t.stops||[]).slice(1).map(s=>{ const r={d,title:`${s[0]}${s[3]?` · ${s[3]} night${s[3]>1?"s":""}`:""}`,text:s[4],ll:[s[1],s[2]]}; d+=Math.max(1,s[3]); return r; }); })();
   t._rows=rows;
   rows.forEach((r,i)=>{
     const el=document.createElement("div"); el.className="day"; el.dataset.i=i;
@@ -74950,6 +74950,7 @@ function openTour(t){
   });
   focusId=t.id; focusZoom=null; hot=null; apply();
   const b=bounds(t), fit={padding:{top:90,bottom:40,left:60,right:380},maxZoom:5.5};
+  if(!b){ const d=t.destinations&&t.destinations[0]; focusZoom=4; map.flyTo({center:d?[d.lng,d.lat]:[0,20],zoom:4,duration:1200}); return; }
   try{ const cam=map.cameraForBounds(b,fit); focusZoom=cam?cam.zoom:Math.max(map.getZoom(),3); }catch(e){ focusZoom=Math.max(map.getZoom(),3); }
   map.fitBounds(b,{...fit,duration:1200});
 }
@@ -74980,7 +74981,7 @@ function showSlide(i){ if(!gal.imgs.length) return; gal.i=(i+gal.imgs.length)%ga
   gal.imgs.forEach((im,k)=>im.classList.toggle("on",k===gal.i)); $("#gallery .cap").textContent=gal.imgs[gal.i].dataset.cap; renderDots(); }
 $("#gallery .prev").onclick=()=>showSlide(gal.i-1); $("#gallery .next").onclick=()=>showSlide(gal.i+1);
 document.addEventListener("keydown",e=>{ if(!current||$("#gallery").hidden) return; if(e.key==="ArrowRight") showSlide(gal.i+1); if(e.key==="ArrowLeft") showSlide(gal.i-1); });
-function bounds(t){ const s=t.stops.slice(1); let b=new maplibregl.LngLatBounds([s[0][1],s[0][2]],[s[0][1],s[0][2]]); s.forEach(x=>b.extend([x[1],x[2]])); return b; }
+function bounds(t){ const s=(t.stops||[]).slice(1); if(!s.length) return null; let b=new maplibregl.LngLatBounds([s[0][1],s[0][2]],[s[0][1],s[0][2]]); s.forEach(x=>b.extend([x[1],x[2]])); return b; }
 function dropMarker(ll){
   if(!marker){ const el=document.createElement("div"); el.style.cssText="width:14px;height:14px;border-radius:50%;background:#FF6B3D;border:3px solid #fff;box-shadow:0 0 0 4px rgba(255,107,61,.35)"; marker=new maplibregl.Marker({element:el}).setLngLat(ll).addTo(map); }
   else marker.setLngLat(ll);
@@ -75039,7 +75040,7 @@ let labelMarkers=[];
 function renderLabels(){
   labelMarkers.forEach(m=>m.remove()); labelMarkers=[];
   const t=current, seen=new Set();
-  const list=t? t.stops.slice(1) : null;
+  const list=t? (t.stops||[]).slice(1) : null;
   const dayOf={}; if(t){ if(t.days_detail){ t.days_detail.forEach(x=>{ if(x.city&&!(x.city in dayOf)) dayOf[x.city]=x.d; }); } else { let d=1; list.forEach(s=>{ if(!(s[0] in dayOf)) dayOf[s[0]]=d; d+=Math.max(1,s[3]); }); } }
   if(!t) return;
   list.forEach(s=>{ if(seen.has(s[0])) return; seen.add(s[0]);

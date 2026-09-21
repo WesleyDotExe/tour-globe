@@ -49,7 +49,8 @@ try:
     from build_data import G as GAZ
 except Exception:
     GAZ = {}
-ALIAS = {"Halong Bay":"Ha Long Bay","Ha Long":"Ha Long Bay","Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City"}
+ALIAS = {"Halong Bay":"Ha Long Bay","Ha Long":"Ha Long Bay","Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City",
+         "Ouarzate":"Ouarzazate","Lijang":"Lijiang","Nilavel":"Nilaveli","Lofoten Islands":"Lofoten","Maasai Mara National Reserve":"Masai Mara"}
 
 def get(url, fresh=False):
     key = CACHE / (re.sub(r"[^a-z0-9]+","_",url.lower()) + ".html")
@@ -92,7 +93,7 @@ def text_of(soup):  # itinerary is plain text with bold overnight lines; flatten
     return soup.get_text("\n")
 
 
-GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour\b|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&|\bbegin\b|\d+-night|\bfly\b|flight|crossing|transit|equator|canal|airport|cruise port|\band\b|glacier|at sea|day \d)", re.I)
+GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour\b|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&|\bbegin\b|\d+-night|\bfly\b|flight|crossing|transit|equator|canal|airport|cruise port|\band\b|glacier|at sea|day \d|half[- ]day|full[- ]day|game drive|walking|ceremony|rafting|snorkel|welcome to|meet us|markets?|excursion|trek to|\bboard\b|activities|bush walk|bungalows|geysers|salt lake|crater|cave\b|dam\b|gorge\b|temple of|\bship\b|voyages|seabourn|azamara|\d-star)", re.I)
 HOTELISH = re.compile(r"(hotel|resort|inn\b|lodge|suites?|plaza|boutique|spa\b|retreat|camp\b|villa|ryokan|guesthouse|apartments?|palace hotel|or similar|by wyndham|by hilton|by marriott|hilton|marriott|sheraton|novotel|ibis|ramada|mercure|hyatt|radisson|holiday inn|best western|crowne|doubletree|courtyard|wyndham)", re.I)
 SHIP = re.compile(r"(cruises?'|'s |princess|koningsdam|seas|celebrity|msc|carnival|hurtigruten|ship|onboard|aboard)", re.I)
 MODE_RE = [("rail", re.compile(r"(bullet train|high-speed train|rocky mountaineer|rail journey|by train|train to|train ride|railway|shinkansen)", re.I)),
@@ -164,7 +165,7 @@ def parse_deal(deal_id):
     meta = lambda p: (soup.find("meta", property=p) or soup.find("meta", attrs={"name":p}) or {}).get("content","")
     canonical = (soup.find("link", rel="canonical") or {}).get("href", url)
     title = meta("og:title").split("|")[0].strip()
-    m = re.match(r"(\d+)(?: or \d+)? Days? (.*)", title)
+    m = re.match(r"(\d+)(?:, \d+)*(?: or \d+)? Days? (.*)", title)
     days, name = (int(m.group(1)), m.group(2)) if m else (None, title)
     price = int(float(meta("product:price:amount") or 0))
     crumbs = [a.get_text(strip=True) for a in soup.select("a[href*='/destination/']")][:3]
@@ -263,7 +264,7 @@ def listing(limit=None, max_pages=80):
         try: cards = parse_cards(get(f"{BASE}/destination/{slug}", fresh=True))
         except Exception as e: print(f"  ! {slug}: {e}", file=sys.stderr); continue
         for did, c in cards.items():
-            if c["kind"] != "other" and did not in found: found[did] = c
+            if c["kind"] != "other" and c["price"] and did not in found: found[did] = c
         added = len(found) - before; print(f"  /destination/{slug}: {len(cards)} cards, {added} new (total {len(found)})")
         if limit and len(found) >= limit: break
     if limit: found = dict(list(found.items())[:limit])
