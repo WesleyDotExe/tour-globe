@@ -66,7 +66,7 @@ def get(url, fresh=False):
             last = e; time.sleep(15 * (attempt + 1))
     raise last
 
-_geo_cache_path = CACHE / "geocode.json"
+_geo_cache_path = DATA / "places.json"
 _geo = json.loads(_geo_cache_path.read_text()) if _geo_cache_path.exists() else {}
 def geocode(city, country_hint=""):
     city = ALIAS.get(city, city)
@@ -92,7 +92,7 @@ def text_of(soup):  # itinerary is plain text with bold overnight lines; flatten
     return soup.get_text("\n")
 
 
-GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&)", re.I)
+GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour\b|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&|\bbegin\b|\d+-night|\bfly\b|flight|crossing|transit|equator|canal|airport|cruise port|\band\b|glacier|at sea|day \d)", re.I)
 HOTELISH = re.compile(r"(hotel|resort|inn\b|lodge|suites?|plaza|boutique|spa\b|retreat|camp\b|villa|ryokan|guesthouse|apartments?|palace hotel|or similar|by wyndham|by hilton|by marriott|hilton|marriott|sheraton|novotel|ibis|ramada|mercure|hyatt|radisson|holiday inn|best western|crowne|doubletree|courtyard|wyndham)", re.I)
 SHIP = re.compile(r"(cruises?'|'s |princess|koningsdam|seas|celebrity|msc|carnival|hurtigruten|ship|onboard|aboard)", re.I)
 MODE_RE = [("rail", re.compile(r"(bullet train|high-speed train|rocky mountaineer|rail journey|by train|train to|train ride|railway|shinkansen)", re.I)),
@@ -210,6 +210,7 @@ def parse_deal(deal_id):
                 stops=[[from_city, *GAZ.get(from_city,(151.21,-33.87)), 0, "Depart Australia", "flight"]] + out)
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+def norm_dates(d): return re.sub(r"\s*[–—-]\s*", " - ", (d or "").strip())
 def month_range(dates):
     ds = re.findall(r"(\d{1,2}) (\w{3}) (\d{4})", dates)
     if not ds: return []
@@ -240,14 +241,14 @@ def parse_cards(html):
         days = re.search(r"(\d+)(?:, \d+)*(?: or \d+)? days", txt, re.I)
         out[did] = dict(id=did, slug=slug, kind=kind, price=min(amounts) if amounts else None,
                         was=int(was.group(1).replace(",","")) if was else None, save=save.group(1) if save else "",
-                        dates=dates.group(1) if dates else "", days=int(days.group(1)) if days else None,
+                        dates=norm_dates(dates.group(1)) if dates else "", days=int(days.group(1)) if days else None,
                         per="for2" if re.search(r"(?<!booking )for 2 (?:people|persons)|\bfor 2\b(?! people)(?<!booking for 2)|per couple|Deals? for 2", re.sub(r"when booking for 2", "", txt, flags=re.I), re.I) else "pp",
                         trip_only=bool(re.search(r"Trip Only option", txt, re.I)))
     return out
 
-def listing(limit=None, max_pages=40):
-    """Walk the destination pages (server-rendered, unlike /searchresults). Biggest destinations first;
-    stop when four pages in a row add nothing. Returns an ordered dict id -> card summary (tours & cruises only)."""
+def listing(limit=None, max_pages=80):
+    """Walk every destination page (server-rendered, unlike /searchresults), biggest first.
+    Returns an ordered dict id -> card summary (tours & cruise packages only)."""
     index = get(f"{BASE}/destination", fresh=True)
     dests = []
     for m in re.finditer(r'href="(?:https://www\.tripadeal\.com\.au)?/destination/([a-z0-9-]+)"[^>]*>(.*?)</a>', index, re.S):
@@ -256,7 +257,7 @@ def listing(limit=None, max_pages=40):
         if n: dests.append((int(n.group(1)), slug))
     dests = sorted(dict((s, n) for n, s in dests).items(), key=lambda x: -x[1])   # slug -> count, biggest first
     if not dests: dests = [("asia",0),("europe",0),("north-america",0),("south-america",0),("africa",0),("oceania",0),("middle-east",0)]
-    found, dry = {}, 0
+    found = {}
     for slug, n in dests[:max_pages]:
         before = len(found)
         try: cards = parse_cards(get(f"{BASE}/destination/{slug}", fresh=True))
@@ -264,8 +265,7 @@ def listing(limit=None, max_pages=40):
         for did, c in cards.items():
             if c["kind"] != "other" and did not in found: found[did] = c
         added = len(found) - before; print(f"  /destination/{slug}: {len(cards)} cards, {added} new (total {len(found)})")
-        dry = dry + 1 if added == 0 else 0
-        if dry >= 4 or (limit and len(found) >= limit): break
+        if limit and len(found) >= limit: break
     if limit: found = dict(list(found.items())[:limit])
     return found
 
@@ -288,7 +288,7 @@ def diff_tours(old, new):
             ev.append(dict(type="price_down" if b["price"] < (a.get("price") or 0) else "price_up", id=i, name=b["name"], **{"from": a.get("price"), "to": b["price"]}))
         if bool(a.get("special")) != bool(b.get("special")):
             ev.append(dict(type="sale_started" if b.get("special") else "sale_ended", id=i, name=b["name"]))
-        if (a.get("dates") or "") != (b.get("dates") or "") and b.get("dates"):
+        if norm_dates(a.get("dates")) != norm_dates(b.get("dates")) and b.get("dates"):
             ev.append(dict(type="dates_changed", id=i, name=b["name"], **{"from": a.get("dates"), "to": b["dates"]}))
     return ev
 
