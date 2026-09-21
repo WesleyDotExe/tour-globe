@@ -109,7 +109,7 @@ HOME = re.compile(r"^(australia|new zealand|australia \(or new zealand\)|home)\b
 def clean_place(p):
     p = re.sub(r"\s*\(.*?\)", "", p).strip(" .*")
     p = re.sub(r"\s+(Region|Area|National Park|Free Day|Free Morning|Sightseeing|Overnight Cruise|Overnight|Cruise|Day Trip|City Tour|Tour|Stay)$", "", p, flags=re.I).strip()
-    p = re.sub(r"\s+(Region|Area|National Park|Overnight Cruise|Overnight|Cruise)$", "", p, flags=re.I).strip()
+    p = re.sub(r"\s+(Region|Area|National Park|Overnight Cruise|Overnight|Cruise|Hotel|Airport|Port|Island)$", "", p, flags=re.I).strip()
     return p
 
 def place_from_header(header):
