@@ -49,6 +49,7 @@ try:
     from build_data import G as GAZ
 except Exception:
     GAZ = {}
+import world_geo as WG   # point-in-polygon country lookup for each stop
 ALIAS = {"Halong Bay":"Ha Long Bay","Ha Long":"Ha Long Bay","Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City",
          "Ouarzate":"Ouarzazate","Lijang":"Lijiang","Nilavel":"Nilaveli","Lofoten Islands":"Lofoten","Maasai Mara National Reserve":"Masai Mara"}
 
@@ -168,8 +169,13 @@ def parse_deal(deal_id):
     m = re.match(r"(\d+)(?:, \d+)*(?: or \d+)? Days? (.*)", title)
     days, name = (int(m.group(1)), m.group(2)) if m else (None, title)
     price = int(float(meta("product:price:amount") or 0))
-    crumbs = [a.get_text(strip=True) for a in soup.select("a[href*='/destination/']")][:3]
-    region = next((c for c in crumbs if c in {"Asia","Europe","Africa","Americas","North America","South America","Pacific","Middle East"}), "")
+    # the on-page /destination/ links are the site nav menu, not this deal's breadcrumb;
+    # the real trail (Region > Country) is in the JSON-LD BreadcrumbList.
+    crumbs = []
+    for s in soup.find_all("script", type="application/ld+json"):
+        if s.string and "BreadcrumbList" in s.string:
+            crumbs = re.findall(r'"name"\s*:\s*"([^"]+)"', s.string); break
+    region = next((c for c in crumbs if c in {"Asia","Europe","Africa","Americas","North America","South America","Pacific","Middle East","Oceania"}), "")
     if region in {"North America","South America"}: region = "Americas"
     body = text_of(soup)
     dates = (re.search(r"Dates?:\s*([^\n]+)", body) or [None, ""])[1].strip()
@@ -183,18 +189,33 @@ def parse_deal(deal_id):
     # itinerary: only the first itinerary block (extensions / alternative ships come as "Itinerary 2")
     it = re.split(r"\n\s*Itinerary 2\b", re.split(r"\n\s*## Itinerary\s*\n", body, maxsplit=1)[-1], maxsplit=1)[0]
     it = re.split(r"\n\s*## Important Info", it, maxsplit=1)[0]
-    country = crumbs[-1] if crumbs else ""
-    # photo gallery: hero images (eager) + lazy-loaded ones (data-src); alt text is the caption
-    images, seen = [], set()
+    # country hint for geocoding: the breadcrumb item just after the region (single-country
+    # tours only; multi-country tours have none here and fall back to city-only geocoding).
+    country = next((c for c in crumbs if c not in {"Tours","Cruises",region,name} and not c.startswith("ID ")
+                    and c not in {"Asia","Europe","Africa","Americas","North America","South America","Pacific","Middle East","Oceania"}), "")
+    # photo gallery: this deal's own hero images ({id}_..._WEB_HERO) plus captioned destination
+    # photos (PUBS+LIBRARY); skip the site nav thumbnails (website-refresh/) that sit on every
+    # page, other deals' hero cards ({otherid}_...), maps and icons.
+    did = str(deal_id); own, pubs, seen = [], [], set()
     for img in soup.find_all("img"):
         src = img.get("data-src") or img.get("data-lazy") or img.get("src") or ""
-        if "cstad.s3" not in src and "PUBS" not in src: continue
-        if "MAP" in src or src in seen: continue
-        seen.add(src); images.append(dict(src=src, caption=(img.get("alt") or img.get("title") or "").strip().rstrip(".")))
-        if len(images) >= 12: break
+        if ("cstad.s3" not in src and "PUBS" not in src) or src in seen: continue
+        if "website-refresh" in src or "1-icons" in src or "MAP" in src: continue
+        m = re.search(r"amazonaws\.com/(\d{3,6})_", src)
+        if m:
+            if m.group(1) != did: continue        # a related-tour card, not this deal
+            bucket = own
+        elif "PUBS" in src:
+            bucket = pubs
+        else:
+            continue
+        seen.add(src)
+        bucket.append(dict(src=src, caption=(img.get("alt") or img.get("title") or "").strip().rstrip(".")))
+    images = (own + pubs)[:12]
     days_detail, stops = parse_days(it, country)
     out = []
     for c in stops:
+        if not c[0] or c[0] in ("None", "-"): continue
         ll = geocode(c[0], country)
         if ll: out.append([ALIAS.get(c[0], c[0]), ll[0], ll[1], c[1], "", c[2]])
         else: print(f"  ! could not geocode {c[0]!r} in deal {deal_id}", file=sys.stderr)
@@ -202,12 +223,23 @@ def parse_deal(deal_id):
         ll = geocode(d["city"], country) if d["city"] else None
         d["lng"], d["lat"] = (ll if ll else (None, None))
 
+    # world-level dots: one city dot per stop, and the set of countries the route passes through
+    destinations, dseen = [], set()
+    for c in out:
+        if c[0] in dseen: continue
+        dseen.add(c[0]); destinations.append(dict(name=c[0], lng=c[1], lat=c[2]))
+    countries = []
+    for c in out:
+        cc = WG.country_of(c[1], c[2])
+        if cc and cc not in countries: countries.append(cc)
+
     months = month_range(dates)
     dep = re.search(r"Departure Cities\s*\n+\s*([^\n]+)", body)
     from_city = (dep.group(1).replace("*","").split(",")[0].strip() if dep else "Sydney")
     return dict(id=int(deal_id), name=name, url=canonical, days=days, price=price, was=was, save=save, per="for2" if "for 2" in name.lower() else "pp",
                 dates=dates, region=region, type=kind, from_city=from_city, months=months, special=bool(save), special_label="Sale" if save else "",
                 ends=0, itinerary="exact" if out else "none", tags=[], headline=headline, days_detail=days_detail, images=images,
+                destinations=destinations, countries=countries,
                 stops=[[from_city, *GAZ.get(from_city,(151.21,-33.87)), 0, "Depart Australia", "flight"]] + out)
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]

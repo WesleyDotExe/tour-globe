@@ -588,11 +588,14 @@ $("#fly").onclick=()=>{ if(!current) return; if(flyTimer){ stopFly(); return; }
 /* any user interaction with the globe cancels the fly-through */
 ["mousedown","touchstart","wheel"].forEach(e=>map.on(e,()=>{ if(flyTimer) stopFly(); }));
 
+/* the city/country layers live in the initial style and reference "pin" before load fires;
+   generate any marker icon on demand so it is never reported missing */
+const ICONS={pin:pinImage,arrow:arrowImage,rail:()=>modeImage("rail"),cruise:()=>modeImage("cruise"),flight:()=>modeImage("flight")};
+function ensureIcon(id){ if(!map.hasImage(id)&&ICONS[id]) map.addImage(id,ICONS[id](),{pixelRatio:2}); }
+map.on("styleimagemissing",e=>ensureIcon(e.id));
 map.on("load",()=>{
-  map.addImage("arrow",arrowImage(),{pixelRatio:2});
-  map.addImage("pin",pinImage(),{pixelRatio:2});
-  ["rail","cruise","flight"].forEach(k=>map.addImage(k,modeImage(k),{pixelRatio:2}));
-  ["arrow","rail","cruise","flight"].forEach(k=>{ if(!map.hasImage(k)) console.warn("icon missing:",k); });
+  ["arrow","pin","rail","cruise","flight"].forEach(ensureIcon);
+  ["pin","arrow","rail","cruise","flight"].forEach(k=>{ if(!map.hasImage(k)) console.warn("icon missing:",k); });
   map.addSource("arrows",{type:"geojson",data:arrowFC()});
   map.addLayer({id:"arrow",type:"symbol",source:"arrows",minzoom:2.2,filter:["==",["get","kind"],"arrow"],
     layout:{"icon-image":"arrow","icon-size":["interpolate",["linear"],["zoom"],2.2,0.6,6,1.0],"icon-rotate":["get","bearing"],
@@ -632,8 +635,8 @@ const updateLabelVis=()=>{ const z=map.getZoom();
   countryEls.forEach(el=>{ if(el){ el.classList.toggle("show",showCountries); el.classList.toggle("hide",!showCountries); } });
 };
 map.on("zoom",updateLabelVis);
-if(location.protocol.startsWith("http")) fetch("tours.json").then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.length) return; TOURS.splice(0,TOURS.length,...d); map.getSource("routes").setData(routeFC()); map.getSource("flights").setData(flightFC()); map.getSource("arrows").setData(arrowFC()); apply(); }).catch(()=>{});
-if(location.protocol.startsWith("http")) fetch("countries_pts.json").then(r=>r.ok?r.json():null).then(d=>{ if(d) Object.assign(COUNTRY_PTS,d); }).catch(()=>{});
+if(location.protocol.startsWith("http")) fetch("data/tours.json").then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.length) return; TOURS.splice(0,TOURS.length,...d); map.getSource("routes").setData(routeFC()); map.getSource("flights").setData(flightFC()); map.getSource("arrows").setData(arrowFC()); apply(); }).catch(()=>{});
+if(location.protocol.startsWith("http")) fetch("data/countries_pts.json").then(r=>r.ok?r.json():null).then(d=>{ if(d) Object.assign(COUNTRY_PTS,d); }).catch(()=>{});
 </script>
 </body>
 </html>
