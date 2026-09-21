@@ -205,6 +205,7 @@ for t in TOURS:
     t["countries"] = countries
     if t["id"] in DAYS:
         t["days_detail"]=[dict(d=d,title=ti,city=c,text=tx,detail=dt,meals=me,hotel=ho,optional=op,lng=G[c][0] if c else None,lat=G[c][1] if c else None) for d,ti,c,tx,dt,me,ho,op in DAYS[t["id"]]]
-json.dump(TOURS, open(DATA/"tours.json","w"), ensure_ascii=False, indent=1)
-json.dump({k:list(v) for k,v in COUNTRIES.items()}, open(DATA/"countries_pts.json","w"))
-print(len(TOURS), "tours;", sum(t["itinerary"]=="exact" for t in TOURS), "exact")
+if __name__ == "__main__":
+    json.dump(TOURS, open(DATA/"tours.json","w"), ensure_ascii=False, indent=1)
+    json.dump({k:list(v) for k,v in COUNTRIES.items()}, open(DATA/"countries_pts.json","w"))
+    print(len(TOURS), "tours;", sum(t["itinerary"]=="exact" for t in TOURS), "exact")

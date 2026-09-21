@@ -264,7 +264,7 @@ def listing(limit=None, max_pages=80):
         try: cards = parse_cards(get(f"{BASE}/destination/{slug}", fresh=True))
         except Exception as e: print(f"  ! {slug}: {e}", file=sys.stderr); continue
         for did, c in cards.items():
-            if c["kind"] != "other" and c["price"] and did not in found: found[did] = c
+            if c["kind"] != "other" and did not in found: found[did] = c
         added = len(found) - before; print(f"  /destination/{slug}: {len(cards)} cards, {added} new (total {len(found)})")
         if limit and len(found) >= limit: break
     if limit: found = dict(list(found.items())[:limit])
@@ -328,6 +328,8 @@ def price_run(full=False, limit=None):
         # listing card is the freshest source for the commercial fields
         for k in ("price", "was", "save", "dates", "per", "days"):
             if card.get(k) not in (None, ""): t[k] = card[k]
+        if not t.get("price"):   # $0 promo tiles (e.g. "Bucket list experiences") have no real price
+            print(f"  ! dropping {i} {t.get('name','')!r}: no price (promo card)", file=sys.stderr); continue
         t["special"] = bool(t.get("save")); t["special_label"] = t.get("special_label") or ("Sale" if t["special"] else "")
         t["featured"] = t.get("featured", 0)  # homepage order is set by --featured below
         t["last_seen"] = datetime.date.today().isoformat()
