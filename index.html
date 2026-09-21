@@ -55,8 +55,8 @@
   .card .meta{grid-column:1;color:var(--ink-2);font-size:12.5px}
   .card .ends{grid-column:2;text-align:right;font-size:11.5px;color:var(--coral-deep);font-weight:600;white-space:nowrap}
   .card .route{grid-column:1/-1;font-size:12px;color:var(--ink-2);margin-top:4px;line-height:1.35}
-  .tabs{display:flex;gap:4px;background:var(--line);padding:3px;border-radius:999px;margin-bottom:10px}
-  .tab{flex:1;border:none;background:none;font:inherit;font-size:12.5px;font-weight:600;color:var(--ink-2);padding:6px 6px;border-radius:999px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .tabs{display:flex;gap:2px;background:var(--line);padding:3px;border-radius:999px;margin-bottom:10px;justify-content:space-between}
+  .tab{flex:0 1 auto;border:none;background:none;font:inherit;font-size:11.5px;font-weight:600;color:var(--ink-2);padding:6px 9px;border-radius:999px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .tab.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
   .tabs[hidden]{display:none}
   .card .when{grid-column:1/-1;font-size:11.5px;color:var(--ink-2);margin-top:2px}
@@ -155,7 +155,7 @@
 
 <aside id="side">
   <div id="listwrap" style="display:flex;flex-direction:column;flex:1;min-height:0">
-    <header><div class="tabs" id="tabs"><button class="tab on" data-tab="featured">Featured</button><button class="tab" data-tab="destinations">Destinations</button><button class="tab" data-tab="recent">Recent</button></div><h2 id="side-title">Featured on TripADeal</h2><p id="side-sub">Hover a tour to see its route · click for details</p></header>
+    <header><div class="tabs" id="tabs"><button class="tab on" data-tab="featured">Featured</button><button class="tab" data-tab="destinations">Destinations</button><button class="tab" data-tab="recent">Recent</button><button class="tab" data-tab="for2">2 for 1</button></div><h2 id="side-title">Featured on TripADeal</h2><p id="side-sub">Hover a tour to see its route · click for details</p></header>
     <div id="list"></div>
   </div>
   <div id="detail">
@@ -79199,8 +79199,8 @@ const map=new maplibregl.Map({
       {id:"route-cruise",type:"line",source:"routes",filter:["in",["get","mode"],["literal",["cruise","river"]]],layout:{"line-cap":"round","line-join":"round"},paint:{"line-color":"#2F7DE1","line-width":["interpolate",["linear"],["zoom"],1,2.4,6,4.6],"line-opacity":0.85,"line-dasharray":[0.1,2]}},
       {id:"route-flight",type:"line",source:"routes",filter:["==",["get","mode"],"flight"],layout:{"line-cap":"butt","line-join":"round"},paint:{"line-color":"#FF6B3D","line-width":["interpolate",["linear"],["zoom"],1,1.6,6,3],"line-opacity":0.85,"line-dasharray":[4,3]}},
       {id:"stop",type:"circle",source:"stops",paint:{"circle-radius":["interpolate",["linear"],["zoom"],2,3.5,6,6],"circle-color":"#fff","circle-stroke-color":"#D9451B","circle-stroke-width":1.5}},
-      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["+",0.61,["*",0.09,["get","n"]]],6,["+",0.9,["*",0.126,["get","n"]]]]}},
-      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["+",0.9,["*",0.108,["get","n"]]]}}
+      {id:"city",type:"symbol",source:"cities",minzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["interpolate",["linear"],["zoom"],2.6,["min",1.2,["+",0.55,["*",0.13,["sqrt",["get","n"]]]]],6,["min",1.7,["+",0.8,["*",0.18,["sqrt",["get","n"]]]]]]}},
+      {id:"country",type:"symbol",source:"countries",maxzoom:DEST_ZOOM,layout:{"icon-image":"pin","icon-anchor":"bottom","icon-allow-overlap":true,"icon-ignore-placement":true,"icon-size":["min",1.6,["+",0.8,["*",0.16,["sqrt",["get","n"]]]]]}}
     ]},
   center:[120,10],zoom:1.4,minZoom:1,maxZoom:7.5,attributionControl:false
 });
@@ -79242,7 +79242,9 @@ function visible(){
 function anyFilter(){ return Object.values(F).some(s=>s.value)||cityFilter; }
 
 function apply(){
-  const vis=visible(), ids=new Set(vis.map(t=>t.id));
+  let vis=visible();
+  if(tab==="for2") vis=vis.filter(t=>t.per==="for2");   // isolate deals-for-2 on map + list
+  const ids=new Set(vis.map(t=>t.id));
   const idList=focusId!=null?[focusId]:(hot!=null&&ids.has(hot)?[hot]:[]); const expr=["in",["get","id"],["literal",idList]];
   const modeOf={"route":["coach"],"route-rail":["rail"],"route-cruise":["cruise","river"],"route-flight":["flight"]};
   Object.entries(modeOf).forEach(([l,m])=>map.setFilter(l,["all",["in",["get","mode"],["literal",m]],expr]));
@@ -79306,14 +79308,16 @@ function flyToCountry(name){ const ll=COUNTRY_PTS[name]; if(!ll) return; spinnin
 function renderList(vis){
   const list=$("#list"); list.innerHTML="";
   const filtered=anyFilter();
+  const for2=(tab==="for2"&&!areaMode&&!cityFilter);   // deals-for-2 tab, world level
   let rows=filtered?vis.slice().sort((a,b)=>a.price-b.price):vis.filter(t=>t.special).sort((a,b)=>a.ends-b.ends);
+  if(for2){ rows=vis.slice().sort((a,b)=>(b.special-a.special)||(a.price-b.price)); }
   if(areaMode){ rows=vis.slice().sort((a,b)=>(b.special-a.special)||(a.price-b.price)); }
   if(cityFilter) rows=vis.slice().sort((a,b)=>(b.special-a.special)||(a.price-b.price));
-  const featuredMode=!areaMode&&!cityFilter;
+  const featuredMode=!for2&&!areaMode&&!cityFilter;
   if(featuredMode){ rows=vis.filter(t=>t.featured).sort((a,b)=>a.featured-b.featured); if(!rows.length) rows=vis.slice().sort((a,b)=>a.price-b.price); }
-  $("#side-title").textContent=cityFilter?`${rows.length} tour${rows.length===1?"":"s"} · ${cityFilter}`:areaMode?`${rows.length} tour${rows.length===1?"":"s"} in this area`:filtered?`${rows.length} featured tour${rows.length===1?"":"s"} match`:"Featured on TripADeal";
-  $("#side-sub").textContent=cityFilter?"Clear filters to see all destinations · hover to see the route":areaMode?"Zoom out for all destinations · on-sale first · hover to see the route":"As shown on tripadeal.com.au today · hover to see the route";
-  if(!rows.length){ list.innerHTML=`<div class="empty">${areaMode?"No tours feature this area. Pan or zoom out to find some.":"No tours match those filters. Try widening the month or price range."}</div>`; return; }
+  $("#side-title").textContent=for2?`${rows.length} deal${rows.length===1?"":"s"} for 2`:cityFilter?`${rows.length} tour${rows.length===1?"":"s"} · ${cityFilter}`:areaMode?`${rows.length} tour${rows.length===1?"":"s"} in this area`:filtered?`${rows.length} featured tour${rows.length===1?"":"s"} match`:"Featured on TripADeal";
+  $("#side-sub").textContent=for2?"Two-people deals · one price for the pair · hover to see the route":cityFilter?"Clear filters to see all destinations · hover to see the route":areaMode?"Zoom out for all destinations · on-sale first · hover to see the route":"As shown on tripadeal.com.au today · hover to see the route";
+  if(!rows.length){ list.innerHTML=`<div class="empty">${for2?"No deals-for-2 match those filters. Try widening the month or price range.":areaMode?"No tours feature this area. Pan or zoom out to find some.":"No tours match those filters. Try widening the month or price range."}</div>`; return; }
   rows.forEach(t=>list.appendChild(cardEl(t)));
 }
 function cardEl(t){
