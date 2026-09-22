@@ -972,8 +972,8 @@
   55.95
  ],
  "Highlands": [
-  -81.36,
-  27.35
+  -4.5,
+  57.0
  ],
  "Glasgow": [
   -4.25,
@@ -2352,8 +2352,8 @@
   9.36
  ],
  "Cartagena": [
-  -0.99,
-  37.62
+  -75.51,
+  10.42
  ],
  "La Paz": [
   -68.13,
@@ -2626,5 +2626,737 @@
  "Calgary-Northeast": [
   -85.64,
   43.0
+ ],
+ "Tikhedhunga": [
+  83.71,
+  28.31
+ ],
+ "Burgerbukta": [
+  16.0,
+  77.05
+ ],
+ "West MacDonnell Ranges": [
+  132.8,
+  -23.7
+ ],
+ "Swedish Lapland": [
+  19.8,
+  67.0
+ ],
+ "Sebatana": [
+  27.9,
+  -24.3
+ ],
+ "similar": [
+  7.99,
+  44.11
+ ],
+ "Ho Chi Minh City - Australia": [
+  107.23,
+  10.55
+ ],
+ "Hanoi - Australia": [
+  150.86,
+  -34.67
+ ],
+ "Osaka - Australia": [
+  135.53,
+  34.69
+ ],
+ "Cochin - Australia": [
+  145.34,
+  -38.11
+ ],
+ "Tadapani - Chhomrong": [
+  83.81,
+  28.41
+ ],
+ "Chhomrong - Himalaya": [
+  83.82,
+  28.42
+ ],
+ "Toyohashi": [
+  137.39,
+  34.77
+ ],
+ "Sanur - Australia": [
+  153.07,
+  -27.44
+ ],
+ "Oita": [
+  131.61,
+  33.24
+ ],
+ "Muroran": [
+  140.97,
+  42.32
+ ],
+ "Jeju Island": [
+  126.55,
+  33.38
+ ],
+ "Delhi - Australia": [
+  151.16,
+  -33.79
+ ],
+ "Koh Rong Samloem Island": [
+  103.3,
+  10.58
+ ],
+ "Kathmandu - Australia": [
+  151.1,
+  -33.7
+ ],
+ "Yichang - Yangtze River": [
+  111.27,
+  30.72
+ ],
+ "Luxor - Valley of the Kings": [
+  32.6,
+  25.74
+ ],
+ "Singapore Voyage": [
+  103.82,
+  1.46
+ ],
+ "Singapore - Sydney": [
+  150.87,
+  -33.96
+ ],
+ "Seoul - Australia": [
+  144.2,
+  -38.36
+ ],
+ "Hososhima": [
+  131.67,
+  32.42
+ ],
+ "Sakaiminato": [
+  133.23,
+  35.54
+ ],
+ "Maizuru": [
+  135.39,
+  35.47
+ ],
+ "Akita": [
+  140.34,
+  39.69
+ ],
+ "Aomori": [
+  140.59,
+  40.89
+ ],
+ "Singapore - Australia": [
+  150.42,
+  -29.66
+ ],
+ "Similar": [
+  7.99,
+  44.11
+ ],
+ "Rome - Australia": [
+  151.55,
+  -26.79
+ ],
+ "Lake Maggiore": [
+  8.63,
+  45.95
+ ],
+ "Montreux - Geneva": [
+  6.12,
+  46.19
+ ],
+ "Hamburg - Berlin": [
+  10.03,
+  53.55
+ ],
+ "Grimaldi Ferry": [
+  7.42,
+  43.73
+ ],
+ "Trento - Treviso": [
+  11.9,
+  46.24
+ ],
+ "Alberobello - Bari": [
+  17.24,
+  40.78
+ ],
+ "Kas - Ucagiz": [
+  29.85,
+  36.2
+ ],
+ "Yesilkoy - Fethiye": [
+  28.69,
+  36.98
+ ],
+ "Zagreb -  Split": [
+  16.44,
+  43.51
+ ],
+ "Perugia": [
+  12.4,
+  43.11
+ ],
+ "Florence)": [
+  11.26,
+  43.77
+ ],
+ "Melk - Emmersdorf": [
+  15.34,
+  48.24
+ ],
+ "Bari - Brindisi": [
+  7.33,
+  51.44
+ ],
+ "Pisa)": [
+  10.68,
+  43.47
+ ],
+ "Athens - Piraeus": [
+  23.73,
+  37.98
+ ],
+ "Sarande": [
+  20.01,
+  39.88
+ ],
+ "Chania": [
+  24.02,
+  35.51
+ ],
+ "Stokmarknes": [
+  14.91,
+  68.57
+ ],
+ "Lady Franklin Island": [
+  -63.7,
+  62.92
+ ],
+ "Welcome": [
+  -80.25,
+  35.91
+ ],
+ "Melk": [
+  15.34,
+  48.23
+ ],
+ "Bear Island": [
+  19.03,
+  74.43
+ ],
+ "Johannesburg - Australia": [
+  27.92,
+  -26.02
+ ],
+ "Kimberley": [
+  24.76,
+  -28.74
+ ],
+ "Matjiesfontein": [
+  20.58,
+  -33.23
+ ],
+ "Zanzibar Island - Australia": [
+  153.12,
+  -26.72
+ ],
+ "Victoria Falls - Australia": [
+  150.3,
+  -33.57
+ ],
+ "Zwei Zwei": [
+  16.42,
+  48.21
+ ],
+ "Aswan - Kom Ombo": [
+  32.95,
+  24.48
+ ],
+ "Edfu - Luxor": [
+  32.55,
+  25.31
+ ],
+ "Sun Peaks": [
+  -119.88,
+  50.88
+ ],
+ "Whistler - Vancouver": [
+  -123.07,
+  49.39
+ ],
+ "Chilliwack": [
+  -121.95,
+  49.17
+ ],
+ "Norfolk Island": [
+  167.95,
+  -29.04
+ ],
+ "Mystery Island": [
+  137.76,
+  -32.39
+ ],
+ "Cozumel": [
+  -117.75,
+  33.59
+ ],
+ "Roatan": [
+  -121.97,
+  37.76
+ ],
+ "Harvest Caye": [
+  -88.4,
+  16.48
+ ],
+ "Costa Maya": [
+  -81.82,
+  26.44
+ ],
+ "Buenos Aires - Ushuaia": [
+  -58.42,
+  -34.77
+ ],
+ "Saunders Island": [
+  -26.49,
+  -57.8
+ ],
+ "Fortuna Bay": [
+  -36.8,
+  -54.13
+ ],
+ "Salisbury Plain": [
+  -37.34,
+  -54.07
+ ],
+ "Gold Harbour": [
+  -35.93,
+  -54.62
+ ],
+ "Paulet Island": [
+  -55.79,
+  -63.58
+ ],
+ "Hope Bay": [
+  -56.99,
+  -63.38
+ ],
+ "Deception Island": [
+  -60.55,
+  -62.96
+ ],
+ "Elephant Island": [
+  -55.22,
+  -61.17
+ ],
+ "Peter 1 Island": [
+  -74.12,
+  40.57
+ ],
+ "Shepard Island": [
+  -132.64,
+  -74.43
+ ],
+ "Franklin Island": [
+  168.34,
+  -76.08
+ ],
+ "Inexpressible Island": [
+  163.68,
+  -74.9
+ ],
+ "Coulman Island": [
+  169.77,
+  -73.48
+ ],
+ "Possession Island": [
+  51.67,
+  -46.41
+ ],
+ "Sturge Island": [
+  164.79,
+  -67.41
+ ],
+ "Young Island": [
+  -98.62,
+  74.33
+ ],
+ "Petermann Island": [
+  -64.14,
+  -65.17
+ ],
+ "Barren Island": [
+  14.82,
+  44.84
+ ],
+ "Bleaker Island": [
+  -58.85,
+  -52.19
+ ],
+ "Carcass Island": [
+  -60.57,
+  -51.28
+ ],
+ "Pebble Island": [
+  -59.51,
+  -51.3
+ ],
+ "King George River": [
+  127.32,
+  -14.39
+ ],
+ "Vansittart Bay": [
+  126.3,
+  -13.98
+ ],
+ "Ashmore Reef": [
+  122.96,
+  -12.24
+ ],
+ "Hunter River": [
+  151.18,
+  -32.55
+ ],
+ "Swift Bay": [
+  125.6,
+  -14.49
+ ],
+ "Montgomery Reef": [
+  124.27,
+  -15.93
+ ],
+ "Talbot Bay": [
+  123.86,
+  -16.29
+ ],
+ "hotel": [
+  145.19,
+  -38.03
+ ],
+ "Sitka": [
+  -135.46,
+  57.41
+ ],
+ "Inian Islands": [
+  -136.32,
+  58.25
+ ],
+ "Haines": [
+  -135.34,
+  59.08
+ ],
+ "Prince Rupert": [
+  -130.33,
+  54.31
+ ],
+ "Alert Bay": [
+  -126.93,
+  50.58
+ ],
+ "Hanoi (Premium": [
+  105.85,
+  21.01
+ ],
+ "Ban Don Village": [
+  107.79,
+  12.89
+ ],
+ "Hieu Waterfall": [
+  105.23,
+  20.46
+ ],
+ "Taj Mahal": [
+  78.04,
+  27.18
+ ],
+ "Delhi (Standard": [
+  -117.86,
+  33.72
+ ],
+ "Jaipur (Standard": [
+  75.81,
+  26.92
+ ],
+ "Bangalore (Standard": [
+  77.74,
+  12.78
+ ],
+ "Chennai (Standard": [
+  80.29,
+  13.09
+ ],
+ "Cochin (Standard": [
+  76.31,
+  10.0
+ ],
+ "Hanoi (Standard": [
+  105.85,
+  21.03
+ ],
+ "Kolkata (standard": [
+  88.41,
+  22.59
+ ],
+ "Kathmandu (Standard": [
+  85.31,
+  27.7
+ ],
+ "Chitwan (Standard": [
+  84.43,
+  27.69
+ ],
+ "Kolkata (Standard": [
+  88.41,
+  22.59
+ ],
+ "Darjeeling (Standard": [
+  88.27,
+  27.04
+ ],
+ "Cochin (Premium": [
+  76.35,
+  10.0
+ ],
+ "Fukuoka Japan": [
+  130.62,
+  33.63
+ ],
+ "St Nicholas Island": [
+  30.93,
+  61.4
+ ],
+ "Pretoria": [
+  28.19,
+  -25.75
+ ],
+ "Zanzibar Island": [
+  39.18,
+  -6.28
+ ],
+ "Tracy Arm": [
+  -133.4,
+  57.91
+ ],
+ "Rudyerd": [
+  -131.04,
+  55.3
+ ],
+ "Havelock Island": [
+  93.0,
+  11.97
+ ],
+ "Neil Island": [
+  93.04,
+  11.83
+ ],
+ "Vienna International": [
+  94.38,
+  29.63
+ ],
+ "Elong": [
+  97.46,
+  30.08
+ ],
+ "Renaissance Suzhou Wujiang": [
+  120.61,
+  30.91
+ ],
+ "Victoria Jenna": [
+  145.1,
+  -37.71
+ ],
+ "Flower Garden": [
+  105.75,
+  10.32
+ ],
+ "Ninh Binh Legend": [
+  105.96,
+  20.27
+ ],
+ "Verdant Hill": [
+  144.68,
+  -37.81
+ ],
+ "Strawberry Park": [
+  -121.98,
+  37.31
+ ],
+ "Yoma": [
+  100.59,
+  7.2
+ ],
+ "Nusa Penida Island": [
+  115.53,
+  -8.75
+ ],
+ "Confetti Garden": [
+  -115.24,
+  36.18
+ ],
+ "Vansana Luang Prabang": [
+  102.13,
+  19.88
+ ],
+ "Nusa Dua Beach": [
+  115.23,
+  -8.79
+ ],
+ "Nusa Dua beach": [
+  115.23,
+  -8.79
+ ],
+ "Sky Flores": [
+  120.47,
+  -8.61
+ ],
+ "Panglao Island": [
+  123.81,
+  9.59
+ ],
+ "Snowy Sea": [
+  120.62,
+  31.29
+ ],
+ "Mingdu": [
+  109.1,
+  34.13
+ ],
+ "Hua Sheng": [
+  113.26,
+  23.13
+ ],
+ "Clayton Leopardstown": [
+  -6.21,
+  53.27
+ ],
+ "Portugal": [
+  -8.14,
+  39.66
+ ],
+ "Nile Crown": [
+  3.65,
+  6.46
+ ],
+ "Athens!": [
+  -83.38,
+  33.96
+ ],
+ "Amalia": [
+  -105.45,
+  36.94
+ ],
+ "V": [
+  8.71,
+  46.51
+ ],
+ "Mayi": [
+  98.25,
+  29.04
+ ],
+ "Palmin": [
+  27.25,
+  37.84
+ ],
+ "Pam Thermal": [
+  120.7,
+  15.06
+ ],
+ "Pyramids Park": [
+  -1.7,
+  53.69
+ ],
+ "Naukluft": [
+  16.24,
+  -24.27
+ ],
+ "Tambo": [
+  120.99,
+  14.52
+ ],
+ "Panari": [
+  78.41,
+  23.57
+ ],
+ "Morning": [
+  -117.17,
+  32.71
+ ],
+ "Tembo House": [
+  -81.59,
+  28.36
+ ],
+ "French Quarter": [
+  -90.07,
+  29.96
+ ],
+ "Paris Las Vegas": [
+  -115.17,
+  36.11
+ ],
+ "Iguazu": [
+  -75.47,
+  10.41
+ ],
+ "Jose Antonio Lima": [
+  -76.76,
+  -12.14
+ ],
+ "Jose Antonio Cusco": [
+  -71.97,
+  -13.53
+ ],
+ "Hatun Inti": [
+  -72.53,
+  -13.16
+ ],
+ "Jose Antonio Puno": [
+  -69.9,
+  -15.05
+ ],
+ "Presidente": [
+  -51.18,
+  -23.31
+ ],
+ "Luna Salada": [
+  -66.98,
+  -20.28
+ ],
+ "Libertador": [
+  -58.48,
+  -34.5
+ ],
+ "Outback Pioneer": [
+  130.99,
+  -25.24
+ ],
+ "Oaks Auckland": [
+  174.78,
+  -36.99
+ ],
+ "Distinction Rotorua": [
+  176.25,
+  -38.16
+ ],
+ "The Park": [
+  172.07,
+  -42.68
+ ],
+ "The Barn": [
+  174.79,
+  -41.32
+ ],
+ "Hokitika Beachfront": [
+  170.96,
+  -42.72
+ ],
+ "Franz Josef Motel": [
+  170.18,
+  -43.39
+ ],
+ "Auberge Vancouver": [
+  -123.12,
+  49.29
  ]
 }
