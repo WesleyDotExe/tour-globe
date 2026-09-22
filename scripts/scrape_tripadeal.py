@@ -208,22 +208,20 @@ def parse_deal(deal_id):
     # photo gallery: this deal's own hero images ({id}_..._WEB_HERO) plus captioned destination
     # photos (PUBS+LIBRARY); skip the site nav thumbnails (website-refresh/) that sit on every
     # page, other deals' hero cards ({otherid}_...), maps and icons.
-    did = str(deal_id); own, pubs, seen = [], [], set()
+    did = str(deal_id); own, pubs, slug, seen = [], [], [], set(); related = {}
     for img in soup.find_all("img"):
         src = img.get("data-src") or img.get("data-lazy") or img.get("src") or ""
         if ("cstad.s3" not in src and "PUBS" not in src) or src in seen: continue
         if "website-refresh" in src or "1-icons" in src or "MAP" in src: continue
+        entry = dict(src=src, caption=(img.get("alt") or img.get("title") or "").strip().rstrip("."))
         m = re.search(r"amazonaws\.com/(\d{3,6})_", src)
-        if m:
-            if m.group(1) != did: continue        # a related-tour card, not this deal
-            bucket = own
-        elif "PUBS" in src:
-            bucket = pubs
-        else:
-            continue
-        seen.add(src)
-        bucket.append(dict(src=src, caption=(img.get("alt") or img.get("title") or "").strip().rstrip(".")))
-    images = (own + pubs)[:12]
+        if m and m.group(1) != did:               # another deal's hero card (related-tours carousel)
+            seen.add(src); related.setdefault(m.group(1), []).append(entry); continue
+        bucket = own if m else (pubs if "PUBS" in src else slug)   # slug = e.g. 5287-vietnam-...caobang.jpg
+        seen.add(src); bucket.append(entry)
+    # prefer this deal's own hero + captioned destination photos; then its slug-named gallery; then,
+    # for deals that show only a sibling deal's imagery, the single largest sibling gallery on the page.
+    images = (own + pubs)[:12] or slug[:12] or (max(related.values(), key=len)[:12] if related else [])
     days_detail, stops = parse_days(it, country)
     out = []
     for c in stops:
@@ -375,6 +373,7 @@ def price_run(full=False, limit=None):
         if not t.get("price"):   # $0 promo tiles (e.g. "Bucket list experiences") have no real price
             print(f"  ! dropping {i} {t.get('name','')!r}: no price (promo card)", file=sys.stderr); continue
         t["special"] = bool(t.get("save")); t["special_label"] = t.get("special_label") or ("Sale" if t["special"] else "")
+        t["trip_only"] = bool(card.get("trip_only"))   # deal offers a land-only "Trip Only" option
         t["featured"] = t.get("featured", 0)  # homepage order is set by --featured below
         t["last_seen"] = datetime.date.today().isoformat()
         tours.append(t)

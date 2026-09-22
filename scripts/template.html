@@ -32,6 +32,8 @@
   .pill::after{content:"";position:absolute;right:12px;top:50%;width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
      transform:translateY(-70%) rotate(45deg);color:var(--ink-2);pointer-events:none}
   .pill select.active + .pill::after{color:#fff}
+  .toggle{background:var(--paper);border:1px solid rgba(255,255,255,.4);color:var(--ink);padding:8px 14px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;white-space:nowrap}
+  .toggle.active{background:var(--coral);color:#fff;border-color:var(--coral)}
   .count{margin-left:auto;color:#fff;font-size:13px;opacity:.9;white-space:nowrap}
   .count b{font-size:18px;font-weight:700;margin-right:4px}
   .clear{background:none;border:none;color:#fff;font:inherit;font-size:13px;text-decoration:underline;cursor:pointer;opacity:.85;padding:4px 6px}
@@ -148,6 +150,7 @@
     <label class="pill"><select id="f-days"><option value="">Any length</option><option value="s">Under 12 days</option><option value="m">12–20 days</option><option value="l">20+ days</option></select></label>
     <label class="pill"><select id="f-price"><option value="">Any price</option><option value="1">Under $3,000</option><option value="2">$3,000–$6,000</option><option value="3">$6,000+</option></select></label>
     <label class="pill"><select id="f-type"><option value="">Any style</option></select></label>
+    <button class="toggle" id="f-triponly" type="button" title="Deals that offer a land-only Trip Only option">Trip only</button>
   </div>
   <button class="clear" id="clear" hidden>Clear filters</button>
   <div class="count"><b id="n">0</b>tours</div>
@@ -355,8 +358,9 @@ function nearestDeparture(lng,lat){ let best=null,bd=1e9; for(const [c,[x,y]] of
 const F={month:$("#f-month"),days:$("#f-days"),price:$("#f-price"),type:$("#f-type")};
 MONTHS.forEach(m=>F.month.add(new Option(m,m)));
 TYPES.forEach(t=>F.type.add(new Option(t,t)));
-let cityFilter=null, focusId=null, focusZoom=null, areaMode=false, tab="featured";
+let cityFilter=null, focusId=null, focusZoom=null, areaMode=false, tab="featured", tripOnly=false;
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{ tab=b.dataset.tab; document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on",x===b)); apply(); });
+$("#f-triponly").onclick=()=>{ tripOnly=!tripOnly; apply(); };
 
 function visible(){
   return TOURS.filter(t=>
@@ -364,9 +368,10 @@ function visible(){
     (!F.days.value||(F.days.value==="s"?t.days<12:F.days.value==="m"?t.days>=12&&t.days<=20:t.days>20))&&
     (!F.price.value||(F.price.value==="1"?t.price<3000:F.price.value==="2"?t.price>=3000&&t.price<6000:t.price>=6000))&&
     (!F.type.value||t.type===F.type.value)&&
+    (!tripOnly||t.trip_only)&&
     (!cityFilter||(t.destinations||[]).some(d=>d.name===cityFilter)||(t.countries||[]).includes(cityFilter)));
 }
-function anyFilter(){ return Object.values(F).some(s=>s.value)||cityFilter; }
+function anyFilter(){ return Object.values(F).some(s=>s.value)||cityFilter||tripOnly; }
 
 function apply(){
   let vis=visible();
@@ -382,6 +387,7 @@ function apply(){
   map.getSource("cities").setData(destCityFC(current?[]:vis));
   map.getSource("stops").setData(stopsFC(current));
   Object.values(F).forEach(s=>s.classList.toggle("active",!!s.value));
+  $("#f-triponly").classList.toggle("active",tripOnly);
   $("#clear").hidden=!anyFilter();
   let rows=vis; areaMode=false;
   if(!current&&map.getZoom()>=DEST_ZOOM){ const b=map.getBounds(); const inView=t=>(t.destinations||[]).some(d=>b.contains([d.lng,d.lat]));
@@ -561,7 +567,7 @@ function dropMarker(ll){
 }
 function closeTour(){ stopFly(); focusId=null; focusZoom=null; $("#detail").style.display="none"; $("#listwrap").style.display="flex"; if(marker){marker.remove();marker=null;} highlight(null); current=null; apply(); }
 $("#detail .back").onclick=closeTour;
-function resetFilters(){ Object.values(F).forEach(s=>s.value=""); cityFilter=null; }
+function resetFilters(){ Object.values(F).forEach(s=>s.value=""); cityFilter=null; tripOnly=false; }
 map.on("zoomend",()=>{ if(focusId!=null&&focusZoom!=null&&!flyTimer&&!map.isMoving()&&map.getZoom()<focusZoom-1.0){ resetFilters(); closeTour(); } });
 let lastArea=null; map.on("moveend",()=>{ if(current) return; const key=map.getZoom()>=DEST_ZOOM?map.getBounds().toArray().join():"world"; if(key!==lastArea){ lastArea=key; apply(); } });
 $("#detail .cta").onclick=()=>{ if(current) window.open(current.url,"_blank","noopener"); };
