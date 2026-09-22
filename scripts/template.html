@@ -572,7 +572,7 @@ function dropMarker(ll){
 function closeTour(){ stopFly(); focusId=null; focusZoom=null; $("#detail").style.display="none"; $("#listwrap").style.display="flex"; if(marker){marker.remove();marker=null;} highlight(null); current=null; apply(); }
 $("#detail .back").onclick=closeTour;
 function resetFilters(){ Object.values(F).forEach(s=>s.value=""); cityFilter=null; tripOnly=false; }
-map.on("zoomend",()=>{ if(focusId!=null&&focusZoom!=null&&!flyTimer&&!map.isMoving()&&map.getZoom()<focusZoom-1.0){ resetFilters(); closeTour(); } });
+map.on("zoomend",()=>{ if(focusId!=null&&focusZoom!=null&&!flyTimer&&!map.isMoving()&&map.getZoom()<focusZoom-0.5){ resetFilters(); closeTour(); } });
 let lastArea=null; map.on("moveend",()=>{ if(current) return; const key=map.getZoom()>=DEST_ZOOM?map.getBounds().toArray().join():"world"; if(key!==lastArea){ lastArea=key; apply(); } });
 $("#detail .cta").onclick=()=>{ if(current) window.open(current.url,"_blank","noopener"); };
 /* pick the gallery photo whose caption best matches this day's city or title; each photo used at most once per tour */
