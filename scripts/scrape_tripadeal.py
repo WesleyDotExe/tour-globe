@@ -198,9 +198,15 @@ def parse_deal(deal_id):
     kind = "Ocean cruise" if "Cruise" in title or "cruise" in name.lower() else ("Rail" if "Rail" in name else "Guided")
     if re.search(r"\bSmall Group\b", body): kind = "Small group"
 
-    # itinerary: only the first itinerary block (extensions / alternative ships come as "Itinerary 2")
-    it = re.split(r"\n\s*Itinerary 2\b", re.split(r"\n\s*## Itinerary\s*\n", body, maxsplit=1)[-1], maxsplit=1)[0]
-    it = re.split(r"\n\s*## Important Info", it, maxsplit=1)[0]
+    # itinerary: the day-by-day block. Prefer the "## Itinerary" section; some pages lack that
+    # marker (and carry an "Itinerary 2" tab label *before* the days, which used to truncate them
+    # to nothing). Anchor on the first "Day 1" header — dropping any preamble/label before it —
+    # then cut a real "Itinerary 2" extension that follows, and trim the trailing "Important Info".
+    section = re.split(r"\n\s*## Itinerary\s*\n", body, maxsplit=1)[-1]
+    d1 = re.search(r"(?m)^\s*Day 1\b", section)
+    if d1: section = section[d1.start():]
+    section = re.split(r"\n\s*Itinerary 2\b", section, maxsplit=1)[0]
+    it = re.split(r"\n\s*## Important Info", section, maxsplit=1)[0]
     # country hint for geocoding: the breadcrumb item just after the region (single-country
     # tours only; multi-country tours have none here and fall back to city-only geocoding).
     country = next((c for c in crumbs if c not in {"Tours","Cruises",region,name} and not c.startswith("ID ")
