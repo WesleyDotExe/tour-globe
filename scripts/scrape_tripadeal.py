@@ -51,7 +51,8 @@ except Exception:
     GAZ = {}
 import world_geo as WG   # point-in-polygon country lookup for each stop
 ALIAS = {"Halong Bay":"Ha Long Bay","Ha Long":"Ha Long Bay","Nagano Region":"Nagano","Xi'An":"Xi'an","Xian":"Xi'an","Mount Fuji":"Mt Fuji","Ho Chi Minh":"Ho Chi Minh City","Saigon":"Ho Chi Minh City",
-         "Ouarzate":"Ouarzazate","Lijang":"Lijiang","Nilavel":"Nilaveli","Lofoten Islands":"Lofoten","Maasai Mara National Reserve":"Masai Mara"}
+         "Ouarzate":"Ouarzazate","Lijang":"Lijiang","Nilavel":"Nilaveli","Lofoten Islands":"Lofoten","Maasai Mara National Reserve":"Masai Mara",
+         "Pilanesberg Game Reserve":"Pilanesberg","Kyanjing Gompa":"Kyanjin Gompa","Sebatana Private Reserve":"Sebatana","The Inside Passage":"Inside Passage"}
 
 def get(url, fresh=False):
     key = CACHE / (re.sub(r"[^a-z0-9]+","_",url.lower()) + ".html")
@@ -96,7 +97,7 @@ def text_of(soup):  # itinerary is plain text with bold overnight lines; flatten
 
 GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour\b|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&|\bbegin\b|\d+-night|\bfly\b|flight|crossing|transit|equator|canal|airport|cruise port|\band\b|glacier|at sea|day \d|half[- ]day|full[- ]day|game drive|walking|ceremony|rafting|snorkel|welcome to|meet us|markets?|excursion|trek to|\bboard\b|activities|bush walk|bungalows|geysers|salt lake|crater|cave\b|dam\b|gorge\b|temple of|\bship\b|voyages|seabourn|azamara|\d-star)", re.I)
 HOTELISH = re.compile(r"(hotel|resort|inn\b|lodge|suites?|plaza|boutique|spa\b|retreat|camp\b|villa|ryokan|guesthouse|apartments?|palace hotel|or similar|by wyndham|by hilton|by marriott|hilton|marriott|sheraton|novotel|ibis|ramada|mercure|hyatt|radisson|holiday inn|best western|crowne|doubletree|courtyard|wyndham)", re.I)
-SHIP = re.compile(r"(cruises?'|'s |princess|koningsdam|seas|celebrity|msc|carnival|hurtigruten|ship|onboard|aboard)", re.I)
+SHIP = re.compile(r"(cruises?'|'s |princess|koningsdam|seas|celebrity|msc|carnival|hurtigruten|ship|onboard|aboard|seabourn|scarlet lady|virgin voyages|\bncl\b|norwegian breakaway|\bsh vega\b|\bsh diana\b|rovos|\bgulet\b|goddess|fridtjof nansen|azamara|silversea|ponant|greg mortimer|sylvia earle|\bm[sv]\s)", re.I)
 MODE_RE = [("rail", re.compile(r"(bullet train|high-speed train|rocky mountaineer|rail journey|by train|train to|train ride|railway|shinkansen)", re.I)),
            ("river", re.compile(r"(nile|river cruise|danube|rhine|mekong|yangtze|felucca|riverboat)", re.I)),
            ("cruise", re.compile(r"(cruise|sail |sailing|embark|onboard|aboard|at sea|dock|port of)", re.I)),
@@ -109,17 +110,28 @@ def mode_of(text):
 HOME = re.compile(r"^(australia|new zealand|australia \(or new zealand\)|home)\b", re.I)
 
 def clean_place(p):
-    p = re.sub(r"\s*\(.*?\)", "", p).strip(" .*")
+    p = re.sub(r"\s*\(.*?\)", "", p).strip(" .*!?,")
+    p = re.sub(r"\s*\([^)]*$", "", p).strip()   # dangling '(Standard accommodation' with the ')' lost to a comma/line split
+    p = re.sub(r"^(Overnight Ferry|Ferry to|Ferry)\s+", "", p, flags=re.I).strip()   # 'Overnight Ferry Stockholm' -> 'Stockholm'
     p = re.sub(r"\s+(Region|Area|National Park|Free Day|Free Morning|Sightseeing|Overnight Cruise|Overnight|Cruise|Day Trip|City Tour|Tour|Stay)$", "", p, flags=re.I).strip()
-    p = re.sub(r"\s+(Region|Area|National Park|Overnight Cruise|Overnight|Cruise|Hotel|Airport|Port|Island)$", "", p, flags=re.I).strip()
+    p = re.sub(r"\s+(Region|Area|National Park|Overnight Cruise|Overnight|Cruise|Hotel|Airport|Port)$", "", p, flags=re.I).strip()
     return p
+
+# split a header/overnight-place into candidate places: en/em dash or slash, hyphen-then-space
+# ('Shangri-La City- Lijiang' keeps the hyphenated name but splits at 'City- Lijiang'), and the
+# joining words or/to/and ('Kings Canyon to Alice Springs' -> 'Alice Springs').
+SEP = re.compile(r"\s*[–—/]\s*|\s+-\s+|(?<=\w)-\s+|\s+(?:or|to|and)\s+", re.I)
+# clearly-not-a-place stop names (day activities, ferries, room-tier fragments, generic fillers)
+JUNK = re.compile(r"^(free\b|nature$|reisen$|arriving|departure$|transfer$|wellness|the ferry$|ferry$|volcanoes?$|premium\b|luxury\b|standard\b|deluxe\b|similar$|nearby$|comparable$|welcome$|morning$|afternoon$|evening$)|dinner show|houseboat|option\)|^overnight\b", re.I)
+def last_place(s):
+    """The last real place in a header/overnight string, or None."""
+    parts = [clean_place(x) for x in SEP.split(s)]
+    parts = [x for x in parts if x and not HOME.match(x) and not GENERIC.search(x) and not JUNK.search(x) and len(x) <= 30]
+    return parts[-1] if parts else None
 
 def place_from_header(header):
     """'Calgary - Lake Louise - Banff - Canmore' -> Canmore ; 'Juneau, Alaska, USA' -> Juneau ; 'Great Wall of China' -> None"""
-    header = header.split(",")[0]
-    parts = [clean_place(x) for x in re.split(r"\s[–—-]\s|\s(?:OR|or)\s", header)]
-    parts = [x for x in parts if x and not HOME.match(x) and not GENERIC.search(x) and len(x) <= 30]
-    return parts[-1] if parts else None
+    return last_place(header.split(",")[0])
 
 def parse_days(it, country=""):
     """Return (days_detail, stops). days_detail: [{d,title,city,text}], stops: [[city, nights], ...]"""
@@ -134,8 +146,8 @@ def parse_days(it, country=""):
         if over:
             o = over.group(1).strip(" *")
             if not SHIP.search(o):
-                last = clean_place(o.split(",")[-1])
-                if last and not HOTELISH.search(last) and len(last) <= 30: city = last
+                last = last_place(o.split(",")[-1])
+                if last and not HOTELISH.search(last): city = last
         if not city:
             city = place_from_header(header)
         if not city and over and SHIP.search(over.group(1)):
