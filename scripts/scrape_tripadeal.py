@@ -30,9 +30,15 @@ Be a good citizen: random 2–5 s gaps between requests, retries with backoff, a
 Check TripADeal's terms before running this at scale; the affiliate feed is the
 proper long-term source.
 """
-import re, sys, json, time, pathlib, argparse, random, datetime
+import re, sys, json, time, pathlib, argparse, random, datetime, math
 import requests
 from bs4 import BeautifulSoup
+
+def gc_degrees(lng1, lat1, lng2, lat2):
+    """Great-circle distance between two lng/lat points, in degrees of arc."""
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    d = math.sin(p1)*math.sin(p2) + math.cos(p1)*math.cos(p2)*math.cos(math.radians(lng2-lng1))
+    return math.degrees(math.acos(max(-1.0, min(1.0, d))))
 
 BASE = "https://www.tripadeal.com.au"
 CACHE = pathlib.Path(".cache"); CACHE.mkdir(exist_ok=True)
@@ -95,7 +101,7 @@ def text_of(soup):  # itinerary is plain text with bold overnight lines; flatten
     return soup.get_text("\n")
 
 
-GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour\b|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&|\bbegin\b|\d+-night|\bfly\b|flight|crossing|transit|equator|canal|airport|cruise port|\band\b|glacier|at sea|day \d|half[- ]day|full[- ]day|game drive|walking|ceremony|rafting|snorkel|welcome to|meet us|markets?|excursion|trek to|\bboard\b|activities|bush walk|bungalows|geysers|salt lake|crater|cave\b|dam\b|gorge\b|temple of|\bship\b|voyages|seabourn|azamara|\d-star)", re.I)
+GENERIC = re.compile(r"(sightseeing|free day|at leisure|day at|cruising|scenic|tour\b|experience|embark|disembark|in-transit|in transit|arrive|depart|optional|museum|warriors|great wall|grottoes|terracotta|bullet train|&|\bbegin\b|\d+-night|\bfly\b|flight|crossing|transit|equator|canal|airport|cruise port|\band\b|glacier|at sea|day \d|half[- ]day|full[- ]day|game drive|walking|ceremony|rafting|snorkel|welcome to|meet us|markets?|excursion|trek to|\bboard\b|activities|bush walk|bungalows|geysers|salt lake|crater|\bcave\b|\bdam\b|\bgorge\b|temple of|\bship\b|voyages|seabourn|azamara|\d-star)", re.I)
 HOTELISH = re.compile(r"(hotel|resort|inn\b|lodge|suites?|plaza|boutique|spa\b|retreat|camp\b|villa|ryokan|guesthouse|apartments?|palace hotel|or similar|by wyndham|by hilton|by marriott|hilton|marriott|sheraton|novotel|ibis|ramada|mercure|hyatt|radisson|holiday inn|best western|crowne|doubletree|courtyard|wyndham)", re.I)
 SHIP = re.compile(r"(cruises?'|'s |princess|koningsdam|seas|celebrity|msc|carnival|hurtigruten|ship|onboard|aboard|seabourn|scarlet lady|virgin voyages|\bncl\b|norwegian breakaway|\bsh vega\b|\bsh diana\b|rovos|\bgulet\b|goddess|fridtjof nansen|azamara|silversea|ponant|greg mortimer|sylvia earle|\bm[sv]\s)", re.I)
 MODE_RE = [("rail", re.compile(r"(bullet train|high-speed train|rocky mountaineer|rail journey|by train|train to|train ride|railway|shinkansen)", re.I)),
@@ -108,6 +114,9 @@ def mode_of(text):
     return "coach"
 
 HOME = re.compile(r"^(australia|new zealand|australia \(or new zealand\)|home)\b", re.I)
+# a coarse state/region/country that can end an overnight line ("Hotel, Anchorage, Alaska"): skip it
+# so the specific city from the day header is used instead of the region.
+STATEISH = re.compile(r"^(alaska|hawaii|california|florida|texas|nevada|utah|arizona|oregon|washington|colorado|montana|wyoming|alberta|british columbia|ontario|quebec|yukon|nunavut|usa|u\.?s\.?a\.?|united states|canada)$", re.I)
 
 def clean_place(p):
     p = re.sub(r"\s*\(.*?\)", "", p).strip(" .*!?,")
@@ -147,7 +156,7 @@ def parse_days(it, country=""):
             o = over.group(1).strip(" *")
             if not SHIP.search(o):
                 last = last_place(o.split(",")[-1])
-                if last and not HOTELISH.search(last): city = last
+                if last and not HOTELISH.search(last) and not STATEISH.match(last): city = last
         if not city:
             city = place_from_header(header)
         if not city and over and SHIP.search(over.group(1)):
@@ -195,15 +204,15 @@ def parse_deal(deal_id):
     save = (re.search(r"SAVE\s+(\$[\d,]+|\d+%)", body) or [None, ""])[1]
     was = re.search(r"WAS\s*~~\$?([\d,]+)~~", body)
     was = int(was.group(1).replace(",","")) if was else None
-    kind = "Ocean cruise" if "Cruise" in title or "cruise" in name.lower() else ("Rail" if "Rail" in name else "Guided")
-    if re.search(r"\bSmall Group\b", body): kind = "Small group"
-
     # itinerary: the day-by-day block. Prefer the "## Itinerary" section; some pages lack that
     # marker (and carry an "Itinerary 2" tab label *before* the days, which used to truncate them
     # to nothing). Anchor on the first "Day 1" header — dropping any preamble/label before it —
     # then cut a real "Itinerary 2" extension that follows, and trim the trailing "Important Info".
     section = re.split(r"\n\s*## Itinerary\s*\n", body, maxsplit=1)[-1]
-    d1 = re.search(r"(?m)^\s*Day 1\b", section)
+    # anchor on the first "Day 1 " in the parseable format (whitespace, not "Day 1:"), so a brief
+    # "Day 1: ... Day 2: ..." summary sitting before an "Itinerary 2" label is skipped in favour of
+    # the detailed day-by-day that follows it.
+    d1 = re.search(r"(?m)^\s*Day 1\s", section)
     if d1: section = section[d1.start():]
     section = re.split(r"\n\s*Itinerary 2\b", section, maxsplit=1)[0]
     it = re.split(r"\n\s*## Important Info", section, maxsplit=1)[0]
@@ -238,6 +247,34 @@ def parse_deal(deal_id):
     for d in days_detail:
         ll = geocode(d["city"], country) if d["city"] else None
         d["lng"], d["lat"] = (ll if ll else (None, None))
+
+    # travel style: primarily the tour name, with the transport modes as a tie-breaker only when a
+    # single mode dominates the route (a guided tour with one Nile day-cruise stays "Guided").
+    modes = [c[5] for c in out]; nl = name.lower(); n = max(1, len(modes))
+    frac = lambda m: modes.count(m) / n
+    on_route = {WG.country_of(c[1], c[2]) for c in out}
+    if re.search(r"\bexpedition\b|\bvoyage\b|antarctic|\barctic\b|svalbard|gal[aá]pagos|kimberley", nl) or "Antarctica" in on_route:
+        kind = "Expedition"
+    elif re.search(r"river cruise|\bnile\b|mekong|danube|rhine|yangtze|douro", nl) or frac("river") >= 0.4:
+        kind = "River cruise"
+    elif re.search(r"\brail\b|rocky mountaineer|rovos", nl) or frac("rail") >= 0.5:
+        kind = "Rail"
+    elif re.search(r"\bcruise\b", nl) or "Cruise" in title or frac("cruise") >= 0.4:
+        kind = "Ocean cruise"
+    else:
+        kind = "Guided"
+
+    # a guided/rail tour is geographically compact; a stop far from the cluster is a mis-geocoded
+    # hotel/landmark name (e.g. a hotel called "Amalia" resolving to the USA) — drop it. Cruises and
+    # expeditions legitimately span oceans, so they keep every stop.
+    if kind in ("Guided", "Rail") and len(out) >= 4:
+        mlng = sorted(c[1] for c in out)[len(out)//2]; mlat = sorted(c[2] for c in out)[len(out)//2]
+        kept = []
+        for c in out:
+            if gc_degrees(mlng, mlat, c[1], c[2]) > 55:
+                print(f"  ! dropping far stop {c[0]!r} ({c[1]},{c[2]}) in deal {deal_id}", file=sys.stderr)
+            else: kept.append(c)
+        out = kept
 
     # world-level dots: one city dot per stop, and the set of countries the route passes through
     destinations, dseen = [], set()
