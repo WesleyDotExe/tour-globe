@@ -10,7 +10,7 @@
   "per": "pp",
   "dates": "23 Nov 2026 - 20 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov",
@@ -400,7 +400,7 @@
   ],
   "trip_only": true,
   "featured": 1,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6359,
@@ -413,7 +413,7 @@
   "per": "pp",
   "dates": "2 Mar - 9 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -675,7 +675,7 @@
   ],
   "trip_only": true,
   "featured": 7,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6367,
@@ -688,7 +688,7 @@
   "per": "pp",
   "dates": "10 Mar - 7 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -1017,7 +1017,7 @@
   ],
   "trip_only": true,
   "featured": 13,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5836,
@@ -1030,7 +1030,7 @@
   "per": "pp",
   "dates": "8 Feb - 22 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Nov"
@@ -1357,7 +1357,7 @@
   ],
   "trip_only": true,
   "featured": 8,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6380,
@@ -1370,7 +1370,7 @@
   "per": "pp",
   "dates": "2 Mar - 26 May 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "May"
@@ -1627,7 +1627,7 @@
   ],
   "trip_only": true,
   "featured": 2,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5863,
@@ -1640,7 +1640,7 @@
   "per": "for2",
   "dates": "7 Dec 2026 - 21 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -1911,7 +1911,7 @@
   ],
   "trip_only": true,
   "featured": 9,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5684,
@@ -1924,7 +1924,7 @@
   "per": "pp",
   "dates": "18 Jan - 20 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -2254,7 +2254,7 @@
   ],
   "trip_only": true,
   "featured": 3,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6098,
@@ -2267,7 +2267,7 @@
   "per": "pp",
   "dates": "26 Feb - 23 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Nov"
@@ -2724,7 +2724,7 @@
   ],
   "trip_only": true,
   "featured": 10,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5701,
@@ -2737,7 +2737,7 @@
   "per": "pp",
   "dates": "18 Jan - 18 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Melbourne",
   "months": [
    "Dec"
@@ -2962,7 +2962,7 @@
   ],
   "trip_only": true,
   "featured": 4,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6365,
@@ -2975,7 +2975,7 @@
   "per": "pp",
   "dates": "28 Feb - 8 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -3246,7 +3246,7 @@
   ],
   "trip_only": true,
   "featured": 11,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4842,
@@ -3259,7 +3259,7 @@
   "per": "pp",
   "dates": "9 Dec 2026 - 27 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec",
@@ -3607,7 +3607,7 @@
   ],
   "trip_only": true,
   "featured": 12,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5862,
@@ -3620,7 +3620,7 @@
   "per": "pp",
   "dates": "2 Feb - 31 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -3838,7 +3838,7 @@
   ],
   "trip_only": true,
   "featured": 6,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5633,
@@ -3851,7 +3851,7 @@
   "per": "pp",
   "dates": "4 Mar - 10 Jun 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Jun"
@@ -4220,7 +4220,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5846,
@@ -4233,7 +4233,7 @@
   "per": "pp",
   "dates": "27 Jan - 8 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -4508,7 +4508,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5887,
@@ -4521,7 +4521,7 @@
   "per": "pp",
   "dates": "14 Dec 2026 - 15 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec",
@@ -4815,7 +4815,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5650,
@@ -4828,7 +4828,7 @@
   "per": "pp",
   "dates": "27 Jan - 1 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -5326,7 +5326,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5892,
@@ -5339,7 +5339,7 @@
   "per": "pp",
   "dates": "7 Jan - 23 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -5580,7 +5580,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5898,
@@ -5593,7 +5593,7 @@
   "per": "pp",
   "dates": "12 Jan - 7 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -5957,7 +5957,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4581,
@@ -5970,7 +5970,7 @@
   "per": "pp",
   "dates": "9 Feb - 11 May 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "May"
@@ -6392,7 +6392,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5885,
@@ -6405,7 +6405,7 @@
   "per": "for2",
   "dates": "30 Nov 2026 - 13 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov",
@@ -6678,7 +6678,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5901,
@@ -6691,7 +6691,7 @@
   "per": "for2",
   "dates": "9 Dec 2026 - 24 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec",
@@ -6930,7 +6930,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5626,
@@ -6943,7 +6943,7 @@
   "per": "pp",
   "dates": "13 Jan - 7 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec"
@@ -7246,7 +7246,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4987,
@@ -7259,7 +7259,7 @@
   "per": "pp",
   "dates": "7 Dec 2026 - 13 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -7717,7 +7717,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5448,
@@ -7730,7 +7730,7 @@
   "per": "pp",
   "dates": "2 Dec 2026 - 22 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -8213,7 +8213,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6265,
@@ -8226,7 +8226,7 @@
   "per": "pp",
   "dates": "18 Mar 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -8509,7 +8509,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4904,
@@ -8522,7 +8522,7 @@
   "per": "pp",
   "dates": "26 Jan - 14 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -8880,7 +8880,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6111,
@@ -8893,7 +8893,7 @@
   "per": "pp",
   "dates": "16 Mar - 26 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -9348,7 +9348,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5897,
@@ -9361,7 +9361,7 @@
   "per": "pp",
   "dates": "2 Apr - 3 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -9608,16 +9608,6 @@
   ],
   "destinations": [
    {
-    "name": "Verdant Hill",
-    "lng": 144.68,
-    "lat": -37.81
-   },
-   {
-    "name": "Strawberry Park",
-    "lng": -121.98,
-    "lat": 37.31
-   },
-   {
     "name": "Penang",
     "lng": 100.33,
     "lat": 5.41
@@ -9629,8 +9619,6 @@
    }
   ],
   "countries": [
-   "Australia",
-   "USA",
    "Malaysia"
   ],
   "stops": [
@@ -9641,22 +9629,6 @@
     0,
     "Depart Australia",
     "flight"
-   ],
-   [
-    "Verdant Hill",
-    144.68,
-    -37.81,
-    3,
-    "",
-    "flight"
-   ],
-   [
-    "Strawberry Park",
-    -121.98,
-    37.31,
-    2,
-    "",
-    "coach"
    ],
    [
     "Penang",
@@ -9677,7 +9649,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5802,
@@ -9690,7 +9662,7 @@
   "per": "pp",
   "dates": "12 Dec 2026 - 30 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -10110,7 +10082,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6184,
@@ -10123,7 +10095,7 @@
   "per": "pp",
   "dates": "11 Jan - 20 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -10445,7 +10417,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6213,
@@ -10458,7 +10430,7 @@
   "per": "pp",
   "dates": "23 Feb - 4 Mar 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -10720,7 +10692,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5912,
@@ -10733,7 +10705,7 @@
   "per": "pp",
   "dates": "21 Jan - 18 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -11111,7 +11083,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5896,
@@ -11124,7 +11096,7 @@
   "per": "for2",
   "dates": "15 Dec 2026 - 1 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -11338,7 +11310,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6229,
@@ -11351,7 +11323,7 @@
   "per": "pp",
   "dates": "27 Apr 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Apr"
@@ -11691,7 +11663,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5385,
@@ -11704,7 +11676,7 @@
   "per": "pp",
   "dates": "24 Feb - 9 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -12065,7 +12037,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6273,
@@ -12078,7 +12050,7 @@
   "per": "pp",
   "dates": "21 Jan - 20 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec"
@@ -12315,7 +12287,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6207,
@@ -12328,7 +12300,7 @@
   "per": "pp",
   "dates": "30 Jan - 19 Jun 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Jun"
@@ -12616,7 +12588,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6192,
@@ -12629,7 +12601,7 @@
   "per": "pp",
   "dates": "10 Jan - 19 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -12983,7 +12955,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5575,
@@ -12996,7 +12968,7 @@
   "per": "pp",
   "dates": "15 Mar - 8 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -13286,7 +13258,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6231,
@@ -13299,7 +13271,7 @@
   "per": "pp",
   "dates": "30 Nov 2026 - 29 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Nov",
@@ -13598,7 +13570,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6053,
@@ -13611,7 +13583,7 @@
   "per": "pp",
   "dates": "25 Jan 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -13875,7 +13847,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5687,
@@ -13888,7 +13860,7 @@
   "per": "pp",
   "dates": "30 Nov 2026 - 29 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Nov",
@@ -14412,7 +14384,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6158,
@@ -14425,7 +14397,7 @@
   "per": "pp",
   "dates": "13 Mar - 31 Mar 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Mar"
@@ -14695,7 +14667,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6239,
@@ -14708,7 +14680,7 @@
   "per": "pp",
   "dates": "19 Feb - 29 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -14952,7 +14924,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5461,
@@ -14965,7 +14937,7 @@
   "per": "pp",
   "dates": "26 Jan - 14 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -15216,7 +15188,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6051,
@@ -15229,7 +15201,7 @@
   "per": "pp",
   "dates": "9 Mar - 9 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -15829,7 +15801,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5395,
@@ -15842,7 +15814,7 @@
   "per": "pp",
   "dates": "26 Jan - 12 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -16190,7 +16162,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6096,
@@ -16203,7 +16175,7 @@
   "per": "pp",
   "dates": "11 Jan - 22 Feb 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -16456,7 +16428,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6144,
@@ -16469,7 +16441,7 @@
   "per": "pp",
   "dates": "16 Mar - 26 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -17008,7 +16980,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5055,
@@ -17021,7 +16993,7 @@
   "per": "pp",
   "dates": "4 Mar - 25 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -17324,7 +17296,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5913,
@@ -17337,7 +17309,7 @@
   "per": "pp",
   "dates": "3 Feb - 15 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -17607,7 +17579,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5478,
@@ -17620,7 +17592,7 @@
   "per": "pp",
   "dates": "6 May - 14 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -17998,7 +17970,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5911,
@@ -18011,7 +17983,7 @@
   "per": "for2",
   "dates": "15 Dec 2026 - 1 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -18245,7 +18217,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5639,
@@ -18258,7 +18230,7 @@
   "per": "pp",
   "dates": "9 Mar - 26 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -18483,7 +18455,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5547,
@@ -18496,7 +18468,7 @@
   "per": "pp",
   "dates": "8 Dec 2026 - 7 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -18783,7 +18755,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5080,
@@ -18796,7 +18768,7 @@
   "per": "pp",
   "dates": "22 Apr - 8 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -19053,7 +19025,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5903,
@@ -19066,7 +19038,7 @@
   "per": "pp",
   "dates": "8 Dec 2026 - 21 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -19394,7 +19366,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5902,
@@ -19407,7 +19379,7 @@
   "per": "pp",
   "dates": "1 Dec 2026 - 23 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -19835,7 +19807,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6105,
@@ -19848,7 +19820,7 @@
   "per": "pp",
   "dates": "4 Feb - 25 Mar 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -20261,7 +20233,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5314,
@@ -20274,7 +20246,7 @@
   "per": "pp",
   "dates": "3 Dec 2026 - 12 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -20588,7 +20560,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5915,
@@ -20601,7 +20573,7 @@
   "per": "for2",
   "dates": "8 Mar - 10 May 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "May"
@@ -20784,19 +20756,13 @@
     "lat": 17.96
    },
    {
-    "name": "Confetti Garden",
-    "lng": -115.24,
-    "lat": 36.18
-   },
-   {
     "name": "Vansana Luang Prabang",
     "lng": 102.13,
     "lat": 19.88
    }
   ],
   "countries": [
-   "Laos",
-   "USA"
+   "Laos"
   ],
   "stops": [
    [
@@ -20814,14 +20780,6 @@
     2,
     "",
     "river"
-   ],
-   [
-    "Confetti Garden",
-    -115.24,
-    36.18,
-    2,
-    "",
-    "cruise"
    ],
    [
     "Vansana Luang Prabang",
@@ -20842,7 +20800,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5850,
@@ -20855,7 +20813,7 @@
   "per": "pp",
   "dates": "10 Dec 2026 - 30 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -21177,7 +21135,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5886,
@@ -21190,7 +21148,7 @@
   "per": "pp",
   "dates": "10 Feb - 25 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -21525,7 +21483,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5210,
@@ -21538,7 +21496,7 @@
   "per": "pp",
   "dates": "2 Dec 2026 - 22 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -21896,7 +21854,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5299,
@@ -21909,7 +21867,7 @@
   "per": "pp",
   "dates": "14 Feb - 16 May 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "May"
@@ -22204,7 +22162,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5490,
@@ -22217,7 +22175,7 @@
   "per": "pp",
   "dates": "15 Mar - 26 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -22529,7 +22487,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5519,
@@ -22542,7 +22500,7 @@
   "per": "pp",
   "dates": "7 Dec 2026 - 24 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -22804,7 +22762,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5228,
@@ -22817,7 +22775,7 @@
   "per": "pp",
   "dates": "5 Jun - 26 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -23113,7 +23071,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5034,
@@ -23126,7 +23084,7 @@
   "per": "pp",
   "dates": "8 Dec 2026 - 20 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -23494,7 +23452,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4912,
@@ -23507,7 +23465,7 @@
   "per": "pp",
   "dates": "17 Feb - 1 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -23989,7 +23947,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6321,
@@ -24002,7 +23960,7 @@
   "per": "pp",
   "dates": "1 Feb - 15 Apr 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Brisbane",
   "months": [
    "Apr"
@@ -24286,7 +24244,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6360,
@@ -24299,7 +24257,7 @@
   "per": "pp",
   "dates": "12 Jan - 10 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -24548,7 +24506,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6344,
@@ -24561,7 +24519,7 @@
   "per": "pp",
   "dates": "2 Jun - 18 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Melbourne",
   "months": [
    "Sep"
@@ -25066,7 +25024,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5398,
@@ -25079,7 +25037,7 @@
   "per": "pp",
   "dates": "11 Mar - 4 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -25478,7 +25436,7 @@
   ],
   "trip_only": true,
   "featured": 5,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6379,
@@ -25491,7 +25449,7 @@
   "per": "pp",
   "dates": "8 Jun - 24 Aug 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -25917,7 +25875,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5917,
@@ -25930,7 +25888,7 @@
   "per": "pp",
   "dates": "25 Feb - 4 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -26379,7 +26337,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6356,
@@ -26392,7 +26350,7 @@
   "per": "pp",
   "dates": "10 Feb 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -26873,7 +26831,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6181,
@@ -26886,7 +26844,7 @@
   "per": "pp",
   "dates": "15 May - 17 Oct 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -27274,7 +27232,7 @@
   ],
   "trip_only": true,
   "featured": 15,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6370,
@@ -27287,7 +27245,7 @@
   "per": "pp",
   "dates": "14 Mar - 19 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -27525,7 +27483,7 @@
   ],
   "trip_only": false,
   "featured": 17,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6369,
@@ -27538,7 +27496,7 @@
   "per": "pp",
   "dates": "8 Jan 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -27893,7 +27851,7 @@
   ],
   "trip_only": false,
   "featured": 18,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5283,
@@ -27906,7 +27864,7 @@
   "per": "pp",
   "dates": "25 Apr - 24 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Melbourne",
   "months": [
    "Dec"
@@ -28198,7 +28156,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5600,
@@ -28211,7 +28169,7 @@
   "per": "pp",
   "dates": "29 Aug - 11 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -28637,7 +28595,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5653,
@@ -28650,7 +28608,7 @@
   "per": "pp",
   "dates": "13 Mar - 31 Mar 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -29050,7 +29008,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5601,
@@ -29063,7 +29021,7 @@
   "per": "pp",
   "dates": "28 Feb - 22 Sep 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -29461,7 +29419,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6021,
@@ -29474,7 +29432,7 @@
   "per": "pp",
   "dates": "11 Mar - 8 Apr 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Apr"
@@ -30281,7 +30239,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6180,
@@ -30294,7 +30252,7 @@
   "per": "pp",
   "dates": "14 Mar - 26 Mar 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -30692,7 +30650,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6285,
@@ -30705,7 +30663,7 @@
   "per": "pp",
   "dates": "26 Mar 2028",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -31122,7 +31080,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6375,
@@ -31135,7 +31093,7 @@
   "per": "pp",
   "dates": "16 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -31664,7 +31622,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6368,
@@ -31677,7 +31635,7 @@
   "per": "pp",
   "dates": "2 Jan 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -32006,7 +31964,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5738,
@@ -32019,7 +31977,7 @@
   "per": "pp",
   "dates": "5 Dec 2026",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -32329,7 +32287,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4985,
@@ -32342,7 +32300,7 @@
   "per": "pp",
   "dates": "7 Dec 2026 - 13 Dec 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec",
@@ -32558,7 +32516,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5921,
@@ -32571,7 +32529,7 @@
   "per": "for2",
   "dates": "25 Feb - 11 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -32911,7 +32869,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5900,
@@ -32924,7 +32882,7 @@
   "per": "for2",
   "dates": "23 Mar - 2 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -33312,7 +33270,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5762,
@@ -33325,7 +33283,7 @@
   "per": "pp",
   "dates": "9 Mar - 19 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -33738,7 +33696,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4171,
@@ -33751,7 +33709,7 @@
   "per": "pp",
   "dates": "19 Apr - 8 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -34213,7 +34171,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5907,
@@ -34226,7 +34184,7 @@
   "per": "for2",
   "dates": "3 Mar - 27 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -34636,7 +34594,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6204,
@@ -34649,7 +34607,7 @@
   "per": "pp",
   "dates": "28 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -35158,7 +35116,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6199,
@@ -35171,7 +35129,7 @@
   "per": "for2",
   "dates": "17 Feb - 11 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -35629,7 +35587,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5861,
@@ -35642,7 +35600,7 @@
   "per": "for2",
   "dates": "14 Mar - 20 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -36009,7 +35967,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5576,
@@ -36022,7 +35980,7 @@
   "per": "pp",
   "dates": "15 May - 9 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -36317,7 +36275,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5682,
@@ -36330,7 +36288,7 @@
   "per": "pp",
   "dates": "8 Apr - 25 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -36856,7 +36814,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5778,
@@ -36869,7 +36827,7 @@
   "per": "pp",
   "dates": "10 May - 11 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -37269,7 +37227,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6236,
@@ -37282,7 +37240,7 @@
   "per": "pp",
   "dates": "19 Mar - 22 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -37658,7 +37616,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6029,
@@ -37671,7 +37629,7 @@
   "per": "pp",
   "dates": "21 Nov - 16 Dec 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -38008,7 +37966,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6177,
@@ -38021,7 +37979,7 @@
   "per": "pp",
   "dates": "11 May - 12 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -38349,7 +38307,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6217,
@@ -38362,7 +38320,7 @@
   "per": "pp",
   "dates": "28 Jan - 12 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -38702,7 +38660,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5751,
@@ -38715,7 +38673,7 @@
   "per": "pp",
   "dates": "20 Apr 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Apr"
@@ -38991,7 +38949,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5728,
@@ -39004,7 +38962,7 @@
   "per": "pp",
   "dates": "9 Mar - 16 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -39619,7 +39577,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5433,
@@ -39632,7 +39590,7 @@
   "per": "pp",
   "dates": "7 May - 11 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -39777,15 +39735,15 @@
    {
     "d": 11,
     "title": "London, England - Amsterdam, Netherlands (Eurostar Train Journey)",
-    "city": "London",
+    "city": "Amsterdam",
     "text": "This morning, transfer to St Pancras International Station to take the Eurostar train to Amsterdam (approximately a 4.5-hour journey).",
     "detail": "This morning, transfer to St Pancras International Station to take the Eurostar train to Amsterdam (approximately a 4.5-hour journey). Upon arrival at Amsterdam Station, transfer to the hotel for check-in. Take a walking tour of Amsterdam with the tour leader to see what this incredible city offers. For centuries, the world’s largest commercial port has been known as the 'Venice of the North' because of the many canals and over 600 bridges that cross it. See the famous Dam Square, the Benginhof, the Flower Market on the Singel, and The Tower of Montelbaan (entrance fees not included).",
     "meals": "Breakfast",
     "hotel": "Four Elements Hotel Amsterdam or similar, Amsterdam",
     "optional": "",
     "mode": "rail",
-    "lng": -0.13,
-    "lat": 51.51
+    "lng": 4.89,
+    "lat": 52.37
    },
    {
     "d": 12,
@@ -40167,15 +40125,15 @@
    {
     "d": 11,
     "title": "London, England - Amsterdam, Netherlands (Eurostar Train Journey)",
-    "city": "London",
+    "city": "Amsterdam",
     "text": "This morning, transfer to St Pancras International Station to take the Eurostar train to Amsterdam (approximately a 4.5-hour journey).",
     "detail": "This morning, transfer to St Pancras International Station to take the Eurostar train to Amsterdam (approximately a 4.5-hour journey). Upon arrival at Amsterdam Station, transfer to the hotel for check-in. Take a walking tour of Amsterdam with the tour leader to see what this incredible city offers. For centuries, the world’s largest commercial port has been known as the “Venice of the North” because of the many canals and over 600 bridges that cross it. See the famous Dam Square, the Benginhof, the Flower Market on the Singel, and The Tower of Montelbaan (entrance fees not included).",
     "meals": "Breakfast",
     "hotel": "Four Elements Hotel Amsterdam or similar, Amsterdam",
     "optional": "",
     "mode": "rail",
-    "lng": -0.13,
-    "lat": 51.51
+    "lng": 4.89,
+    "lat": 52.37
    },
    {
     "d": 12,
@@ -40573,6 +40531,11 @@
     "lat": 51.51
    },
    {
+    "name": "Amsterdam",
+    "lng": 4.89,
+    "lat": 52.37
+   },
+   {
     "name": "Hamburg",
     "lng": 10.0,
     "lat": 53.55
@@ -40657,6 +40620,7 @@
    "Spain",
    "France",
    "United Kingdom",
+   "Netherlands",
    "Germany",
    "Czechia",
    "Poland",
@@ -40712,7 +40676,15 @@
     "London",
     -0.13,
     51.51,
-    3,
+    2,
+    "",
+    "rail"
+   ],
+   [
+    "Amsterdam",
+    4.89,
+    52.37,
+    1,
     "",
     "rail"
    ],
@@ -40840,7 +40812,15 @@
     "London",
     -0.13,
     51.51,
-    3,
+    2,
+    "",
+    "rail"
+   ],
+   [
+    "Amsterdam",
+    4.89,
+    52.37,
+    1,
     "",
     "rail"
    ],
@@ -40975,7 +40955,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5166,
@@ -40988,7 +40968,7 @@
   "per": "pp",
   "dates": "16 Dec 2026 - 23 Mar 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -41319,7 +41299,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5733,
@@ -41332,7 +41312,7 @@
   "per": "pp",
   "dates": "5 Apr - 18 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Oct"
@@ -41635,7 +41615,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6289,
@@ -41648,7 +41628,7 @@
   "per": "for2",
   "dates": "22 Dec 2026 - 16 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -41921,7 +41901,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5870,
@@ -41934,7 +41914,7 @@
   "per": "for2",
   "dates": "8 Mar - 25 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -42199,7 +42179,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5837,
@@ -42212,7 +42192,7 @@
   "per": "pp",
   "dates": "8 May - 9 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -42619,7 +42599,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6101,
@@ -42632,7 +42612,7 @@
   "per": "pp",
   "dates": "30 Jul - 1 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -42993,7 +42973,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5708,
@@ -43006,7 +42986,7 @@
   "per": "pp",
   "dates": "28 Nov 2026",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -43329,7 +43309,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4307,
@@ -43342,7 +43322,7 @@
   "per": "pp",
   "dates": "8 Feb 2027 - 3 Apr 2028",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Feb",
@@ -43682,7 +43662,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6281,
@@ -43695,7 +43675,7 @@
   "per": "pp",
   "dates": "3 Mar - 17 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -43939,7 +43919,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6377,
@@ -43952,7 +43932,7 @@
   "per": "pp",
   "dates": "4 May - 12 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -44572,7 +44552,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5447,
@@ -44585,7 +44565,7 @@
   "per": "pp",
   "dates": "20 Apr - 21 Sep 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -45081,16 +45061,6 @@
   ],
   "destinations": [
    {
-    "name": "Johannesburg",
-    "lng": 28.05,
-    "lat": -26.2
-   },
-   {
-    "name": "Pilanesberg",
-    "lng": 27.1,
-    "lat": -25.25
-   },
-   {
     "name": "Paris",
     "lng": 2.35,
     "lat": 48.85
@@ -45154,39 +45124,15 @@
     "name": "Rome",
     "lng": 12.5,
     "lat": 41.9
-   },
-   {
-    "name": "Buenos Aires",
-    "lng": -58.38,
-    "lat": -34.6
-   },
-   {
-    "name": "Puerto Iguazu",
-    "lng": -54.57,
-    "lat": -25.6
-   },
-   {
-    "name": "Rio De Janeiro",
-    "lng": -43.21,
-    "lat": -22.91
-   },
-   {
-    "name": "Santiago",
-    "lng": -83.8,
-    "lat": 9.87
    }
   ],
   "countries": [
-   "South Africa",
    "France",
    "Switzerland",
    "Italy",
    "Croatia",
    "Greece",
-   "Montenegro",
-   "Argentina",
-   "Brazil",
-   "Costa Rica"
+   "Montenegro"
   ],
   "stops": [
    [
@@ -45195,30 +45141,6 @@
     -33.87,
     0,
     "Depart Australia",
-    "flight"
-   ],
-   [
-    "Johannesburg",
-    28.05,
-    -26.2,
-    1,
-    "",
-    "coach"
-   ],
-   [
-    "Pilanesberg",
-    27.1,
-    -25.25,
-    4,
-    "",
-    "coach"
-   ],
-   [
-    "Johannesburg",
-    28.05,
-    -26.2,
-    1,
-    "",
     "flight"
    ],
    [
@@ -45324,43 +45246,11 @@
     3,
     "",
     "coach"
-   ],
-   [
-    "Buenos Aires",
-    -58.38,
-    -34.6,
-    2,
-    "",
-    "coach"
-   ],
-   [
-    "Puerto Iguazu",
-    -54.57,
-    -25.6,
-    2,
-    "",
-    "flight"
-   ],
-   [
-    "Rio De Janeiro",
-    -43.21,
-    -22.91,
-    3,
-    "",
-    "flight"
-   ],
-   [
-    "Santiago",
-    -83.8,
-    9.87,
-    2,
-    "",
-    "flight"
    ]
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5321,
@@ -45373,7 +45263,7 @@
   "per": "pp",
   "dates": "15 Apr - 7 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -45831,7 +45721,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5849,
@@ -45844,7 +45734,7 @@
   "per": "pp",
   "dates": "13 Apr - 8 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -46300,7 +46190,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5011,
@@ -46313,7 +46203,7 @@
   "per": "pp",
   "dates": "14 Mar - 10 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -46708,7 +46598,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6350,
@@ -46721,7 +46611,7 @@
   "per": "pp",
   "dates": "27 Apr - 28 Sep 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -47160,7 +47050,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6347,
@@ -47173,7 +47063,7 @@
   "per": "pp",
   "dates": "7 Jun - 1 Nov 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -47515,7 +47405,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4456,
@@ -47528,7 +47418,7 @@
   "per": "pp",
   "dates": "27 Apr - 12 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -47988,7 +47878,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6243,
@@ -48001,7 +47891,7 @@
   "per": "pp",
   "dates": "28 Feb - 31 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -48468,7 +48358,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6267,
@@ -48481,7 +48371,7 @@
   "per": "pp",
   "dates": "2 Mar - 21 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -48891,7 +48781,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6264,
@@ -48904,7 +48794,7 @@
   "per": "pp",
   "dates": "3 May - 21 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -49385,7 +49275,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6087,
@@ -49398,7 +49288,7 @@
   "per": "pp",
   "dates": "28 Aug 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -49756,7 +49646,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6209,
@@ -49769,7 +49659,7 @@
   "per": "pp",
   "dates": "8 Apr - 14 Oct 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -50166,7 +50056,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4884,
@@ -50179,7 +50069,7 @@
   "per": "pp",
   "dates": "4 May - 5 Oct 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -50568,29 +50458,14 @@
     "lat": 37.98
    },
    {
-    "name": "Amalia",
-    "lng": -105.45,
-    "lat": 36.94
-   },
-   {
     "name": "V",
     "lng": 8.71,
     "lat": 46.51
    },
    {
-    "name": "Mayi",
-    "lng": 98.25,
-    "lat": 29.04
-   },
-   {
     "name": "Palmin",
     "lng": 27.25,
     "lat": 37.84
-   },
-   {
-    "name": "Pam Thermal",
-    "lng": 120.7,
-    "lat": 15.06
    },
    {
     "name": "Cappadocia",
@@ -50625,11 +50500,8 @@
   ],
   "countries": [
    "Greece",
-   "USA",
    "Switzerland",
-   "China",
    "Türkiye",
-   "Philippines",
    "United Kingdom",
    "Egypt"
   ],
@@ -50651,14 +50523,6 @@
     "coach"
    ],
    [
-    "Amalia",
-    -105.45,
-    36.94,
-    1,
-    "",
-    "coach"
-   ],
-   [
     "V",
     8.71,
     46.51,
@@ -50675,26 +50539,10 @@
     "coach"
    ],
    [
-    "Mayi",
-    98.25,
-    29.04,
-    2,
-    "",
-    "flight"
-   ],
-   [
     "Palmin",
     27.25,
     37.84,
     2,
-    "",
-    "coach"
-   ],
-   [
-    "Pam Thermal",
-    120.7,
-    15.06,
-    1,
     "",
     "coach"
    ],
@@ -50705,14 +50553,6 @@
     1,
     "",
     "coach"
-   ],
-   [
-    "Mayi",
-    98.25,
-    29.04,
-    1,
-    "",
-    "flight"
    ],
    [
     "Pyramids Park",
@@ -50765,7 +50605,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5671,
@@ -50778,7 +50618,7 @@
   "per": "pp",
   "dates": "10 Dec 2026",
   "region": "Europe",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -51107,7 +50947,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5748,
@@ -51120,7 +50960,7 @@
   "per": "pp",
   "dates": "27 May - 23 Sep 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -51583,7 +51423,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6366,
@@ -51596,7 +51436,7 @@
   "per": "pp",
   "dates": "13 Aug 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -52083,7 +51923,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6353,
@@ -52096,7 +51936,7 @@
   "per": "pp",
   "dates": "28 Apr - 15 Sep 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -52577,7 +52417,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6374,
@@ -52590,7 +52430,7 @@
   "per": "pp",
   "dates": "6 Jun - 29 Aug 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -53022,7 +52862,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6168,
@@ -53035,7 +52875,7 @@
   "per": "pp",
   "dates": "30 Apr - 29 Sep 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -53696,7 +53536,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6371,
@@ -53709,7 +53549,7 @@
   "per": "pp",
   "dates": "12 May - 20 Oct 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -54033,7 +53873,7 @@
   ],
   "trip_only": false,
   "featured": 14,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6112,
@@ -54046,7 +53886,7 @@
   "per": "pp",
   "dates": "20 Oct 2027 - 23 Mar 2028",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Rail",
   "from_city": "Sydney",
   "months": [
    "Oct",
@@ -54496,7 +54336,7 @@
   ],
   "trip_only": false,
   "featured": 16,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6364,
@@ -54509,7 +54349,7 @@
   "per": "pp",
   "dates": "16 Nov 2027 - 2 Feb 2028",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov",
@@ -54886,7 +54726,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6212,
@@ -54899,7 +54739,7 @@
   "per": "pp",
   "dates": "1 Jun - 31 Aug 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -55310,7 +55150,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6235,
@@ -55323,7 +55163,7 @@
   "per": "pp",
   "dates": "17 Jun 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Jun"
@@ -55661,7 +55501,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6233,
@@ -55674,7 +55514,7 @@
   "per": "pp",
   "dates": "13 May - 30 Sep 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -55997,7 +55837,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6223,
@@ -56010,7 +55850,7 @@
   "per": "pp",
   "dates": "21 Jul - 25 Aug 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -56360,7 +56200,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6193,
@@ -56373,7 +56213,7 @@
   "per": "pp",
   "dates": "10 Feb - 1 Dec 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -56860,7 +56700,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5909,
@@ -56873,7 +56713,7 @@
   "per": "for2",
   "dates": "13 Sep 2027 - 13 Sep 2028",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep",
@@ -57290,7 +57130,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5691,
@@ -57303,7 +57143,7 @@
   "per": "pp",
   "dates": "6 May - 17 Aug 2027",
   "region": "Europe",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -57318,54 +57158,54 @@
    {
     "d": 1,
     "title": "Australia (or New Zealand) - Amsterdam, The Netherlands",
-    "city": null,
+    "city": "Amsterdam",
     "text": "Today, depart for Amsterdam, the Netherlands!",
     "detail": "Today, depart for Amsterdam, the Netherlands!",
     "meals": "In-Flight",
     "hotel": "",
     "optional": "",
     "mode": "coach",
-    "lng": null,
-    "lat": null
+    "lng": 4.89,
+    "lat": 52.37
    },
    {
     "d": 2,
     "title": "Welcome to Amsterdam, The Netherlands!",
-    "city": null,
+    "city": "Amsterdam",
     "text": "Welcome to Amsterdam, Netherlands.",
     "detail": "Welcome to Amsterdam, Netherlands. Upon arrival make your own way to the hotel and enjoy the rest of the day at leisure. This city is known for its artistic heritage, elaborate canal system and narrow houses with gabled facades. Enjoy your time exploring all that this iconic city has to offer, before setting sail on your 14-night cruise tomorrow.",
     "meals": "None",
     "hotel": "Park Inn by Radisson City West or similar, Amsterdam",
     "optional": "",
     "mode": "cruise",
-    "lng": null,
-    "lat": null
+    "lng": 4.89,
+    "lat": 52.37
    },
    {
     "d": 3,
     "title": "Amsterdam, The Netherlands - Begin 14-Night 5-star Amsterdam to Budapest River Cruise",
-    "city": null,
+    "city": "Amsterdam",
     "text": "Embark: 16:00 This morning, enjoy time at leisure exploring Amsterdam's canal system, 17th-century architecture and many museums.",
     "detail": "Embark: 16:00 This morning, enjoy time at leisure exploring Amsterdam's canal system, 17th-century architecture and many museums. In the afternoon, make your own way to the riverport of Amsterdam to board your home for the next 14 nights. Spend the afternoon settling into your floating home docked in the canals of Amsterdam. This evening, enjoy a welcome cocktail and dinner on board.",
     "meals": "Dinner",
     "hotel": "Amadeus River Cruises' Amadeus Mira or Amadeus Amara",
     "optional": "",
     "mode": "river",
-    "lng": null,
-    "lat": null
+    "lng": 4.89,
+    "lat": 52.37
    },
    {
     "d": 4,
     "title": "Amsterdam, The Netherlands – Utrecht, The Netherlands",
-    "city": null,
+    "city": "Amsterdam",
     "text": "Amsterdam - Depart: 08:30 Utrecht - Arrive: 11:30 - Depart: 12:30 Today enjoy the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’",
     "detail": "Amsterdam - Depart: 08:30 Utrecht - Arrive: 11:30 - Depart: 12:30 Today enjoy the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’s 17th century Golden Age. Begin your exploration with a relaxing cruise through a myriad of landscapes along the Rhine river. For more active pursuits, spend the morning exploring the canal city of Amsterdam and the surrounding countryside, rejoining the vessel in the town of Utrecht in time for lunch.",
     "meals": "Breakfast; Lunch; Dinner",
     "hotel": "Amadeus River Cruises' Amadeus Mira or Amadeus Amara",
     "optional": "",
     "mode": "river",
-    "lng": null,
-    "lat": null
+    "lng": 4.89,
+    "lat": 52.37
    },
    {
     "d": 5,
@@ -57602,6 +57442,11 @@
   ],
   "destinations": [
    {
+    "name": "Amsterdam",
+    "lng": 4.89,
+    "lat": 52.37
+   },
+   {
     "name": "Cologne",
     "lng": 6.96,
     "lat": 50.94
@@ -57663,6 +57508,7 @@
    }
   ],
   "countries": [
+   "Netherlands",
    "Germany",
    "Austria",
    "Slovakia",
@@ -57676,6 +57522,14 @@
     0,
     "Depart Australia",
     "flight"
+   ],
+   [
+    "Amsterdam",
+    4.89,
+    52.37,
+    4,
+    "",
+    "coach"
    ],
    [
     "Cologne",
@@ -57776,7 +57630,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6351,
@@ -57789,7 +57643,7 @@
   "per": "pp",
   "dates": "5 Jun 2028",
   "region": "Europe",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Jun"
@@ -58313,7 +58167,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6132,
@@ -58326,7 +58180,7 @@
   "per": "pp",
   "dates": "10 Feb - 1 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Dec"
@@ -58601,7 +58455,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6191,
@@ -58614,7 +58468,7 @@
   "per": "for2",
   "dates": "17 Jan - 5 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -58853,7 +58707,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5656,
@@ -58866,7 +58720,7 @@
   "per": "pp",
   "dates": "21 Dec 2026 - 22 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -59128,7 +58982,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5145,
@@ -59141,7 +58995,7 @@
   "per": "pp",
   "dates": "13 Jan - 1 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -59398,7 +59252,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6055,
@@ -59411,7 +59265,7 @@
   "per": "pp",
   "dates": "10 Mar - 17 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -59759,7 +59613,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5462,
@@ -59772,7 +59626,7 @@
   "per": "pp",
   "dates": "11 Mar - 18 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -60169,11 +60023,6 @@
     "lat": -17.93
    },
    {
-    "name": "Tambo",
-    "lng": 120.99,
-    "lat": 14.52
-   },
-   {
     "name": "Johannesburg",
     "lng": 28.05,
     "lat": -26.2
@@ -60183,8 +60032,7 @@
    "South Africa",
    "Namibia",
    "Botswana",
-   "Zambia",
-   "Philippines"
+   "Zambia"
   ],
   "stops": [
    [
@@ -60300,14 +60148,6 @@
     "cruise"
    ],
    [
-    "Tambo",
-    120.99,
-    14.52,
-    1,
-    "",
-    "flight"
-   ],
-   [
     "Johannesburg",
     28.05,
     -26.2,
@@ -60318,7 +60158,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5755,
@@ -60331,7 +60171,7 @@
   "per": "pp",
   "dates": "16 Mar - 19 Oct 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -60648,7 +60488,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6230,
@@ -60661,7 +60501,7 @@
   "per": "pp",
   "dates": "16 Mar - 21 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -61024,7 +60864,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5645,
@@ -61037,7 +60877,7 @@
   "per": "pp",
   "dates": "6 Feb - 4 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -61437,7 +61277,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6182,
@@ -61450,7 +61290,7 @@
   "per": "pp",
   "dates": "4 Feb - 19 Sep 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Rail",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -61806,7 +61646,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6162,
@@ -61819,7 +61659,7 @@
   "per": "for2",
   "dates": "18 Jan - 10 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -62081,7 +61921,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5914,
@@ -62094,7 +61934,7 @@
   "per": "pp",
   "dates": "12 Mar - 23 Oct 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -62744,7 +62584,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5716,
@@ -62757,7 +62597,7 @@
   "per": "pp",
   "dates": "23 Feb - 16 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -63169,7 +63009,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5176,
@@ -63182,7 +63022,7 @@
   "per": "pp",
   "dates": "22 Mar - 8 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -63495,11 +63335,6 @@
     "lat": -3.49
    },
    {
-    "name": "Tembo House",
-    "lng": -81.59,
-    "lat": 28.36
-   },
-   {
     "name": "Zanzibar Island",
     "lng": 39.18,
     "lat": -6.28
@@ -63508,8 +63343,7 @@
   "countries": [
    "Kenya",
    "India",
-   "Tanzania",
-   "USA"
+   "Tanzania"
   ],
   "stops": [
    [
@@ -63585,14 +63419,6 @@
     "coach"
    ],
    [
-    "Tembo House",
-    -81.59,
-    28.36,
-    3,
-    "",
-    "flight"
-   ],
-   [
     "Zanzibar Island",
     39.18,
     -6.28,
@@ -63603,7 +63429,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5421,
@@ -63616,7 +63442,7 @@
   "per": "pp",
   "dates": "5 Mar - 3 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -63894,7 +63720,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4521,
@@ -63907,7 +63733,7 @@
   "per": "pp",
   "dates": "12 Apr - 13 Oct 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Oct"
@@ -64128,7 +63954,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5920,
@@ -64141,7 +63967,7 @@
   "per": "for2",
   "dates": "10 Nov 2026 - 9 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov",
@@ -64474,7 +64300,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6373,
@@ -64487,7 +64313,7 @@
   "per": "pp",
   "dates": "27 Feb - 6 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -64780,11 +64606,6 @@
     "lat": -22.57
    },
    {
-    "name": "Zwei Zwei",
-    "lng": 16.42,
-    "lat": 48.21
-   },
-   {
     "name": "Chobe",
     "lng": 24.71,
     "lat": -18.39
@@ -64808,7 +64629,6 @@
   "countries": [
    "South Africa",
    "Botswana",
-   "Austria",
    "Zambia"
   ],
   "stops": [
@@ -64861,14 +64681,6 @@
     "coach"
    ],
    [
-    "Zwei Zwei",
-    16.42,
-    48.21,
-    2,
-    "",
-    "coach"
-   ],
-   [
     "Chobe",
     24.71,
     -18.39,
@@ -64903,7 +64715,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4879,
@@ -64916,7 +64728,7 @@
   "per": "pp",
   "dates": "28 Feb - 21 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -65189,7 +65001,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5858,
@@ -65202,7 +65014,7 @@
   "per": "for2",
   "dates": "22 Jan - 17 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -65505,7 +65317,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6099,
@@ -65518,7 +65330,7 @@
   "per": "pp",
   "dates": "4 Mar - 18 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -65966,7 +65778,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6122,
@@ -65979,7 +65791,7 @@
   "per": "pp",
   "dates": "8 Mar 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -66542,7 +66354,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5922,
@@ -66555,7 +66367,7 @@
   "per": "for2",
   "dates": "1 Mar - 20 Dec 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec"
@@ -66864,7 +66676,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5428,
@@ -66877,7 +66689,7 @@
   "per": "pp",
   "dates": "17 Feb - 17 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -67284,7 +67096,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5507,
@@ -67297,7 +67109,7 @@
   "per": "pp",
   "dates": "11 Mar - 11 Nov 2027",
   "region": "Africa",
-  "type": "Small group",
+  "type": "River cruise",
   "from_city": "Melbourne",
   "months": [
    "Nov"
@@ -67626,7 +67438,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6336,
@@ -67639,7 +67451,7 @@
   "per": "pp",
   "dates": "23 Feb - 24 Feb 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -67828,7 +67640,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6154,
@@ -67841,7 +67653,7 @@
   "per": "pp",
   "dates": "19 Apr - 30 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Rail",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -68212,7 +68024,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6141,
@@ -68225,7 +68037,7 @@
   "per": "pp",
   "dates": "18 Apr - 12 Sep 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -68240,15 +68052,15 @@
    {
     "d": 1,
     "title": "Australia (or New Zealand) - Calgary, Canada",
-    "city": "Alberta",
+    "city": "Calgary",
     "text": "Today, you will depart from Australia for Calgary, Canada.",
     "detail": "Today, you will depart from Australia for Calgary, Canada. Upon arrival, make your own way to the hotel for check-in. Check-in is from 15:00 onwards, and luggage storage will be available for any travellers with an early arrival.",
     "meals": "In-Flight",
     "hotel": "Country Inn & Suites Calgary Airport or similar, Calgary, Alberta",
     "optional": "",
     "mode": "coach",
-    "lng": -115.0,
-    "lat": 55.0
+    "lng": -114.07,
+    "lat": 51.05
    },
    {
     "d": 2,
@@ -68498,9 +68310,9 @@
   ],
   "destinations": [
    {
-    "name": "Alberta",
-    "lng": -115.0,
-    "lat": 55.0
+    "name": "Calgary",
+    "lng": -114.07,
+    "lat": 51.05
    },
    {
     "name": "Canmore",
@@ -68557,9 +68369,9 @@
     "flight"
    ],
    [
-    "Alberta",
-    -115.0,
-    55.0,
+    "Calgary",
+    -114.07,
+    51.05,
     1,
     "",
     "coach"
@@ -68647,7 +68459,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6190,
@@ -68660,7 +68472,7 @@
   "per": "pp",
   "dates": "17 May - 16 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Rail",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -68675,41 +68487,41 @@
    {
     "d": 1,
     "title": "Australia (or New Zealand) - Anchorage, Alaska, USA",
-    "city": "Alaska",
+    "city": "Anchorage",
     "text": "Today, depart from Australia (or New Zealand) for Anchorage, Alaska.",
     "detail": "Today, depart from Australia (or New Zealand) for Anchorage, Alaska. Upon arrival, meet your driver and transfer to the hotel for check-in.",
     "meals": "In-Flight",
     "hotel": "Westmark Hotel & Conference Centre, Anchorage, Alaska (or similar)",
     "optional": "",
     "mode": "coach",
-    "lng": -149.68,
-    "lat": 64.45
+    "lng": -149.89,
+    "lat": 61.22
    },
    {
     "d": 2,
     "title": "Anchorage - Denali National Park, Alaska",
-    "city": "Alaska",
+    "city": "Denali",
     "text": "This morning, meet your driver at the hotel and transfer to the rail depot.",
     "detail": "This morning, meet your driver at the hotel and transfer to the rail depot. Here, your unforgettable Alaskan adventure begins aboard Holland America’s McKinley Explorer®, a luxurious, two-level glass-domed railcar that's designed for optimal wilderness viewing. Settle into your assigned, forward-facing seat and relax as the untamed beauty of Alaska unfolds around you. Travel through the sweeping landscapes of Broad Pass and cross the dramatic Hurricane Gulch, while expert guides share fascinating stories and insights about the region. With luck, you'll catch your first breathtaking glimpse of Mount Denali as it emerges on the horizon. Step onto the open-air platform to soak in the crisp mountain air and panoramic views, or simply unwind as bartenders craft signature cocktails served with a side of unforgettable scenery. During the ride, regionally-inspired breakfast and lunch options are available for purchase from the onboard dining car. Upon arrival, your luggage will be waiting for you at the lodge, allowing for a seamless check-in and a relaxing start to your two-night stay at the doorstep of Denali National Park. Spend your afternoon exploring Denali Square, the heart of the l",
     "meals": "None",
     "hotel": "Holland America Denali Lodge, Denali National Park, Alaska",
     "optional": "",
     "mode": "cruise",
-    "lng": -149.68,
-    "lat": 64.45
+    "lng": -151.01,
+    "lat": 63.07
    },
    {
     "d": 3,
     "title": "Tundra Wilderness Tour - Denali National Park, Alaska",
-    "city": "Alaska",
+    "city": "Denali",
     "text": "Alaska’s Denali National Park is where beauty is untamed and majestic animals roam their wide-open habitat as they have for millennia.",
     "detail": "Alaska’s Denali National Park is where beauty is untamed and majestic animals roam their wide-open habitat as they have for millennia. Today, you will experience this up close on a Tundra Wilderness Tour and travel deep into the heart of Denali for the adventure of a lifetime. This comfortable, comprehensive and fully-narrated, 5 to 6-hour excursion takes you 70 kilometres into the park’s unspoiled wilderness. It offers your best chance to see Alaska’s marquee animals, including grizzly bears, caribou, Dall sheep, moose and wolves. The Tundra Wilderness Tour is designed to provide a comfortable way to explore Denali. It includes narration provided by a knowledgeable driver/guide and features large screens so you won’t miss a thing. A light snack is provided, and a box lunch is available to purchase.",
     "meals": "None",
     "hotel": "Holland America Denali Lodge, Denali National Park, Alaska",
     "optional": "",
     "mode": "coach",
-    "lng": -149.68,
-    "lat": 64.45
+    "lng": -151.01,
+    "lat": 63.07
    },
    {
     "d": 4,
@@ -68727,54 +68539,54 @@
    {
     "d": 5,
     "title": "Fairbanks, Alaska, USA - Dawson City, Yukon, Canada",
-    "city": "Canada",
+    "city": "Fairbanks",
     "text": "At the appropriate time, meet your driver and transfer to the airport for your flight to Dawson City, Canada.",
     "detail": "At the appropriate time, meet your driver and transfer to the airport for your flight to Dawson City, Canada. Venture where few have gone before, to the heart of the subarctic Tr’ondëk–Klondike region. This UNESCO World Heritage site tells the story of the Tr’ondëk Hwëch’in people and the effects of Gold Rush expansion and colonialism. Enjoy the rest of your day at leisure in Dawson City, which is known for its sweeping landscapes, Native traditions and Klondike Gold Rush history.",
     "meals": "None",
     "hotel": "Holland America Dawson City Inn, Dawson City, Canada (or similar)",
     "optional": "",
     "mode": "flight",
-    "lng": -107.99,
-    "lat": 61.07
+    "lng": -147.72,
+    "lat": 64.84
    },
    {
     "d": 6,
     "title": "Klondike Gold Tour - Dawson City, Yukon",
-    "city": "Canada",
+    "city": "Dawson City",
     "text": "Today, you will follow in the footsteps of 1896 prospectors at the meeting of the Klondike and Yukon Rivers on a Klondike Gold tour.",
     "detail": "Today, you will follow in the footsteps of 1896 prospectors at the meeting of the Klondike and Yukon Rivers on a Klondike Gold tour. At the appropriate time, meet your guide at the hotel to begin your tour. During this 2-hour tour, you'll visit the National Historic Site that triggered the Klondike Gold Rush. Enjoy time at Gold Dredge 4 while a Parks Canada guide shares the history of gold dredging in the area. After the tour, you will return to your hotel and enjoy the rest of your day at leisure.",
     "meals": "None",
     "hotel": "Holland America Dawson City Inn, Dawson City, Canada (or similar)",
     "optional": "",
     "mode": "coach",
-    "lng": -107.99,
-    "lat": 61.07
+    "lng": -139.43,
+    "lat": 64.06
    },
    {
     "d": 7,
     "title": "Dawson City - Whitehorse, Canada - Skagway, Alaska, USA",
-    "city": "Alaska",
+    "city": "Whitehorse",
     "text": "At the appropriate time, meet your driver at the hotel and transfer to the airport.",
     "detail": "At the appropriate time, meet your driver at the hotel and transfer to the airport. Board a flight to Whitehorse before continuing approximately 2 hours by coach along the Klondike highway to Skagway. Check in at your hotel and enjoy the rest of your day at leisure.",
     "meals": "None",
     "hotel": "Holland America Skagway Inn, Skagway, Alaska (or similar)",
     "optional": "",
     "mode": "flight",
-    "lng": -149.68,
-    "lat": 64.45
+    "lng": -135.05,
+    "lat": 60.72
    },
    {
     "d": 8,
     "title": "White Pass & Yukon Railway - Skagway, Alaska",
-    "city": "Alaska",
+    "city": "Skagway",
     "text": "This morning, take an unforgettable journey aboard the \"Scenic Railway of the World\", the historic, narrow-gauge White Pass and Yukon Route Railroad to the White Pass Summit.",
     "detail": "This morning, take an unforgettable journey aboard the \"Scenic Railway of the World\", the historic, narrow-gauge White Pass and Yukon Route Railroad to the White Pass Summit. Carved through some of the North's most rugged terrain, this 1898 engineering marvel climbs nearly 3,000 feet for spectacular views. Today's round-trip adventure on is an unforgettable way to see this area. Built during the Klondike Gold Rush, this engineering wonder is an International Historic Civil Engineering Landmark, an honour shared with the Eiffel Tower, the Panama Canal and the Statue of Liberty. The railroad was officially completed in 1900. Restored cars pulled by vintage diesel locomotives climb nearly 3,000 feet over steep grades and cliff-hanging turns. Watch for Bridal Veil Falls, Inspiration Point and Dead Horse Gulch, mountains, glaciers, gorges, waterfalls, tunnels, trestles and historic sites. The White Pass and Yukon Railway tour includes return transfers to and from your hotel.",
     "meals": "None",
     "hotel": "Holland America Skagway Inn, Skagway, Alaska (or similar)",
     "optional": "",
     "mode": "rail",
-    "lng": -149.68,
-    "lat": 64.45
+    "lng": -135.31,
+    "lat": 59.46
    },
    {
     "d": 9,
@@ -68831,15 +68643,15 @@
    {
     "d": 13,
     "title": "Disembark Cruise -  Vancouver, Canada",
-    "city": "Canada",
+    "city": "Vancouver",
     "text": "Arrive: 07:00 Enjoy your final breakfast onboard as your ship docks in Vancouver.",
     "detail": "Arrive: 07:00 Enjoy your final breakfast onboard as your ship docks in Vancouver. Once off the ship, make your own way to your centrally-located hotel for the rest of your day at leisure. Vancouver offers the perfect combination of urban meets nature. Take in picturesque views of the mountains while exploring the city’s local hot spots like Stanley Park, Granville Island, Gastown and more at your own pace. Don’t forget to sample the best of the local culinary and cocktail scene for something truly unique (not included).",
     "meals": "Breakfast",
     "hotel": "Hotel Belmont Vancouver - Mgallery collection, Vancouver, Canada (or similar)",
     "optional": "",
     "mode": "cruise",
-    "lng": -107.99,
-    "lat": 61.07
+    "lng": -123.12,
+    "lat": 49.28
    },
    {
     "d": 14,
@@ -68933,9 +68745,14 @@
   ],
   "destinations": [
    {
-    "name": "Alaska",
-    "lng": -149.68,
-    "lat": 64.45
+    "name": "Anchorage",
+    "lng": -149.89,
+    "lat": 61.22
+   },
+   {
+    "name": "Denali",
+    "lng": -151.01,
+    "lat": 63.07
    },
    {
     "name": "Fairbanks",
@@ -68943,9 +68760,14 @@
     "lat": 64.84
    },
    {
-    "name": "Canada",
-    "lng": -107.99,
-    "lat": 61.07
+    "name": "Dawson City",
+    "lng": -139.43,
+    "lat": 64.06
+   },
+   {
+    "name": "Whitehorse",
+    "lng": -135.05,
+    "lat": 60.72
    },
    {
     "name": "Skagway",
@@ -68982,34 +68804,42 @@
     "flight"
    ],
    [
-    "Alaska",
-    -149.68,
-    64.45,
-    3,
+    "Anchorage",
+    -149.89,
+    61.22,
+    1,
     "",
     "coach"
+   ],
+   [
+    "Denali",
+    -151.01,
+    63.07,
+    2,
+    "",
+    "cruise"
    ],
    [
     "Fairbanks",
     -147.72,
     64.84,
-    1,
+    2,
     "",
     "river"
    ],
    [
-    "Canada",
-    -107.99,
-    61.07,
-    2,
+    "Dawson City",
+    -139.43,
+    64.06,
+    1,
     "",
-    "flight"
+    "coach"
    ],
    [
-    "Alaska",
-    -149.68,
-    64.45,
-    2,
+    "Whitehorse",
+    -135.05,
+    60.72,
+    1,
     "",
     "flight"
    ],
@@ -69017,9 +68847,9 @@
     "Skagway",
     -135.31,
     59.46,
-    2,
+    3,
     "",
-    "cruise"
+    "rail"
    ],
    [
     "Ketchikan",
@@ -69038,25 +68868,17 @@
     "cruise"
    ],
    [
-    "Canada",
-    -107.99,
-    61.07,
-    1,
-    "",
-    "cruise"
-   ],
-   [
     "Vancouver",
     -123.12,
     49.28,
-    0,
+    1,
     "",
-    "coach"
+    "cruise"
    ]
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6187,
@@ -69069,7 +68891,7 @@
   "per": "pp",
   "dates": "8 May - 14 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -69077,10 +68899,193 @@
   "special": true,
   "special_label": "Sale",
   "ends": 0,
-  "itinerary": "none",
+  "itinerary": "exact",
   "tags": [],
   "headline": "Holland America Westerdam or Nieuw Amsterdam",
-  "days_detail": [],
+  "days_detail": [
+   {
+    "d": 1,
+    "title": "Australia (or New Zealand) - Anchorage, Alaska, USA",
+    "city": "Anchorage",
+    "text": "Today, depart from Australia (or New Zealand) for Anchorage, Alaska.",
+    "detail": "Today, depart from Australia (or New Zealand) for Anchorage, Alaska. Upon arrival, meet your driver and transfer to the hotel for check-in.",
+    "meals": "In-Flight",
+    "hotel": "Westmark Hotel & Conference Center, or similar, Anchorage",
+    "optional": "",
+    "mode": "coach",
+    "lng": -149.89,
+    "lat": 61.22
+   },
+   {
+    "d": 2,
+    "title": "Anchorage - Denali National Park, Alaska, USA",
+    "city": "Denali",
+    "text": "This morning, meet your driver at the hotel for a transfer to the rail depot, where your unforgettable Alaskan adventure begins aboard Holland America’s exclusive McKinley Explorer®, a luxurious, two-level glass-domed ra",
+    "detail": "This morning, meet your driver at the hotel for a transfer to the rail depot, where your unforgettable Alaskan adventure begins aboard Holland America’s exclusive McKinley Explorer®, a luxurious, two-level glass-domed railcar designed for optimal wilderness viewing. Settle into your assigned, forward-facing seat and relax as the untamed beauty of Alaska unfolds around you. Travel through the sweeping landscapes of Broad Pass and cross the dramatic Hurricane Gulch, all while an expert guide shares fascinating stories and insights about the region. With luck, you'll catch your first breathtaking glimpse of Mount Denali as it emerges on the horizon. Step onto the open-air platform to soak in the crisp mountain air and panoramic views, or simply unwind as bartenders craft signature cocktails served with a side of unforgettable scenery (charges apply). During the ride, regionally inspired breakfast and lunch options are available for purchase from the onboard dining car. Upon arrival, your luggage will be waiting for you at the lodge, allowing for a seamless check-in and a relaxing start to your two-night stay at the doorstep of Denali National Park. Spend your afternoon exploring Denal",
+    "meals": "None",
+    "hotel": "Holland America Denali Lodge, Denali National Park area",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -151.01,
+    "lat": 63.07
+   },
+   {
+    "d": 3,
+    "title": "Tundra Wilderness Tour - Denali National Park, Alaska, USA",
+    "city": "Denali",
+    "text": "Alaska’s Denali National Park is where beauty is untamed and majestic animals roam their wide-open habitat as they have for millennia.",
+    "detail": "Alaska’s Denali National Park is where beauty is untamed and majestic animals roam their wide-open habitat as they have for millennia. Today you will experience this up close on a Tundra Wilderness Tour and travel deep into the heart of Denali for the adventure of a lifetime. This comfortable, comprehensive and fully narrated, 5-6 hour excursion takes you approximately 70 kilometres into the Park’s unspoiled wilderness, for up-close views of Mount Denali. It offers your best chance to see Alaska’s marquee animals, grizzlies, caribou, Dall sheep, moose and wolves, in a setting of incomparable grandeur. The Tundra Wilderness Tour is designed to provide a comfortable way to explore Denali. It includes narration provided by a knowledgeable driver/guide and features large screens so you won’t miss a thing. A light snack is provided and a box lunch is available to purchase.",
+    "meals": "None",
+    "hotel": "Holland America Denali Lodge, Denali National Park area",
+    "optional": "",
+    "mode": "coach",
+    "lng": -151.01,
+    "lat": 63.07
+   },
+   {
+    "d": 4,
+    "title": "Denali National Park - Whittier, Alaska, USA - Begin 7-night Alaska cruise",
+    "city": "Whittier",
+    "text": "Depart: 19:30 This morning, you will begin your journey from Denali National Park to Whittier, Alaska, where you will embark on your voyage to Canada.",
+    "detail": "Depart: 19:30 This morning, you will begin your journey from Denali National Park to Whittier, Alaska, where you will embark on your voyage to Canada. Enjoy some of Alaska's most spectacular scenery via deluxe motorcoach direct to your ship for embarkation. The journey takes approximately 7.5 hours and includes a stop for lunch. Once onboard the ship, enjoy the rest of the evening at leisure as you set sail on the next leg of your Alaskan Adventure.",
+    "meals": "Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -118.03,
+    "lat": 33.97
+   },
+   {
+    "d": 5,
+    "title": "Hubbard Glacier, Alaska, USA (Scenic Cruising)",
+    "city": "Whittier",
+    "text": "Enjoy a leisurely day onboard, highlighted by afternoon scenic cruising to Hubbard Glacier - North America's longest tidewater glacier.",
+    "detail": "Enjoy a leisurely day onboard, highlighted by afternoon scenic cruising to Hubbard Glacier - North America's longest tidewater glacier. Cruising toward Hubbard Glacier feels like you’re approaching another planet in a tiny spacecraft. It is that big and that otherworldly. Among all the vanishing Alaska glaciers, Hubbard has a rapidly advancing ice margin, up to seven feet in one day, earning it the nickname, “the Galloping Glacier.” Hubbard Glacier’s three-story icebergs cannon into crystal waters in a process called calving. On clear days, Hubbard turns a stunning deep blue, and on cloudy ones, its many ripples and icebergs shimmer in soft light. This glacier dwarfs the other glaciers in Alaska. It is the longest tidewater glacier in North America and starts 122 kilometres back, pouring down off the shoulder of Mount Walsh. Its impressive terminal face is 11 kilometres long and 106 metres above the water line, making its regular audience of Alaska cruise ships look like toy boats. Hubbard Glacier is one of the few Alaska glaciers that’s advancing and not succumbing to climate change. It sounds uplifting, however many believe the expanding glacier will block the entrance to the fjo",
+    "meals": "Breakfast; Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -118.03,
+    "lat": 33.97
+   },
+   {
+    "d": 6,
+    "title": "Glacier Bay, Alaska, USA (Scenic Cruising)*",
+    "city": "Whittier",
+    "text": "Close your eyes and take in the sounds of “living” ice, the shrill cries of soaring eagles and the splash of a breaching humpback whale.",
+    "detail": "Close your eyes and take in the sounds of “living” ice, the shrill cries of soaring eagles and the splash of a breaching humpback whale. Look out for frosted peaks towering over mossy forests, wide tidewater glaciers and marine wildlife in Glacier Bay. Local experts will come aboard for an enriching experience. As a proud Authorised Concessioner for Glacier Bay National Park, Holland America Line partners with rangers and local Huna Tlingit guides who provide expert insight into this diverse ecosystem and millennia-old culture. You'll leave Glacier Bay with a shorter bucket list and a deeper appreciation of this 3.3 million-acre UNESCO World Heritage Site. Prepare for inclement weather, even in summer, and dress for rain. Pack a hat, gloves, wool or fleece layers, a warm coat and waterproof gear to comfortably admire the landscape from the open deck of your ship. With fjords, inlets, rivers and streams galore, it's also recommended to bring binoculars.",
+    "meals": "Breakfast; Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -118.03,
+    "lat": 33.97
+   },
+   {
+    "d": 7,
+    "title": "Skagway, Alaska, USA",
+    "city": "Skagway",
+    "text": "Arrive: 07:00 - Depart: 21:00 At the height of the Klondike Gold Rush, Skagway served as the primary gateway to the legendary gold fields and quickly grew into Alaska’s largest settlement.",
+    "detail": "Arrive: 07:00 - Depart: 21:00 At the height of the Klondike Gold Rush, Skagway served as the primary gateway to the legendary gold fields and quickly grew into Alaska’s largest settlement. It was then a raucous frontier hub packed with trading posts, saloons and guesthouses. As the gold rush faded into the 1900s, so did Skagway. However, today it's been reinvigorated as a gateway for those looking to explore Alaska’s colourful history, pristine wildlife and unrivalled natural beauty. Much of the town has been preserved as part of the Klondike Gold Rush National Historical Park with rangers offering walking tours around the historic district. At every turn, you’ll find yourself immersed in gold rush lore. You can't miss the infamous Red Onion Saloon that still keeps a pistol from Wyatt Earp, the White Pass & Yukon Route Railroad that traverses rugged mountains and more. Skagway is also known for its vibrant local community that's home to local galleries, curio shops and restaurants serving seafood from nearby waters.",
+    "meals": "Breakfast; Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "coach",
+    "lng": -135.31,
+    "lat": 59.46
+   },
+   {
+    "d": 8,
+    "title": "Juneau, Alaska, USA",
+    "city": "Juneau",
+    "text": "Arrive: 08:00 - Depart: 18:00 Cruise to Juneau to visit the most remote, beautiful, and strangest state capital in the United States.",
+    "detail": "Arrive: 08:00 - Depart: 18:00 Cruise to Juneau to visit the most remote, beautiful, and strangest state capital in the United States. The sleepy, misty city of around 32,000 has a frontier town atmosphere but welcomes more than a million visitors each summer to its natural attractions. Surrounded by water, forest and mountains, visitors can hike a glacier, eat fresh-caught fish on a seaside patio and tour a grand capitol building all in one day (optional shore excursions). The real highlight of visiting Juneau is tracking down wildlife. Hike up Mount Roberts to chance upon wild deer and bald eagles, or head north to Auke Bay for a whale-watching tour (not included). If you prefer land mammals, catch a floatplane to nearby Chichagof or Admiralty Island wildlife reserves to spy bears lolling around (optional shore excursions).",
+    "meals": "Breakfast; Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "d": 9,
+    "title": "Ketchikan, Alaska, USA",
+    "city": "Ketchikan",
+    "text": "Arrive: 11:00 - Depart: 19:00 Cruise to Ketchikan, named Alaska's first city because it’s the first major landfall for most cruisers as they enter the picturesque fjords of the Inside Passage.",
+    "detail": "Arrive: 11:00 - Depart: 19:00 Cruise to Ketchikan, named Alaska's first city because it’s the first major landfall for most cruisers as they enter the picturesque fjords of the Inside Passage. The town clings to the banks of the Tongass Narrows and is flanked by green forests that are nurtured by abundant rain. Ketchikan has long been an important hub of the salmon fishing and packing industries. Try your luck on sport fishing or simply savour the fresh seafood at one of the local restaurants (charges apply). Ketchikan is also one of the best spots along the Inside Passage to explore the rich cultural sights of Native Alaskan nations like the Tlingit, Haida and Tsimshian. You can see intricately carved totem poles at the Totem Heritage Center and Totem Bight State Park. The attractions of Saxman Village, just outside of Ketchikan, offer the chance to see Tlingit culture in action with working carvers and a dance show in the clan house (charges apply).",
+    "meals": "Breakfast; Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "d": 10,
+    "title": "Inside Passage (Scenic Cruising)",
+    "city": "Inside Passage",
+    "text": "Alaska’s Inside Passage is a protected network of waterways that wind through glacier-cut fjords and lush temperate rain forests along the rugged coast of Southeast Alaska.",
+    "detail": "Alaska’s Inside Passage is a protected network of waterways that wind through glacier-cut fjords and lush temperate rain forests along the rugged coast of Southeast Alaska. Arguably one of the greatest cruising routes in the world, the Inside Passage stretches through stunning landscapes, from Misty Fjords National Monument to the famed Glacier Bay National Park and Preserve. Sailing the Inside Passage offers opportunities to spot some of Alaska’s most iconic wildlife. Look out for humpback whales and orcas plying the bountiful waters alongside the ships, bald eagles soaring overhead and brown bears lumbering on the shoreline.",
+    "meals": "Breakfast; Lunch; Dinner",
+    "hotel": "Holland America's Westerdam or Nieuw Amsterdam",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -133.5,
+    "lat": 56.5
+   },
+   {
+    "d": 11,
+    "title": "Disembark Cruise - Vancouver, Canada",
+    "city": "Vancouver",
+    "text": "Arrive: 07:00 Enjoy your final breakfast onboard as your ship docks in Vancouver.",
+    "detail": "Arrive: 07:00 Enjoy your final breakfast onboard as your ship docks in Vancouver. Disembark and make your own way to your centrally-located hotel, then enjoy the rest of your day at leisure. Vancouver offers the perfect combination of urban meets nature. Enjoy picturesque views of the mountains while exploring the city’s local hot spots like Stanley Park, Granville Island, Gastown and more at your own pace. Why not sample the best of the local culinary and cocktail scene (not included) for something truly unique during your leisure time in Vancouver.",
+    "meals": "Breakfast",
+    "hotel": "Hotel Belmont Vancouver - MGallery Collection, or similar, Vancouver",
+    "optional": "",
+    "mode": "cruise",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 12,
+    "title": "Vancouver, Canada - Australia (or New Zealand)",
+    "city": "Vancouver",
+    "text": "At the appropriate time, make your own way to the airport for your flight home.",
+    "detail": "At the appropriate time, make your own way to the airport for your flight home.",
+    "meals": "In-Flight",
+    "hotel": "",
+    "optional": "",
+    "mode": "coach",
+    "lng": -123.12,
+    "lat": 49.28
+   },
+   {
+    "d": 13,
+    "title": "In Transit",
+    "city": null,
+    "text": "",
+    "detail": "",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "mode": "coach",
+    "lng": null,
+    "lat": null
+   },
+   {
+    "d": 14,
+    "title": "Arrive in Australia (or New Zealand)",
+    "city": null,
+    "text": "",
+    "detail": "",
+    "meals": "",
+    "hotel": "",
+    "optional": "",
+    "mode": "coach",
+    "lng": null,
+    "lat": null
+   }
+  ],
   "images": [
    {
     "src": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/6187_Alaska_and_Denali_Wilderness_Explorer_WEB_HERO_1_Denali_Caribou.jpg",
@@ -69131,8 +69136,52 @@
     "caption": "Your camera will get a workout with all the incredible scenery in Denali National Park, Alaska"
    }
   ],
-  "destinations": [],
-  "countries": [],
+  "destinations": [
+   {
+    "name": "Anchorage",
+    "lng": -149.89,
+    "lat": 61.22
+   },
+   {
+    "name": "Denali",
+    "lng": -151.01,
+    "lat": 63.07
+   },
+   {
+    "name": "Whittier",
+    "lng": -118.03,
+    "lat": 33.97
+   },
+   {
+    "name": "Skagway",
+    "lng": -135.31,
+    "lat": 59.46
+   },
+   {
+    "name": "Juneau",
+    "lng": -134.42,
+    "lat": 58.3
+   },
+   {
+    "name": "Ketchikan",
+    "lng": -131.65,
+    "lat": 55.34
+   },
+   {
+    "name": "Inside Passage",
+    "lng": -133.5,
+    "lat": 56.5
+   },
+   {
+    "name": "Vancouver",
+    "lng": -123.12,
+    "lat": 49.28
+   }
+  ],
+  "countries": [
+   "USA",
+   "Canada"
+  ],
   "stops": [
    [
     "Sydney",
@@ -69141,11 +69190,75 @@
     0,
     "Depart Australia",
     "flight"
+   ],
+   [
+    "Anchorage",
+    -149.89,
+    61.22,
+    1,
+    "",
+    "coach"
+   ],
+   [
+    "Denali",
+    -151.01,
+    63.07,
+    2,
+    "",
+    "cruise"
+   ],
+   [
+    "Whittier",
+    -118.03,
+    33.97,
+    3,
+    "",
+    "cruise"
+   ],
+   [
+    "Skagway",
+    -135.31,
+    59.46,
+    1,
+    "",
+    "coach"
+   ],
+   [
+    "Juneau",
+    -134.42,
+    58.3,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Ketchikan",
+    -131.65,
+    55.34,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Inside Passage",
+    -133.5,
+    56.5,
+    1,
+    "",
+    "cruise"
+   ],
+   [
+    "Vancouver",
+    -123.12,
+    49.28,
+    1,
+    "",
+    "cruise"
    ]
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6165,
@@ -69158,7 +69271,7 @@
   "per": "pp",
   "dates": "14 Apr - 8 Sep 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Rail",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -69601,7 +69714,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6169,
@@ -69614,7 +69727,7 @@
   "per": "pp",
   "dates": "22 Apr - 22 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -70103,7 +70216,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6227,
@@ -70116,7 +70229,7 @@
   "per": "pp",
   "dates": "14 Feb 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -70460,7 +70573,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6263,
@@ -70473,7 +70586,7 @@
   "per": "pp",
   "dates": "15 Apr 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Apr"
@@ -70988,21 +71101,6 @@
     "name": "Apia",
     "lng": -171.76,
     "lat": -13.83
-   },
-   {
-    "name": "Honolulu",
-    "lng": -157.86,
-    "lat": 21.31
-   },
-   {
-    "name": "Kona",
-    "lng": -155.99,
-    "lat": 19.64
-   },
-   {
-    "name": "New York City",
-    "lng": -74.01,
-    "lat": 40.71
    }
   ],
   "countries": [
@@ -71010,8 +71108,7 @@
    "Norfolk Island",
    "New Caledonia",
    "Fiji",
-   "Samoa",
-   "USA"
+   "Samoa"
   ],
   "stops": [
    [
@@ -71085,35 +71182,11 @@
     6,
     "",
     "coach"
-   ],
-   [
-    "Honolulu",
-    -157.86,
-    21.31,
-    1,
-    "",
-    "coach"
-   ],
-   [
-    "Kona",
-    -155.99,
-    19.64,
-    7,
-    "",
-    "coach"
-   ],
-   [
-    "New York City",
-    -74.01,
-    40.71,
-    3,
-    "",
-    "cruise"
    ]
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6362,
@@ -71126,7 +71199,7 @@
   "per": "pp",
   "dates": "20 Jan 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -71141,28 +71214,28 @@
    {
     "d": 1,
     "title": "Australia (or New Zealand) - Fort Lauderdale, USA",
-    "city": "USA",
+    "city": "Fort Lauderdale",
     "text": "Today, make your own way to the airport for your outbound flight to Fort Lauderdale, Florida, USA.",
     "detail": "Today, make your own way to the airport for your outbound flight to Fort Lauderdale, Florida, USA. Upon arrival, a transfer is provided to your hotel for your two-night city stay.",
     "meals": "In-Flight",
     "hotel": "Renaissance Fort Lauderdale Marina Hotel or similar, Fort Lauderdale, USA.",
     "optional": "",
     "mode": "flight",
-    "lng": -100.45,
-    "lat": 39.78
+    "lng": -80.14,
+    "lat": 26.12
    },
    {
     "d": 2,
     "title": "Fort Lauderdale, USA",
-    "city": "USA",
+    "city": "Fort Lauderdale",
     "text": "Your gateway to the warming charm of South Florida’s Gold Coast, this stretch of fort-laden land is home to a wonderfully eclectic mix of metropolitan neighbourhoods, lavish mansions, and the expansive and untamed Evergl",
     "detail": "Your gateway to the warming charm of South Florida’s Gold Coast, this stretch of fort-laden land is home to a wonderfully eclectic mix of metropolitan neighbourhoods, lavish mansions, and the expansive and untamed Everglades. Fort Lauderdale is world-famous for its magnificent beaches, waters ports, retail, plus its canals and marina. Relaxing on the golden sands is a popular pastime, but there’s no shortage of alternatives. Port Everglades houses a buzzing cultural hub, including several fascinating museums such as The Museum of Discovery & Science and the NSU Art Museum. Take a trip back in time at The Bonnet House Museum and Gardens, an ornate plantation-style mansion with 35 acres of stunning estate grounds and an impressive art collection housed within. You could take a trip to the bustling metropolitan city of Miami, around 45 minutes away by car. There you can sample a rich Cuban coffee as you stroll around Little Havana, maybe paying a visit to the Maximo Gomez Park and Calle Ocho Walk of Fame. Admire the iconic Art Deco flair of the buildings around Miami’s famous South Beach or perhaps come face-to-face with wild animals at one of Miami’s numerous animal parks.",
     "meals": "None",
     "hotel": "Renaissance Fort Lauderdale Marina Hotel or similar, Fort Lauderdale, USA.",
     "optional": "",
     "mode": "coach",
-    "lng": -100.45,
-    "lat": 39.78
+    "lng": -80.14,
+    "lat": 26.12
    },
    {
     "d": 3,
@@ -71984,11 +72057,6 @@
   ],
   "destinations": [
    {
-    "name": "USA",
-    "lng": -100.45,
-    "lat": 39.78
-   },
-   {
     "name": "Fort Lauderdale",
     "lng": -80.14,
     "lat": 26.12
@@ -72117,20 +72185,12 @@
     "flight"
    ],
    [
-    "USA",
-    -100.45,
-    39.78,
-    2,
-    "",
-    "flight"
-   ],
-   [
     "Fort Lauderdale",
     -80.14,
     26.12,
-    2,
+    4,
     "",
-    "cruise"
+    "flight"
    ],
    [
     "Grand Turk",
@@ -72303,7 +72363,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6274,
@@ -72316,7 +72376,7 @@
   "per": "pp",
   "dates": "18 Feb 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -72606,7 +72666,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6276,
@@ -72619,7 +72679,7 @@
   "per": "pp",
   "dates": "13 Feb 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -73033,7 +73093,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5619,
@@ -73046,7 +73106,7 @@
   "per": "pp",
   "dates": "1 Feb - 25 Nov 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -73546,7 +73606,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6186,
@@ -73559,7 +73619,7 @@
   "per": "pp",
   "dates": "3 Mar - 29 Oct 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Melbourne",
   "months": [
    "Oct"
@@ -73869,7 +73929,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5278,
@@ -73882,7 +73942,7 @@
   "per": "pp",
   "dates": "16 Mar - 2 Nov 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -74276,7 +74336,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6063,
@@ -74289,7 +74349,7 @@
   "per": "pp",
   "dates": "3 Mar 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -74764,7 +74824,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6091,
@@ -74777,7 +74837,7 @@
   "per": "pp",
   "dates": "10 Feb 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Melbourne",
   "months": [
    "Feb"
@@ -75532,7 +75592,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6093,
@@ -75545,7 +75605,7 @@
   "per": "pp",
   "dates": "26 Jan 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -76098,7 +76158,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6090,
@@ -76111,7 +76171,7 @@
   "per": "pp",
   "dates": "4 Feb - 6 Feb 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Feb"
@@ -76716,7 +76776,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6130,
@@ -76729,7 +76789,7 @@
   "per": "pp",
   "dates": "8 Feb - 9 Mar 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -77052,7 +77112,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5532,
@@ -77065,7 +77125,7 @@
   "per": "pp",
   "dates": "29 Nov 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -77583,7 +77643,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6156,
@@ -77596,7 +77656,7 @@
   "per": "pp",
   "dates": "29 Jan 2028",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -78043,7 +78103,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6258,
@@ -78056,7 +78116,7 @@
   "per": "pp",
   "dates": "8 Dec 2026 - 5 Mar 2028",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -78346,7 +78406,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6242,
@@ -78359,7 +78419,7 @@
   "per": "pp",
   "dates": "23 Feb 2027 - 21 Feb 2028",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Feb",
@@ -78787,7 +78847,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6018,
@@ -78800,7 +78860,7 @@
   "per": "pp",
   "dates": "2 Feb 2027 - 3 Feb 2028",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Feb",
@@ -79547,7 +79607,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6358,
@@ -79560,7 +79620,7 @@
   "per": "pp",
   "dates": "9 Mar 2027",
   "region": "Americas",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -80317,7 +80377,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6216,
@@ -80330,7 +80390,7 @@
   "per": "pp",
   "dates": "7 May - 17 Sep 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Sep"
@@ -80553,7 +80613,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6262,
@@ -80566,7 +80626,7 @@
   "per": "pp",
   "dates": "1 Dec 2026 - 4 May 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -81002,7 +81062,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 4601,
@@ -81015,7 +81075,7 @@
   "per": "pp",
   "dates": "6 Dec 2026 - 16 May 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Dec",
@@ -81198,7 +81258,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6348,
@@ -81211,7 +81271,7 @@
   "per": "pp",
   "dates": "19 Jan - 13 Apr 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Apr"
@@ -81507,7 +81567,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6361,
@@ -81520,7 +81580,7 @@
   "per": "pp",
   "dates": "2 Jan - 24 Apr 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Apr"
@@ -81685,7 +81745,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6034,
@@ -81698,7 +81758,7 @@
   "per": "pp",
   "dates": "10 Nov 2027",
   "region": "Asia",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney - no flights provided",
   "months": [
    "Nov"
@@ -82118,7 +82178,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6205,
@@ -82131,7 +82191,7 @@
   "per": "pp",
   "dates": "10 Mar - 27 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -82406,7 +82466,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6225,
@@ -82419,7 +82479,7 @@
   "per": "pp",
   "dates": "23 Apr - 28 Nov 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Ocean cruise",
   "from_city": "Sydney",
   "months": [
    "Nov"
@@ -82827,7 +82887,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6173,
@@ -82840,7 +82900,7 @@
   "per": "pp",
   "dates": "23 May - 15 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -83207,7 +83267,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6196,
@@ -83220,7 +83280,7 @@
   "per": "pp",
   "dates": "20 Jan 2028",
   "region": "",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Jan"
@@ -83639,7 +83699,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5419,
@@ -83652,7 +83712,7 @@
   "per": "pp",
   "dates": "11 Feb 2027 - 15 Mar 2028",
   "region": "",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Feb",
@@ -83967,7 +84027,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6195,
@@ -83980,7 +84040,7 @@
   "per": "pp",
   "dates": "7 Nov 2027 - 13 Mar 2028",
   "region": "",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Nov",
@@ -84480,7 +84540,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6349,
@@ -84493,7 +84553,7 @@
   "per": "pp",
   "dates": "14 Jun 2027 - 13 Jul 2028",
   "region": "",
-  "type": "Small group",
+  "type": "Expedition",
   "from_city": "Sydney",
   "months": [
    "Jun",
@@ -84940,7 +85000,7 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 5844,
@@ -84953,7 +85013,7 @@
   "per": "pp",
   "dates": "23 Feb - 9 Mar 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Mar"
@@ -85294,7 +85354,7 @@
   ],
   "trip_only": true,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  },
  {
   "id": 6026,
@@ -85307,7 +85367,7 @@
   "per": "pp",
   "dates": "26 May - 4 Aug 2027",
   "region": "",
-  "type": "Small group",
+  "type": "Guided",
   "from_city": "Sydney",
   "months": [
    "Aug"
@@ -85778,6 +85838,6 @@
   ],
   "trip_only": false,
   "featured": 0,
-  "last_seen": "2026-09-22"
+  "last_seen": "2026-09-23"
  }
 ]

@@ -1476,5 +1476,13 @@
   "new": 1,
   "parsed": 216,
   "events": []
+ },
+ {
+  "run": "2026-09-22T20:33:45+00:00",
+  "mode": "full",
+  "listed": 216,
+  "new": 1,
+  "parsed": 216,
+  "events": []
  }
 ]
