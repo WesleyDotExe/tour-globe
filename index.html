@@ -86278,7 +86278,11 @@ map.on("click",e=>{
   const c=map.queryRenderedFeatures(e.point,{layers:["city"]});
   if(c.length){ cityFilter=c[0].properties.name; apply(); return; }
   const f=map.queryRenderedFeatures(e.point,{layers:["route","route-rail","route-cruise","route-flight"]});
-  if(f.length){ openTour(TOURS.find(t=>t.id===f[0].properties.id)); }
+  if(f.length){ openTour(TOURS.find(t=>t.id===f[0].properties.id)); return; }
+  if(map.getLayer("stop")&&map.queryRenderedFeatures(e.point,{layers:["stop"]}).length) return;  // keep the open tour when its stop is clicked
+  // empty click: step back one level — close the open tour, else clear a city focus (keep dropdown filters + zoom)
+  if(current) closeTour();
+  else if(cityFilter){ cityFilter=null; apply(); }
 });
 
 /* ---------- detail ---------- */
