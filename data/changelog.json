@@ -1484,5 +1484,801 @@
   "new": 1,
   "parsed": 216,
   "events": []
+ },
+ {
+  "run": "2026-10-04T22:10:38+00:00",
+  "mode": "full",
+  "listed": 220,
+  "new": 18,
+  "parsed": 220,
+  "events": [
+   {
+    "type": "new",
+    "id": 6283,
+    "name": "Nashville to New Orleans",
+    "price": 5999
+   },
+   {
+    "type": "new",
+    "id": 6284,
+    "name": "Yellowstone & America's West",
+    "price": 5999
+   },
+   {
+    "type": "new",
+    "id": 6372,
+    "name": "Cunard's New York & Caribbean Voyage",
+    "price": 6199
+   },
+   {
+    "type": "new",
+    "id": 6381,
+    "name": "Portugal & Spain Highlights River Cruise",
+    "price": 10899
+   },
+   {
+    "type": "new",
+    "id": 6382,
+    "name": "Amsterdam to Basel River Cruise",
+    "price": 6899
+   },
+   {
+    "type": "new",
+    "id": 6386,
+    "name": "Grand South America",
+    "price": 10999
+   },
+   {
+    "type": "new",
+    "id": 6388,
+    "name": "European River Cruise & Swiss Rails",
+    "price": 8299
+   },
+   {
+    "type": "new",
+    "id": 6389,
+    "name": "Sri Lankan Wildlife & Adventure",
+    "price": 2499
+   },
+   {
+    "type": "new",
+    "id": 6390,
+    "name": "5-Star Highlights of India",
+    "price": 1699
+   },
+   {
+    "type": "new",
+    "id": 6391,
+    "name": "Italian Food & Wine",
+    "price": 4299
+   },
+   {
+    "type": "new",
+    "id": 6392,
+    "name": "Highlights of Italy & France",
+    "price": 5499
+   },
+   {
+    "type": "new",
+    "id": 6393,
+    "name": "Kruger National Park & Mozambique",
+    "price": 5499
+   },
+   {
+    "type": "new",
+    "id": 6394,
+    "name": "Abu Simbel & Nile Cruise",
+    "price": 5299
+   },
+   {
+    "type": "new",
+    "id": 6395,
+    "name": "Ultimate Türkiye",
+    "price": 3699
+   },
+   {
+    "type": "new",
+    "id": 6396,
+    "name": "Northern Thailand Adventure",
+    "price": 1799
+   },
+   {
+    "type": "new",
+    "id": 6397,
+    "name": "Italy's Dolomites & Greek Islands Cruise",
+    "price": 8099
+   },
+   {
+    "type": "new",
+    "id": 6399,
+    "name": "Highlights of South Africa",
+    "price": 2899
+   },
+   {
+    "type": "removed",
+    "id": 5507,
+    "name": "Abu Simbel & Nile Cruise"
+   },
+   {
+    "type": "removed",
+    "id": 6090,
+    "name": "Machu Picchu & Antarctica Expedition"
+   },
+   {
+    "type": "removed",
+    "id": 6091,
+    "name": "South America & Antarctica Expedition"
+   },
+   {
+    "type": "removed",
+    "id": 5708,
+    "name": "Italian Alps & Christmas Markets"
+   },
+   {
+    "type": "removed",
+    "id": 6093,
+    "name": "Brazil, Argentina & Antarctic Expedition (Deal 6093) *SOLD OUT*"
+   },
+   {
+    "type": "removed",
+    "id": 6162,
+    "name": "Highlights of South Africa for 2"
+   },
+   {
+    "type": "removed",
+    "id": 5778,
+    "name": "Ultimate Türkiye"
+   },
+   {
+    "type": "removed",
+    "id": 6230,
+    "name": "Kruger National Park & Mozambique"
+   },
+   {
+    "type": "removed",
+    "id": 5210,
+    "name": "Sri Lankan Wildlife & Adventure"
+   },
+   {
+    "type": "removed",
+    "id": 6239,
+    "name": "5-Star Highlights of India"
+   },
+   {
+    "type": "removed",
+    "id": 6368,
+    "name": "Hong Kong to Japan & South Korea Cruise"
+   },
+   {
+    "type": "removed",
+    "id": 6177,
+    "name": "Highlights of Italy & France"
+   },
+   {
+    "type": "removed",
+    "id": 6053,
+    "name": "Northern Thailand Adventure"
+   },
+   {
+    "type": "removed",
+    "id": 5738,
+    "name": "Sri Lanka & All-Inclusive Maldives 2026 (Deal 5738) *SOLD OUT*"
+   },
+   {
+    "type": "removed",
+    "id": 5034,
+    "name": "Nepal & Bhutan Highlights"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5633,
+    "name": "Treasures of China’s Silk Road",
+    "from": "4 Mar - 10 Jun 2027",
+    "to": "4 Mar - 4 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": "9 Mar - 26 Oct 2027",
+    "to": "13 Apr - 26 Oct 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6154,
+    "name": "Rockies Rail & Cruise",
+    "from": 7699,
+    "to": 7799
+   },
+   {
+    "type": "dates_changed",
+    "id": 5645,
+    "name": "Grand South Africa",
+    "from": "6 Feb - 4 Dec 2027",
+    "to": "20 Feb - 4 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms 2027",
+    "from": 3399,
+    "to": 3499
+   },
+   {
+    "type": "sale_ended",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5650,
+    "name": "Ultimate Sri Lanka",
+    "from": 4899,
+    "to": 4799
+   },
+   {
+    "type": "price_up",
+    "id": 6168,
+    "name": "Magnificent Mediterranean Cruise",
+    "from": 9099,
+    "to": 9399
+   },
+   {
+    "type": "dates_changed",
+    "id": 5145,
+    "name": "5-Star African Safari",
+    "from": "13 Jan - 1 Dec 2027",
+    "to": "20 Jan - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6169,
+    "name": "Yellowstone, Alaska & Canada",
+    "from": "22 Apr - 22 Aug 2027",
+    "to": "22 Apr - 9 Sep 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6180,
+    "name": "Japan Cherry Blossoms Cruise 2027",
+    "from": 5499,
+    "to": 4799
+   },
+   {
+    "type": "dates_changed",
+    "id": 6181,
+    "name": "Japan Explorer Cruise",
+    "from": "15 May - 17 Oct 2027",
+    "to": "23 Aug - 17 Oct 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5671,
+    "name": "Christmas Markets River Cruise",
+    "from": 7799,
+    "to": 7699
+   },
+   {
+    "type": "dates_changed",
+    "id": 5671,
+    "name": "Christmas Markets River Cruise",
+    "from": "10 Dec 2026",
+    "to": "26 Nov 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6187,
+    "name": "Alaska & Denali Wilderness Explorer",
+    "from": 5599,
+    "to": 5499
+   },
+   {
+    "type": "dates_changed",
+    "id": 6187,
+    "name": "Alaska & Denali Wilderness Explorer",
+    "from": "8 May - 14 Aug 2027",
+    "to": "8 May - 28 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5166,
+    "name": "Lapland & Northern Lights",
+    "from": "16 Dec 2026 - 23 Mar 2027",
+    "to": "29 Jan - 23 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6193,
+    "name": "Majestic Norway & the Northern Lights",
+    "from": "10 Feb - 1 Dec 2027",
+    "to": "24 Feb - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5687,
+    "name": "Vietnam, Cambodia & Thailand",
+    "from": "30 Nov 2026 - 29 Dec 2027",
+    "to": "21 Dec 2026 - 29 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6204,
+    "name": "Italian Alps & the Mediterranean",
+    "from": 8399,
+    "to": 6399
+   },
+   {
+    "type": "sale_ended",
+    "id": 6204,
+    "name": "Italian Alps & the Mediterranean"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6204,
+    "name": "Italian Alps & the Mediterranean",
+    "from": "28 Oct 2027",
+    "to": "29 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6207,
+    "name": "Unbeatable Sri Lanka",
+    "from": "30 Jan - 19 Jun 2027",
+    "to": "4 Feb - 19 Jun 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": "18 Jan - 18 Dec 2027",
+    "to": "25 Jan - 18 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6217,
+    "name": "Ultimate Switzerland",
+    "from": "28 Jan - 12 Oct 2027",
+    "to": "16 Feb - 12 Oct 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 4171,
+    "name": "Spain, Portugal & Morocco",
+    "from": 8399,
+    "to": 8199
+   },
+   {
+    "type": "price_down",
+    "id": 6231,
+    "name": "Wonders of Japan",
+    "from": 3499,
+    "to": 3299
+   },
+   {
+    "type": "dates_changed",
+    "id": 6231,
+    "name": "Wonders of Japan",
+    "from": "30 Nov 2026 - 29 Nov 2027",
+    "to": "11 Feb - 29 Nov 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6236,
+    "name": "Northern Lights & Arctic Lapland",
+    "from": 7799,
+    "to": 7699
+   },
+   {
+    "type": "price_up",
+    "id": 6243,
+    "name": "Best of Italy & the Med",
+    "from": 6299,
+    "to": 6999
+   },
+   {
+    "type": "dates_changed",
+    "id": 6243,
+    "name": "Best of Italy & the Med",
+    "from": "28 Feb - 31 Oct 2027",
+    "to": "13 May - 31 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6258,
+    "name": "Swan Hellenic Luxury Antarctica",
+    "from": "8 Dec 2026 - 5 Mar 2028",
+    "to": "17 Nov 2027 - 5 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6262,
+    "name": "Pure New Zealand Adventure",
+    "from": "1 Dec 2026 - 4 May 2027",
+    "to": "12 Jan - 4 May 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6267,
+    "name": "Best of Spain & the Med",
+    "from": 5999,
+    "to": 6799
+   },
+   {
+    "type": "dates_changed",
+    "id": 6267,
+    "name": "Best of Spain & the Med",
+    "from": "2 Mar - 21 Oct 2027",
+    "to": "22 May - 21 Oct 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6273,
+    "name": "Japan Highlights",
+    "from": 2999,
+    "to": 2849
+   },
+   {
+    "type": "dates_changed",
+    "id": 6273,
+    "name": "Japan Highlights",
+    "from": "21 Jan - 20 Dec 2027",
+    "to": "22 Feb - 20 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6274,
+    "name": "Rugby League Las Vegas & Mexico Cruise",
+    "from": 6099,
+    "to": 6299
+   },
+   {
+    "type": "dates_changed",
+    "id": 6321,
+    "name": "Philippines Tropical Island Discovery",
+    "from": "1 Feb - 15 Apr 2027",
+    "to": "4 Feb - 15 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5314,
+    "name": "Cambodia Discovery",
+    "from": "3 Dec 2026 - 12 Dec 2027",
+    "to": "7 Jan - 12 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6344,
+    "name": "Stunning Japan Tour & Cruise",
+    "from": 5999,
+    "to": 6299
+   },
+   {
+    "type": "price_down",
+    "id": 6347,
+    "name": "Gems of Italy & The Greek Islands Cruise",
+    "from": 5799,
+    "to": 5299
+   },
+   {
+    "type": "price_down",
+    "id": 5836,
+    "name": "Japan Discovery",
+    "from": 3999,
+    "to": 3799
+   },
+   {
+    "type": "dates_changed",
+    "id": 6350,
+    "name": "Jewels of the Adriatic",
+    "from": "27 Apr - 28 Sep 2027",
+    "to": "11 May - 28 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5844,
+    "name": "Canada Winter Wonderland",
+    "from": "23 Feb - 9 Mar 2027",
+    "to": "9 Feb - 9 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6359,
+    "name": "Secrets of China's Yunnan",
+    "from": "2 Mar - 9 Nov 2027",
+    "to": "3 Mar - 9 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": "10 Dec 2026 - 30 Dec 2027",
+    "to": "20 Dec 2026 - 30 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6363,
+    "name": "Warriors of China",
+    "from": "23 Nov 2026 - 20 Nov 2027",
+    "to": "1 Mar - 20 Nov 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6362,
+    "name": "Cunard's Grand South American Voyage",
+    "from": 17899,
+    "to": 14499
+   },
+   {
+    "type": "dates_changed",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway",
+    "from": "14 Mar - 19 Nov 2027",
+    "to": "10 Mar - 19 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5862,
+    "name": "Best of Borneo",
+    "from": "2 Feb - 31 Oct 2027",
+    "to": "4 Feb - 31 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "7 Dec 2026 - 21 Dec 2027",
+    "to": "4 Jan - 21 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4842,
+    "name": "5-Star Vietnam",
+    "from": "9 Dec 2026 - 27 Dec 2027",
+    "to": "18 Jan - 27 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5885,
+    "name": "Highlights of Sri Lanka for 2",
+    "from": "30 Nov 2026 - 13 Dec 2027",
+    "to": "14 Dec 2026 - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5887,
+    "name": "Vietnam Mountain Discovery",
+    "from": "14 Dec 2026 - 15 Dec 2027",
+    "to": "13 Jan - 15 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5892,
+    "name": "South Korea Discovery",
+    "from": "7 Jan - 23 Dec 2027",
+    "to": "21 Jan - 23 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5897,
+    "name": "Magical Malaysia",
+    "from": "2 Apr - 3 Dec 2027",
+    "to": "25 Feb - 3 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5385,
+    "name": "Highlights of Japan & South Korea",
+    "from": 4999,
+    "to": 4799
+   },
+   {
+    "type": "dates_changed",
+    "id": 5901,
+    "name": "Luxury India for 2",
+    "from": "9 Dec 2026 - 24 Dec 2027",
+    "to": "8 Jan - 24 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5902,
+    "name": "India’s Ancient Heritage",
+    "from": "1 Dec 2026 - 23 Nov 2027",
+    "to": "19 Jan - 23 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5903,
+    "name": "Best of India & Nepal",
+    "from": "8 Dec 2026 - 21 Dec 2027",
+    "to": "9 Feb - 21 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5395,
+    "name": "Luxury Sri Lanka & Maldives",
+    "from": 5299,
+    "to": 5199
+   },
+   {
+    "type": "dates_changed",
+    "id": 5398,
+    "name": "Ultimate China",
+    "from": "11 Mar - 4 Nov 2027",
+    "to": "4 Mar - 4 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5920,
+    "name": "Ultimate Morocco for 2",
+    "from": "10 Nov 2026 - 9 Nov 2027",
+    "to": "16 Feb - 9 Nov 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 4912,
+    "name": "India, Nepal & Sri Lanka",
+    "from": 5099,
+    "to": 4899
+   },
+   {
+    "type": "price_up",
+    "id": 5428,
+    "name": "Grand Egypt & The Nile",
+    "from": 5799,
+    "to": 5899
+   },
+   {
+    "type": "dates_changed",
+    "id": 5448,
+    "name": "Ultimate India",
+    "from": "2 Dec 2026 - 22 Dec 2027",
+    "to": "10 Feb - 22 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5461,
+    "name": "Best of Bali",
+    "from": "26 Jan - 14 Dec 2027",
+    "to": "16 Mar - 14 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 4985,
+    "name": "Premium All-Inclusive Maldives & Singapore",
+    "from": 3849,
+    "to": 3899
+   },
+   {
+    "type": "dates_changed",
+    "id": 4985,
+    "name": "Premium All-Inclusive Maldives & Singapore",
+    "from": "7 Dec 2026 - 13 Dec 2027",
+    "to": "11 Jan - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4987,
+    "name": "Ultimate Vietnam",
+    "from": "7 Dec 2026 - 13 Dec 2027",
+    "to": "4 Jan - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5519,
+    "name": "India Wellness Retreat",
+    "from": "7 Dec 2026 - 24 Dec 2027",
+    "to": "21 Dec 2026 - 24 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5532,
+    "name": "Shackleton's Antarctic Quest",
+    "from": "29 Nov 2027",
+    "to": "29 Nov 2027 - 3 Jan 2028"
+   },
+   {
+    "type": "price_down",
+    "id": 5547,
+    "name": "India & Bhutan Discovery",
+    "from": 4799,
+    "to": 4699
+   },
+   {
+    "type": "dates_changed",
+    "id": 5547,
+    "name": "India & Bhutan Discovery",
+    "from": "8 Dec 2026 - 7 Sep 2027",
+    "to": "9 Mar - 7 Sep 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6063,
+    "name": "Machu Picchu & South Caribbean",
+    "from": 8599,
+    "to": 9099
+   },
+   {
+    "type": "sale_ended",
+    "id": 6063,
+    "name": "Machu Picchu & South Caribbean"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6063,
+    "name": "Machu Picchu & South Caribbean",
+    "from": "3 Mar 2027",
+    "to": "3 Mar - 17 Mar 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6098,
+    "name": "Best of Japan",
+    "from": 5199,
+    "to": 4999
+   },
+   {
+    "type": "dates_changed",
+    "id": 6099,
+    "name": "Treasures of Egypt & Oman",
+    "from": "4 Mar - 18 Nov 2027",
+    "to": "19 Aug - 18 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6112,
+    "name": "Iconic Northern Lights Rail & Sail",
+    "from": "20 Oct 2027 - 23 Mar 2028",
+    "to": "12 Sep 2027 - 23 Mar 2028"
+   },
+   {
+    "type": "price_down",
+    "id": 4581,
+    "name": "India, Sri Lanka & Maldives",
+    "from": 5199,
+    "to": 4999
+   },
+   {
+    "type": "dates_changed",
+    "id": 6130,
+    "name": "Highlights of Antarctica",
+    "from": "8 Feb - 9 Mar 2027",
+    "to": "27 Feb - 9 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "1 Feb - 25 Nov 2027",
+    "to": "15 Feb - 25 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6132,
+    "name": "Grand Kruger Safari & Cape Town",
+    "from": "10 Feb - 1 Dec 2027",
+    "to": "16 Feb - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4601,
+    "name": "SA's Vineyards by eBike",
+    "from": "6 Dec 2026 - 16 May 2027",
+    "to": "31 Jan - 16 May 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5626,
+    "name": "Southern Japan Discovery",
+    "from": 3999,
+    "to": 3799
+   },
+   {
+    "type": "dates_changed",
+    "id": 5626,
+    "name": "Southern Japan Discovery",
+    "from": "13 Jan - 7 Dec 2027",
+    "to": "24 Feb - 7 Dec 2027"
+   }
+  ]
  }
 ]
