@@ -1,23 +1,17 @@
 name: Nightly TripADeal refresh
-# Runs between 1:30am and 3:00am Sydney time, at a different minute each night.
-# GitHub cron is UTC and Sydney flips between AEST (+10) and AEDT (+11), so we schedule two
-# candidate runs and keep whichever one lands at ~1:15am local; it then sleeps a random
-# 15–100 minutes before touching the site. Sunday's run re-parses every deal page; other
-# nights only read the listing pages and full-parse deals that are new.
+# Runs once a day. GitHub's scheduled runs are best-effort and often fire an hour or more late,
+# so we don't try to pin an exact local time — a single daily cron plus a small random delay to
+# spread load is enough. Sunday's run re-parses every deal page; other nights read the listing
+# pages and full-parse only deals that are new. Run it on demand from the Actions tab too.
 on:
   schedule:
-    - cron: "15 15 * * *"   # 01:15 AEST (Apr–Oct)
-    - cron: "15 14 * * *"   # 01:15 AEDT (Oct–Apr)
+    - cron: "15 14 * * *"   # ~00:15–01:15 Sydney depending on DST (+ GitHub's own delay)
   workflow_dispatch:
     inputs:
       full:
         description: "Re-parse every deal page (weekly-style run)"
         type: boolean
         default: false
-      skip_wait:
-        description: "Skip the random delay"
-        type: boolean
-        default: true
 
 jobs:
   refresh:
@@ -25,35 +19,19 @@ jobs:
     permissions: { contents: write }
     concurrency: { group: tripadeal-refresh, cancel-in-progress: false }
     steps:
-      - name: Decide whether this is the right cron for Sydney's current UTC offset
-        id: gate
+      - name: Random delay to spread load (scheduled runs only)
+        if: github.event_name == 'schedule'
         run: |
-          H=$(TZ=Australia/Sydney date +%H); M=$(TZ=Australia/Sydney date +%M)
-          echo "Sydney time now: $H:$M"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" = "01" ] && [ "$M" -lt 45 ]; }; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Not the active cron for this season; exiting."; echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Random delay so the scrape lands between 1:30 and 3:00am Sydney
-        if: steps.gate.outputs.run == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.skip_wait)
-        run: |
-          S=$(( 900 + RANDOM % 5100 ))   # 15–100 minutes
-          echo "Sleeping $((S/60)) minutes"; sleep $S
+          S=$(( RANDOM % 5400 ))   # 0–90 minutes
+          echo "Sleeping $((S/60)) minutes before scraping"; sleep $S
 
       - uses: actions/checkout@v4
-        if: steps.gate.outputs.run == 'true'
       - uses: actions/setup-python@v5
-        if: steps.gate.outputs.run == 'true'
         with: { python-version: "3.12" }
       - name: Install
-        if: steps.gate.outputs.run == 'true'
         run: pip install -r requirements.txt
 
       - name: Scrape
-        if: steps.gate.outputs.run == 'true'
-        id: scrape
         run: |
           DOW=$(TZ=Australia/Sydney date +%u)   # 7 = Sunday
           FULL=""
@@ -63,11 +41,10 @@ jobs:
           python3 scripts/build.py
 
       - name: Commit if anything changed
-        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "tour-globe-bot"; git config user.email "bot@users.noreply.github.com"
           git add data/tours.json data/changelog.json index.html
-          if git diff --cached --quiet; then echo "No changes tonight."; exit 0; fi
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
           N=$(python3 -c "import json;print(len(json.load(open('data/tours.json'))))")
           E=$(python3 -c "import json;print(len(json.load(open('data/changelog.json'))[-1]['events']))")
           git commit -m "Nightly refresh: $N tours, $E changes ($(TZ=Australia/Sydney date '+%d %b %Y %H:%M') Sydney)"
