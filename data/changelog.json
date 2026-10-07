@@ -2381,5 +2381,56 @@
     "to": "28 Dec 2026 - 24 Dec 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-07T20:34:07+00:00",
+  "mode": "prices",
+  "listed": 219,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 5656,
+    "name": "Unbeatable Egypt",
+    "from": "21 Dec 2026 - 22 Nov 2027",
+    "to": "15 Feb - 22 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6181,
+    "name": "Japan Explorer Cruise",
+    "from": "23 Aug - 17 Oct 2027",
+    "to": "8 Jul - 17 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6213,
+    "name": "Japan Winter Wonderland",
+    "from": "23 Feb - 4 Mar 2027",
+    "to": "4 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6321,
+    "name": "Philippines Tropical Island Discovery",
+    "from": "18 Mar - 15 Apr 2027",
+    "to": "4 Feb - 15 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "11 Jan - 21 Dec 2027",
+    "to": "4 Jan - 21 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5885,
+    "name": "Highlights of Sri Lanka for 2",
+    "from": "14 Dec 2026 - 13 Dec 2027",
+    "to": "18 Jan - 13 Dec 2027"
+   }
+  ]
  }
 ]
