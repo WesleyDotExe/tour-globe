@@ -2509,5 +2509,54 @@
     "to": "9 May - 10 Oct 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-09T20:40:32+00:00",
+  "mode": "prices",
+  "listed": 217,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "removed",
+    "id": 6369,
+    "name": "Japan to Taiwan & Hong Kong Cruise"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5166,
+    "name": "Lapland & Northern Lights",
+    "from": "2 Feb - 23 Mar 2027",
+    "to": "29 Jan - 23 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6193,
+    "name": "Majestic Norway & the Northern Lights",
+    "from": "24 Feb - 1 Dec 2027",
+    "to": "10 Mar - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5844,
+    "name": "Canada Winter Wonderland",
+    "from": "9 Feb - 9 Mar 2027",
+    "to": "9 Feb - 23 Feb 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5914,
+    "name": "Kenya, Tanzania & Victoria Falls",
+    "from": "12 Mar - 23 Oct 2027",
+    "to": "21 May - 23 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5419,
+    "name": "Seabourn Ultimate Antarctica",
+    "from": "4 Nov 2027 - 15 Mar 2028",
+    "to": "11 Feb 2027 - 15 Mar 2028"
+   }
+  ]
  }
 ]
