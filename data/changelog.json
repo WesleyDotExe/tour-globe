@@ -2558,5 +2558,140 @@
     "to": "11 Feb 2027 - 15 Mar 2028"
    }
   ]
+ },
+ {
+  "run": "2026-10-10T20:12:21+00:00",
+  "mode": "full",
+  "listed": 217,
+  "new": 1,
+  "parsed": 217,
+  "events": [
+   {
+    "type": "price_down",
+    "id": 6180,
+    "name": "Japan Cherry Blossoms Cruise 2027",
+    "from": 4799,
+    "to": 4599
+   },
+   {
+    "type": "price_up",
+    "id": 6213,
+    "name": "Japan Winter Wonderland",
+    "from": 3399,
+    "to": 3499
+   },
+   {
+    "type": "price_up",
+    "id": 6217,
+    "name": "Ultimate Switzerland",
+    "from": 7199,
+    "to": 7499
+   },
+   {
+    "type": "price_up",
+    "id": 6231,
+    "name": "Wonders of Japan",
+    "from": 3299,
+    "to": 3499
+   },
+   {
+    "type": "price_up",
+    "id": 6273,
+    "name": "Japan Highlights",
+    "from": 2849,
+    "to": 2999
+   },
+   {
+    "type": "price_up",
+    "id": 5836,
+    "name": "Japan Discovery",
+    "from": 3799,
+    "to": 3999
+   },
+   {
+    "type": "price_up",
+    "id": 6364,
+    "name": "Mediterranean Odyssey",
+    "from": 5999,
+    "to": 6499
+   },
+   {
+    "type": "price_up",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway",
+    "from": 2399,
+    "to": 2599
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "4 Jan - 21 Dec 2027",
+    "to": "11 Jan - 21 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 5385,
+    "name": "Highlights of Japan & South Korea",
+    "from": 4799,
+    "to": 4999
+   },
+   {
+    "type": "price_down",
+    "id": 5419,
+    "name": "Seabourn Ultimate Antarctica",
+    "from": 20999,
+    "to": 18999
+   },
+   {
+    "type": "price_up",
+    "id": 5447,
+    "name": "Round The World in 35 Days",
+    "from": 18699,
+    "to": 18799
+   },
+   {
+    "type": "price_down",
+    "id": 5011,
+    "name": "Turkish Riviera Deluxe Cruise",
+    "from": 7499,
+    "to": 7399
+   },
+   {
+    "type": "dates_changed",
+    "id": 5034,
+    "name": "Nepal & Bhutan Highlights",
+    "from": "8 Feb - 20 Dec 2027",
+    "to": "26 Feb - 20 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6098,
+    "name": "Best of Japan",
+    "from": 4999,
+    "to": 5199
+   },
+   {
+    "type": "price_up",
+    "id": 6122,
+    "name": "South Africa, Antarctica & South America",
+    "from": 29399,
+    "to": 29799
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "15 Feb - 25 Nov 2027",
+    "to": "16 Feb - 25 Nov 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 5626,
+    "name": "Southern Japan Discovery",
+    "from": 3799,
+    "to": 3999
+   }
+  ]
  }
 ]
