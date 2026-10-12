@@ -2737,5 +2737,62 @@
     "to": "18 Feb - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-12T23:22:32+00:00",
+  "mode": "prices",
+  "listed": 217,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 6171,
+    "name": "Swiss Alps & Christmas Markets (Deal 6171) *SOLD OUT*",
+    "price": 8399
+   },
+   {
+    "type": "dates_changed",
+    "id": 6191,
+    "name": "South Africa & Victoria Falls for 2",
+    "from": "21 Jan - 5 Dec 2027",
+    "to": "31 Jan - 5 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6207,
+    "name": "Unbeatable Sri Lanka",
+    "from": "11 Feb - 19 Jun 2027",
+    "to": "18 Feb - 19 Jun 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6396,
+    "name": "Northern Thailand Adventure",
+    "from": "25 Jan 2027",
+    "to": "25 Jan - 6 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5892,
+    "name": "South Korea Discovery",
+    "from": "21 Jan - 23 Dec 2027",
+    "to": "18 Mar - 23 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4985,
+    "name": "Premium All-Inclusive Maldives & Singapore",
+    "from": "11 Jan - 13 Dec 2027",
+    "to": "18 Jan - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6130,
+    "name": "Highlights of Antarctica",
+    "from": "27 Feb - 9 Mar 2027",
+    "to": "4 Mar - 9 Mar 2027"
+   }
+  ]
  }
 ]
