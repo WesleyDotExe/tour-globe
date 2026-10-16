@@ -2950,5 +2950,72 @@
     "to": "25 Feb - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-16T18:16:12+00:00",
+  "mode": "prices",
+  "listed": 217,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 5708,
+    "name": "Italian Alps & Christmas Markets",
+    "price": 6199
+   },
+   {
+    "type": "removed",
+    "id": 5748,
+    "name": "Beauty of Europe"
+   },
+   {
+    "type": "removed",
+    "id": 6156,
+    "name": "Azamara Antarctica & Argentina Voyage (Deal 6156) *SOLD OUT*"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6144,
+    "name": "Ultimate 5 Stans",
+    "from": "16 Mar - 26 Oct 2027",
+    "to": "30 Mar - 26 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5650,
+    "name": "Ultimate Sri Lanka",
+    "from": "27 Jan - 1 Dec 2027",
+    "to": "3 Feb - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6213,
+    "name": "Japan Winter Wonderland",
+    "from": "23 Feb - 4 Mar 2027",
+    "to": "4 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": "12 Jan - 10 Nov 2027",
+    "to": "14 Jan - 10 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6389,
+    "name": "Sri Lankan Wildlife & Adventure",
+    "from": "23 Dec 2026 - 22 Dec 2027",
+    "to": "13 Jan - 22 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6111,
+    "name": "Best of the Stans",
+    "from": "16 Mar - 26 Oct 2027",
+    "to": "30 Mar - 26 Oct 2027"
+   }
+  ]
  }
 ]
