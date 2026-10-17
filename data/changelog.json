@@ -3017,5 +3017,82 @@
     "to": "30 Mar - 26 Oct 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-17T18:13:46+00:00",
+  "mode": "full",
+  "listed": 217,
+  "new": 0,
+  "parsed": 217,
+  "events": [
+   {
+    "type": "removed",
+    "id": 5912,
+    "name": "India & Vietnam Discovery"
+   },
+   {
+    "type": "price_down",
+    "id": 6173,
+    "name": "Seabourn Kimberley 2027",
+    "from": 20999,
+    "to": 19999
+   },
+   {
+    "type": "price_down",
+    "id": 6193,
+    "name": "Majestic Norway & the Northern Lights",
+    "from": 7799,
+    "to": 7599
+   },
+   {
+    "type": "price_up",
+    "id": 5687,
+    "name": "Vietnam, Cambodia & Thailand",
+    "from": 4199,
+    "to": 4299
+   },
+   {
+    "type": "price_down",
+    "id": 5802,
+    "name": "Annapurna Base Camp",
+    "from": 3499,
+    "to": 3299
+   },
+   {
+    "type": "price_down",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": 3199,
+    "to": 3099
+   },
+   {
+    "type": "price_down",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway",
+    "from": 2599,
+    "to": 2499
+   },
+   {
+    "type": "price_down",
+    "id": 6396,
+    "name": "Northern Thailand Adventure",
+    "from": 1799,
+    "to": 1599
+   },
+   {
+    "type": "price_down",
+    "id": 5920,
+    "name": "Ultimate Morocco for 2",
+    "from": 9499,
+    "to": 9299
+   },
+   {
+    "type": "price_up",
+    "id": 6087,
+    "name": "Luxury Balkans River Cruise",
+    "from": 8899,
+    "to": 9699
+   }
+  ]
  }
 ]
