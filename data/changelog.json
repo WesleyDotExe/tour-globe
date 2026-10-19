@@ -3131,5 +3131,75 @@
     "to": "1 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-19T21:00:48+00:00",
+  "mode": "prices",
+  "listed": 215,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "removed",
+    "id": 5299,
+    "name": "Sri Lanka's Secret Paradise"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5166,
+    "name": "Lapland & Northern Lights",
+    "from": "2 Feb - 23 Mar 2027",
+    "to": "29 Jan - 23 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6195,
+    "name": "Antarctica, South Georgia & Falklands",
+    "from": "13 Mar 2028",
+    "to": "7 Nov 2027 - 13 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": "25 Dec 2026 - 30 Dec 2027",
+    "to": "5 Jan - 30 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6399,
+    "name": "Highlights of South Africa",
+    "from": "18 Jan - 10 Dec 2027",
+    "to": "22 Feb - 10 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4912,
+    "name": "India, Nepal & Sri Lanka",
+    "from": "17 Feb - 1 Dec 2027",
+    "to": "10 Mar - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5532,
+    "name": "Shackleton's Antarctic Quest",
+    "from": "29 Nov 2027 - 3 Jan 2028",
+    "to": "29 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6055,
+    "name": "Tanzania & Zanzibar Island",
+    "from": "10 Mar - 17 Nov 2027",
+    "to": "7 Apr - 17 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6132,
+    "name": "Grand Kruger Safari & Cape Town",
+    "from": "16 Feb - 1 Dec 2027",
+    "to": "17 Mar - 1 Dec 2027"
+   }
+  ]
  }
 ]
