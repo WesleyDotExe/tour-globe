@@ -3379,5 +3379,88 @@
     "to": "2 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-22T18:44:00+00:00",
+  "mode": "prices",
+  "listed": 215,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "removed",
+    "id": 6034,
+    "name": "All-Inclusive Sydney to Singapore Cruise"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": "13 Apr - 14 Dec 2027",
+    "to": "13 Apr - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6169,
+    "name": "Yellowstone, Alaska & Canada",
+    "from": "9 May - 9 Sep 2027",
+    "to": "22 Apr - 22 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6191,
+    "name": "South Africa & Victoria Falls for 2",
+    "from": "31 Jan - 5 Dec 2027",
+    "to": "4 Feb - 5 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": "18 Jan - 20 Dec 2027",
+    "to": "19 Jan - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5846,
+    "name": "Philippines Island Adventure",
+    "from": "10 Mar - 8 Dec 2027",
+    "to": "24 Mar - 8 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": 1299,
+    "to": 999
+   },
+   {
+    "type": "sale_started",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway"
+   },
+   {
+    "type": "sale_started",
+    "id": 6375,
+    "name": "Far East Discovery Christmas Cruise"
+   },
+   {
+    "type": "sale_started",
+    "id": 5461,
+    "name": "Best of Bali"
+   },
+   {
+    "type": "sale_started",
+    "id": 5601,
+    "name": "All-Inclusive Best of Japan Cruise"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "2 Mar - 25 Nov 2027",
+    "to": "4 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
