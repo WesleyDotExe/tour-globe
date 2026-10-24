@@ -3532,5 +3532,271 @@
     "to": "24 Mar - 22 Sep 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-24T19:02:33+00:00",
+  "mode": "full",
+  "listed": 214,
+  "new": 0,
+  "parsed": 214,
+  "events": [
+   {
+    "type": "price_down",
+    "id": 6144,
+    "name": "Ultimate 5 Stans",
+    "from": 8999,
+    "to": 8599
+   },
+   {
+    "type": "price_down",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": 2699,
+    "to": 2549
+   },
+   {
+    "type": "price_down",
+    "id": 5145,
+    "name": "5-Star African Safari",
+    "from": 4499,
+    "to": 4299
+   },
+   {
+    "type": "price_down",
+    "id": 6184,
+    "name": "Best of Taiwan 2027",
+    "from": 3199,
+    "to": 2999
+   },
+   {
+    "type": "dates_changed",
+    "id": 5166,
+    "name": "Lapland & Northern Lights",
+    "from": "2 Feb - 23 Mar 2027",
+    "to": "12 Feb - 23 Mar 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 6192,
+    "name": "Sri Lanka & All-Inclusive Maldives",
+    "from": 4299,
+    "to": 4099
+   },
+   {
+    "type": "price_down",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": 2699,
+    "to": 2549
+   },
+   {
+    "type": "price_down",
+    "id": 6195,
+    "name": "Antarctica, South Georgia & Falklands",
+    "from": 27699,
+    "to": 25999
+   },
+   {
+    "type": "price_down",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": 2199,
+    "to": 2099
+   },
+   {
+    "type": "price_down",
+    "id": 6242,
+    "name": "Luxury Antarctic Circle",
+    "from": 24499,
+    "to": 22899
+   },
+   {
+    "type": "price_up",
+    "id": 6258,
+    "name": "Swan Hellenic Luxury Antarctica",
+    "from": 17699,
+    "to": 19299
+   },
+   {
+    "type": "sale_ended",
+    "id": 6258,
+    "name": "Swan Hellenic Luxury Antarctica"
+   },
+   {
+    "type": "price_down",
+    "id": 5283,
+    "name": "Magnificent Mekong",
+    "from": 3699,
+    "to": 3549
+   },
+   {
+    "type": "price_down",
+    "id": 6344,
+    "name": "Stunning Japan Tour & Cruise",
+    "from": 6299,
+    "to": 6099
+   },
+   {
+    "type": "price_up",
+    "id": 6358,
+    "name": "Antarctica & Chilean Patagonia Cruise",
+    "from": 37499,
+    "to": 37699
+   },
+   {
+    "type": "price_down",
+    "id": 6356,
+    "name": "Grand Voyage Sydney to Singapore",
+    "from": 5299,
+    "to": 4799
+   },
+   {
+    "type": "price_down",
+    "id": 5846,
+    "name": "Philippines Island Adventure",
+    "from": 3999,
+    "to": 3799
+   },
+   {
+    "type": "price_down",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway",
+    "from": 2499,
+    "to": 2399
+   },
+   {
+    "type": "price_down",
+    "id": 5862,
+    "name": "Best of Borneo",
+    "from": 2499,
+    "to": 2349
+   },
+   {
+    "type": "price_down",
+    "id": 6375,
+    "name": "Far East Discovery Christmas Cruise",
+    "from": 5999,
+    "to": 5799
+   },
+   {
+    "type": "dates_changed",
+    "id": 6399,
+    "name": "Highlights of South Africa",
+    "from": "22 Feb - 10 Dec 2027",
+    "to": "26 Feb - 10 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5897,
+    "name": "Magical Malaysia",
+    "from": 2999,
+    "to": 2899
+   },
+   {
+    "type": "price_up",
+    "id": 5900,
+    "name": "Croatia & Slovenia for 2",
+    "from": 10899,
+    "to": 10999
+   },
+   {
+    "type": "price_down",
+    "id": 5901,
+    "name": "Luxury India for 2",
+    "from": 4099,
+    "to": 3899
+   },
+   {
+    "type": "price_up",
+    "id": 5909,
+    "name": "Canada & Greenland Northern Lights for 2",
+    "from": 41499,
+    "to": 47999
+   },
+   {
+    "type": "price_up",
+    "id": 5922,
+    "name": "Luxury Egypt for 2",
+    "from": 13299,
+    "to": 13399
+   },
+   {
+    "type": "price_down",
+    "id": 4904,
+    "name": "Luxury Sri Lanka",
+    "from": 3699,
+    "to": 3499
+   },
+   {
+    "type": "price_down",
+    "id": 5461,
+    "name": "Best of Bali",
+    "from": 1999,
+    "to": 1899
+   },
+   {
+    "type": "price_up",
+    "id": 5478,
+    "name": "Ancient Treasures of China & Mongolia",
+    "from": 4799,
+    "to": 4899
+   },
+   {
+    "type": "price_up",
+    "id": 6018,
+    "name": "Luxury Antarctica to New Zealand Voyage",
+    "from": 42999,
+    "to": 44999
+   },
+   {
+    "type": "dates_changed",
+    "id": 6018,
+    "name": "Luxury Antarctica to New Zealand Voyage",
+    "from": "2 Feb 2027 - 3 Feb 2028",
+    "to": "3 Feb 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5519,
+    "name": "India Wellness Retreat",
+    "from": "8 Jan - 24 Dec 2027",
+    "to": "15 Jan - 24 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5532,
+    "name": "Shackleton's Antarctic Quest",
+    "from": 36999,
+    "to": 33699
+   },
+   {
+    "type": "price_down",
+    "id": 5055,
+    "name": "Grand South Korea",
+    "from": 3999,
+    "to": 3799
+   },
+   {
+    "type": "price_down",
+    "id": 5601,
+    "name": "All-Inclusive Best of Japan Cruise",
+    "from": 5499,
+    "to": 5299
+   },
+   {
+    "type": "price_up",
+    "id": 6122,
+    "name": "South Africa, Antarctica & South America",
+    "from": 29799,
+    "to": 29999
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "4 Mar - 25 Nov 2027",
+    "to": "10 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
