@@ -3806,5 +3806,97 @@
   "new": 0,
   "parsed": 0,
   "events": []
+ },
+ {
+  "run": "2026-10-26T20:34:12+00:00",
+  "mode": "prices",
+  "listed": 215,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 6412,
+    "name": "Unforgettable Top End Adventure",
+    "price": 3499
+   },
+   {
+    "type": "dates_changed",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": "13 Apr - 7 Dec 2027",
+    "to": "9 Feb - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6186,
+    "name": "Treasures of Peru",
+    "from": "3 Mar - 29 Oct 2027",
+    "to": "14 Apr - 29 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6191,
+    "name": "South Africa & Victoria Falls for 2",
+    "from": "4 Feb - 5 Dec 2027",
+    "to": "7 Feb - 5 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5687,
+    "name": "Vietnam, Cambodia & Thailand",
+    "from": "20 Jan - 29 Dec 2027",
+    "to": "20 Jan - 22 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": "15 Jan - 10 Nov 2027",
+    "to": "20 Feb - 10 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5858,
+    "name": "Best of Egypt for 2",
+    "from": "25 Jan - 17 Dec 2027",
+    "to": "5 Feb - 17 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4842,
+    "name": "5-Star Vietnam",
+    "from": "18 Jan - 27 Dec 2027",
+    "to": "8 Feb - 27 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6380,
+    "name": "Unbelievable Japan",
+    "from": "13 Mar - 26 May 2027",
+    "to": "26 May 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6374,
+    "name": "Best of Baltics & Fjords",
+    "from": "6 Jun - 29 Aug 2027",
+    "to": "1 Aug - 29 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6399,
+    "name": "Highlights of South Africa",
+    "from": "26 Feb - 10 Dec 2027",
+    "to": "8 Mar - 10 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6101,
+    "name": "Grand Swiss Alps",
+    "from": "30 Jul 2027",
+    "to": "30 Jul - 3 Sep 2027"
+   }
+  ]
  }
 ]
