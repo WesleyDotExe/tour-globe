@@ -3970,5 +3970,70 @@
     "to": "3 Mar 2027"
    }
   ]
+ },
+ {
+  "run": "2026-10-28T20:07:33+00:00",
+  "mode": "prices",
+  "listed": 215,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 5145,
+    "name": "5-Star African Safari",
+    "from": "24 Feb - 1 Dec 2027",
+    "to": "24 Feb 2027 - 13 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": "1 Feb - 18 Dec 2027",
+    "to": "25 Jan - 18 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6243,
+    "name": "Best of Italy & the Med",
+    "from": "13 May - 31 Oct 2027",
+    "to": "13 May - 24 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": "20 Feb - 10 Nov 2027",
+    "to": "23 Feb - 10 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "21 Jan - 21 Dec 2027",
+    "to": "1 Feb - 21 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4842,
+    "name": "5-Star Vietnam",
+    "from": "8 Feb - 27 Dec 2027",
+    "to": "11 Feb - 27 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5901,
+    "name": "Luxury India for 2",
+    "from": "8 Jan - 24 Dec 2027",
+    "to": "22 Jan - 24 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5034,
+    "name": "Nepal & Bhutan Highlights",
+    "from": "26 Feb - 20 Dec 2027",
+    "to": "26 Mar - 20 Dec 2027"
+   }
+  ]
  }
 ]
