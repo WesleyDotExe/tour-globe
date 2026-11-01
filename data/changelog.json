@@ -4341,5 +4341,35 @@
     "to": 6499
    }
   ]
+ },
+ {
+  "run": "2026-11-01T19:07:25+00:00",
+  "mode": "prices",
+  "listed": 212,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 6192,
+    "name": "Sri Lanka & All-Inclusive Maldives",
+    "from": "31 Jan - 19 Dec 2027",
+    "to": "11 Feb - 19 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5080,
+    "name": "Opulent India",
+    "from": "22 Apr - 8 Sep 2027",
+    "to": "29 Apr - 8 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6112,
+    "name": "Iconic Northern Lights Rail & Sail",
+    "from": "12 Sep 2027 - 23 Mar 2028",
+    "to": "21 Sep 2027 - 23 Mar 2028"
+   }
+  ]
  }
 ]
