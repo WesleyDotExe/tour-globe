@@ -4371,5 +4371,77 @@
     "to": "21 Sep 2027 - 23 Mar 2028"
    }
   ]
+ },
+ {
+  "run": "2026-11-02T23:03:21+00:00",
+  "mode": "prices",
+  "listed": 212,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 5671,
+    "name": "Christmas Markets River Cruise",
+    "from": "26 Nov 2027",
+    "to": "10 Dec 2026 - 26 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6191,
+    "name": "South Africa & Victoria Falls for 2",
+    "from": "7 Feb - 5 Dec 2027",
+    "to": "7 Feb 2027 - 3 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6205,
+    "name": "Kimberley Wonders Expedition Cruise",
+    "from": "10 Mar - 27 Aug 2027",
+    "to": "21 Mar - 27 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6321,
+    "name": "Philippines Tropical Island Discovery",
+    "from": "8 Feb - 15 Apr 2027",
+    "to": "4 Feb - 15 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5836,
+    "name": "Japan Discovery",
+    "from": "8 Feb - 1 Dec 2027",
+    "to": "8 Feb - 22 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway",
+    "from": "10 Mar - 19 Nov 2027",
+    "to": "31 May - 19 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6399,
+    "name": "Highlights of South Africa",
+    "from": "8 Mar - 10 Dec 2027",
+    "to": "8 Mar 2027 - 13 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5892,
+    "name": "South Korea Discovery",
+    "from": "18 Mar - 23 Dec 2027",
+    "to": "29 Apr - 23 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5080,
+    "name": "Opulent India",
+    "from": "29 Apr - 8 Sep 2027",
+    "to": "22 Apr - 8 Sep 2027"
+   }
+  ]
  }
 ]
