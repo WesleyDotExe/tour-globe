@@ -4443,5 +4443,82 @@
     "to": "22 Apr - 8 Sep 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-03T21:57:40+00:00",
+  "mode": "prices",
+  "listed": 214,
+  "new": 2,
+  "parsed": 2,
+  "events": [
+   {
+    "type": "new",
+    "id": 6408,
+    "name": "Ultimate Northern Lights Adventure",
+    "price": 11599
+   },
+   {
+    "type": "new",
+    "id": 4765,
+    "name": "Trains of Switzerland",
+    "price": 7699
+   },
+   {
+    "type": "dates_changed",
+    "id": 6289,
+    "name": "Iconic Italy",
+    "from": "23 Feb - 16 Nov 2027",
+    "to": "1 Jun - 16 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5836,
+    "name": "Japan Discovery",
+    "from": "8 Feb - 22 Nov 2027",
+    "to": "8 Feb - 8 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": "10 Jan - 30 Dec 2027",
+    "to": "5 Feb - 30 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5898,
+    "name": "India & Sri Lanka Discovery",
+    "from": "2 Feb - 7 Dec 2027",
+    "to": "9 Feb - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5922,
+    "name": "Luxury Egypt for 2",
+    "from": "12 Apr - 20 Dec 2027",
+    "to": "26 Apr - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4985,
+    "name": "Premium All-Inclusive Maldives & Singapore",
+    "from": "18 Jan - 13 Dec 2027",
+    "to": "25 Jan - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4987,
+    "name": "Ultimate Vietnam",
+    "from": "18 Jan - 13 Dec 2027",
+    "to": "25 Jan - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5080,
+    "name": "Opulent India",
+    "from": "22 Apr - 8 Sep 2027",
+    "to": "29 Apr - 8 Sep 2027"
+   }
+  ]
  }
 ]
