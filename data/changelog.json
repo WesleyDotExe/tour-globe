@@ -4520,5 +4520,102 @@
     "to": "29 Apr - 8 Sep 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-04T20:54:59+00:00",
+  "mode": "prices",
+  "listed": 214,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 6223,
+    "name": "Mediterranean Highlights Cruise",
+    "price": 5199
+   },
+   {
+    "type": "removed",
+    "id": 6263,
+    "name": "Luxury South Pacific & Hawaii Explorer (Deal 6263) *SOLD OUT*"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6180,
+    "name": "Japan Cherry Blossoms Cruise 2027",
+    "from": "14 Mar - 26 Mar 2027",
+    "to": "14 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6184,
+    "name": "Best of Taiwan 2027",
+    "from": "11 Jan - 20 Dec 2027",
+    "to": "8 Feb - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": "19 Jan - 20 Dec 2027",
+    "to": "25 Jan - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4171,
+    "name": "Spain, Portugal & Morocco",
+    "from": "19 Apr - 8 Nov 2027",
+    "to": "10 May - 8 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5283,
+    "name": "Magnificent Mekong",
+    "from": "10 Apr - 24 Dec 2027",
+    "to": "11 May - 24 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6321,
+    "name": "Philippines Tropical Island Discovery",
+    "from": "4 Feb - 15 Apr 2027",
+    "to": "8 Feb - 15 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5395,
+    "name": "Luxury Sri Lanka & Maldives",
+    "from": "26 Jan - 12 Oct 2027",
+    "to": "2 Feb - 12 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5913,
+    "name": "Tropical South India",
+    "from": "10 Feb - 15 Dec 2027",
+    "to": "3 Feb - 15 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5428,
+    "name": "Grand Egypt & The Nile",
+    "from": "10 Mar - 17 Nov 2027",
+    "to": "17 Feb - 17 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6096,
+    "name": "Indian Andaman Islands Explorer",
+    "from": "11 Jan - 22 Feb 2027",
+    "to": "22 Feb 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "15 Mar - 25 Nov 2027",
+    "to": "16 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
