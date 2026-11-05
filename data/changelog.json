@@ -4617,5 +4617,83 @@
     "to": "16 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-05T22:09:44+00:00",
+  "mode": "prices",
+  "listed": 215,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 6423,
+    "name": "Ultimate Thailand",
+    "price": 3999
+   },
+   {
+    "type": "dates_changed",
+    "id": 5653,
+    "name": "All-Inclusive Cherry Blossoms Cruise",
+    "from": "13 Mar - 31 Mar 2027",
+    "to": "20 Mar - 31 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6207,
+    "name": "Unbeatable Sri Lanka",
+    "from": "11 Feb - 19 Jun 2027",
+    "to": "18 Feb - 19 Jun 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": "25 Jan - 18 Dec 2027",
+    "to": "1 Feb - 18 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5278,
+    "name": "Peru, Ecuador & Galapagos Islands",
+    "from": "16 Mar - 2 Nov 2027",
+    "to": "11 May - 2 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5887,
+    "name": "Vietnam Mountain Discovery",
+    "from": "20 Jan - 15 Dec 2027",
+    "to": "3 Feb - 15 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4985,
+    "name": "Premium All-Inclusive Maldives & Singapore",
+    "from": "25 Jan - 13 Dec 2027",
+    "to": "8 Feb - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5080,
+    "name": "Opulent India",
+    "from": "29 Apr - 8 Sep 2027",
+    "to": "22 Apr - 8 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5600,
+    "name": "All-Inclusive Japan & South Korea Cruise",
+    "from": "29 Aug - 11 Sep 2027",
+    "to": "11 May - 11 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "16 Mar - 25 Nov 2027",
+    "to": "17 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
