@@ -4781,5 +4781,131 @@
     "to": "18 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-07T19:47:04+00:00",
+  "mode": "full",
+  "listed": 215,
+  "new": 0,
+  "parsed": 215,
+  "events": [
+   {
+    "type": "price_up",
+    "id": 5145,
+    "name": "5-Star African Safari",
+    "from": 4299,
+    "to": 4399
+   },
+   {
+    "type": "price_up",
+    "id": 5691,
+    "name": "Amsterdam to Budapest 5-Star River Cruise",
+    "from": 10299,
+    "to": 11899
+   },
+   {
+    "type": "sale_ended",
+    "id": 5691,
+    "name": "Amsterdam to Budapest 5-Star River Cruise"
+   },
+   {
+    "type": "price_up",
+    "id": 6217,
+    "name": "Ultimate Switzerland",
+    "from": 7399,
+    "to": 7999
+   },
+   {
+    "type": "price_down",
+    "id": 6264,
+    "name": "Wonders of Italy, Greece & Croatia",
+    "from": 7099,
+    "to": 6999
+   },
+   {
+    "type": "price_up",
+    "id": 6265,
+    "name": "India Colours Festival 2027",
+    "from": 2399,
+    "to": 2499
+   },
+   {
+    "type": "price_up",
+    "id": 6274,
+    "name": "Rugby League Las Vegas & Mexico Cruise",
+    "from": 6299,
+    "to": 6799
+   },
+   {
+    "type": "price_up",
+    "id": 6289,
+    "name": "Iconic Italy",
+    "from": 2999,
+    "to": 3399
+   },
+   {
+    "type": "dates_changed",
+    "id": 5314,
+    "name": "Cambodia Discovery",
+    "from": "14 Jan - 12 Dec 2027",
+    "to": "21 Jan - 12 Dec 2027"
+   },
+   {
+    "type": "price_down",
+    "id": 5837,
+    "name": "Best of Sardinia & Sicily",
+    "from": 8699,
+    "to": 8299
+   },
+   {
+    "type": "dates_changed",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": "24 Feb - 10 Nov 2027",
+    "to": "23 Feb - 10 Nov 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6362,
+    "name": "Cunard's Grand South American Voyage",
+    "from": 14499,
+    "to": 14899
+   },
+   {
+    "type": "price_up",
+    "id": 5921,
+    "name": "Taste of Italy for 2",
+    "from": 10799,
+    "to": 10999
+   },
+   {
+    "type": "price_down",
+    "id": 5922,
+    "name": "Luxury Egypt for 2",
+    "from": 13399,
+    "to": 13199
+   },
+   {
+    "type": "dates_changed",
+    "id": 5519,
+    "name": "India Wellness Retreat",
+    "from": "22 Jan - 24 Dec 2027",
+    "to": "29 Jan - 24 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6101,
+    "name": "Grand Swiss Alps",
+    "from": 11399,
+    "to": 11699
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "18 Mar - 25 Nov 2027",
+    "to": "22 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
