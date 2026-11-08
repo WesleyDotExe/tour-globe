@@ -4907,5 +4907,49 @@
     "to": "22 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-08T19:04:23+00:00",
+  "mode": "prices",
+  "listed": 215,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": "9 Feb - 7 Dec 2027",
+    "to": "13 Apr - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6191,
+    "name": "South Africa & Victoria Falls for 2",
+    "from": "7 Feb 2027 - 3 Dec 2028",
+    "to": "25 Feb 2027 - 3 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6217,
+    "name": "Ultimate Switzerland",
+    "from": "9 Mar - 12 Oct 2027",
+    "to": "18 May - 12 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6321,
+    "name": "Philippines Tropical Island Discovery",
+    "from": "8 Feb - 15 Apr 2027",
+    "to": "1 Apr - 15 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5398,
+    "name": "Ultimate China",
+    "from": "11 Mar - 4 Nov 2027",
+    "to": "11 Mar - 21 Oct 2027"
+   }
+  ]
  }
 ]
