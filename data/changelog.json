@@ -5141,5 +5141,80 @@
     "to": "5 Feb - 13 Dec 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-11T22:14:33+00:00",
+  "mode": "prices",
+  "listed": 216,
+  "new": 2,
+  "parsed": 2,
+  "events": [
+   {
+    "type": "new",
+    "id": 5203,
+    "name": "Borneo Discovery",
+    "price": 3999
+   },
+   {
+    "type": "new",
+    "id": 4717,
+    "name": "Majestic Scandinavia",
+    "price": 7399
+   },
+   {
+    "type": "removed",
+    "id": 6362,
+    "name": "Cunard's Grand South American Voyage"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6236,
+    "name": "Northern Lights & Arctic Lapland",
+    "from": "19 Mar - 22 Nov 2027",
+    "to": "29 Mar - 22 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": "10 Feb - 30 Dec 2027",
+    "to": "15 Feb - 30 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5858,
+    "name": "Best of Egypt for 2",
+    "from": "12 Mar - 17 Dec 2027",
+    "to": "15 Mar - 17 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5885,
+    "name": "Highlights of Sri Lanka for 2",
+    "from": "18 Jan - 13 Dec 2027",
+    "to": "25 Jan - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6416,
+    "name": "Northern Japan Discovery",
+    "from": "15 Mar - 13 Dec 2027",
+    "to": "5 Apr - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5395,
+    "name": "Luxury Sri Lanka & Maldives",
+    "from": "2 Feb - 12 Oct 2027",
+    "to": "9 Feb - 12 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "22 Mar - 25 Nov 2027",
+    "to": "23 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
