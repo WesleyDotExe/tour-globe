@@ -5216,5 +5216,92 @@
     "to": "23 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-12T22:06:44+00:00",
+  "mode": "prices",
+  "listed": 214,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "removed",
+    "id": 5314,
+    "name": "Cambodia Discovery"
+   },
+   {
+    "type": "removed",
+    "id": 5653,
+    "name": "All-Inclusive Cherry Blossoms Cruise"
+   },
+   {
+    "type": "removed",
+    "id": 6105,
+    "name": "Royal Rajasthan"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6181,
+    "name": "Japan Explorer Cruise",
+    "from": "8 Jul - 17 Oct 2027",
+    "to": "2 Sep - 17 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6207,
+    "name": "Unbeatable Sri Lanka",
+    "from": "18 Feb - 19 Jun 2027",
+    "to": "20 Feb - 19 Jun 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6348,
+    "name": "NZ South Island Discovery",
+    "from": "19 Jan - 13 Apr 2027",
+    "to": "2 Feb - 13 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6365,
+    "name": "Heart of China",
+    "from": "28 Feb - 8 Nov 2027",
+    "to": "28 Feb 2027 - 5 Jun 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4842,
+    "name": "5-Star Vietnam",
+    "from": "17 Feb - 27 Dec 2027",
+    "to": "27 Feb - 27 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6389,
+    "name": "Sri Lankan Wildlife & Adventure",
+    "from": "27 Jan - 22 Dec 2027",
+    "to": "10 Feb - 22 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6397,
+    "name": "Italy's Dolomites & Greek Islands Cruise",
+    "from": "23 May - 12 Sep 2027",
+    "to": "1 Aug - 29 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5902,
+    "name": "India’s Ancient Heritage",
+    "from": "19 Jan - 23 Nov 2027",
+    "to": "16 Feb - 23 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "23 Mar - 25 Nov 2027",
+    "to": "24 Mar - 25 Nov 2027"
+   }
+  ]
  }
 ]
