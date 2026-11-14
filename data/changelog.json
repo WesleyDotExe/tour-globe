@@ -5385,5 +5385,279 @@
     "to": "30 Mar - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-14T20:15:49+00:00",
+  "mode": "full",
+  "listed": 214,
+  "new": 0,
+  "parsed": 214,
+  "events": [
+   {
+    "type": "price_up",
+    "id": 6144,
+    "name": "Ultimate 5 Stans",
+    "from": 8599,
+    "to": 8999
+   },
+   {
+    "type": "price_up",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": 2549,
+    "to": 2699
+   },
+   {
+    "type": "price_up",
+    "id": 6180,
+    "name": "Japan Cherry Blossoms Cruise 2027",
+    "from": 4599,
+    "to": 5199
+   },
+   {
+    "type": "price_up",
+    "id": 6184,
+    "name": "Best of Taiwan 2027",
+    "from": 2999,
+    "to": 3199
+   },
+   {
+    "type": "dates_changed",
+    "id": 6191,
+    "name": "South Africa & Victoria Falls for 2",
+    "from": "25 Feb 2027 - 3 Dec 2028",
+    "to": "7 Mar 2027 - 3 Dec 2028"
+   },
+   {
+    "type": "price_up",
+    "id": 6192,
+    "name": "Sri Lanka & All-Inclusive Maldives",
+    "from": 4099,
+    "to": 4299
+   },
+   {
+    "type": "price_up",
+    "id": 6190,
+    "name": "Alaska, Denali & Yukon Rail & Sail",
+    "from": 6599,
+    "to": 6699
+   },
+   {
+    "type": "price_up",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": 2549,
+    "to": 2699
+   },
+   {
+    "type": "price_up",
+    "id": 6199,
+    "name": "Marvels of Europe for 2",
+    "from": 11899,
+    "to": 12699
+   },
+   {
+    "type": "price_up",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": 2099,
+    "to": 2199
+   },
+   {
+    "type": "dates_changed",
+    "id": 5716,
+    "name": "Colours of Morocco",
+    "from": "23 Feb - 16 Nov 2027",
+    "to": "4 May - 16 Nov 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6236,
+    "name": "Northern Lights & Arctic Lapland",
+    "from": 7299,
+    "to": 7699
+   },
+   {
+    "type": "price_up",
+    "id": 4765,
+    "name": "Trains of Switzerland",
+    "from": 7699,
+    "to": 7999
+   },
+   {
+    "type": "price_up",
+    "id": 5283,
+    "name": "Magnificent Mekong",
+    "from": 3549,
+    "to": 3699
+   },
+   {
+    "type": "price_up",
+    "id": 6344,
+    "name": "Stunning Japan Tour & Cruise",
+    "from": 6099,
+    "to": 6299
+   },
+   {
+    "type": "price_up",
+    "id": 6347,
+    "name": "Gems of Italy & The Greek Islands Cruise",
+    "from": 5299,
+    "to": 5499
+   },
+   {
+    "type": "price_up",
+    "id": 6353,
+    "name": "South Italy, Croatia & Greek Islands",
+    "from": 7899,
+    "to": 8299
+   },
+   {
+    "type": "price_up",
+    "id": 5846,
+    "name": "Philippines Island Adventure",
+    "from": 3799,
+    "to": 3999
+   },
+   {
+    "type": "price_up",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": 999,
+    "to": 1399
+   },
+   {
+    "type": "price_up",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway",
+    "from": 2399,
+    "to": 2499
+   },
+   {
+    "type": "sale_ended",
+    "id": 6370,
+    "name": "Singapore, Malaysia & Thailand Getaway"
+   },
+   {
+    "type": "price_up",
+    "id": 5862,
+    "name": "Best of Borneo",
+    "from": 2349,
+    "to": 2499
+   },
+   {
+    "type": "price_up",
+    "id": 6375,
+    "name": "Far East Discovery Christmas Cruise",
+    "from": 5799,
+    "to": 5999
+   },
+   {
+    "type": "sale_ended",
+    "id": 6375,
+    "name": "Far East Discovery Christmas Cruise"
+   },
+   {
+    "type": "price_up",
+    "id": 5870,
+    "name": "Highlights of Türkiye for 2",
+    "from": 7499,
+    "to": 7999
+   },
+   {
+    "type": "price_up",
+    "id": 5897,
+    "name": "Magical Malaysia",
+    "from": 2899,
+    "to": 2999
+   },
+   {
+    "type": "price_up",
+    "id": 5901,
+    "name": "Luxury India for 2",
+    "from": 3899,
+    "to": 4099
+   },
+   {
+    "type": "price_up",
+    "id": 5913,
+    "name": "Tropical South India",
+    "from": 2199,
+    "to": 2299
+   },
+   {
+    "type": "price_up",
+    "id": 4904,
+    "name": "Luxury Sri Lanka",
+    "from": 3499,
+    "to": 3699
+   },
+   {
+    "type": "price_up",
+    "id": 5461,
+    "name": "Best of Bali",
+    "from": 1899,
+    "to": 1999
+   },
+   {
+    "type": "sale_ended",
+    "id": 5461,
+    "name": "Best of Bali"
+   },
+   {
+    "type": "price_up",
+    "id": 4456,
+    "name": "Grand Italy & The Med",
+    "from": 7299,
+    "to": 7699
+   },
+   {
+    "type": "dates_changed",
+    "id": 5519,
+    "name": "India Wellness Retreat",
+    "from": "29 Jan - 24 Dec 2027",
+    "to": "5 Feb - 24 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 5055,
+    "name": "Grand South Korea",
+    "from": 3799,
+    "to": 3999
+   },
+   {
+    "type": "dates_changed",
+    "id": 6098,
+    "name": "Best of Japan",
+    "from": "8 Mar - 23 Nov 2027",
+    "to": "12 Mar - 23 Nov 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 5600,
+    "name": "All-Inclusive Japan & South Korea Cruise",
+    "from": 6199,
+    "to": 7399
+   },
+   {
+    "type": "price_up",
+    "id": 5601,
+    "name": "All-Inclusive Best of Japan Cruise",
+    "from": 5299,
+    "to": 5499
+   },
+   {
+    "type": "sale_ended",
+    "id": 5601,
+    "name": "All-Inclusive Best of Japan Cruise"
+   },
+   {
+    "type": "price_up",
+    "id": 6132,
+    "name": "Grand Kruger Safari & Cape Town",
+    "from": 6499,
+    "to": 6799
+   }
+  ]
  }
 ]
