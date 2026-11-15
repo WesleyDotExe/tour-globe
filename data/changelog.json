@@ -5659,5 +5659,49 @@
     "to": 6799
    }
   ]
+ },
+ {
+  "run": "2026-11-15T21:18:12+00:00",
+  "mode": "prices",
+  "listed": 214,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 5145,
+    "name": "5-Star African Safari",
+    "from": "24 Feb 2027 - 13 Dec 2028",
+    "to": "3 Mar 2027 - 13 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5755,
+    "name": "African Great Migration",
+    "from": "16 Mar - 19 Oct 2027",
+    "to": "13 Apr - 19 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4842,
+    "name": "5-Star Vietnam",
+    "from": "27 Feb - 27 Dec 2027",
+    "to": "21 Mar - 27 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5385,
+    "name": "Highlights of Japan & South Korea",
+    "from": "24 Feb - 9 Nov 2027",
+    "to": "2 Mar - 9 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5901,
+    "name": "Luxury India for 2",
+    "from": "22 Jan - 24 Dec 2027",
+    "to": "29 Jan - 24 Dec 2027"
+   }
+  ]
  }
 ]
