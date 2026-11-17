@@ -5788,5 +5788,117 @@
     "to": "7 Apr - 1 Dec 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-17T23:32:56+00:00",
+  "mode": "prices",
+  "listed": 214,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "removed",
+    "id": 6096,
+    "name": "Indian Andaman Islands Explorer"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms",
+    "from": "14 Mar - 31 Mar 2027",
+    "to": "14 Mar 2027 - 28 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6181,
+    "name": "Japan Explorer Cruise",
+    "from": "2 Sep - 17 Oct 2027",
+    "to": "8 Jul - 17 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": "1 Feb - 20 Dec 2027",
+    "to": "2 Feb - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": "1 Feb - 18 Dec 2027",
+    "to": "8 Feb - 18 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5728,
+    "name": "Egypt, Jordan & Türkiye",
+    "from": "9 Mar - 16 Nov 2027",
+    "to": "23 Mar - 16 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6336,
+    "name": "Las Vegas Fly & Stay Treasure Island",
+    "from": "23 Feb - 24 Feb 2027",
+    "to": "24 Feb 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5844,
+    "name": "Canada Winter Wonderland",
+    "from": "23 Feb 2027",
+    "to": "16 Nov 2027 - 7 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "1 Feb - 21 Dec 2027",
+    "to": "10 Feb - 21 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4842,
+    "name": "5-Star Vietnam",
+    "from": "27 Feb - 27 Dec 2027",
+    "to": "21 Mar - 27 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6399,
+    "name": "Highlights of South Africa",
+    "from": "8 Mar 2027 - 13 Dec 2028",
+    "to": "19 Mar 2027 - 13 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5385,
+    "name": "Highlights of Japan & South Korea",
+    "from": "2 Mar - 9 Nov 2027",
+    "to": "24 Feb - 9 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5898,
+    "name": "India & Sri Lanka Discovery",
+    "from": "16 Feb - 7 Dec 2027",
+    "to": "23 Feb - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5478,
+    "name": "Ancient Treasures of China & Mongolia",
+    "from": "1 Jun - 14 Sep 2027",
+    "to": "11 May - 14 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5601,
+    "name": "All-Inclusive Best of Japan Cruise",
+    "from": "24 Mar - 22 Sep 2027",
+    "to": "6 Jun - 22 Sep 2027"
+   }
+  ]
  }
 ]
