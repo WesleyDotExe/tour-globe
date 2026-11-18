@@ -5900,5 +5900,82 @@
     "to": "6 Jun - 22 Sep 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-18T23:05:33+00:00",
+  "mode": "prices",
+  "listed": 213,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "removed",
+    "id": 6358,
+    "name": "Antarctica & Chilean Patagonia Cruise"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms",
+    "from": "14 Mar 2027 - 28 Mar 2028",
+    "to": "14 Mar - 31 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": "2 Feb - 20 Dec 2027",
+    "to": "15 Mar - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6223,
+    "name": "Mediterranean Highlights Cruise",
+    "from": "21 Jul - 25 Aug 2027",
+    "to": "2 Jun - 25 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4765,
+    "name": "Trains of Switzerland",
+    "from": "10 May - 15 Sep 2027",
+    "to": "10 May - 24 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4307,
+    "name": "London, Iceland & Northern Lights",
+    "from": "22 Mar 2027 - 3 Apr 2028",
+    "to": "8 Mar 2027 - 3 Apr 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6396,
+    "name": "Northern Thailand Adventure",
+    "from": "25 Jan - 6 Dec 2027",
+    "to": "3 May - 6 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5885,
+    "name": "Highlights of Sri Lanka for 2",
+    "from": "25 Jan - 13 Dec 2027",
+    "to": "22 Feb - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5395,
+    "name": "Luxury Sri Lanka & Maldives",
+    "from": "9 Feb - 12 Oct 2027",
+    "to": "16 Feb - 12 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5478,
+    "name": "Ancient Treasures of China & Mongolia",
+    "from": "11 May - 14 Sep 2027",
+    "to": "1 Jun - 14 Sep 2027"
+   }
+  ]
  }
 ]
