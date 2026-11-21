@@ -6139,5 +6139,140 @@
     "to": "1 Apr - 25 Nov 2027"
    }
   ]
+ },
+ {
+  "run": "2026-11-21T21:35:57+00:00",
+  "mode": "full",
+  "listed": 216,
+  "new": 0,
+  "parsed": 216,
+  "events": [
+   {
+    "type": "price_up",
+    "id": 6181,
+    "name": "Japan Explorer Cruise",
+    "from": 3599,
+    "to": 3999
+   },
+   {
+    "type": "price_down",
+    "id": 6196,
+    "name": "Norfolk Island & New Zealand Voyage",
+    "from": 9199,
+    "to": 7699
+   },
+   {
+    "type": "dates_changed",
+    "id": 5176,
+    "name": "Discover Kenya & Tanzania",
+    "from": "22 Mar - 8 Nov 2027",
+    "to": "12 Apr - 8 Nov 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 5691,
+    "name": "Amsterdam to Budapest 5-Star River Cruise",
+    "from": 11899,
+    "to": 11999
+   },
+   {
+    "type": "price_up",
+    "id": 6205,
+    "name": "Kimberley Wonders Expedition Cruise",
+    "from": 13999,
+    "to": 15899
+   },
+   {
+    "type": "price_up",
+    "id": 6223,
+    "name": "Mediterranean Highlights Cruise",
+    "from": 5199,
+    "to": 5299
+   },
+   {
+    "type": "price_up",
+    "id": 4765,
+    "name": "Trains of Switzerland",
+    "from": 7999,
+    "to": 8499
+   },
+   {
+    "type": "price_down",
+    "id": 6336,
+    "name": "Las Vegas Fly & Stay Treasure Island",
+    "from": 5199,
+    "to": 4999
+   },
+   {
+    "type": "price_down",
+    "id": 6353,
+    "name": "South Italy, Croatia & Greek Islands",
+    "from": 8299,
+    "to": 7999
+   },
+   {
+    "type": "dates_changed",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": "20 Feb 2027 - 30 Dec 2028",
+    "to": "25 Feb 2027 - 30 Dec 2028"
+   },
+   {
+    "type": "price_up",
+    "id": 5844,
+    "name": "Canada Winter Wonderland",
+    "from": 4699,
+    "to": 4799
+   },
+   {
+    "type": "price_up",
+    "id": 5858,
+    "name": "Best of Egypt for 2",
+    "from": 9199,
+    "to": 9399
+   },
+   {
+    "type": "price_up",
+    "id": 6374,
+    "name": "Best of Baltics & Fjords",
+    "from": 8299,
+    "to": 8399
+   },
+   {
+    "type": "price_down",
+    "id": 5892,
+    "name": "South Korea Discovery",
+    "from": 2199,
+    "to": 2074
+   },
+   {
+    "type": "dates_changed",
+    "id": 5519,
+    "name": "India Wellness Retreat",
+    "from": "5 Feb - 24 Dec 2027",
+    "to": "12 Feb - 24 Dec 2027"
+   },
+   {
+    "type": "price_up",
+    "id": 6112,
+    "name": "Iconic Northern Lights Rail & Sail",
+    "from": 10599,
+    "to": 10999
+   },
+   {
+    "type": "price_down",
+    "id": 6130,
+    "name": "Highlights of Antarctica",
+    "from": 18199,
+    "to": 17999
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "1 Apr - 25 Nov 2027",
+    "to": "6 Apr - 25 Nov 2027"
+   }
+  ]
  }
 ]
