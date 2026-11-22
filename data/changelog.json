@@ -1,124 +1,5 @@
 [
  {
-  "run": "2026-09-20T21:41:58+00:00",
-  "mode": "prices",
-  "listed": 187,
-  "new": 171,
-  "parsed": 171,
-  "events": [
-   {
-    "type": "removed",
-    "id": 5619,
-    "name": "Ultimate South American Adventure"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6112,
-    "name": "Iconic Northern Lights Rail & Sail",
-    "from": "21 Sep 2027 – 23 Mar 2028",
-    "to": "20 Oct 2027 - 23 Mar 2028"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6370,
-    "name": "Singapore, Malaysia & Thailand Getaway",
-    "from": "25 Jan – 19 Nov 2027",
-    "to": "14 Mar - 19 Nov 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6371,
-    "name": "Italy, Türkiye & Greek Islands Cruise",
-    "from": "12 May – 20 Oct 2027",
-    "to": "12 May - 20 Oct 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 5858,
-    "name": "Best of Egypt for 2",
-    "from": "22 Jan – 17 Dec 2027",
-    "to": "22 Jan - 17 Dec 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6181,
-    "name": "Japan Explorer Cruise",
-    "from": "15 May – 17 Oct 2027",
-    "to": "15 May - 17 Oct 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 5863,
-    "name": "Vietnam for 2",
-    "from": "30 Nov 2026 – 21 Dec 2027",
-    "to": "7 Dec 2026 - 21 Dec 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6154,
-    "name": "Rockies Rail & Cruise",
-    "from": "19 Apr – 30 Aug 2027",
-    "to": "19 Apr - 30 Aug 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6380,
-    "name": "Unbelievable Japan",
-    "from": "2 Mar – 26 May 2027",
-    "to": "2 Mar - 26 May 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 5836,
-    "name": "Japan Discovery",
-    "from": "27 Nov 2026 – 22 Nov 2027",
-    "to": "8 Feb - 22 Nov 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6098,
-    "name": "Best of Japan",
-    "from": "26 Feb – 23 Nov 2027",
-    "to": "26 Feb - 23 Nov 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 5684,
-    "name": "Vietnam & Cambodia Discovery",
-    "from": "1 Dec 2026 – 20 Dec 2027",
-    "to": "18 Jan - 20 Dec 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 5716,
-    "name": "Colours of Morocco",
-    "from": "23 Feb – 16 Nov 2027",
-    "to": "23 Feb - 16 Nov 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6169,
-    "name": "Yellowstone, Alaska & Canada 2027",
-    "from": "22 Apr – 9 Sep 2027",
-    "to": "22 Apr - 22 Aug 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6363,
-    "name": "Warriors of China",
-    "from": "24 Nov 2026 – 20 Nov 2027",
-    "to": "23 Nov 2026 - 20 Nov 2027"
-   },
-   {
-    "type": "dates_changed",
-    "id": 6141,
-    "name": "Alaska & Canada Discovery",
-    "from": "18 Apr – 12 Sep 2027",
-    "to": "18 Apr - 12 Sep 2027"
-   }
-  ]
- },
- {
   "run": "2026-09-21T07:38:29+00:00",
   "mode": "prices",
   "listed": 216,
@@ -6272,6 +6153,50 @@
     "name": "Ultimate South American Adventure",
     "from": "1 Apr - 25 Nov 2027",
     "to": "6 Apr - 25 Nov 2027"
+   }
+  ]
+ },
+ {
+  "run": "2026-11-22T21:55:34+00:00",
+  "mode": "prices",
+  "listed": 216,
+  "new": 0,
+  "parsed": 0,
+  "events": [
+   {
+    "type": "dates_changed",
+    "id": 5145,
+    "name": "5-Star African Safari",
+    "from": "3 Mar 2027 - 13 Dec 2028",
+    "to": "31 Mar 2027 - 13 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6192,
+    "name": "Sri Lanka & All-Inclusive Maldives",
+    "from": "11 Feb - 19 Dec 2027",
+    "to": "18 Feb - 19 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6348,
+    "name": "NZ South Island Discovery",
+    "from": "2 Feb - 13 Apr 2027",
+    "to": "2 Mar - 13 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6361,
+    "name": "Norfolk Island Escape",
+    "from": "13 Feb - 24 Apr 2027",
+    "to": "14 Feb - 24 Apr 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5901,
+    "name": "Luxury India for 2",
+    "from": "29 Jan - 24 Dec 2027",
+    "to": "5 Feb - 24 Dec 2027"
    }
   ]
  }
