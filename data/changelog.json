@@ -1,19 +1,5 @@
 [
  {
-  "run": "2026-09-21T09:23:06+00:00",
-  "mode": "prices",
-  "listed": 216,
-  "new": 0,
-  "parsed": 0,
-  "events": [
-   {
-    "type": "removed",
-    "id": 6171,
-    "name": "Bucket list experiences at unbelievable prices"
-   }
-  ]
- },
- {
   "run": "2026-09-21T09:38:44+00:00",
   "mode": "full",
   "listed": 216,
@@ -5010,6 +4996,91 @@
     "name": "SA's Vineyards by eBike",
     "from": "31 Jan - 16 May 2027",
     "to": "31 Jan 2027 - 7 May 2028"
+   }
+  ]
+ },
+ {
+  "run": "2026-11-25T00:19:50+00:00",
+  "mode": "prices",
+  "listed": 217,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 6430,
+    "name": "London, Paris & Seine River Cruise",
+    "price": 8999
+   },
+   {
+    "type": "dates_changed",
+    "id": 5639,
+    "name": "Southern Thailand Island Discovery",
+    "from": "13 Apr - 7 Dec 2027",
+    "to": "9 Feb - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms",
+    "from": "14 Mar 2027 - 28 Mar 2028",
+    "to": "15 Mar 2027 - 28 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6180,
+    "name": "Japan Cherry Blossoms Cruise 2027",
+    "from": "14 Mar 2027",
+    "to": "14 Mar - 26 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5166,
+    "name": "Lapland & Northern Lights",
+    "from": "23 Feb - 23 Mar 2027",
+    "to": "12 Mar - 23 Mar 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": "8 Feb - 18 Dec 2027",
+    "to": "10 Feb - 18 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5283,
+    "name": "Magnificent Mekong",
+    "from": "11 May - 24 Dec 2027",
+    "to": "12 May - 24 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5887,
+    "name": "Vietnam Mountain Discovery",
+    "from": "8 Feb - 15 Dec 2027",
+    "to": "17 Feb - 15 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5898,
+    "name": "India & Sri Lanka Discovery",
+    "from": "23 Feb - 7 Dec 2027",
+    "to": "2 Mar - 7 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5900,
+    "name": "Croatia & Slovenia for 2",
+    "from": "23 Mar - 2 Nov 2027",
+    "to": "20 May - 2 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4601,
+    "name": "SA's Vineyards by eBike",
+    "from": "31 Jan 2027 - 7 May 2028",
+    "to": "14 Feb 2027 - 7 May 2028"
    }
   ]
  }
