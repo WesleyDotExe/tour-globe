@@ -1,50 +1,5 @@
 [
  {
-  "run": "2026-09-21T09:38:44+00:00",
-  "mode": "full",
-  "listed": 216,
-  "new": 1,
-  "parsed": 216,
-  "events": [
-   {
-    "type": "price_up",
-    "id": 6154,
-    "name": "Rockies Rail & Cruise",
-    "from": 7499,
-    "to": 7699
-   },
-   {
-    "type": "sale_ended",
-    "id": 6154,
-    "name": "Rockies Rail & Cruise"
-   },
-   {
-    "type": "price_up",
-    "id": 6169,
-    "name": "Yellowstone, Alaska & Canada",
-    "from": 6499,
-    "to": 6699
-   },
-   {
-    "type": "sale_started",
-    "id": 5858,
-    "name": "Best of Egypt for 2"
-   },
-   {
-    "type": "sale_started",
-    "id": 5863,
-    "name": "Vietnam for 2"
-   },
-   {
-    "type": "price_up",
-    "id": 6141,
-    "name": "Alaska & Canada Discovery",
-    "from": 5299,
-    "to": 5499
-   }
-  ]
- },
- {
   "run": "2026-09-21T20:34:38+00:00",
   "mode": "full",
   "listed": 216,
@@ -5081,6 +5036,116 @@
     "name": "SA's Vineyards by eBike",
     "from": "31 Jan 2027 - 7 May 2028",
     "to": "14 Feb 2027 - 7 May 2028"
+   }
+  ]
+ },
+ {
+  "run": "2026-11-25T23:38:17+00:00",
+  "mode": "prices",
+  "listed": 218,
+  "new": 2,
+  "parsed": 2,
+  "events": [
+   {
+    "type": "new",
+    "id": 6352,
+    "name": "Antarctica Expedition & Machu Picchu",
+    "price": 21999
+   },
+   {
+    "type": "new",
+    "id": 6428,
+    "name": "Mediterranean Discovery Voyage",
+    "price": 8299
+   },
+   {
+    "type": "removed",
+    "id": 6381,
+    "name": "Portugal & Spain Highlights River Cruise"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms",
+    "from": "15 Mar 2027 - 28 Mar 2028",
+    "to": "22 Mar 2027 - 28 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5684,
+    "name": "Vietnam & Cambodia Discovery",
+    "from": "16 Feb - 22 Dec 2027",
+    "to": "23 Feb - 22 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6205,
+    "name": "Kimberley Wonders Expedition Cruise",
+    "from": "2 Apr - 27 Aug 2027",
+    "to": "11 Apr - 27 Aug 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5701,
+    "name": "Highlights of Vietnam",
+    "from": "10 Feb - 18 Dec 2027",
+    "to": "13 Feb - 18 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "10 Feb - 21 Dec 2027",
+    "to": "24 Feb - 21 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5900,
+    "name": "Croatia & Slovenia for 2",
+    "from": "20 May - 2 Nov 2027",
+    "to": "23 Mar - 2 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5395,
+    "name": "Luxury Sri Lanka & Maldives",
+    "from": "16 Feb - 12 Oct 2027",
+    "to": "23 Feb - 12 Oct 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6426,
+    "name": "Ultimate Vietnam & Cambodia",
+    "from": "17 Mar 2027 - 20 Dec 2028",
+    "to": "24 Mar 2027 - 20 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4987,
+    "name": "Ultimate Vietnam",
+    "from": "10 Feb - 13 Dec 2027",
+    "to": "23 Feb - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5034,
+    "name": "Nepal & Bhutan Highlights",
+    "from": "26 Mar - 20 Dec 2027",
+    "to": "8 Apr - 20 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5600,
+    "name": "All-Inclusive Japan & South Korea Cruise",
+    "from": "11 May - 11 Sep 2027",
+    "to": "29 Aug - 11 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4581,
+    "name": "India, Sri Lanka & Maldives",
+    "from": "9 Feb - 21 Dec 2027",
+    "to": "16 Feb - 21 Dec 2027"
    }
   ]
  }
