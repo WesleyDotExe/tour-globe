@@ -1,13 +1,5 @@
 [
  {
-  "run": "2026-09-21T20:34:38+00:00",
-  "mode": "full",
-  "listed": 216,
-  "new": 1,
-  "parsed": 216,
-  "events": []
- },
- {
   "run": "2026-09-21T20:42:55+00:00",
   "mode": "full",
   "listed": 216,
@@ -5146,6 +5138,103 @@
     "name": "India, Sri Lanka & Maldives",
     "from": "9 Feb - 21 Dec 2027",
     "to": "16 Feb - 21 Dec 2027"
+   }
+  ]
+ },
+ {
+  "run": "2026-11-26T23:18:53+00:00",
+  "mode": "prices",
+  "listed": 218,
+  "new": 1,
+  "parsed": 1,
+  "events": [
+   {
+    "type": "new",
+    "id": 6424,
+    "name": "Unbelievable Sydney to Singapore Cruise",
+    "price": 2599
+   },
+   {
+    "type": "removed",
+    "id": 5419,
+    "name": "Seabourn Ultimate Antarctica"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms",
+    "from": "22 Mar 2027 - 28 Mar 2028",
+    "to": "31 Mar 2027 - 28 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5656,
+    "name": "Unbeatable Egypt",
+    "from": "15 Feb - 22 Nov 2027",
+    "to": "1 Mar - 22 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4171,
+    "name": "Spain, Portugal & Morocco",
+    "from": "10 May - 8 Nov 2027",
+    "to": "19 Apr - 8 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5283,
+    "name": "Magnificent Mekong",
+    "from": "12 May - 24 Dec 2027",
+    "to": "28 May - 24 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5850,
+    "name": "Nepal Adventure Trek",
+    "from": "25 Feb 2027 - 30 Dec 2028",
+    "to": "5 Mar 2027 - 30 Dec 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5863,
+    "name": "Vietnam for 2",
+    "from": "24 Feb - 21 Dec 2027",
+    "to": "1 Mar - 21 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5917,
+    "name": "Majestic Egypt & India",
+    "from": "25 Feb - 4 Nov 2027",
+    "to": "13 May - 4 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4904,
+    "name": "Luxury Sri Lanka",
+    "from": "2 Feb - 14 Dec 2027",
+    "to": "9 Feb - 14 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5447,
+    "name": "Round The World in 35 Days",
+    "from": "20 Apr - 21 Sep 2027",
+    "to": "25 May - 21 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 4985,
+    "name": "Premium All-Inclusive Maldives & Singapore",
+    "from": "15 Feb - 13 Dec 2027",
+    "to": "8 Mar - 13 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6051,
+    "name": "Japan In Depth",
+    "from": "9 Mar - 9 Nov 2027",
+    "to": "13 Apr - 9 Nov 2027"
    }
   ]
  }
