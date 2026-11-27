@@ -1,13 +1,5 @@
 [
  {
-  "run": "2026-09-21T20:42:55+00:00",
-  "mode": "full",
-  "listed": 216,
-  "new": 1,
-  "parsed": 216,
-  "events": []
- },
- {
   "run": "2026-09-21T20:49:37+00:00",
   "mode": "full",
   "listed": 216,
@@ -5235,6 +5227,81 @@
     "name": "Japan In Depth",
     "from": "9 Mar - 9 Nov 2027",
     "to": "13 Apr - 9 Nov 2027"
+   }
+  ]
+ },
+ {
+  "run": "2026-11-27T23:08:50+00:00",
+  "mode": "prices",
+  "listed": 219,
+  "new": 2,
+  "parsed": 2,
+  "events": [
+   {
+    "type": "new",
+    "id": 6387,
+    "name": "South America Discovery",
+    "price": 8999
+   },
+   {
+    "type": "new",
+    "id": 6415,
+    "name": "Immersive Alaska Expedition",
+    "price": 9999
+   },
+   {
+    "type": "removed",
+    "id": 6122,
+    "name": "South Africa, Antarctica & South America"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6158,
+    "name": "Japan Cherry Blossoms",
+    "from": "31 Mar 2027 - 28 Mar 2028",
+    "to": "14 Mar 2027 - 28 Mar 2028"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5650,
+    "name": "Ultimate Sri Lanka",
+    "from": "3 Feb - 1 Dec 2027",
+    "to": "10 Feb - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6169,
+    "name": "Yellowstone, Alaska & Canada",
+    "from": "22 Apr - 8 Aug 2027",
+    "to": "22 Apr - 9 Sep 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 6360,
+    "name": "Unbelievable China",
+    "from": "6 Mar - 10 Nov 2027",
+    "to": "26 Feb - 10 Nov 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5896,
+    "name": "Incredible India for 2",
+    "from": "3 Feb - 1 Dec 2027",
+    "to": "17 Feb - 1 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5913,
+    "name": "Tropical South India",
+    "from": "3 Feb - 15 Dec 2027",
+    "to": "10 Feb - 15 Dec 2027"
+   },
+   {
+    "type": "dates_changed",
+    "id": 5619,
+    "name": "Ultimate South American Adventure",
+    "from": "6 Apr - 25 Nov 2027",
+    "to": "8 Apr - 25 Nov 2027"
    }
   ]
  }
